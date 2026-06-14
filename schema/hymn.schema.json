@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://smartverses.com/schemas/open-hymns/hymn.schema.json",
+  "title": "OpenHymns Hymn",
+  "type": "object",
+  "required": ["schemaVersion", "id", "collectionId", "language", "title", "sections", "searchText", "source"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string" },
+    "collectionId": { "type": "string" },
+    "language": { "type": "string" },
+    "number": { "type": "string" },
+    "title": { "type": "string" },
+    "authors": { "type": "array", "items": { "type": "string" } },
+    "tune": { "type": "string" },
+    "meter": { "type": "string" },
+    "topics": { "type": "array", "items": { "type": "string" } },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "label", "lines"],
+        "properties": {
+          "type": { "enum": ["verse", "chorus", "bridge"] },
+          "label": { "type": "string" },
+          "lines": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "searchText": { "type": "string" },
+    "source": {
+      "type": "object",
+      "required": ["repo", "path", "license", "rightsStatus"],
+      "properties": {
+        "repo": { "type": "string" },
+        "path": { "type": "string" },
+        "license": { "type": "string" },
+        "rightsStatus": { "type": "string" }
+      }
+    }
+  }
+}

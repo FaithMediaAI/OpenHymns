@@ -1,0 +1,225 @@
+{
+  "version": "0.1.0",
+  "sources": [
+    {
+      "id": "cis-hymnals",
+      "repo": "TinasheMzondiwa/cis-hymnals",
+      "branch": "main",
+      "localPath": "sources/cis-hymnals",
+      "license": "NOASSERTION",
+      "rightsStatus": "needs-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "cis-v2-root",
+          "path": "v2",
+          "collectionIdPrefix": "cis",
+          "languageMap": {
+            "abagusii": "guz",
+            "chichewa": "ny",
+            "dholuo": "luo",
+            "english": "en",
+            "español": "es",
+            "français": "fr",
+            "icibemba": "bem",
+            "isiXhosa": "xh",
+            "kikuyu": "ki",
+            "kinyarwanda": "rw",
+            "ndebele": "nr",
+            "portuguese": "pt",
+            "russian": "ru",
+            "sepedi": "nso",
+            "shona": "sn",
+            "sotho": "st",
+            "swahili": "sw",
+            "tonga": "toi",
+            "tswana": "tn",
+            "tumbuka": "tum",
+            "twi": "tw",
+            "venda": "ve",
+            "xitsonga": "ts"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hymnals-data",
+      "repo": "GospelSounders/hymnals-data",
+      "branch": "master",
+      "localPath": "sources/hymnals-data",
+      "license": "NOASSERTION",
+      "rightsStatus": "needs-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "gospel-sounders-index",
+          "path": "index.json",
+          "languageMap": {
+            "ENGLISH": "en",
+            "SWAHILI": "sw"
+          }
+        }
+      ]
+    },
+    {
+      "id": "open-hymnal-json",
+      "repo": "h1rdr3v2/open-hymnal-json",
+      "branch": "main",
+      "localPath": "sources/open-hymnal-json",
+      "license": "MIT",
+      "rightsStatus": "repo-license",
+      "publishable": true,
+      "adapters": [
+        {
+          "type": "open-hymnal-json",
+          "collectionId": "watchman-en",
+          "name": "Watchman Hymns",
+          "language": "en",
+          "path": "hymns/watchman/hymns.json"
+        }
+      ]
+    },
+    {
+      "id": "song-data",
+      "repo": "josmithua/song-data",
+      "branch": "master",
+      "localPath": "sources/song-data",
+      "license": "AGPL-3.0",
+      "rightsStatus": "copyleft-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "josmithua-song-data",
+          "collectionId": "believers-hymn-book-en",
+          "name": "Believers Hymn Book",
+          "language": "en",
+          "path": "bhb_songs.json"
+        },
+        {
+          "type": "josmithua-song-data",
+          "collectionId": "songs-of-fellowship-en",
+          "name": "Songs of Fellowship",
+          "language": "en",
+          "path": "ssfss_songs.min.json"
+        }
+      ]
+    },
+    {
+      "id": "gospel-hymns",
+      "repo": "marvinjude/gospel-hymns",
+      "branch": "master",
+      "localPath": "sources/gospel-hymns",
+      "license": "NOASSERTION",
+      "rightsStatus": "needs-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "gospel-hymns-db",
+          "collectionId": "gospel-hymns-en",
+          "name": "Gospel Hymns",
+          "language": "en",
+          "path": "content/db.json"
+        }
+      ]
+    },
+    {
+      "id": "trinity-hymnal-data",
+      "repo": "the-hardy-boys/trinity-hymnal-data",
+      "branch": "master",
+      "localPath": "sources/trinity-hymnal-data",
+      "license": "NOASSERTION",
+      "rightsStatus": "needs-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "trinity-hymnal",
+          "collectionId": "trinity-hymnal-en",
+          "name": "Trinity Hymnal",
+          "language": "en",
+          "path": "hymns.json"
+        }
+      ]
+    },
+    {
+      "id": "hymnal-malayalam",
+      "repo": "yozachar/hymnal",
+      "branch": "main",
+      "localPath": "sources/hymnal-malayalam",
+      "license": "AGPL-3.0",
+      "rightsStatus": "copyleft-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "yozachar-directory",
+          "collectionId": "malayalam-hymnal-ml",
+          "name": "Malayalam Hymnal",
+          "language": "ml",
+          "path": "data/lyrics/mal"
+        }
+      ]
+    },
+    {
+      "id": "hymnes-sda-fr",
+      "repo": "joemdjossou/hymnes_sda_fr",
+      "branch": "main",
+      "localPath": "sources/hymnes-sda-fr",
+      "license": "MIT",
+      "rightsStatus": "repo-license",
+      "publishable": true,
+      "adapters": [
+        {
+          "type": "french-sda",
+          "collectionId": "hymnes-sda-fr",
+          "name": "Hymnes SDA",
+          "language": "fr",
+          "path": "assets/data/hymns.json"
+        },
+        {
+          "type": "french-sda",
+          "collectionId": "donnez-lui-gloire-fr",
+          "name": "Donnez-lui Gloire",
+          "language": "fr",
+          "path": "assets/data/donnezLuiGloire.json"
+        }
+      ]
+    },
+    {
+      "id": "hymnflow",
+      "repo": "ebena107/HymnFlow",
+      "branch": "master",
+      "localPath": "sources/hymnflow",
+      "license": "GPL-2.0",
+      "rightsStatus": "copyleft-review",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "hymnflow-root",
+          "path": "hymn-bundle",
+          "languageMap": {
+            "cac_ghb.json": "en",
+            "cac_yhb.json": "yo",
+            "ybh.json": "yo",
+            "nnbh.json": "en",
+            "umh.json": "en",
+            "fws.json": "en"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sda-hymnal-sqlite",
+      "repo": "joshpetit/sda-hymnal",
+      "branch": "master",
+      "localPath": "sources/sda-hymnal-sqlite",
+      "license": "NOASSERTION",
+      "rightsStatus": "unsupported",
+      "publishable": false,
+      "adapters": [
+        {
+          "type": "unsupported",
+          "note": "SQLite source cloned for research; no dependency-free importer is enabled yet."
+        }
+      ]
+    }
+  ]
+}
