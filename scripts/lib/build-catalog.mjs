@@ -58,6 +58,14 @@ function sectionFromText(type, label, text) {
   return { type: normalizeSectionType(type), label: String(label ?? ""), lines: cleanLines(text) };
 }
 
+function textFromMaybeLines(value) {
+  if (Array.isArray(value)) return value.map(textFromMaybeLines).join("\n");
+  if (value && typeof value === "object") {
+    return textFromMaybeLines(value.content ?? value.lines ?? value.text ?? value.lyrics ?? "");
+  }
+  return String(value ?? "");
+}
+
 function sectionsFromLyricsText(text) {
   const chunks = String(text ?? "")
     .split(/\n{2,}/)
@@ -112,15 +120,27 @@ function fromGospelSounders(source, adapter, data) {
 }
 
 function fromOpenHymnalJson(source, adapter, data) {
-  return (data.hymns ?? []).map((hymn) => {
+  const hymns = Array.isArray(data) ? data : data.hymns ?? [];
+  return hymns.map((hymn) => {
     const sections = [];
     if (Array.isArray(hymn.verses)) {
       sections.push(...hymn.verses.map((verse, index) => sectionFromText("verse", index + 1, verse.lines ?? verse)));
     }
+    if (Array.isArray(hymn.lyrics)) {
+      sections.push(
+        ...hymn.lyrics.map((section, index) =>
+          sectionFromText(
+            section.type ?? "verse",
+            section.verse ?? section.label ?? index + 1,
+            textFromMaybeLines(section.content ?? section.lines ?? section.text ?? section)
+          )
+        )
+      );
+    }
     if (Array.isArray(hymn.chorus) && hymn.chorus.length) {
       sections.push(sectionFromText("chorus", "Refrain", hymn.chorus));
     }
-    if (!sections.length && hymn.lyrics) sections.push(...sectionsFromLyricsText(hymn.lyrics));
+    if (!sections.length && hymn.lyrics) sections.push(...sectionsFromLyricsText(textFromMaybeLines(hymn.lyrics)));
     return normalizeCollectionHymn(source, adapter, hymn, sections);
   });
 }
@@ -323,7 +343,13 @@ async function writeJson(filePath, value) {
   await writeFile(filePath, stableJson(value), "utf8");
 }
 
-export async function buildCatalog({ rootDir, registry, outputDir = "data", release = false }) {
+export async function buildCatalog({
+  rootDir,
+  registry,
+  outputDir = "data",
+  release = false,
+  publishableOnly = false
+}) {
   const outRoot = path.join(rootDir, outputDir);
   const warnings = [];
   const collections = [];
@@ -335,6 +361,7 @@ export async function buildCatalog({ rootDir, registry, outputDir = "data", rele
       const hymns = await importAdapter(rootDir, source, adapter, warnings);
       if (!hymns.length) continue;
       const collection = collectionDocument(registry, source, adapter, hymns);
+      if (publishableOnly && !collection.source.publishable) continue;
       const collectionPath = `collections/${slugify(collection.language)}/${collection.id}.json`;
       const json = stableJson(collection);
       await writeJson(path.join(outRoot, collectionPath), collection);

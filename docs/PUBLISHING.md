@@ -1,6 +1,8 @@
 # Publishing OpenHymns
 
-OpenHymns currently builds a complete local catalog into `data/` and `releases/vX.Y.Z/`. Those folders are ignored by git by default because many collections still have `rightsStatus` values such as `needs-review` or `copyleft-review`.
+OpenHymns can build a complete local catalog, but the tracked public `data/` feed should contain only collections marked `publishable: true`.
+
+Use `npm run build:public` before publishing to `main`. This writes `data/manifest.json`, indexes, and collection files for the public feed only.
 
 ## Recommended Public Feed
 
@@ -11,7 +13,6 @@ After rights review, publish one of these:
    - Desktop app fetches the latest release manifest and downloads changed assets by `sha256`.
 
 2. **Tracked `data/` folder**
-   - Remove `data/` from `.gitignore` after the publishable set is curated.
    - Commit `data/manifest.json`, `data/indexes/*.json`, and selected `data/collections/**`.
    - Desktop app reads `https://raw.githubusercontent.com/<org>/OpenHymns/main/data/manifest.json`.
 

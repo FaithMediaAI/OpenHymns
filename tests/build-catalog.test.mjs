@@ -130,3 +130,89 @@ test("buildCatalog discovers collection files from a directory adapter", async (
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test("buildCatalog can write only publishable collections for the public feed", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "open-hymns-public-test-"));
+  try {
+    await mkdir(path.join(root, "sources", "fixture-public"), { recursive: true });
+    await mkdir(path.join(root, "sources", "fixture-review"), { recursive: true });
+    await writeFile(
+      path.join(root, "sources", "fixture-public", "hymns.json"),
+      JSON.stringify([
+        {
+          number: 92,
+          title: "Amazing Grace!",
+          lyrics: [
+            {
+              verse: 1,
+              type: "verse",
+              content: "Amazing grace! how sweet the sound\nThat saved a wretch like me"
+            }
+          ]
+        }
+      ])
+    );
+    await writeFile(
+      path.join(root, "sources", "fixture-review", "hymns.json"),
+      JSON.stringify([{ number: 1, title: "Review Only", lyrics: "Review only" }])
+    );
+
+    const result = await buildCatalog({
+      rootDir: root,
+      publishableOnly: true,
+      registry: {
+        version: "0.1.0",
+        sources: [
+          {
+            id: "fixture-public",
+            repo: "fixture/public",
+            localPath: "sources/fixture-public",
+            license: "MIT",
+            rightsStatus: "repo-license",
+            publishable: true,
+            adapters: [
+              {
+                type: "open-hymnal-json",
+                collectionId: "watchman-en",
+                name: "Watchman Hymns",
+                language: "en",
+                path: "hymns.json"
+              }
+            ]
+          },
+          {
+            id: "fixture-review",
+            repo: "fixture/review",
+            localPath: "sources/fixture-review",
+            license: "NOASSERTION",
+            rightsStatus: "needs-review",
+            publishable: false,
+            adapters: [
+              {
+                type: "trinity-hymnal",
+                collectionId: "review-en",
+                name: "Review Hymns",
+                language: "en",
+                path: "hymns.json"
+              }
+            ]
+          }
+        ]
+      }
+    });
+
+    assert.equal(result.manifest.collectionCount, 1);
+    assert.equal(result.manifest.hymnCount, 1);
+    assert.equal(result.manifest.collections[0].id, "watchman-en");
+
+    const collection = JSON.parse(await readFile(path.join(root, "data", "collections", "en", "watchman-en.json"), "utf8"));
+    assert.equal(collection.hymns[0].sections[0].lines[0], "Amazing grace! how sweet the sound");
+    assert.equal(collection.hymns[0].searchText.includes("[object Object]"), false);
+
+    const search = JSON.parse(await readFile(path.join(root, "data", "indexes", "search.json"), "utf8"));
+    assert.equal(search[0].title, "Amazing Grace!");
+    assert.equal(search[0].searchText.includes("that saved a wretch like me"), true);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});

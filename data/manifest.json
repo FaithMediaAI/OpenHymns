@@ -1,0 +1,97 @@
+{
+  "collectionCount": 3,
+  "collections": [
+    {
+      "hymnCount": 300,
+      "id": "watchman-en",
+      "language": "en",
+      "license": "MIT",
+      "name": "Watchman Hymns",
+      "path": "collections/en/watchman-en.json",
+      "publishable": true,
+      "rightsStatus": "repo-license",
+      "sha256": "eddd91df5013c3ee0f950953e27f438290fd4f8d7f123e0235b14c83fff1cc8e",
+      "sourceRepo": "h1rdr3v2/open-hymnal-json"
+    },
+    {
+      "hymnCount": 520,
+      "id": "donnez-lui-gloire-fr",
+      "language": "fr",
+      "license": "MIT",
+      "name": "Donnez-lui Gloire",
+      "path": "collections/fr/donnez-lui-gloire-fr.json",
+      "publishable": true,
+      "rightsStatus": "repo-license",
+      "sha256": "a2cd09ee9c7e7276cf00097b028da10d696acf3d162b71f93fe7e0bfdebb9c44",
+      "sourceRepo": "joemdjossou/hymnes_sda_fr"
+    },
+    {
+      "hymnCount": 654,
+      "id": "hymnes-sda-fr",
+      "language": "fr",
+      "license": "MIT",
+      "name": "Hymnes SDA",
+      "path": "collections/fr/hymnes-sda-fr.json",
+      "publishable": true,
+      "rightsStatus": "repo-license",
+      "sha256": "83fa14ad7024590a27868bf5dc8c085aa43f9179175e94b2df6b6ba3efbd19de",
+      "sourceRepo": "joemdjossou/hymnes_sda_fr"
+    }
+  ],
+  "generatedAt": "2026-06-14T17:32:22.751Z",
+  "hymnCount": 1474,
+  "indexes": [
+    {
+      "id": "titles",
+      "path": "indexes/titles.json",
+      "recordCount": 1474,
+      "sha256": "c4a622783bb608de5e857c6a6a390e583403818fd7c7d334d80358cb17eaff72"
+    },
+    {
+      "id": "languages",
+      "path": "indexes/languages.json",
+      "recordCount": 2,
+      "sha256": "8fe5290003afeb4a17bce18a9f3ef738c3b02170a7f4b63ff6b9022567d3c94a"
+    },
+    {
+      "id": "search",
+      "path": "indexes/search.json",
+      "recordCount": 1474,
+      "sha256": "19965f2458b58546dbfe4080dfa4ac726183fca7f56b43575ee330c77d98a670"
+    }
+  ],
+  "schemaVersion": 1,
+  "version": "0.1.0",
+  "warnings": [
+    {
+      "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
+      "path": "MH1843/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
+      "path": "HSAB1852/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
+      "path": "HT1869/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
+      "path": "HT1886/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
+      "path": "SAHB1867/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "adapter": "unsupported",
+      "message": "SQLite source cloned for research; no dependency-free importer is enabled yet.",
+      "source": "sda-hymnal-sqlite"
+    }
+  ]
+}

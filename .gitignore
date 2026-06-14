@@ -2,6 +2,5 @@
 node_modules/
 sources/*
 !sources/README.md
-data/
 releases/
 .tmp/
