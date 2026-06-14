@@ -1,0 +1,69 @@
+{
+  "hymnCount": 1,
+  "hymns": [
+    {
+      "authors": [
+        "Reginald Heber"
+      ],
+      "collectionId": "wny",
+      "id": "wny-000-mtakatifu-mtakatifu-mtakatifu-in-luo",
+      "language": "lu",
+      "number": "",
+      "schemaVersion": 1,
+      "searchText": "mtakatifu, mtakatifu, mtakatifu in luo reginald heber u mtakatifu...! mungu mwenyezi! alfajiri sifa zako tutaimba; u mtakatifu, bwana wa huruma. mungu wavyote hata milele umtakatifu! na malaika wengi sana wana kuabudu wote; elfu na maelfu wana kusujudu wazamani na hata milele. u mtakatifu! ingawa giza lakuficha fahari tusiioone, u mtakatifu! wewe peke yako, kamili kwa uwezo na pendo.",
+      "sections": [
+        {
+          "label": "1",
+          "lines": [
+            "U Mtakatifu...! Mungu Mwenyezi!",
+            "Alfajiri Sifa Zako Tutaimba;",
+            "U Mtakatifu, Bwana Wa Huruma.",
+            "Mungu Wavyote Hata Milele"
+          ],
+          "type": "verse"
+        },
+        {
+          "label": "2",
+          "lines": [
+            "Umtakatifu! Na Malaika",
+            "Wengi Sana Wana Kuabudu Wote;",
+            "Elfu Na Maelfu Wana Kusujudu",
+            "Wazamani Na Hata Milele."
+          ],
+          "type": "verse"
+        },
+        {
+          "label": "3",
+          "lines": [
+            "U Mtakatifu! Ingawa Giza",
+            "Lakuficha Fahari Tusiioone,",
+            "U Mtakatifu! Wewe Peke Yako,",
+            "Kamili Kwa Uwezo Na Pendo."
+          ],
+          "type": "verse"
+        }
+      ],
+      "source": {
+        "license": "NOASSERTION",
+        "path": "WNY/index.json",
+        "repo": "GospelSounders/hymnals-data",
+        "rightsStatus": "source-repository"
+      },
+      "title": "MTAKATIFU, MTAKATIFU, MTAKATIFU in Luo"
+    }
+  ],
+  "id": "wny",
+  "language": "lu",
+  "name": "Wende Nyasaye",
+  "schemaVersion": 1,
+  "source": {
+    "id": "hymnals-data",
+    "license": "NOASSERTION",
+    "path": "WNY/index.json",
+    "publishable": true,
+    "repo": "GospelSounders/hymnals-data",
+    "rightsStatus": "source-repository",
+    "url": "https://github.com/GospelSounders/hymnals-data"
+  },
+  "version": "0.1.0"
+}

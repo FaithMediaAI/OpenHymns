@@ -33,7 +33,7 @@ test("buildCatalog writes language collections, indexes, and a checksum manifest
           repo: "fixture/cis",
           localPath: "sources/fixture-cis",
           license: "NOASSERTION",
-          rightsStatus: "needs-review",
+          rightsStatus: "source-repository",
           publishable: false,
           adapters: [
             {
@@ -107,7 +107,7 @@ test("buildCatalog discovers collection files from a directory adapter", async (
             repo: "fixture/cis",
             localPath: "sources/fixture-cis",
             license: "NOASSERTION",
-            rightsStatus: "needs-review",
+            rightsStatus: "source-repository",
             publishable: false,
             adapters: [
               {
@@ -131,13 +131,12 @@ test("buildCatalog discovers collection files from a directory adapter", async (
   }
 });
 
-test("buildCatalog can write only publishable collections for the public feed", async () => {
-  const root = await mkdtemp(path.join(os.tmpdir(), "open-hymns-public-test-"));
+test("buildCatalog imports object-based lyric sections from open-hymnal-json sources", async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "open-hymns-open-hymnal-test-"));
   try {
-    await mkdir(path.join(root, "sources", "fixture-public"), { recursive: true });
-    await mkdir(path.join(root, "sources", "fixture-review"), { recursive: true });
+    await mkdir(path.join(root, "sources", "fixture-open-hymnal"), { recursive: true });
     await writeFile(
-      path.join(root, "sources", "fixture-public", "hymns.json"),
+      path.join(root, "sources", "fixture-open-hymnal", "hymns.json"),
       JSON.stringify([
         {
           number: 92,
@@ -152,21 +151,16 @@ test("buildCatalog can write only publishable collections for the public feed", 
         }
       ])
     );
-    await writeFile(
-      path.join(root, "sources", "fixture-review", "hymns.json"),
-      JSON.stringify([{ number: 1, title: "Review Only", lyrics: "Review only" }])
-    );
 
     const result = await buildCatalog({
       rootDir: root,
-      publishableOnly: true,
       registry: {
         version: "0.1.0",
         sources: [
           {
-            id: "fixture-public",
-            repo: "fixture/public",
-            localPath: "sources/fixture-public",
+            id: "fixture-open-hymnal",
+            repo: "fixture/open-hymnal",
+            localPath: "sources/fixture-open-hymnal",
             license: "MIT",
             rightsStatus: "repo-license",
             publishable: true,
@@ -175,23 +169,6 @@ test("buildCatalog can write only publishable collections for the public feed", 
                 type: "open-hymnal-json",
                 collectionId: "watchman-en",
                 name: "Watchman Hymns",
-                language: "en",
-                path: "hymns.json"
-              }
-            ]
-          },
-          {
-            id: "fixture-review",
-            repo: "fixture/review",
-            localPath: "sources/fixture-review",
-            license: "NOASSERTION",
-            rightsStatus: "needs-review",
-            publishable: false,
-            adapters: [
-              {
-                type: "trinity-hymnal",
-                collectionId: "review-en",
-                name: "Review Hymns",
                 language: "en",
                 path: "hymns.json"
               }

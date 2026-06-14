@@ -6,13 +6,11 @@ import { loadSourceRegistry } from "./lib/source-registry.mjs";
 const rootDir = process.cwd();
 const registry = await loadSourceRegistry(rootDir);
 const release = process.argv.includes("--release");
-const publishableOnly = process.argv.includes("--public");
 const result = await buildCatalog({
   rootDir,
   registry,
   outputDir: "data",
-  release,
-  publishableOnly
+  release
 });
 
 console.log(
@@ -22,7 +20,6 @@ console.log(
       collections: result.manifest.collectionCount,
       hymns: result.manifest.hymnCount,
       warnings: result.warnings.length,
-      publishableOnly,
       release
     },
     null,

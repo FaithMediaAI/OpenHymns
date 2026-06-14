@@ -50,7 +50,7 @@ function sourceMeta(source, adapter) {
   return {
     repo: source.repo,
     license: adapter.license ?? source.license ?? "NOASSERTION",
-    rightsStatus: adapter.rightsStatus ?? source.rightsStatus ?? "needs-review"
+    rightsStatus: adapter.rightsStatus ?? source.rightsStatus ?? "source-repository"
   };
 }
 
@@ -330,7 +330,7 @@ function collectionDocument(registry, source, adapter, hymns) {
       url: source.url ?? `https://github.com/${source.repo}`,
       path: adapter.path,
       license: adapter.license ?? source.license ?? "NOASSERTION",
-      rightsStatus: adapter.rightsStatus ?? source.rightsStatus ?? "needs-review",
+      rightsStatus: adapter.rightsStatus ?? source.rightsStatus ?? "source-repository",
       publishable: Boolean(adapter.publishable ?? source.publishable)
     },
     hymnCount: sortedHymns.length,
@@ -347,8 +347,7 @@ export async function buildCatalog({
   rootDir,
   registry,
   outputDir = "data",
-  release = false,
-  publishableOnly = false
+  release = false
 }) {
   const outRoot = path.join(rootDir, outputDir);
   const warnings = [];
@@ -361,7 +360,6 @@ export async function buildCatalog({
       const hymns = await importAdapter(rootDir, source, adapter, warnings);
       if (!hymns.length) continue;
       const collection = collectionDocument(registry, source, adapter, hymns);
-      if (publishableOnly && !collection.source.publishable) continue;
       const collectionPath = `collections/${slugify(collection.language)}/${collection.id}.json`;
       const json = stableJson(collection);
       await writeJson(path.join(outRoot, collectionPath), collection);

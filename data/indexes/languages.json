@@ -1,12 +1,132 @@
 [
   {
     "collectionCount": 1,
-    "hymnCount": 300,
+    "hymnCount": 311,
+    "language": "bem"
+  },
+  {
+    "collectionCount": 15,
+    "hymnCount": 5732,
     "language": "en"
   },
   {
-    "collectionCount": 2,
-    "hymnCount": 1174,
+    "collectionCount": 1,
+    "hymnCount": 614,
+    "language": "es"
+  },
+  {
+    "collectionCount": 3,
+    "hymnCount": 1694,
     "language": "fr"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 370,
+    "language": "guz"
+  },
+  {
+    "collectionCount": 2,
+    "hymnCount": 519,
+    "language": "ki"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 1,
+    "language": "lu"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 332,
+    "language": "luo"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 1631,
+    "language": "ml"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 300,
+    "language": "nr"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 303,
+    "language": "nso"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 350,
+    "language": "ny"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 610,
+    "language": "pt"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 384,
+    "language": "ru"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 500,
+    "language": "rw"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 300,
+    "language": "sn"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 300,
+    "language": "st"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 220,
+    "language": "sw"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 300,
+    "language": "tn"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 341,
+    "language": "toi"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 311,
+    "language": "ts"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 372,
+    "language": "tum"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 770,
+    "language": "tw"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 306,
+    "language": "ve"
+  },
+  {
+    "collectionCount": 1,
+    "hymnCount": 352,
+    "language": "xh"
+  },
+  {
+    "collectionCount": 2,
+    "hymnCount": 1647,
+    "language": "yo"
   }
 ]

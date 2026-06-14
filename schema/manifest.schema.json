@@ -1,31 +1,80 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://smartverses.com/schemas/open-hymns/manifest.schema.json",
+  "$id": "https://github.com/FaithMediaAI/OpenHymns/schemas/manifest.schema.json",
   "title": "OpenHymns Manifest",
   "type": "object",
-  "required": ["schemaVersion", "version", "generatedAt", "collectionCount", "hymnCount", "collections", "indexes"],
+  "required": [
+    "schemaVersion",
+    "version",
+    "generatedAt",
+    "collectionCount",
+    "hymnCount",
+    "collections",
+    "indexes"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "version": { "type": "string" },
-    "generatedAt": { "type": "string" },
-    "collectionCount": { "type": "integer" },
-    "hymnCount": { "type": "integer" },
+    "schemaVersion": {
+      "const": 1
+    },
+    "version": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "collectionCount": {
+      "type": "integer"
+    },
+    "hymnCount": {
+      "type": "integer"
+    },
     "collections": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "name", "language", "hymnCount", "path", "sha256", "license", "rightsStatus", "publishable", "sourceRepo"],
+        "required": [
+          "id",
+          "name",
+          "language",
+          "hymnCount",
+          "path",
+          "sha256",
+          "license",
+          "rightsStatus",
+          "publishable",
+          "sourceRepo"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "name": { "type": "string" },
-          "language": { "type": "string" },
-          "hymnCount": { "type": "integer" },
-          "path": { "type": "string" },
-          "sha256": { "type": "string" },
-          "license": { "type": "string" },
-          "rightsStatus": { "type": "string" },
-          "publishable": { "type": "boolean" },
-          "sourceRepo": { "type": "string" }
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          },
+          "hymnCount": {
+            "type": "integer"
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "rightsStatus": {
+            "type": "string"
+          },
+          "publishable": {
+            "type": "boolean"
+          },
+          "sourceRepo": {
+            "type": "string"
+          }
         }
       }
     },
@@ -33,15 +82,30 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "path", "sha256", "recordCount"],
+        "required": [
+          "id",
+          "path",
+          "sha256",
+          "recordCount"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "path": { "type": "string" },
-          "sha256": { "type": "string" },
-          "recordCount": { "type": "integer" }
+          "id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "recordCount": {
+            "type": "integer"
+          }
         }
       }
     },
-    "warnings": { "type": "array" }
+    "warnings": {
+      "type": "array"
+    }
   }
 }

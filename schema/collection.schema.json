@@ -1,29 +1,77 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://smartverses.com/schemas/open-hymns/collection.schema.json",
+  "$id": "https://github.com/FaithMediaAI/OpenHymns/schemas/collection.schema.json",
   "title": "OpenHymns Collection",
   "type": "object",
-  "required": ["schemaVersion", "id", "name", "language", "version", "source", "hymnCount", "hymns"],
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "language",
+    "version",
+    "source",
+    "hymnCount",
+    "hymns"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "id": { "type": "string" },
-    "name": { "type": "string" },
-    "language": { "type": "string" },
-    "version": { "type": "string" },
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
     "source": {
       "type": "object",
-      "required": ["id", "repo", "url", "path", "license", "rightsStatus", "publishable"],
+      "required": [
+        "id",
+        "repo",
+        "url",
+        "path",
+        "license",
+        "rightsStatus",
+        "publishable"
+      ],
       "properties": {
-        "id": { "type": "string" },
-        "repo": { "type": "string" },
-        "url": { "type": "string" },
-        "path": { "type": "string" },
-        "license": { "type": "string" },
-        "rightsStatus": { "type": "string" },
-        "publishable": { "type": "boolean" }
+        "id": {
+          "type": "string"
+        },
+        "repo": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "path": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "rightsStatus": {
+          "type": "string"
+        },
+        "publishable": {
+          "type": "boolean"
+        }
       }
     },
-    "hymnCount": { "type": "integer" },
-    "hymns": { "type": "array", "items": { "$ref": "hymn.schema.json" } }
+    "hymnCount": {
+      "type": "integer"
+    },
+    "hymns": {
+      "type": "array",
+      "items": {
+        "$ref": "hymn.schema.json"
+      }
+    }
   }
 }

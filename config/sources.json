@@ -7,8 +7,8 @@
       "branch": "main",
       "localPath": "sources/cis-hymnals",
       "license": "NOASSERTION",
-      "rightsStatus": "needs-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "cis-v2-root",
@@ -38,7 +38,8 @@
             "twi": "tw",
             "venda": "ve",
             "xitsonga": "ts"
-          }
+          },
+          "publishable": true
         }
       ]
     },
@@ -48,8 +49,8 @@
       "branch": "master",
       "localPath": "sources/hymnals-data",
       "license": "NOASSERTION",
-      "rightsStatus": "needs-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "gospel-sounders-index",
@@ -57,7 +58,8 @@
           "languageMap": {
             "ENGLISH": "en",
             "SWAHILI": "sw"
-          }
+          },
+          "publishable": true
         }
       ]
     },
@@ -75,7 +77,8 @@
           "collectionId": "watchman-en",
           "name": "Watchman Hymns",
           "language": "en",
-          "path": "hymns/watchman/hymns.json"
+          "path": "hymns/watchman/hymns.json",
+          "publishable": true
         }
       ]
     },
@@ -85,22 +88,24 @@
       "branch": "master",
       "localPath": "sources/song-data",
       "license": "AGPL-3.0",
-      "rightsStatus": "copyleft-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "josmithua-song-data",
           "collectionId": "believers-hymn-book-en",
           "name": "Believers Hymn Book",
           "language": "en",
-          "path": "bhb_songs.json"
+          "path": "bhb_songs.json",
+          "publishable": true
         },
         {
           "type": "josmithua-song-data",
           "collectionId": "songs-of-fellowship-en",
           "name": "Songs of Fellowship",
           "language": "en",
-          "path": "ssfss_songs.min.json"
+          "path": "ssfss_songs.min.json",
+          "publishable": true
         }
       ]
     },
@@ -110,15 +115,16 @@
       "branch": "master",
       "localPath": "sources/gospel-hymns",
       "license": "NOASSERTION",
-      "rightsStatus": "needs-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "gospel-hymns-db",
           "collectionId": "gospel-hymns-en",
           "name": "Gospel Hymns",
           "language": "en",
-          "path": "content/db.json"
+          "path": "content/db.json",
+          "publishable": true
         }
       ]
     },
@@ -128,15 +134,16 @@
       "branch": "master",
       "localPath": "sources/trinity-hymnal-data",
       "license": "NOASSERTION",
-      "rightsStatus": "needs-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "trinity-hymnal",
           "collectionId": "trinity-hymnal-en",
           "name": "Trinity Hymnal",
           "language": "en",
-          "path": "hymns.json"
+          "path": "hymns.json",
+          "publishable": true
         }
       ]
     },
@@ -146,15 +153,16 @@
       "branch": "main",
       "localPath": "sources/hymnal-malayalam",
       "license": "AGPL-3.0",
-      "rightsStatus": "copyleft-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "yozachar-directory",
           "collectionId": "malayalam-hymnal-ml",
           "name": "Malayalam Hymnal",
           "language": "ml",
-          "path": "data/lyrics/mal"
+          "path": "data/lyrics/mal",
+          "publishable": true
         }
       ]
     },
@@ -172,14 +180,16 @@
           "collectionId": "hymnes-sda-fr",
           "name": "Hymnes SDA",
           "language": "fr",
-          "path": "assets/data/hymns.json"
+          "path": "assets/data/hymns.json",
+          "publishable": true
         },
         {
           "type": "french-sda",
           "collectionId": "donnez-lui-gloire-fr",
           "name": "Donnez-lui Gloire",
           "language": "fr",
-          "path": "assets/data/donnezLuiGloire.json"
+          "path": "assets/data/donnezLuiGloire.json",
+          "publishable": true
         }
       ]
     },
@@ -189,8 +199,8 @@
       "branch": "master",
       "localPath": "sources/hymnflow",
       "license": "GPL-2.0",
-      "rightsStatus": "copyleft-review",
-      "publishable": false,
+      "rightsStatus": "source-repository",
+      "publishable": true,
       "adapters": [
         {
           "type": "hymnflow-root",
@@ -202,7 +212,8 @@
             "nnbh.json": "en",
             "umh.json": "en",
             "fws.json": "en"
-          }
+          },
+          "publishable": true
         }
       ]
     },

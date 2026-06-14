@@ -1,20 +1,28 @@
 # Publishing OpenHymns
 
-OpenHymns can build a complete local catalog, but the tracked public `data/` feed should contain only collections marked `publishable: true`.
+OpenHymns publishes a static generated catalog in `data/`.
 
-Use `npm run build:public` before publishing to `main`. This writes `data/manifest.json`, indexes, and collection files for the public feed only.
+## Build
 
-## Recommended Public Feed
+```bash
+npm run build
+```
 
-After rights review, publish one of these:
+This writes:
 
-1. **GitHub Releases assets**
-   - Attach `manifest.json`, `indexes/*.json`, and `collections/**/*.json` from `releases/vX.Y.Z/`.
-   - Desktop app fetches the latest release manifest and downloads changed assets by `sha256`.
+```text
+data/manifest.json
+data/indexes/*.json
+data/collections/**/*.json
+```
 
-2. **Tracked `data/` folder**
-   - Commit `data/manifest.json`, `data/indexes/*.json`, and selected `data/collections/**`.
-   - Desktop app reads `https://raw.githubusercontent.com/<org>/OpenHymns/main/data/manifest.json`.
+## Release Folder
+
+```bash
+npm run release
+```
+
+This writes the same generated catalog to `releases/vX.Y.Z/`.
 
 ## Versioning
 
@@ -22,6 +30,6 @@ The release version comes from `config/sources.json`.
 
 - Patch: importer fixes, typo cleanup, metadata corrections.
 - Minor: added sources, new collections, schema-compatible fields.
-- Major: breaking schema or desktop-client contract changes.
+- Major: breaking schema or client contract changes.
 
-Each collection and index has a SHA-256 checksum in `manifest.json`, so the desktop app can download only changed files and keep everything cached offline.
+Each collection and index has a SHA-256 checksum in `manifest.json`, so clients can download only changed files and keep everything cached offline.

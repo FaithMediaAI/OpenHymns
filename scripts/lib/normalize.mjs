@@ -98,7 +98,7 @@ export function normalizeHymn(input) {
       repo: cleanString(input.source?.repo) ?? "unknown",
       path: cleanString(input.source?.path) ?? "unknown",
       license: cleanString(input.source?.license) ?? "NOASSERTION",
-      rightsStatus: cleanString(input.source?.rightsStatus) ?? "needs-review"
+      rightsStatus: cleanString(input.source?.rightsStatus) ?? "source-repository"
     }
   };
 }

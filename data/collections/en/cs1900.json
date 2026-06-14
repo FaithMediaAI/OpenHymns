@@ -1,0 +1,35 @@
+{
+  "hymnCount": 1,
+  "hymns": [
+    {
+      "collectionId": "cs1900",
+      "id": "cs1900-002-untitled",
+      "language": "en",
+      "number": "2",
+      "schemaVersion": 1,
+      "searchText": "untitled 2",
+      "sections": [],
+      "source": {
+        "license": "NOASSERTION",
+        "path": "CS1900/index.json",
+        "repo": "GospelSounders/hymnals-data",
+        "rightsStatus": "source-repository"
+      },
+      "title": "Untitled"
+    }
+  ],
+  "id": "cs1900",
+  "language": "en",
+  "name": "Christ in Song",
+  "schemaVersion": 1,
+  "source": {
+    "id": "hymnals-data",
+    "license": "NOASSERTION",
+    "path": "CS1900/index.json",
+    "publishable": true,
+    "repo": "GospelSounders/hymnals-data",
+    "rightsStatus": "source-repository",
+    "url": "https://github.com/GospelSounders/hymnals-data"
+  },
+  "version": "0.1.0"
+}

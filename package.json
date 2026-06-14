@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "A versioned, normalized hymn catalog for SmartVerses desktop clients.",
+  "description": "A versioned, normalized hymn catalog for programmatic search and offline use.",
   "scripts": {
     "test": "node --test tests/*.test.mjs",
     "clone:sources": "node scripts/clone-sources.mjs",
     "build": "node scripts/build-catalog.mjs",
-    "build:public": "node scripts/build-catalog.mjs --public",
     "release": "node scripts/build-catalog.mjs --release",
     "clean": "rm -rf data releases"
   },
