@@ -1,6 +1,6 @@
 {
   "name": "open-hymns",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "description": "A versioned, normalized hymn catalog for programmatic search and offline use.",

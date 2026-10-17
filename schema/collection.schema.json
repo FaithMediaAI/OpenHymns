@@ -11,7 +11,9 @@
     "version",
     "source",
     "hymnCount",
-    "hymns"
+    "hymns",
+    "sourceHymnCount",
+    "membershipCount"
   ],
   "properties": {
     "schemaVersion": {
@@ -72,6 +74,14 @@
       "items": {
         "$ref": "hymn.schema.json"
       }
+    },
+    "sourceHymnCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "membershipCount": {
+      "type": "integer",
+      "minimum": 0
     }
   }
 }

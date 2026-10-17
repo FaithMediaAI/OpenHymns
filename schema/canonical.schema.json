@@ -1,31 +1,28 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/FaithMediaAI/OpenHymns/schemas/canonical.schema.json",
-  "title": "OpenHymns Unique Lyric Catalog",
+  "title": "OpenHymns Unique Song Catalog",
   "type": "array",
   "items": {
-    "type": "object",
-    "required": ["id", "language", "title", "sections", "references"],
-    "properties": {
-      "id": { "type": "string", "pattern": "^lyrics-[a-f0-9]{20}$" },
-      "language": { "type": "string" },
-      "title": { "type": "string", "minLength": 1 },
-      "sections": { "$ref": "hymn.schema.json#/properties/sections" },
-      "references": {
-        "type": "array",
-        "minItems": 1,
-        "items": {
-          "type": "object",
-          "required": ["id", "collectionId", "number", "title", "source"],
-          "properties": {
-            "id": { "type": "string" },
-            "collectionId": { "type": "string" },
-            "number": { "type": "string" },
-            "title": { "type": "string" },
-            "source": { "$ref": "hymn.schema.json#/properties/source" }
+    "allOf": [
+      {
+        "$ref": "hymn.schema.json"
+      },
+      {
+        "type": "object",
+        "required": [
+          "canonicalId",
+          "collectionIds",
+          "alternateTitles",
+          "references"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^song-[a-f0-9]+$"
           }
         }
       }
-    }
+    ]
   }
 }

@@ -46,6 +46,42 @@ test("adapters preserve catalog numbers, recover lyric titles, map indexed langu
         title: "C M",
         verses: ["C M\nScripture epigraph", "Opening lyric"],
         metadata: { number: 30 }
+      },
+      {
+        id: "ybh_061",
+        title: "1",
+        verses: ["K’ A to sun, Olugbala wa,\nFun wa n’ ibukun ale", "A jewo ese wa fun O"],
+        metadata: { number: 61 }
+      },
+      {
+        id: "hymn_internal_7792",
+        title: "7.8.7. &.Ref.",
+        verses: ["7.8.7. & Ref.\nScripture epigraph", "When morning gilds the skies"],
+        metadata: { number: 31 }
+      },
+      {
+        id: "hymn_internal_7793",
+        title: "6.7.6.D.&.Ref.",
+        verses: ["6.7.6.D. & Ref.\nScripture epigraph", "Praise, my soul, the King of heaven"],
+        metadata: { number: 32 }
+      },
+      {
+        id: "hymn_internal_7794",
+        title: "8.8.6.&.Ref.",
+        verses: ["8.8.6. & Ref.\nScripture epigraph", "O God, our help in ages past"],
+        metadata: { number: 33 }
+      },
+      {
+        id: "hymn_internal_7795",
+        title: "7.8.7. &.Ref.",
+        verses: ["7.8.7. &.Ref.\nScripture epigraph"],
+        metadata: { number: 34 }
+      },
+      {
+        id: "single_meter",
+        title: "10.",
+        verses: ["10.\nScripture epigraph", "A distant morning beckons"],
+        metadata: { number: 35 }
       }
     ]);
     await writeJson(root, "sources/malayalam/data/lyrics/mal/0000001.json", {
@@ -166,6 +202,23 @@ test("adapters preserve catalog numbers, recover lyric titles, map indexed langu
     assert.equal(repairedCommonMeter.title, "Opening lyric");
     assert.equal(repairedCommonMeter.meter, "C M");
     assert.equal(repairedCommonMeter.sections[0].lines[0], "Scripture epigraph");
+    const repairedNumericPlaceholder = flowCollection.hymns.find((record) => record.number === "61");
+    assert.equal(repairedNumericPlaceholder.title, "K’ A to sun, Olugbala wa,");
+    assert.equal(repairedNumericPlaceholder.sourceTitle, "1");
+    assert.equal(repairedNumericPlaceholder.titleSource, "first-line");
+    for (const [number, title, meter] of [
+      ["31", "When morning gilds the skies", "7.8.7. &.Ref."],
+      ["32", "Praise, my soul, the King of heaven", "6.7.6.D.&.Ref."],
+      ["33", "O God, our help in ages past", "8.8.6.&.Ref."],
+      ["35", "A distant morning beckons", "10."]
+    ]) {
+      const repaired = flowCollection.hymns.find((record) => record.number === number);
+      assert.equal(repaired.title, title);
+      assert.equal(repaired.meter, meter);
+      assert.equal(repaired.sourceTitle, meter);
+      assert.equal(repaired.titleSource, "first-line");
+      assert.equal(repaired.sections[0].lines[0], "Scripture epigraph");
+    }
     assert.equal(hymn("malayalam-ml").title, "വാഴ്ത്തുക നീ മനമേ എൻ പരനെ");
     assert.equal(hymn("malayalam-ml").titleSource, "first-line");
     assert.equal(collections.find((collection) => collection.id === "nzk").language, "sw");
@@ -181,6 +234,9 @@ test("adapters preserve catalog numbers, recover lyric titles, map indexed langu
     assert.ok(warnings.some((warning) => warning.message.includes("identified hymn stub")));
     assert.ok(warnings.some((warning) => warning.message.includes("empty song-index placeholder")));
     assert.ok(warnings.some((warning) => warning.code === "empty-placeholder"));
+    assert.ok(warnings.some((warning) => warning.code === "meter-title-without-lyric-title" && warning.number === 34));
+    assert.equal(JSON.parse(await readFile(path.join(root, "data", "quarantine.json"), "utf8"))
+      .find((record) => record.number === "34").sections.length, 0);
     assert.deepEqual(hymn("french").sections.map(({ label, lines }) => [label, lines[0]]), [
       ["1", "Première ligne"],
       ["2", "Autre ligne"],

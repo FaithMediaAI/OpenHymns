@@ -1,13 +1,33 @@
 {
-  "hymnCount": 53,
+  "hymnCount": 52,
   "hymns": [
     {
+      "alternateTitles": [],
+      "canonicalId": "song-4f1d0551ea446e4f5dbc",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-001-holy-sabbath",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-4f1d0551ea446e4f5dbc",
       "language": "en",
       "number": "1",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-001-holy-sabbath",
+          "language": "en",
+          "number": "1",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.0",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "HOLY SABBATH."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "holy sabbath. 1 the pure, unfailing word of god foundation ever sure its statutes, precepts and its laws, are written for the pure. in paradise where man was led, the word will safely guide; and if he should this law evade, his steps would surely slide. the holy sabbath here was made, which god did sanctify; and if we would our god obey, we must with this comply. in after times, when moses liv'd, this law was ratified and all who keet this holy word, may know they're sanctified. still farther down the stream of time, we hear the prophet say hearken, fear not reproach nor shame, who keep the seventh day. for thus the mighty god hath said to those who truly rest, thou shalt on the high places ride, and feed among the blest. here too are they who patient are, and keep commandments pure, they'll in the holy city share, if to the end endure. then let us still pursue this road, till we fair canaan gain, then we shall walk the street of gold, and in that rest remain.",
+      "searchText": "holy sabbath. 1 the pure, unfailing word of god foundation ever sure its statutes, precepts and its laws, are written for the pure. in paradise where man was led, the word will safely guide; and if he should this law evade, his steps would surely slide. the holy sabbath here was made, which god did sanctify; and if we would our god obey, we must with this comply. in after times, when moses liv'd, this law was ratified and all who keet this holy word, may know they're sanctified. still farther down the stream of time, we hear the prophet say hearken, fear not reproach nor shame, who keep the seventh day. for thus the mighty god hath said to those who truly rest, thou shalt on the high places ride, and feed among the blest. here too are they who patient are, and keep commandments pure, they'll in the holy city share, if to the end endure. then let us still pursue this road, till we fair canaan gain, then we shall walk the street of gold, and in that rest remain. holy sabbath. 1",
       "sections": [
         {
           "label": "1",
@@ -99,12 +119,32 @@
       "title": "HOLY SABBATH."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-d90446bef902809bd3db",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-002-second-advent-history",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-d90446bef902809bd3db",
       "language": "en",
       "number": "2",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-002-second-advent-history",
+          "language": "en",
+          "number": "2",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.1",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "SECOND ADVENT HISTORY."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "second advent history. 2 lo! an angel loud proclaiming, with the gospel of good news, to every kindred, tongue and people; fear the lord; give glory due; proclamation of the hour of judgement near. lo! another angel follows, with another solemn cry! babylon the great is fallen, peals like thunder through the sky : let \"thy people,\" now forsake her pois'nous creeds. yet, a third and solemn message, now proclaims a final doom; all who \"worship beast or image;\" soon shall drink the wrath of god without mixture, mercy now no longer pleads. here are they, who now are waiting, and have patience to endure; while the dragon's hosts are raging, these confide in god secure faith of jesus; and commandments, keep them pure. hear a voice from heav'n proclaiming, \"write\" the message, \"firm decree,\" bless'd are they, who die in jesus, \"from hence forth\" for ever be the spirit sanctions, and the saints adore his law.",
+      "searchText": "second advent history. 2 lo! an angel loud proclaiming, with the gospel of good news, to every kindred, tongue and people; fear the lord; give glory due; proclamation of the hour of judgement near. lo! another angel follows, with another solemn cry! babylon the great is fallen, peals like thunder through the sky : let \"thy people,\" now forsake her pois'nous creeds. yet, a third and solemn message, now proclaims a final doom; all who \"worship beast or image;\" soon shall drink the wrath of god without mixture, mercy now no longer pleads. here are they, who now are waiting, and have patience to endure; while the dragon's hosts are raging, these confide in god secure faith of jesus; and commandments, keep them pure. hear a voice from heav'n proclaiming, \"write\" the message, \"firm decree,\" bless'd are they, who die in jesus, \"from hence forth\" for ever be the spirit sanctions, and the saints adore his law. second advent history. 2",
       "sections": [
         {
           "label": "1",
@@ -176,12 +216,32 @@
       "title": "SECOND ADVENT HISTORY."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-716450ec0efafa63d41c",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-003-heaven",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-716450ec0efafa63d41c",
       "language": "en",
       "number": "3",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-003-heaven",
+          "language": "en",
+          "number": "3",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.2",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "HEAVEN."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "heaven. 3 we speak of the joys of the blest— of that country so bright and so fair; and oft are its glories confest; but what must it be to be there? we speak of its pathway of gold; of its walls deck'd with jewels so rare, of its wonders and pleasures untold but what must it be to be there? we speak of its freedom from sin, from sorrow, temptation and care, from trials without and within but what must it be to be there? we speak of its service of love; of the robes which the glorified wear; of the church of the first born above, but what must it be to be there? do thou 'midst temptation or wo, still for heaven my sprit prepare; and shortly i also shall know, and feel what it is to be there. then o'er the bright fields we shall roam, in glory celestial and fair, with saints and with angels at home, and jesus himself will be there.",
+      "searchText": "heaven. 3 we speak of the joys of the blest— of that country so bright and so fair; and oft are its glories confest; but what must it be to be there? we speak of its pathway of gold; of its walls deck'd with jewels so rare, of its wonders and pleasures untold but what must it be to be there? we speak of its freedom from sin, from sorrow, temptation and care, from trials without and within but what must it be to be there? we speak of its service of love; of the robes which the glorified wear; of the church of the first born above, but what must it be to be there? do thou 'midst temptation or wo, still for heaven my sprit prepare; and shortly i also shall know, and feel what it is to be there. then o'er the bright fields we shall roam, in glory celestial and fair, with saints and with angels at home, and jesus himself will be there. heaven. 3",
       "sections": [
         {
           "label": "1",
@@ -235,12 +295,32 @@
       "title": "HEAVEN."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-fb1880abe2ac85328e0c",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-004-washing-feet",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-fb1880abe2ac85328e0c",
       "language": "en",
       "number": "4",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-004-washing-feet",
+          "language": "en",
+          "number": "4",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.3",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "WASHING FEET."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "washing feet. 4 when jesus christ was here below, he taught his people what to do: and if we would his precepts keep, we must attend to washing feet. for on that night he was betray'd, he for us all a pattern laid soon as his supper he did eat, he rose and wash'd his brethren's feet. the lord who made the earth and sky, arose and laid his garments by; and wash'd their feet to show that we; like christ, should always humble be. he wash'd them all, tho' all were clean, save judas, who was full of sin. may none of us, like judas, sell our lord for gold, and go to hell. said peter, lord, it shall not be; thou shalt not stoop to washing me oh! that no christian now may say, i cannot jesus' word obey. ye call me lord and master too; then do as i have done to you; all my commands and sayings keep, and show your love by washing feet ye shall be happy, if ye know and do these things, by faith below; for i'll protect you till i come, and then i'll take you to your home the lord of glory stoops to men, and an example sets for them if in humility complete, salute the saints and wash their feet.",
+      "searchText": "washing feet. 4 when jesus christ was here below, he taught his people what to do: and if we would his precepts keep, we must attend to washing feet. for on that night he was betray'd, he for us all a pattern laid soon as his supper he did eat, he rose and wash'd his brethren's feet. the lord who made the earth and sky, arose and laid his garments by; and wash'd their feet to show that we; like christ, should always humble be. he wash'd them all, tho' all were clean, save judas, who was full of sin. may none of us, like judas, sell our lord for gold, and go to hell. said peter, lord, it shall not be; thou shalt not stoop to washing me oh! that no christian now may say, i cannot jesus' word obey. ye call me lord and master too; then do as i have done to you; all my commands and sayings keep, and show your love by washing feet ye shall be happy, if ye know and do these things, by faith below; for i'll protect you till i come, and then i'll take you to your home the lord of glory stoops to men, and an example sets for them if in humility complete, salute the saints and wash their feet. washing feet. 4",
       "sections": [
         {
           "label": "1",
@@ -308,12 +388,32 @@
       "title": "WASHING FEET."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-7fd12f0b0c337fdece9b",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-005-the-joys-of-eden",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-7fd12f0b0c337fdece9b",
       "language": "en",
       "number": "5",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-005-the-joys-of-eden",
+          "language": "en",
+          "number": "5",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.4",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE JOYS OF EDEN."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the joys of eden. 5 how sweet to reflect on those joys that await me in yon blissful region, the haven of rest, where bright holy angels with welcome shall greet me. and lead me to mansions prepar'd for the blest. encircled in light, and with glory enshrouded, my happiness perfect, my mind's sky unclouded, i'll bathe in the ocean of pleasure unbounded, and range with delight through the eden of love. while angelic legions, with harps tun'd celestial, harmoniously join in the concert of praise, the saints, as they flock from the regions terrestrial, in loud hallejujahs their voices will raise then songs to the lamb shall re—echo thro' heaven, my soul will respond, to immanuel be given, all glory, all honor, all might and dominion, who brought us through grace to the eden of love then hail, blessed state! hail, ye songsters of glory! ye harpers of bliss, soon i'll meet you above, and join your full choir in rehearsing the story, “salvation from sorrow, through jesus' love:\" though 'prison'd in earth, yet, by anticipation, already my soul feels a sweet prelibation of joys that await me, when freed from probation; my heart's now in heaven, the eden, of love.",
+      "searchText": "the joys of eden. 5 how sweet to reflect on those joys that await me in yon blissful region, the haven of rest, where bright holy angels with welcome shall greet me. and lead me to mansions prepar'd for the blest. encircled in light, and with glory enshrouded, my happiness perfect, my mind's sky unclouded, i'll bathe in the ocean of pleasure unbounded, and range with delight through the eden of love. while angelic legions, with harps tun'd celestial, harmoniously join in the concert of praise, the saints, as they flock from the regions terrestrial, in loud hallejujahs their voices will raise then songs to the lamb shall re—echo thro' heaven, my soul will respond, to immanuel be given, all glory, all honor, all might and dominion, who brought us through grace to the eden of love then hail, blessed state! hail, ye songsters of glory! ye harpers of bliss, soon i'll meet you above, and join your full choir in rehearsing the story, “salvation from sorrow, through jesus' love:\" though 'prison'd in earth, yet, by anticipation, already my soul feels a sweet prelibation of joys that await me, when freed from probation; my heart's now in heaven, the eden, of love. the joys of eden. 5",
       "sections": [
         {
           "label": "1",
@@ -367,12 +467,32 @@
       "title": "THE JOYS OF EDEN."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-198c8b15ca03cba89863",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-006-the-seal",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-198c8b15ca03cba89863",
       "language": "en",
       "number": "6",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-006-the-seal",
+          "language": "en",
+          "number": "6",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.5",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE SEAL."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the seal. 6 behold a light appears, the holy sabbath day, and magnified so clear, that none may need to stray; though small at first, as sun beam's ray, its strength ascends to perfect day. it is the message clear ascending from the east, god's servants now appear who will not worship \"beast;\" four angels hold the winds reveal'd, until god's servants all are seal'd. hebrews in egypt's land must all receive a sign, when forth from pharaoh's hand deliverance was design'd; a sign, a token, thus shall be, before the earth and heavens flee. the sabbath is a sign, a mark which all may see, and sure will draw a line when servants all are seal'd, and while destruction’s in the land this mark will guard the waiting band. then wrath in vengeance comes, the great and dreadful day! god's voice in thunder tones, shakes heaven and earth and sea; ye living saints who faithful be, no plague shall e'er come nigh to thee. o god, the living god, do thou the seal apply, and from destruction's rod, oh! keep us lest we die; and while the storm of wrath descends, oh ! hide us, till the earth be cleans'd.",
+      "searchText": "the seal. 6 behold a light appears, the holy sabbath day, and magnified so clear, that none may need to stray; though small at first, as sun beam's ray, its strength ascends to perfect day. it is the message clear ascending from the east, god's servants now appear who will not worship \"beast;\" four angels hold the winds reveal'd, until god's servants all are seal'd. hebrews in egypt's land must all receive a sign, when forth from pharaoh's hand deliverance was design'd; a sign, a token, thus shall be, before the earth and heavens flee. the sabbath is a sign, a mark which all may see, and sure will draw a line when servants all are seal'd, and while destruction’s in the land this mark will guard the waiting band. then wrath in vengeance comes, the great and dreadful day! god's voice in thunder tones, shakes heaven and earth and sea; ye living saints who faithful be, no plague shall e'er come nigh to thee. o god, the living god, do thou the seal apply, and from destruction's rod, oh! keep us lest we die; and while the storm of wrath descends, oh ! hide us, till the earth be cleans'd. the seal. 6",
       "sections": [
         {
           "label": "1",
@@ -456,12 +576,32 @@
       "title": "THE SEAL."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-1dd8d92b41835d9dcf7e",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-007-adventists-experience",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-1dd8d92b41835d9dcf7e",
       "language": "en",
       "number": "7",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-007-adventists-experience",
+          "language": "en",
+          "number": "7",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.6",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "ADVENTISTS’ EXPERIENCE."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "adventists’ experience. 7 hail, partners in the advent band! your race is almost run god’s led you with his own right hand, since looking for his son. all hail, ye lov'd ones of my god, come listen to my song, while i recount the steps we've trod, nor shall the strain be long. but, forty—three flew quickly by and left us toiling here; then slumber stole upon each eye and closed each listening ear. in forty—four, we heard a cry at midnight pealing forth— behold, the heavenly bridegroom's nigh, he'll soon descend to earth. it truly was a solemn cry, as ever earth did hear like many waters rushing by, it fell upon the ear. each virgin rose and trimm'd the lamp, with eager haste went out from north to south, throughout the camp, was heard one mighty shout. each heart with solemn rapture swelt'd, as we proclaim'd the cry— nor heeded we the scoffs that fell from many a passer by. like ancient men of galilee, we gaz'd into the sky, doubtless our lord we soon should see descending from on high. our longing eyes were rais'd in vain, to meet him in the air, for 'twas not so, the bridegroom came, his bride's not here, but there. there to the fair jerusalem, unseen by mortal eye, jesus our king and priest did come, thus answering to the cry. tis there, within the pearly gates, a marriage feast is spread 'twas purchas'd for the scatter'd saints by christ, their living head. then let us patient wait awhile, till we those joys do see; there we shall bask beneath his smile to all eternity.",
+      "searchText": "adventists’ experience. 7 hail, partners in the advent band! your race is almost run god’s led you with his own right hand, since looking for his son. all hail, ye lov'd ones of my god, come listen to my song, while i recount the steps we've trod, nor shall the strain be long. but, forty—three flew quickly by and left us toiling here; then slumber stole upon each eye and closed each listening ear. in forty—four, we heard a cry at midnight pealing forth— behold, the heavenly bridegroom's nigh, he'll soon descend to earth. it truly was a solemn cry, as ever earth did hear like many waters rushing by, it fell upon the ear. each virgin rose and trimm'd the lamp, with eager haste went out from north to south, throughout the camp, was heard one mighty shout. each heart with solemn rapture swelt'd, as we proclaim'd the cry— nor heeded we the scoffs that fell from many a passer by. like ancient men of galilee, we gaz'd into the sky, doubtless our lord we soon should see descending from on high. our longing eyes were rais'd in vain, to meet him in the air, for 'twas not so, the bridegroom came, his bride's not here, but there. there to the fair jerusalem, unseen by mortal eye, jesus our king and priest did come, thus answering to the cry. tis there, within the pearly gates, a marriage feast is spread 'twas purchas'd for the scatter'd saints by christ, their living head. then let us patient wait awhile, till we those joys do see; there we shall bask beneath his smile to all eternity. adventists’ experience. 7",
       "sections": [
         {
           "label": "1",
@@ -557,12 +697,32 @@
       "title": "ADVENTISTS’ EXPERIENCE."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-442169d0a6f71e91ec1d",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-008-o-hail-happy-day",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-442169d0a6f71e91ec1d",
       "language": "en",
       "number": "8",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-008-o-hail-happy-day",
+          "language": "en",
+          "number": "8",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.7",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "O HAIL, HAPPY DAY."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "o hail, happy day. 8 o hail, happy day, that speaks our trials ended, our lord has come to take us home; o hail, happy day; no more by doubts or fears distress'd, we now shall gain our promis'd rest, and be for ever blest; o hail, happy day. swell loud the glad note, our bondage now is over; the jubilee proclaims us free; o hail, happy day; the day that brings a sweet release, that crowns our jesus prince and bids our sorrows cease; o hail, happy day. o hail, happy day, that ends our tears and sorrow, that brings us joy without alloy, o hail, happy day there peace shall wave her scepter high and love's fair banner greet the eye, proclaiming victory; o hail, happy day. we hail thy bright beams, o morn of zion’s glory, thy blessed light breaks on our sight, o hail, happy day; fair beulah’s fields before us rise, and sweetly burst upon our eyes, the joys of paradise; o hail happy day. thrice hail, happy day, when earth shall smile in gladness, and eden bloom o'er nature’s tomb, o hail, happy day; where life's pellucid waters glide, safe by the dear redeemer's side, for ever we'll abide; o hail, happy day.",
+      "searchText": "o hail, happy day. 8 o hail, happy day, that speaks our trials ended, our lord has come to take us home; o hail, happy day; no more by doubts or fears distress'd, we now shall gain our promis'd rest, and be for ever blest; o hail, happy day. swell loud the glad note, our bondage now is over; the jubilee proclaims us free; o hail, happy day; the day that brings a sweet release, that crowns our jesus prince and bids our sorrows cease; o hail, happy day. o hail, happy day, that ends our tears and sorrow, that brings us joy without alloy, o hail, happy day there peace shall wave her scepter high and love's fair banner greet the eye, proclaiming victory; o hail, happy day. we hail thy bright beams, o morn of zion’s glory, thy blessed light breaks on our sight, o hail, happy day; fair beulah’s fields before us rise, and sweetly burst upon our eyes, the joys of paradise; o hail happy day. thrice hail, happy day, when earth shall smile in gladness, and eden bloom o'er nature’s tomb, o hail, happy day; where life's pellucid waters glide, safe by the dear redeemer's side, for ever we'll abide; o hail, happy day. o hail, happy day. 8",
       "sections": [
         {
           "label": "1",
@@ -635,12 +795,62 @@
       "title": "O HAIL, HAPPY DAY."
     },
     {
+      "alternateTitles": [
+        "We Have Heard"
+      ],
+      "canonicalId": "song-589a359b1c078f390fbe",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-009-the-better-land",
+      "collectionIds": [
+        "cis-sdah",
+        "hgpp1849",
+        "sdah"
+      ],
+      "id": "song-589a359b1c078f390fbe",
       "language": "en",
       "number": "9",
+      "references": [
+        {
+          "collectionId": "cis-sdah",
+          "id": "cis-sdah-453-we-have-heard",
+          "language": "en",
+          "number": "453",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "v2/english/sdah.json",
+            "repo": "TinasheMzondiwa/cis-hymnals",
+            "rightsStatus": "source-repository"
+          },
+          "title": "We Have Heard"
+        },
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-009-the-better-land",
+          "language": "en",
+          "number": "9",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.8",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE BETTER LAND."
+        },
+        {
+          "collectionId": "sdah",
+          "id": "sdah-453-we-have-heard",
+          "language": "en",
+          "number": "453",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "SDAH/index.json#songs.452",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "We Have Heard"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the better land. 9 we have heard from the bright, the holy land, we have heard, and our hearts are glad; for we were a lonely pilgrim band, and weary, and worn, and sad. they tell us the pilgrims have a dwelling there— no longer are homeless ones; and we know that the goodly land is fair; where life’s pure river runs. they say green fields are waving there, that never a blight shall know; and the deserts wild are blooming fair. and the roses of sharon grow. there are lovely birds in the bowers green— their songs are blithe and sweet; and their warblings gushing ever new the angel’s harpings greet. we have heard of the palms, the robes, the crowns, and the silvery band in white; of the city fair, with pearly gates, all radiant with light. we have heard of the angels there and saints, with their harps of gold, how they sing; of the mount with the fruitful tree of life, of the leaves that healing brings. the king of that country, he is fair, he’s the joy and light of the place! in his beauty we shall behold him there, and bask in his smiling face. we’ll be there; we’ll be there in a little while, we’ll join the pure and the blest; we’ll have the palm, the robe, the crown, and forever be at rest.",
+      "searchText": "the better land. 9 we have heard from the bright, the holy land, we have heard, and our hearts are glad; for we were a lonely pilgrim band, and weary, and worn, and sad. they tell us the pilgrims have a dwelling there— no longer are homeless ones; and we know that the goodly land is fair; where life’s pure river runs. they say green fields are waving there, that never a blight shall know; and the deserts wild are blooming fair. and the roses of sharon grow. there are lovely birds in the bowers green— their songs are blithe and sweet; and their warblings gushing ever new the angel’s harpings greet. we have heard of the palms, the robes, the crowns, and the silvery band in white; of the city fair, with pearly gates, all radiant with light. we have heard of the angels there and saints, with their harps of gold, how they sing; of the mount with the fruitful tree of life, of the leaves that healing brings. the king of that country, he is fair, he’s the joy and light of the place! in his beauty we shall behold him there, and bask in his smiling face. we’ll be there; we’ll be there in a little while, we’ll join the pure and the blest; we’ll have the palm, the robe, the crown, and forever be at rest. we have heard we have heard 453 the better land. 9 we have heard 453",
       "sections": [
         {
           "label": "1",
@@ -708,12 +918,32 @@
       "title": "THE BETTER LAND."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-807c947e06b9db440432",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-010-restitution",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-807c947e06b9db440432",
       "language": "en",
       "number": "10",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-010-restitution",
+          "language": "en",
+          "number": "10",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.9",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "RESTITUTION."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "restitution. 10 oh, spare thy people, lord, and bring them full salvation; fulfill thy faithful word, rescue the sleeping nation. thou voice of god shout from on high; the signal give for reaping; come thou and reap the harvest dry; oh gather all the sleeping: spare now the “remnant” lord, the foe doth yet persue them, oh for thy blessed word, do thou with strength renew them. oh, may thy kingdom come, all power and dominion; bring now the faithful home, on bright seraphic pinion we're tried, o, come and take us home, and give us crowns of glory, we feel like those who weary roam about some ruin hoary oh, may thy will be done. on earth as 'tis in heaven; may now the glorious sun of righteousness be given. oh! may the \"city\" come down from the opening heaven the new jerusalem, oh, may it now be given! its gates of pearl, its streets of gold, blaze with thy brightest glory the holy seers have raptur'd told the new creation's story! oh, may it now descend, the city of foundations, in triumph ne'er to end; rule thou the \"angry nations.\"",
+      "searchText": "restitution. 10 oh, spare thy people, lord, and bring them full salvation; fulfill thy faithful word, rescue the sleeping nation. thou voice of god shout from on high; the signal give for reaping; come thou and reap the harvest dry; oh gather all the sleeping: spare now the “remnant” lord, the foe doth yet persue them, oh for thy blessed word, do thou with strength renew them. oh, may thy kingdom come, all power and dominion; bring now the faithful home, on bright seraphic pinion we're tried, o, come and take us home, and give us crowns of glory, we feel like those who weary roam about some ruin hoary oh, may thy will be done. on earth as 'tis in heaven; may now the glorious sun of righteousness be given. oh! may the \"city\" come down from the opening heaven the new jerusalem, oh, may it now be given! its gates of pearl, its streets of gold, blaze with thy brightest glory the holy seers have raptur'd told the new creation's story! oh, may it now descend, the city of foundations, in triumph ne'er to end; rule thou the \"angry nations.\" restitution. 10",
       "sections": [
         {
           "label": "1",
@@ -779,12 +1009,32 @@
       "title": "RESTITUTION."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-6099790ee0df2243adc9",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-011-lord-s-prayer",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-6099790ee0df2243adc9",
       "language": "en",
       "number": "11",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-011-lord-s-prayer",
+          "language": "en",
+          "number": "11",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.10",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "LORD'S PRAYER."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "lord's prayer. 11 our father who in heaven art, hallowed be thy name; thy kingdom come, thy will be done, in heav'n and earth the same. give us this day our daily bread ; our trespasses forgive; as we forgive our fellow—men, may we thy grace receive. come, my saviour, &c. and in temptation leave us not; from evil us defend; for thine, o lord, the kingdom is, for ever, without end. come, my saviour, &c. thine is the power, o lord, to bring the kingdom down to men; thine is the glory evermore, and kingdom without end. come, my saviour, &c. in that glad day shall all thy saints a joyful tribute bring, of praise and power, of joy and song, to their exalted king. come, my saviour, &c. come, my saviour, o my saviour, come and bless thy people now, while at thy feet we humbly bow, o come and save us now. then will we sing our suff'rings o'er, and praise thee evermore; then will we sing our suff'rings o'er, and praise thee evermore.",
+      "searchText": "lord's prayer. 11 our father who in heaven art, hallowed be thy name; thy kingdom come, thy will be done, in heav'n and earth the same. give us this day our daily bread ; our trespasses forgive; as we forgive our fellow—men, may we thy grace receive. come, my saviour, &c. and in temptation leave us not; from evil us defend; for thine, o lord, the kingdom is, for ever, without end. come, my saviour, &c. thine is the power, o lord, to bring the kingdom down to men; thine is the glory evermore, and kingdom without end. come, my saviour, &c. in that glad day shall all thy saints a joyful tribute bring, of praise and power, of joy and song, to their exalted king. come, my saviour, &c. come, my saviour, o my saviour, come and bless thy people now, while at thy feet we humbly bow, o come and save us now. then will we sing our suff'rings o'er, and praise thee evermore; then will we sing our suff'rings o'er, and praise thee evermore. lord's prayer. 11",
       "sections": [
         {
           "label": "1",
@@ -864,12 +1114,32 @@
       "title": "LORD'S PRAYER."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-775270c4968404ec92e3",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-012-close-of-time",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-775270c4968404ec92e3",
       "language": "en",
       "number": "12",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-012-close-of-time",
+          "language": "en",
+          "number": "12",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.11",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "CLOSE OF TIME."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "close of time. 12 time now is closing, jesus will come; signs are fulfilling, earth's pillars groan: hark! hear the trumpet calls come home— see earth reeling to her final doom. see slumbering millions rise from the earth; christ calls his people from south, from north— come home, my people, time is no more, i've wash'd your robes white, your conflicts are o'er hastening to see thee, my soul would rise to meet my saviour in yonder skies; with all the ransom'd who've gone before, there i shall hail thee on that peaceful shore,",
+      "searchText": "close of time. 12 time now is closing, jesus will come; signs are fulfilling, earth's pillars groan: hark! hear the trumpet calls come home— see earth reeling to her final doom. see slumbering millions rise from the earth; christ calls his people from south, from north— come home, my people, time is no more, i've wash'd your robes white, your conflicts are o'er hastening to see thee, my soul would rise to meet my saviour in yonder skies; with all the ransom'd who've gone before, there i shall hail thee on that peaceful shore, close of time. 12",
       "sections": [
         {
           "label": "1",
@@ -911,12 +1181,32 @@
       "title": "CLOSE OF TIME."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-8bf0f8abfe2a61f92b65",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-013-have-you-faith",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-8bf0f8abfe2a61f92b65",
       "language": "en",
       "number": "13",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-013-have-you-faith",
+          "language": "en",
+          "number": "13",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.12",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "HAVE YOU FAITH?"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "have you faith? 13 jesus our saviour says—i will appear! have you faith? my trumpet is sounding majestic and clear! have you faith? the faithful alone i come to see, and they shall live and reign with me, only have faith! prophets have spoken, their words are fulfill'd, have you faith? my word is establish'd, your anguish is still'd, have you faith? the plan of salvation the faith's eye will see, and live for ever and reign with me, only have faith! though i should tarry, be not dismay'd, have you faith? the judgement is coming o'er all i've said, have you faith? the doubt to the bondage, the faith, to the free, to live for ever and reign with me, only have faith!",
+      "searchText": "have you faith? 13 jesus our saviour says—i will appear! have you faith? my trumpet is sounding majestic and clear! have you faith? the faithful alone i come to see, and they shall live and reign with me, only have faith! prophets have spoken, their words are fulfill'd, have you faith? my word is establish'd, your anguish is still'd, have you faith? the plan of salvation the faith's eye will see, and live for ever and reign with me, only have faith! though i should tarry, be not dismay'd, have you faith? the judgement is coming o'er all i've said, have you faith? the doubt to the bondage, the faith, to the free, to live for ever and reign with me, only have faith! have you faith? 13",
       "sections": [
         {
           "label": "1",
@@ -967,12 +1257,32 @@
       "title": "HAVE YOU FAITH?"
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-f655a0d2618d41c5c6d8",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-014-armageddon",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-f655a0d2618d41c5c6d8",
       "language": "en",
       "number": "14",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-014-armageddon",
+          "language": "en",
+          "number": "14",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.13",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "ARMAGEDDON."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "armageddon. 14 hosannah! hark, the melody, strikes sweetly on my ravish'd ear! the constellations make reply in echoes from each distant sphere, till all the wide expansion rings with \"live for ever, king of kings.\" he comes! he comes! the heavens rend! floods clap your hands! ye mountains joy! forests in glad obeisance bend! earth, raise your hallelujahs high, let zion wake the lofty strain “live, king of kings, for ever reign!” ripe is the vintage of the earth; its clustering grapes are round and full and vengeance, vengeance bursts to birth, sudden and irresistible! messiah comes to tread amain, the wine—press of the battle—plain. the cry is up, the strife begun, the struggle of the mighty ones; and armageddon's day cones on, the carnival of slaughter's sons; war lifts his helmet to his brow o god, protect thy people now! assemble quickly fowls of air! come to the supper of the lord the great ones of the earth prepare to reap the harvest of the sword; and captains' flesh shall be your food, and ye shall drink of heroes' blood. yea, come, o king, and take the spoil; with thy confederates share the prey ha! ha! death grins a ghastly smile;” the morning dawns—and where are they? the flames, the flames, great autocrat, spread o'er thee in jehosophat. the graves are cleav'd! the saints arise! the resurrection of the just! and now, unto their kindred skies, up leap the tenants of the dust! they rise to meet their lord in air, and tune their hallelujahs there.",
+      "searchText": "armageddon. 14 hosannah! hark, the melody, strikes sweetly on my ravish'd ear! the constellations make reply in echoes from each distant sphere, till all the wide expansion rings with \"live for ever, king of kings.\" he comes! he comes! the heavens rend! floods clap your hands! ye mountains joy! forests in glad obeisance bend! earth, raise your hallelujahs high, let zion wake the lofty strain “live, king of kings, for ever reign!” ripe is the vintage of the earth; its clustering grapes are round and full and vengeance, vengeance bursts to birth, sudden and irresistible! messiah comes to tread amain, the wine—press of the battle—plain. the cry is up, the strife begun, the struggle of the mighty ones; and armageddon's day cones on, the carnival of slaughter's sons; war lifts his helmet to his brow o god, protect thy people now! assemble quickly fowls of air! come to the supper of the lord the great ones of the earth prepare to reap the harvest of the sword; and captains' flesh shall be your food, and ye shall drink of heroes' blood. yea, come, o king, and take the spoil; with thy confederates share the prey ha! ha! death grins a ghastly smile;” the morning dawns—and where are they? the flames, the flames, great autocrat, spread o'er thee in jehosophat. the graves are cleav'd! the saints arise! the resurrection of the just! and now, unto their kindred skies, up leap the tenants of the dust! they rise to meet their lord in air, and tune their hallelujahs there. armageddon. 14",
       "sections": [
         {
           "label": "1",
@@ -1062,12 +1372,32 @@
       "title": "ARMAGEDDON."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-bcfa3aae092bdb63ea29",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-015-this-world-is-not-my-home",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-bcfa3aae092bdb63ea29",
       "language": "en",
       "number": "15",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-015-this-world-is-not-my-home",
+          "language": "en",
+          "number": "15",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.14",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THIS WORLD IS NOT MY HOME."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "this world is not my home. 15 farewell! farewell! to all below, my jesus calls and i must go: i'll launch my boat upon the sea, this land is not the land for me. this world is not my home; this world is not my home; this world is all a wilderness; this world is not my home. i found the winding path of sin a rugged path to travel in; beyond this fading world i see the land the saviour bought for me. this world is not my home, &c. farewell! my friends ! i'll not stay here— the home i seek will soon appear; where christ is not, i cannot be; this land is not the land for me. this world is not my home, &c. praise be to god our hope's on high; the angels sing and so do i where seraphs bow and bend the knee, o that's the land—the land for me. this world is not my home, &c.",
+      "searchText": "this world is not my home. 15 farewell! farewell! to all below, my jesus calls and i must go: i'll launch my boat upon the sea, this land is not the land for me. this world is not my home; this world is not my home; this world is all a wilderness; this world is not my home. i found the winding path of sin a rugged path to travel in; beyond this fading world i see the land the saviour bought for me. this world is not my home, &c. farewell! my friends ! i'll not stay here— the home i seek will soon appear; where christ is not, i cannot be; this land is not the land for me. this world is not my home, &c. praise be to god our hope's on high; the angels sing and so do i where seraphs bow and bend the knee, o that's the land—the land for me. this world is not my home, &c. this world is not my home. 15",
       "sections": [
         {
           "label": "1",
@@ -1126,12 +1456,32 @@
       "title": "THIS WORLD IS NOT MY HOME."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-bafd7f2348d4ad040bcf",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-016-christian-soldier",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-bafd7f2348d4ad040bcf",
       "language": "en",
       "number": "16",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-016-christian-soldier",
+          "language": "en",
+          "number": "16",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.15",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "CHRISTIAN SOLDIER."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "christian soldier. 16 a soldier, lord, thou hast me made thou art my captain, priest and head; and under thee i sure will fight the fight of faith with all my might. the cross all stain'd with hallow'd blood, the ensign of our conquering lord, the christian soldier's standard is, and i will fight for king jesus. then, o my lord, keep me, i pray', that i may run the narrow way, and front my duty ne'er depart. but live to christ with all my heart; help me to walk in humbleness march in the way of holiness. oh, make me pure and spotless too, and fit to stand the grand review. that when our general shall come, with sound of trumpet, not of drum, 'tis then our well dress'd ranks shall stand in full review at god's right hand. and when our foes shall get the route, anti jesus wheels them left about, then we'll march up the golden street, and ground our arms at jesus' feet. the war is o'er, and we are free to join the blood—wash'd company our wages shall be harps of old, and songs of praise that can't be told. there we shall drink rich drafts of wine the band of music we shall join, and hallelujah's highest key shall be our theme eternally.",
+      "searchText": "christian soldier. 16 a soldier, lord, thou hast me made thou art my captain, priest and head; and under thee i sure will fight the fight of faith with all my might. the cross all stain'd with hallow'd blood, the ensign of our conquering lord, the christian soldier's standard is, and i will fight for king jesus. then, o my lord, keep me, i pray', that i may run the narrow way, and front my duty ne'er depart. but live to christ with all my heart; help me to walk in humbleness march in the way of holiness. oh, make me pure and spotless too, and fit to stand the grand review. that when our general shall come, with sound of trumpet, not of drum, 'tis then our well dress'd ranks shall stand in full review at god's right hand. and when our foes shall get the route, anti jesus wheels them left about, then we'll march up the golden street, and ground our arms at jesus' feet. the war is o'er, and we are free to join the blood—wash'd company our wages shall be harps of old, and songs of praise that can't be told. there we shall drink rich drafts of wine the band of music we shall join, and hallelujah's highest key shall be our theme eternally. christian soldier. 16",
       "sections": [
         {
           "label": "1",
@@ -1199,12 +1549,32 @@
       "title": "CHRISTIAN SOLDIER."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-7e2f5560a05b37d13a16",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-017-the-chariot",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-7e2f5560a05b37d13a16",
       "language": "en",
       "number": "17",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-017-the-chariot",
+          "language": "en",
+          "number": "17",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.16",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE CHARIOT."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the chariot. 17 the chariot! the chariot! its wheels roll in fire, as the lord cometh down in the pomp of his ire lo, self moving it drives on its pathway of cloud, and the heavens with the burden of godhead are bow'd. the glory, the glory around him are pour'd, mighty hosts of the angels that wait on the lord; and the glorified saints and the martyrs are there, and there all who the palm—wreaths of victory wear. the trumpet! the trumpet! the dead have all heard lo, the depths o the judgement! the judgement! the thrones are all set, where the lamb and the white vested elders are met; there all flesh is at once in the sight of the lord, and the doom of eternity hangs on his word. o mercy! o mercy! look down from above; great creator, on us, thy sad children with love; when beneath to their darkness the wicked are driven, may the justified saints find a ransom in heaven.",
+      "searchText": "the chariot. 17 the chariot! the chariot! its wheels roll in fire, as the lord cometh down in the pomp of his ire lo, self moving it drives on its pathway of cloud, and the heavens with the burden of godhead are bow'd. the glory, the glory around him are pour'd, mighty hosts of the angels that wait on the lord; and the glorified saints and the martyrs are there, and there all who the palm—wreaths of victory wear. the trumpet! the trumpet! the dead have all heard lo, the depths o the judgement! the judgement! the thrones are all set, where the lamb and the white vested elders are met; there all flesh is at once in the sight of the lord, and the doom of eternity hangs on his word. o mercy! o mercy! look down from above; great creator, on us, thy sad children with love; when beneath to their darkness the wicked are driven, may the justified saints find a ransom in heaven. the chariot. 17",
       "sections": [
         {
           "label": "1",
@@ -1264,12 +1634,32 @@
       "title": "THE CHARIOT."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-2acfe408b48936acc63c",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-018-the-bright-morning",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-2acfe408b48936acc63c",
       "language": "en",
       "number": "18",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-018-the-bright-morning",
+          "language": "en",
+          "number": "18",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.17",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE BRIGHT MORNING."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the bright morning. 18 the last lovely morning all blooming and fair, is fast onward fleeting, and soon will appear! while the mighty, mighty, mighty, trump sounds “come, come away!” o! let us be ready to hail the glad day. and when that bright morning in splendor shall dawn, our tears will be ended, our sorrows all gone. while the mighty. &c. the bridegroom from glory to earth shall descend ; ten thousand bright angels around him attend. while the mighty, &c. the graves will be open'd, the dead will arise, and with the redeemer mount up to the skies. while the mighty, &c.",
+      "searchText": "the bright morning. 18 the last lovely morning all blooming and fair, is fast onward fleeting, and soon will appear! while the mighty, mighty, mighty, trump sounds “come, come away!” o! let us be ready to hail the glad day. and when that bright morning in splendor shall dawn, our tears will be ended, our sorrows all gone. while the mighty. &c. the bridegroom from glory to earth shall descend ; ten thousand bright angels around him attend. while the mighty, &c. the graves will be open'd, the dead will arise, and with the redeemer mount up to the skies. while the mighty, &c. the bright morning. 18",
       "sections": [
         {
           "label": "1",
@@ -1328,12 +1718,32 @@
       "title": "THE BRIGHT MORNING."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-c8be71b257a6cdb04ebd",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-019-i-m-a-traveller",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-c8be71b257a6cdb04ebd",
       "language": "en",
       "number": "19",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-019-i-m-a-traveller",
+          "language": "en",
+          "number": "19",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.18",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "I'M A TRAVELLER."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "i'm a traveller. 19 i'm a lonely trav'ller here, weary, opprest; but my journey's end is near, soon i shall rest. dark and dreary is the way, toiling i've come— ask me not with you to stay— yonder's my home. i'm a weary trav'ller here, i must go on, for my journey's end is near— i must be gone. brighter joys than earth can give; win me away; pleasures, that for ever live— i cannot stay. i'm a trav'ller to a land where all is fair; where is seen no broken band— all, all are there; where no tear shall ever fall, nor heart be sad; where the glory is for all, and all are glad. i'm a trav'ller, and i go where all is fair; farewell all i've lov'd below— i must be there. worldly honors, hopes and gain, all i resign; welcome sorrow, grief and pain. if heav'n be mine. i'm a trav'ller—call me not— upward's my way; yonder is my rest and lot, i cannot stay. farewell earthly pleasures all, pilgrim i'll roam, hail me not—in vain you call— yonder's my home.",
+      "searchText": "i'm a traveller. 19 i'm a lonely trav'ller here, weary, opprest; but my journey's end is near, soon i shall rest. dark and dreary is the way, toiling i've come— ask me not with you to stay— yonder's my home. i'm a weary trav'ller here, i must go on, for my journey's end is near— i must be gone. brighter joys than earth can give; win me away; pleasures, that for ever live— i cannot stay. i'm a trav'ller to a land where all is fair; where is seen no broken band— all, all are there; where no tear shall ever fall, nor heart be sad; where the glory is for all, and all are glad. i'm a trav'ller, and i go where all is fair; farewell all i've lov'd below— i must be there. worldly honors, hopes and gain, all i resign; welcome sorrow, grief and pain. if heav'n be mine. i'm a trav'ller—call me not— upward's my way; yonder is my rest and lot, i cannot stay. farewell earthly pleasures all, pilgrim i'll roam, hail me not—in vain you call— yonder's my home. i'm a traveller. 19",
       "sections": [
         {
           "label": "1",
@@ -1415,12 +1825,32 @@
       "title": "I'M A TRAVELLER."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-5fbce048a412b6d34a93",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-020-the-bible",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-5fbce048a412b6d34a93",
       "language": "en",
       "number": "20",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-020-the-bible",
+          "language": "en",
+          "number": "20",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.19",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE BIBLE."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the bible. 20 holy bible! book divine! precious treasure, thou art mine mine, to tell me whence i came; mine, to teach one what i am; mine, to chide me when i rove; mine, to show a saviour's love; mine, art thou, to guide my feet; mine to judge, condemn, acquit. mine, to comfort in distress, if the holy spirit bless; mine, to show, by living faith, man can triumph over death; mine, to tell of joys to come, and the rebel sinner's doom; o, thou precious book divine! precious treasure, thou art mine.",
+      "searchText": "the bible. 20 holy bible! book divine! precious treasure, thou art mine mine, to tell me whence i came; mine, to teach one what i am; mine, to chide me when i rove; mine, to show a saviour's love; mine, art thou, to guide my feet; mine to judge, condemn, acquit. mine, to comfort in distress, if the holy spirit bless; mine, to show, by living faith, man can triumph over death; mine, to tell of joys to come, and the rebel sinner's doom; o, thou precious book divine! precious treasure, thou art mine. the bible. 20",
       "sections": [
         {
           "label": "1",
@@ -1460,12 +1890,63 @@
       "title": "THE BIBLE."
     },
     {
+      "alternateTitles": [
+        "Gracious Father Guard Thy Children",
+        "Gracious Father, Guard Thy Children"
+      ],
+      "canonicalId": "song-f407fd54c0b6c4b24c89",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-021-the-jubilee-prayer",
+      "collectionIds": [
+        "cis-sdah",
+        "hgpp1849",
+        "sdah"
+      ],
+      "id": "song-f407fd54c0b6c4b24c89",
       "language": "en",
       "number": "21",
+      "references": [
+        {
+          "collectionId": "cis-sdah",
+          "id": "cis-sdah-621-gracious-father-guard-thy-children",
+          "language": "en",
+          "number": "621",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "v2/english/sdah.json",
+            "repo": "TinasheMzondiwa/cis-hymnals",
+            "rightsStatus": "source-repository"
+          },
+          "title": "Gracious Father Guard Thy Children"
+        },
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-021-the-jubilee-prayer",
+          "language": "en",
+          "number": "21",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.20",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE JUBILEE PRAYER."
+        },
+        {
+          "collectionId": "sdah",
+          "id": "sdah-621-gracious-father-guard-thy-children",
+          "language": "en",
+          "number": "621",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "SDAH/index.json#songs.620",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "Gracious Father, Guard Thy Children"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the jubilee prayer. 21 gracious father, guard thy children from the foes' destructive pow’r; save, o save them lord, from falling in this dark and trying hour. thou wilt surely prove thy people, all our graces must be tried; but thy word illumes our pathway, and in god we still confide. we are in the time of waiting; soon we shall behold our lord, wafted far away from sorrow, to receive our rich reward. keep us, lord, till thine appearing, pure, unspotted, from the world; let thy holy spirit cheer us, till thy banner is unfurl'd. with what joyful exultation shall the saints thy banner see, when the lord for whom we've waited, shall proclaim the jubilee: freedom from this world's pollutions; freedom from all sin and pain; freedom from the wiles of satan, and from death's destructive reign.",
+      "searchText": "the jubilee prayer. 21 gracious father, guard thy children from the foes' destructive pow’r; save, o save them lord, from falling in this dark and trying hour. thou wilt surely prove thy people, all our graces must be tried; but thy word illumes our pathway, and in god we still confide. we are in the time of waiting; soon we shall behold our lord, wafted far away from sorrow, to receive our rich reward. keep us, lord, till thine appearing, pure, unspotted, from the world; let thy holy spirit cheer us, till thy banner is unfurl'd. with what joyful exultation shall the saints thy banner see, when the lord for whom we've waited, shall proclaim the jubilee: freedom from this world's pollutions; freedom from all sin and pain; freedom from the wiles of satan, and from death's destructive reign. gracious father guard thy children gracious father, guard thy children gracious father guard thy children 621 the jubilee prayer. 21 gracious father, guard thy children 621",
       "sections": [
         {
           "label": "1",
@@ -1519,12 +2000,32 @@
       "title": "THE JUBILEE PRAYER."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-53c1b48e63be4f6ac407",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-022-be-of-good-cheer",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-53c1b48e63be4f6ac407",
       "language": "en",
       "number": "22",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-022-be-of-good-cheer",
+          "language": "en",
+          "number": "22",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.21",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "BE OF GOOD CHEER."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "be of good cheer. 22 christian, thy warfare soon will be o'er; oh, do not fear, do not fear, soon thou shalt rest where thy foes come no more— be of good cheer, of good cheer. what though the night be so dreary and long, what though thy foes be unwearied and strong, soon thou shalt join in the conqueror's song— be of good cheer, of good cheer. what though the billows of life darkly roll, oh, do not fear, do not fear; friends all forsake thee, and cares press thy soul, be of good cheer, of good cheer. christian, remember that christ loves thee still only be faithful, and do jesus' will, soon thou wilt stand with him on zion's hill— be of good cheer, of good cheer. christian, the angels will soon come for thee, oh, do not fear, do not fear; he whom thou lovest in glory thou'lt see— be of good cheer, of good cheer. oh, if thou would'st to the end firm endure, keep thy robe holy and spotless and pure, victorious faith will make canaan sure— be of good cheer, of good cheer. christian, the shadows will soon flee away; oh, do not fear, do not fear; then thou wilt enter an eternal day, be of good cheer, of good cheer. in the \"bright kingdom” for ever to dwell, join angel choirs, and the rich anthem swell; bid to thy sorrow a long, long farewell! be of good cheer, of good cheer.",
+      "searchText": "be of good cheer. 22 christian, thy warfare soon will be o'er; oh, do not fear, do not fear, soon thou shalt rest where thy foes come no more— be of good cheer, of good cheer. what though the night be so dreary and long, what though thy foes be unwearied and strong, soon thou shalt join in the conqueror's song— be of good cheer, of good cheer. what though the billows of life darkly roll, oh, do not fear, do not fear; friends all forsake thee, and cares press thy soul, be of good cheer, of good cheer. christian, remember that christ loves thee still only be faithful, and do jesus' will, soon thou wilt stand with him on zion's hill— be of good cheer, of good cheer. christian, the angels will soon come for thee, oh, do not fear, do not fear; he whom thou lovest in glory thou'lt see— be of good cheer, of good cheer. oh, if thou would'st to the end firm endure, keep thy robe holy and spotless and pure, victorious faith will make canaan sure— be of good cheer, of good cheer. christian, the shadows will soon flee away; oh, do not fear, do not fear; then thou wilt enter an eternal day, be of good cheer, of good cheer. in the \"bright kingdom” for ever to dwell, join angel choirs, and the rich anthem swell; bid to thy sorrow a long, long farewell! be of good cheer, of good cheer. be of good cheer. 22",
       "sections": [
         {
           "label": "1",
@@ -1592,12 +2093,32 @@
       "title": "BE OF GOOD CHEER."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-72ccc928f8dfb23dc60e",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-023-here-is-no-rest",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-72ccc928f8dfb23dc60e",
       "language": "en",
       "number": "23",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-023-here-is-no-rest",
+          "language": "en",
+          "number": "23",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.22",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "HERE IS NO REST."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "here is no rest. 23 here o'er the earth as a stranger i roam, here is no rest—is no rest ; here as a pilgrim i wander alone, yet i am blest—i am blest. here fierce temptations beset me around; here is no rest—is no rest; here am i griev'd while my foes me surround; yet i am blest—i am blest. here are afflictions and trials severe; here is no rest—is no rest; here i must part with the friends i hold dear; yet i am blest—i am blest. this world of cares is a wilderness state, here is no rest—is no rest; here i must bear from the world all its hate— yet i am blest—i am blest. for i look forward to that glorious day, when sin and sorrow will vanish away, my heart doth leap while i hear jesus say, there, there is rent—there is rest. let them revile me, and scoff at my name, laugh at my weeping—endeavor to shame; i will go forward, for this is my theme; there, there is rest—there is rest. sweet is the promise i read in his word; blessed are they who have died in the lord; they will be call'd to receive their reward;— then there is rest—there is rest. soon shall i be from the wicked released, soon shall the weary for ever be blest, soon shall i lean upon jesus' breast— then there is rest—there is rest.",
+      "searchText": "here is no rest. 23 here o'er the earth as a stranger i roam, here is no rest—is no rest ; here as a pilgrim i wander alone, yet i am blest—i am blest. here fierce temptations beset me around; here is no rest—is no rest; here am i griev'd while my foes me surround; yet i am blest—i am blest. here are afflictions and trials severe; here is no rest—is no rest; here i must part with the friends i hold dear; yet i am blest—i am blest. this world of cares is a wilderness state, here is no rest—is no rest; here i must bear from the world all its hate— yet i am blest—i am blest. for i look forward to that glorious day, when sin and sorrow will vanish away, my heart doth leap while i hear jesus say, there, there is rent—there is rest. let them revile me, and scoff at my name, laugh at my weeping—endeavor to shame; i will go forward, for this is my theme; there, there is rest—there is rest. sweet is the promise i read in his word; blessed are they who have died in the lord; they will be call'd to receive their reward;— then there is rest—there is rest. soon shall i be from the wicked released, soon shall the weary for ever be blest, soon shall i lean upon jesus' breast— then there is rest—there is rest. here is no rest. 23",
       "sections": [
         {
           "label": "1",
@@ -1689,12 +2210,32 @@
       "title": "HERE IS NO REST."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-8e6db5c2947bb61ab4b9",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-024-oh-come-to-reign",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-8e6db5c2947bb61ab4b9",
       "language": "en",
       "number": "24",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-024-oh-come-to-reign",
+          "language": "en",
+          "number": "24",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.23",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "OH! COME TO REIGN!"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "oh! come to reign! 24 mark that pilgrim—lowly bending, at the shrine of prayer—ascending, praise and sighs together blending, from his lips in mournful strain; glowing with sincere contrition, and with childlike, blest submission, ever riseth this petition “jesus, come—oh! come to reign.\" list again;—the low earth sigheth, and the blood of martyrs crieth from its bosom, where there lieth millions upon millions slain; \"lord, how long, ere thy word given, all the wicked shall be driven from the earth by bolts of heaven i jesus come—oh ! come to reign.\" kingdoms now are reeling, falling, nations lie in wo appalling, on their sages vainly calling all these wonders to explain; while the slain around are lying, god's own little flock are sighing, and in secret places crying, “jesus come—oh! come to reign.\" here the wicked live securely, of to-morrow boasting surely, while from those who're walking purely they extort dishonest gain; yea, the meek are burden'd, driven; want and care to them are given, but they lift the cry to heaven, “jesus come—oh! come to reign.\" christian, cheer thee—land is nearing, still be hopeful—nothing fearing, soon in majesty appearing, you'll behold the lamb once slain; oh",
+      "searchText": "oh! come to reign! 24 mark that pilgrim—lowly bending, at the shrine of prayer—ascending, praise and sighs together blending, from his lips in mournful strain; glowing with sincere contrition, and with childlike, blest submission, ever riseth this petition “jesus, come—oh! come to reign.\" list again;—the low earth sigheth, and the blood of martyrs crieth from its bosom, where there lieth millions upon millions slain; \"lord, how long, ere thy word given, all the wicked shall be driven from the earth by bolts of heaven i jesus come—oh ! come to reign.\" kingdoms now are reeling, falling, nations lie in wo appalling, on their sages vainly calling all these wonders to explain; while the slain around are lying, god's own little flock are sighing, and in secret places crying, “jesus come—oh! come to reign.\" here the wicked live securely, of to-morrow boasting surely, while from those who're walking purely they extort dishonest gain; yea, the meek are burden'd, driven; want and care to them are given, but they lift the cry to heaven, “jesus come—oh! come to reign.\" christian, cheer thee—land is nearing, still be hopeful—nothing fearing, soon in majesty appearing, you'll behold the lamb once slain; oh oh! come to reign! 24",
       "sections": [
         {
           "label": "1",
@@ -1773,12 +2314,32 @@
       "title": "OH! COME TO REIGN!"
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-aeca5bd22a523d1632de",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-025-bright-scenes-of-glory",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-aeca5bd22a523d1632de",
       "language": "en",
       "number": "25",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-025-bright-scenes-of-glory",
+          "language": "en",
+          "number": "25",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.24",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "BRIGHT SCENES OF GLORY."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "bright scenes of glory. 25 bright scenes of glory strike my sense, and all my passions capture; eternal beauties round me shine, infusing warmest rapture. i dive in pleasures deep and full, in swelling waves of glory; and feel my saviour in my soul and groan to tell my story. i feast on honey, milk and wine, i drink perpetual sweetness; mount zion's odours cheer my mind, while christ unfolds his glory, no mortal tongue can show my joys, nor can an angel tell them; ten thousand times surpassing all terrestrial worlds or emblems. my captivated spirits fly through shining worlds of beauty; dissolv'd in blushes, loud i cry, in praises loud and mighty, and here i'll sing and swell the strains of harmony, delighted; and with the millions learn the notes of saints in christ united. when earth and seas shall pass away, and all their glory vanish; when christ shall come on earth to reign, and all the wicked perish, my joys refin'd, shall higher shine, with heaven's radiant glory, and tell through one eternal day, love's all immortal story.",
+      "searchText": "bright scenes of glory. 25 bright scenes of glory strike my sense, and all my passions capture; eternal beauties round me shine, infusing warmest rapture. i dive in pleasures deep and full, in swelling waves of glory; and feel my saviour in my soul and groan to tell my story. i feast on honey, milk and wine, i drink perpetual sweetness; mount zion's odours cheer my mind, while christ unfolds his glory, no mortal tongue can show my joys, nor can an angel tell them; ten thousand times surpassing all terrestrial worlds or emblems. my captivated spirits fly through shining worlds of beauty; dissolv'd in blushes, loud i cry, in praises loud and mighty, and here i'll sing and swell the strains of harmony, delighted; and with the millions learn the notes of saints in christ united. when earth and seas shall pass away, and all their glory vanish; when christ shall come on earth to reign, and all the wicked perish, my joys refin'd, shall higher shine, with heaven's radiant glory, and tell through one eternal day, love's all immortal story. bright scenes of glory. 25",
       "sections": [
         {
           "label": "1",
@@ -1846,12 +2407,32 @@
       "title": "BRIGHT SCENES OF GLORY."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-a699b2267eca4dc55926",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-026-the-pure-testimony",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-a699b2267eca4dc55926",
       "language": "en",
       "number": "26",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-026-the-pure-testimony",
+          "language": "en",
+          "number": "26",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.25",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE PURE TESTIMONY."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the pure testimony. 26 the pure testimony put forth in the spirit, cuts like a sharp two-edged sword, and hypocrites now are most sorely tormented, because they're condemn'd by the word. the pure testimony discovers the dross, while wicked professors make light of the cross, and babylon trembles for fear of her loss. then blow ye the trumpet in pure testimony, and let the saints hear it again; o come ye from babylon, egypt and sodom, and make your way over the plain. come, wash all your robes in the blood of the lamb, and walk in the spirit, as jesus has done, in the pure testimony you will overcome. the world will not persecute those who are like them, but hold them the same as their own; the pure testimony cries out separation, which calls you your lives to lay down; come out from their spirit and practices too; the track of the saviour keep full in your view, the pure testimony still cut its way through. a battle is coming between the two kingdoms, the armies are gathering round; the pure testimony and vile persecution, will come to close battle ere long; then gird on your armor ye saints of the lord, and he will direct you by his living word; the pure testimony trill cut like a sword.",
+      "searchText": "the pure testimony. 26 the pure testimony put forth in the spirit, cuts like a sharp two-edged sword, and hypocrites now are most sorely tormented, because they're condemn'd by the word. the pure testimony discovers the dross, while wicked professors make light of the cross, and babylon trembles for fear of her loss. then blow ye the trumpet in pure testimony, and let the saints hear it again; o come ye from babylon, egypt and sodom, and make your way over the plain. come, wash all your robes in the blood of the lamb, and walk in the spirit, as jesus has done, in the pure testimony you will overcome. the world will not persecute those who are like them, but hold them the same as their own; the pure testimony cries out separation, which calls you your lives to lay down; come out from their spirit and practices too; the track of the saviour keep full in your view, the pure testimony still cut its way through. a battle is coming between the two kingdoms, the armies are gathering round; the pure testimony and vile persecution, will come to close battle ere long; then gird on your armor ye saints of the lord, and he will direct you by his living word; the pure testimony trill cut like a sword. the pure testimony. 26",
       "sections": [
         {
           "label": "1",
@@ -1915,12 +2496,32 @@
       "title": "THE PURE TESTIMONY."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-026da58cfd9d3181ae60",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-027-farewell",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-026da58cfd9d3181ae60",
       "language": "en",
       "number": "27",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-027-farewell",
+          "language": "en",
+          "number": "27",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.26",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "FAREWELL."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "farewell. 27 be of one mind—give god your hearts; and of his mercies tell, which he, through grace, to you imparts, so brethren all farewell. now live in peace and holy fear in love strive to excel; for christ our king will soon appear, so brethren all farewell. the god of love and peace adore, and on his mercy dwell, we hope to meet on canaan's shore, so brethren all farewell.",
+      "searchText": "farewell. 27 be of one mind—give god your hearts; and of his mercies tell, which he, through grace, to you imparts, so brethren all farewell. now live in peace and holy fear in love strive to excel; for christ our king will soon appear, so brethren all farewell. the god of love and peace adore, and on his mercy dwell, we hope to meet on canaan's shore, so brethren all farewell. farewell. 27",
       "sections": [
         {
           "label": "1",
@@ -1962,12 +2563,32 @@
       "title": "FAREWELL."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-e9e52156ad4c0cf56c3a",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-028-the-friend-in-need",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-e9e52156ad4c0cf56c3a",
       "language": "en",
       "number": "28",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-028-the-friend-in-need",
+          "language": "en",
+          "number": "28",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.27",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE FRIEND IN NEED."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the friend in need. 28 the friends that flee when trials come, are not the friends for me; like frighted birds, ah! see how soon— their place will vacant be. but there's a friend i dearly love, who for me left the realms above, and died upon the tree— oh! that's the friend for me, &c. this world, with all its fleeting show, is not the world for me; 'tis mix'd with many tears of wo, and scenes of misery. but there's a world so pure and fair, and all the saints shall enter there, from sin and sorrow free— oh! that's the world for me, &c. a city fair, for saints a home, from god is coming down; his children rest, no more to roam, in new jerusalem. oh! jesus, come! come quickly! come, we long to see our heavenly home of immortality— oh! that's the home for me, &c.",
+      "searchText": "the friend in need. 28 the friends that flee when trials come, are not the friends for me; like frighted birds, ah! see how soon— their place will vacant be. but there's a friend i dearly love, who for me left the realms above, and died upon the tree— oh! that's the friend for me, &c. this world, with all its fleeting show, is not the world for me; 'tis mix'd with many tears of wo, and scenes of misery. but there's a world so pure and fair, and all the saints shall enter there, from sin and sorrow free— oh! that's the world for me, &c. a city fair, for saints a home, from god is coming down; his children rest, no more to roam, in new jerusalem. oh! jesus, come! come quickly! come, we long to see our heavenly home of immortality— oh! that's the home for me, &c. the friend in need. 28",
       "sections": [
         {
           "label": "1",
@@ -2021,12 +2642,32 @@
       "title": "THE FRIEND IN NEED."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-5e57178ee4db494c9df5",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-029-the-coming-events",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-5e57178ee4db494c9df5",
       "language": "en",
       "number": "29",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-029-the-coming-events",
+          "language": "en",
+          "number": "29",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.28",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE COMING EVENTS."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the coming events. 29 the coming events of the kingdom of god, cast in glory its shadows before; and my being would leap from its prison'd abode, and the king in his beauty adore. he comes, and the spirit that lingers below; in the hearts of the chosen and tried, is quicken'd, and tells, in its mystical flow, the approach of the bridegroom and bride. the love, and the joy, and the peace of the blest, like the day star, arise in the soul, and we taste the first fruits of the eden of rest, and we hasten to enter the goal. all glory, all glory, to him that was slain, who hath wash'd and redeem'd us to god ; for he cometh with power in his kingdom to reign, and the earth to his sceptre is bow'd.",
+      "searchText": "the coming events. 29 the coming events of the kingdom of god, cast in glory its shadows before; and my being would leap from its prison'd abode, and the king in his beauty adore. he comes, and the spirit that lingers below; in the hearts of the chosen and tried, is quicken'd, and tells, in its mystical flow, the approach of the bridegroom and bride. the love, and the joy, and the peace of the blest, like the day star, arise in the soul, and we taste the first fruits of the eden of rest, and we hasten to enter the goal. all glory, all glory, to him that was slain, who hath wash'd and redeem'd us to god ; for he cometh with power in his kingdom to reign, and the earth to his sceptre is bow'd. the coming events. 29",
       "sections": [
         {
           "label": "1",
@@ -2078,12 +2719,32 @@
       "title": "THE COMING EVENTS."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-75a03c0b3941087e7846",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-030-the-little-flock",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-75a03c0b3941087e7846",
       "language": "en",
       "number": "30",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-030-the-little-flock",
+          "language": "en",
+          "number": "30",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.29",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE LITTLE FLOCK"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the little flock 30 how happy are the little flock, who, safe beneath their guardian rock, in all commotions rest; when war's and tumult's waves run high, unmov'd above the storm they lie, and lodge in jesus' breast. such happiness, o lord, have we, by mercy gather'd into thee, before the floods descend; and while the bursting cloud comes down, we mark the vengeful day begun, and calmly wait the end. the plague, and dearth, and din of war, our saviour's swift approach declare, and bid our hearts arise; earth's basis shook, confirms our hope; its cities' fall but lifts us up, to meet thee in the skies. thy tokens we with joy confess; the war proclaims thee prince of peace; the earthquake speaks thy pow'r; the famine all thy fulness brings; the plague presents thy healing wings, and nature's final hour. whatever ills the world befall, a pledge of endless good we call, a sign of jesus near. his chariot will not long delay; we hear the rumbling wheels, and pray, \"triumphant lord, appear!\" appear with clouds on zion's hill, thy word and mystery to fulfil, thy children to approve; thy members on thy throne to place, and stamp thy name on every face, in glorious, heavenly love.",
+      "searchText": "the little flock 30 how happy are the little flock, who, safe beneath their guardian rock, in all commotions rest; when war's and tumult's waves run high, unmov'd above the storm they lie, and lodge in jesus' breast. such happiness, o lord, have we, by mercy gather'd into thee, before the floods descend; and while the bursting cloud comes down, we mark the vengeful day begun, and calmly wait the end. the plague, and dearth, and din of war, our saviour's swift approach declare, and bid our hearts arise; earth's basis shook, confirms our hope; its cities' fall but lifts us up, to meet thee in the skies. thy tokens we with joy confess; the war proclaims thee prince of peace; the earthquake speaks thy pow'r; the famine all thy fulness brings; the plague presents thy healing wings, and nature's final hour. whatever ills the world befall, a pledge of endless good we call, a sign of jesus near. his chariot will not long delay; we hear the rumbling wheels, and pray, \"triumphant lord, appear!\" appear with clouds on zion's hill, thy word and mystery to fulfil, thy children to approve; thy members on thy throne to place, and stamp thy name on every face, in glorious, heavenly love. the little flock 30",
       "sections": [
         {
           "label": "1",
@@ -2167,12 +2828,32 @@
       "title": "THE LITTLE FLOCK"
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-9f3846cbf9ea2bd04404",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-031-exhortation",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-9f3846cbf9ea2bd04404",
       "language": "en",
       "number": "31",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-031-exhortation",
+          "language": "en",
+          "number": "31",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.30",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "EXHORTATION."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "exhortation. 31 soldiers of christ arise, and put your armor on; fight. for the battle will be ours we fight to win a crown. we fight not against flesh; we wrestle not with blood; but principalities and pow'rs, and for the truth of god. with wicked spirits too, that on high places stand, perverting oft the word of god, and say 'tis by command. put all the armor on like valiant soldiers stand— let all your loins be girt with truth, waiting our lord's command. while jesus is our friend, the spirit is our guide, well march like valiant soldiers on; we're sure to win the prize. the battle's almost o'er; the race is nearly run; then, with our glorious conq'ring king, we'll sit down on his throne.",
+      "searchText": "exhortation. 31 soldiers of christ arise, and put your armor on; fight. for the battle will be ours we fight to win a crown. we fight not against flesh; we wrestle not with blood; but principalities and pow'rs, and for the truth of god. with wicked spirits too, that on high places stand, perverting oft the word of god, and say 'tis by command. put all the armor on like valiant soldiers stand— let all your loins be girt with truth, waiting our lord's command. while jesus is our friend, the spirit is our guide, well march like valiant soldiers on; we're sure to win the prize. the battle's almost o'er; the race is nearly run; then, with our glorious conq'ring king, we'll sit down on his throne. exhortation. 31",
       "sections": [
         {
           "label": "1",
@@ -2244,12 +2925,32 @@
       "title": "EXHORTATION."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-dc32e4927792e86c2edf",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-032-what-is-truth",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-dc32e4927792e86c2edf",
       "language": "en",
       "number": "32",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-032-what-is-truth",
+          "language": "en",
+          "number": "32",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.31",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "WHAT IS TRUTH?"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "what is truth? 32 truth is the gem for which we seek! o, tell us where shall it be found; for this we search and pray and weep, that truth may in our hearts abound. we want the truth on every point; we want it too to practice by. do thou, o lord, our eyes anoint with a fresh unction from on high. were not the ten commandments given by the great source of light and truth, for all who tread the path to heav'n from the dark wilderness of earth! then as we would our god obey, in letter and in spirit too, o let us keep the seventh day, for it is plainly brought to view.",
+      "searchText": "what is truth? 32 truth is the gem for which we seek! o, tell us where shall it be found; for this we search and pray and weep, that truth may in our hearts abound. we want the truth on every point; we want it too to practice by. do thou, o lord, our eyes anoint with a fresh unction from on high. were not the ten commandments given by the great source of light and truth, for all who tread the path to heav'n from the dark wilderness of earth! then as we would our god obey, in letter and in spirit too, o let us keep the seventh day, for it is plainly brought to view. what is truth? 32",
       "sections": [
         {
           "label": "1",
@@ -2301,12 +3002,32 @@
       "title": "WHAT IS TRUTH?"
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-fccb888707820613453d",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-033-the-resurrection",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-fccb888707820613453d",
       "language": "en",
       "number": "33",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-033-the-resurrection",
+          "language": "en",
+          "number": "33",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.32",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE RESURRECTION,"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the resurrection, 33 and when the last loud trumpet shall rend the vaulted skies, and bid the entomb'd millions from their cold beds arise, our ransom'd dust, revived, bright beauties shall put on, and soar to the blest mansions where our redeemer's gone. our eyes shall then, with rapture, the saviour's face behold! our feet, no more diverted, shall walk the street of gold! our ears shall hear with transport the hosts celestial sing! our tongues shall chant the glory of our immortal king.",
+      "searchText": "the resurrection, 33 and when the last loud trumpet shall rend the vaulted skies, and bid the entomb'd millions from their cold beds arise, our ransom'd dust, revived, bright beauties shall put on, and soar to the blest mansions where our redeemer's gone. our eyes shall then, with rapture, the saviour's face behold! our feet, no more diverted, shall walk the street of gold! our ears shall hear with transport the hosts celestial sing! our tongues shall chant the glory of our immortal king. the resurrection, 33",
       "sections": [
         {
           "label": "1",
@@ -2346,12 +3067,62 @@
       "title": "THE RESURRECTION,"
     },
     {
+      "alternateTitles": [
+        "What Heavenly Music"
+      ],
+      "canonicalId": "song-054c5b8fbc669d6ca35f",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-034-heavenly-music",
+      "collectionIds": [
+        "cis-sdah",
+        "hgpp1849",
+        "sdah"
+      ],
+      "id": "song-054c5b8fbc669d6ca35f",
       "language": "en",
       "number": "34",
+      "references": [
+        {
+          "collectionId": "cis-sdah",
+          "id": "cis-sdah-452-what-heavenly-music",
+          "language": "en",
+          "number": "452",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "v2/english/sdah.json",
+            "repo": "TinasheMzondiwa/cis-hymnals",
+            "rightsStatus": "source-repository"
+          },
+          "title": "What Heavenly Music"
+        },
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-034-heavenly-music",
+          "language": "en",
+          "number": "34",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.33",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "HEAVENLY MUSIC."
+        },
+        {
+          "collectionId": "sdah",
+          "id": "sdah-452-what-heavenly-music",
+          "language": "en",
+          "number": "452",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "SDAH/index.json#songs.451",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "What Heavenly Music"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "heavenly music. 34 what heavenly music steals over the sea, entrancing the senses like sweet melody? 'tis the voice of the angels borne soft on the air; 'tis for me they are singing, their welcome i hear! on the banks of old jordan here gazing i stand, and earnestly longing i stretch forth my hand; send a convoy of angels, dear jesus, i pray let me join that sweet music, come take me away. though dark are the waters, and rough is the wave. if jesus permit, the wild surges i'll brave, for that heavenly music hath ravish'd me so, i must join in the chorus, i'll go, let me go.",
+      "searchText": "heavenly music. 34 what heavenly music steals over the sea, entrancing the senses like sweet melody? 'tis the voice of the angels borne soft on the air; 'tis for me they are singing, their welcome i hear! on the banks of old jordan here gazing i stand, and earnestly longing i stretch forth my hand; send a convoy of angels, dear jesus, i pray let me join that sweet music, come take me away. though dark are the waters, and rough is the wave. if jesus permit, the wild surges i'll brave, for that heavenly music hath ravish'd me so, i must join in the chorus, i'll go, let me go. what heavenly music what heavenly music 452 heavenly music. 34 what heavenly music 452",
       "sections": [
         {
           "label": "1",
@@ -2393,12 +3164,32 @@
       "title": "HEAVENLY MUSIC."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-c7906bafc0d981afc4bc",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-035-taking-up-the-cross",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-c7906bafc0d981afc4bc",
       "language": "en",
       "number": "35",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-035-taking-up-the-cross",
+          "language": "en",
+          "number": "35",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.34",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "TAKING UP THE CROSS."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "taking up the cross. 35 jesus, i my cross have taken, all to leave and follow thee; all things else i have forsaken; thou from hence my all shalt be. perish every fond ambition, all i've sought, or hop'd, or known; yet how rich is my condition, while i prove the lord my own. let the world despise and leave me, they have left my saviour too; human hearts and looks deceive me, thou art faithful, thou art true. o, 'tis not in grief to harm me, while thy love is left to me; o,'t were not in joy to charm me, if that love be hid from me. haste thee on from grace to glory, arm'd by faith, and wing'd by pray’r; heaven's eternal day’s before thee; god's own hand shall guide thee there soon shall close thy earthly mission, soon shall pass thy pilgrim days; hope shall change to glad fruition, faith to sight, and prayer to praise!",
+      "searchText": "taking up the cross. 35 jesus, i my cross have taken, all to leave and follow thee; all things else i have forsaken; thou from hence my all shalt be. perish every fond ambition, all i've sought, or hop'd, or known; yet how rich is my condition, while i prove the lord my own. let the world despise and leave me, they have left my saviour too; human hearts and looks deceive me, thou art faithful, thou art true. o, 'tis not in grief to harm me, while thy love is left to me; o,'t were not in joy to charm me, if that love be hid from me. haste thee on from grace to glory, arm'd by faith, and wing'd by pray’r; heaven's eternal day’s before thee; god's own hand shall guide thee there soon shall close thy earthly mission, soon shall pass thy pilgrim days; hope shall change to glad fruition, faith to sight, and prayer to praise! taking up the cross. 35",
       "sections": [
         {
           "label": "1",
@@ -2452,12 +3243,32 @@
       "title": "TAKING UP THE CROSS."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-1e686842b35c32eff5ce",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-036-a-pilgrim-and-a-stranger",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-1e686842b35c32eff5ce",
       "language": "en",
       "number": "36",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-036-a-pilgrim-and-a-stranger",
+          "language": "en",
+          "number": "36",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.35",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "A PILGRIM AND A STRANGER."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "a pilgrim and a stranger. 36 i'm a pilgrim and i'm a stranger; i can tarry, i can tarry, but a night; do not detain me, for i am going to where the fountains are ever flowing, i’m a pilgrim and i'm a stranger, &c. there the glory is ever shining! o, my longing heart, my longing heart is there; here in this country so dark and dreary, i long have wander'd forlorn and weary. i'm a pilgrim, and i'm a stranger, &c. there's the city to which i journey; my redeemer, my redeemer is its light! there is no sorrow, nor any sighing, nor any tears there, nor any dying! i'm a pilgrim, and i'm a stranger, &c. farewell, dreary earth, by sin so blighted, in immortal beauty soon you'll be arrayed! he who has form'd thee, will soon restore thee! and then thy dread curse shall never more be i'm a pilgrim, and i'm a stranger, till thy rest shall end the weary pilgrim's night.",
+      "searchText": "a pilgrim and a stranger. 36 i'm a pilgrim and i'm a stranger; i can tarry, i can tarry, but a night; do not detain me, for i am going to where the fountains are ever flowing, i’m a pilgrim and i'm a stranger, &c. there the glory is ever shining! o, my longing heart, my longing heart is there; here in this country so dark and dreary, i long have wander'd forlorn and weary. i'm a pilgrim, and i'm a stranger, &c. there's the city to which i journey; my redeemer, my redeemer is its light! there is no sorrow, nor any sighing, nor any tears there, nor any dying! i'm a pilgrim, and i'm a stranger, &c. farewell, dreary earth, by sin so blighted, in immortal beauty soon you'll be arrayed! he who has form'd thee, will soon restore thee! and then thy dread curse shall never more be i'm a pilgrim, and i'm a stranger, till thy rest shall end the weary pilgrim's night. a pilgrim and a stranger. 36",
       "sections": [
         {
           "label": "1",
@@ -2514,12 +3325,32 @@
       "title": "A PILGRIM AND A STRANGER."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-e7e5bb6f6319afb528f8",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-037-true-joys",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-e7e5bb6f6319afb528f8",
       "language": "en",
       "number": "37",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-037-true-joys",
+          "language": "en",
+          "number": "37",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.36",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "TRUE JOYS."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "true joys. 37 o tell me no more of this world's vain store, the time for such trifles with me now is o'er. a city i've found where true joys abound; to dwell i'm determin'd on this happy ground. my soul, don't delay, he calls thee away; rise, follow thy saviour, and bless the glad day.",
+      "searchText": "true joys. 37 o tell me no more of this world's vain store, the time for such trifles with me now is o'er. a city i've found where true joys abound; to dwell i'm determin'd on this happy ground. my soul, don't delay, he calls thee away; rise, follow thy saviour, and bless the glad day. true joys. 37",
       "sections": [
         {
           "label": "1",
@@ -2561,12 +3392,32 @@
       "title": "TRUE JOYS."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-5d5c24c05590c5bd55bd",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-038-i-cannot-go-back",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-5d5c24c05590c5bd55bd",
       "language": "en",
       "number": "38",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-038-i-cannot-go-back",
+          "language": "en",
+          "number": "38",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.37",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "I CANNOT GO BACK."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "i cannot go back. 38 for canaan i've started, and on i must go, till all the bright glories of eden i know; i've made no reserve, and i'm sure i'll not lack, while onward i journey and do not draw back. then on let us press, for jesus is near, and strengthen each other with words of good cheer; with zeal ever buoyant and courage ne'er slack, let's be true to our king and never draw back.",
+      "searchText": "i cannot go back. 38 for canaan i've started, and on i must go, till all the bright glories of eden i know; i've made no reserve, and i'm sure i'll not lack, while onward i journey and do not draw back. then on let us press, for jesus is near, and strengthen each other with words of good cheer; with zeal ever buoyant and courage ne'er slack, let's be true to our king and never draw back. i cannot go back. 38",
       "sections": [
         {
           "label": "1",
@@ -2598,12 +3449,32 @@
       "title": "I CANNOT GO BACK."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-3b5c9f3ea6f662ca7987",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-039-sound-the-jubilee",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-3b5c9f3ea6f662ca7987",
       "language": "en",
       "number": "39",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-039-sound-the-jubilee",
+          "language": "en",
+          "number": "39",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.38",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "SOUND THE JUBILEE."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "sound the jubilee. 39 while i was down in egypt's land, i heard my saviour was at hand; and the midnight cry was sounding, and i wanted to be free; so i left my former brethren, to sound the jubilee. though opposition waxes strong, yet still the battle won't be long, for our blessed lord is coming; he will set the captives free; still keep up good courage, brethren, and sound the jubilee. the battle is not to the strong, the weak may sing the conqueror's song; then lift lip your heads rejoicing, who are glad our lord to see; bless the lord, our souls are happy, while we sound the jubilee. a little longer here below, then home to glory we shall go, i believe it, i believe it. hallelujah now i see, that we soon shall be with jesus; in the glorious jubilee.",
+      "searchText": "sound the jubilee. 39 while i was down in egypt's land, i heard my saviour was at hand; and the midnight cry was sounding, and i wanted to be free; so i left my former brethren, to sound the jubilee. though opposition waxes strong, yet still the battle won't be long, for our blessed lord is coming; he will set the captives free; still keep up good courage, brethren, and sound the jubilee. the battle is not to the strong, the weak may sing the conqueror's song; then lift lip your heads rejoicing, who are glad our lord to see; bless the lord, our souls are happy, while we sound the jubilee. a little longer here below, then home to glory we shall go, i believe it, i believe it. hallelujah now i see, that we soon shall be with jesus; in the glorious jubilee. sound the jubilee. 39",
       "sections": [
         {
           "label": "1",
@@ -2662,12 +3533,62 @@
       "title": "SOUND THE JUBILEE."
     },
     {
+      "alternateTitles": [
+        "Lo! He Comes"
+      ],
+      "canonicalId": "song-9d23471292c8dbdd2bc7",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-040-lo-he-comes",
+      "collectionIds": [
+        "cis-sdah",
+        "hgpp1849",
+        "sdah"
+      ],
+      "id": "song-9d23471292c8dbdd2bc7",
       "language": "en",
       "number": "40",
+      "references": [
+        {
+          "collectionId": "cis-sdah",
+          "id": "cis-sdah-211-lo-he-comes",
+          "language": "en",
+          "number": "211",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "v2/english/sdah.json",
+            "repo": "TinasheMzondiwa/cis-hymnals",
+            "rightsStatus": "source-repository"
+          },
+          "title": "Lo! He Comes"
+        },
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-040-lo-he-comes",
+          "language": "en",
+          "number": "40",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.39",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "LO! HE COMES."
+        },
+        {
+          "collectionId": "sdah",
+          "id": "sdah-211-lo-he-comes",
+          "language": "en",
+          "number": "211",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "SDAH/index.json#songs.210",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "Lo! He Comes"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "lo! he comes. 40 lo! he comes, with clouds descending, once for favor'd sinners slain, thousand, thousand angels shouting swell the triumph of his train; hallelujah! jesus comes, and comes to reign; hallelujah! jesus comes, and comes to reign. every eye shall now behold him, rob'd in dreadful majesty! those who set at nought and sold him, pierc'd, and nail'd him to the tree, deeply wailing, shall the true messiah see! when the solemn trump has sounded, heaven and earth shall flee away; all who hate him must, confounded, hear the summons of that day— come to judgement! come to judgement! come away! yea, amen! let all adore thee, high on thy eternal throne! saviour, take the power and glory, make thy righteous sentence known, o come quickly— claim the kingdom for thine own !",
+      "searchText": "lo! he comes. 40 lo! he comes, with clouds descending, once for favor'd sinners slain, thousand, thousand angels shouting swell the triumph of his train; hallelujah! jesus comes, and comes to reign; hallelujah! jesus comes, and comes to reign. every eye shall now behold him, rob'd in dreadful majesty! those who set at nought and sold him, pierc'd, and nail'd him to the tree, deeply wailing, shall the true messiah see! when the solemn trump has sounded, heaven and earth shall flee away; all who hate him must, confounded, hear the summons of that day— come to judgement! come to judgement! come away! yea, amen! let all adore thee, high on thy eternal throne! saviour, take the power and glory, make thy righteous sentence known, o come quickly— claim the kingdom for thine own ! lo! he comes lo! he comes 211 lo! he comes. 40 lo! he comes 211",
       "sections": [
         {
           "label": "1",
@@ -2727,12 +3648,32 @@
       "title": "LO! HE COMES."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-f65143d7c4a98089b5b5",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-041-the-coming-of-the-lord",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-f65143d7c4a98089b5b5",
       "language": "en",
       "number": "41",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-041-the-coming-of-the-lord",
+          "language": "en",
+          "number": "41",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.40",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE COMING OF THE LORD."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the coming of the lord. 41 hear the glorious proclamation, the glad tidings of salvation, hear the glorious proclamation, of the saviour near. hark! the tidings onward rolling, jesus comes the world controlling! hark! the tidings onward rolling, jesus comes to reign. suddenly a burst of thunder, and the concave parts asunder, suddenly a burst of thunder, and the skies depart. see the ‘sign’ in heaven appearing, and the blazing chariot nearing. see the ‘sign’ in heaven appearing, and the saviour there. see the earth in terror shaking, and the dead to life awaking, see the earth in terror shaking, and the saints arise. now on wings of light ascending with a shining host attending, now on wings of light ascending, see them mount the skies. see the banner waves in glory, while ten thousand tell the story, see the banner waves in glory, and the saints are there. they are sav'd from death for ever, praise to him who did deliver, they are sav'd from death forever, and to die no, more. while the choir of angels, while the choir of angels, while the choir of angels, shall be chanting through the sky.",
+      "searchText": "the coming of the lord. 41 hear the glorious proclamation, the glad tidings of salvation, hear the glorious proclamation, of the saviour near. hark! the tidings onward rolling, jesus comes the world controlling! hark! the tidings onward rolling, jesus comes to reign. suddenly a burst of thunder, and the concave parts asunder, suddenly a burst of thunder, and the skies depart. see the ‘sign’ in heaven appearing, and the blazing chariot nearing. see the ‘sign’ in heaven appearing, and the saviour there. see the earth in terror shaking, and the dead to life awaking, see the earth in terror shaking, and the saints arise. now on wings of light ascending with a shining host attending, now on wings of light ascending, see them mount the skies. see the banner waves in glory, while ten thousand tell the story, see the banner waves in glory, and the saints are there. they are sav'd from death for ever, praise to him who did deliver, they are sav'd from death forever, and to die no, more. while the choir of angels, while the choir of angels, while the choir of angels, shall be chanting through the sky. the coming of the lord. 41",
       "sections": [
         {
           "label": "1",
@@ -2834,12 +3775,32 @@
       "title": "THE COMING OF THE LORD."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-dd54c6fd87d27174358d",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-042-rejoice-rejoice",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-dd54c6fd87d27174358d",
       "language": "en",
       "number": "42",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-042-rejoice-rejoice",
+          "language": "en",
+          "number": "42",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.41",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "REJOICE! REJOICE!"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "rejoice! rejoice! 42 rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the wilderness shall bloom; and zion's children then shall sing, the deserts all are blossoming. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the wilderness shall bloom; king jesus' banner wide unfurl'd, shall wave in triumph o'er the world, and every christian bond or free, shall hail the glorious jubilee. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the wilderness shall bloom. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the “prince of peace” shall reign; and lambs may with the leopard play, for nought shall harm in zion's way. rejoice, rejoice, the promis'd time is coming. rejoice, rejoice, the “prince of peace” shall reign the sword and spear of needless worth, shall find no place in the new earth, for peace shall smile from shore to shore, and nations shall learn war no more. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the “prince of peace” shall reign.",
+      "searchText": "rejoice! rejoice! 42 rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the wilderness shall bloom; and zion's children then shall sing, the deserts all are blossoming. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the wilderness shall bloom; king jesus' banner wide unfurl'd, shall wave in triumph o'er the world, and every christian bond or free, shall hail the glorious jubilee. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the wilderness shall bloom. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the “prince of peace” shall reign; and lambs may with the leopard play, for nought shall harm in zion's way. rejoice, rejoice, the promis'd time is coming. rejoice, rejoice, the “prince of peace” shall reign the sword and spear of needless worth, shall find no place in the new earth, for peace shall smile from shore to shore, and nations shall learn war no more. rejoice, rejoice, the promis'd time is coming, rejoice, rejoice, the “prince of peace” shall reign. rejoice! rejoice! 42",
       "sections": [
         {
           "label": "1",
@@ -2887,12 +3848,32 @@
       "title": "REJOICE! REJOICE!"
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-99e012887c233721d77f",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-043-the-new-jerusalem",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-99e012887c233721d77f",
       "language": "en",
       "number": "43",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-043-the-new-jerusalem",
+          "language": "en",
+          "number": "43",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.42",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE NEW JERUSALEM."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the new jerusalem. 43 lo, what a glorious sight appears, to our believing eyes; the earth and seas are pass'd away, and the old rolling skies. from the third heav'n where god resides, that holy, happy place; the new jerusalem comes down, adorn'd with shining grace. attending angels shout for joy, and the bright armies sing, “mortals behold the sacred seat of your eternal king!” how long, dear saviour, o how long shall this bright hour delay? fly swift around, ye wheels of time, and bring the welcome day.",
+      "searchText": "the new jerusalem. 43 lo, what a glorious sight appears, to our believing eyes; the earth and seas are pass'd away, and the old rolling skies. from the third heav'n where god resides, that holy, happy place; the new jerusalem comes down, adorn'd with shining grace. attending angels shout for joy, and the bright armies sing, “mortals behold the sacred seat of your eternal king!” how long, dear saviour, o how long shall this bright hour delay? fly swift around, ye wheels of time, and bring the welcome day. the new jerusalem. 43",
       "sections": [
         {
           "label": "1",
@@ -2944,12 +3925,32 @@
       "title": "THE NEW JERUSALEM."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-ee46fa228030a34cbdcc",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-044-sabbath-of-rest",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-ee46fa228030a34cbdcc",
       "language": "en",
       "number": "44",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-044-sabbath-of-rest",
+          "language": "en",
+          "number": "44",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.43",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "SABBATH OF REST."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "sabbath of rest. 44 thine earthly sabbath, lord, we love, but there's a nobler rest above; to that our laboring souls aspire, with ardent hope, and strong desire. no more fatigue, no more distress, no sin nor death can reach that place, no tears shall mingle with the songs that warble from immortal tongues. no rude alarm of raging foes, no cares to break their long repose, no midnight shade, no clouded sun, but sacred high eternal noon. o long expected day begin, dawn on those realms of wo and sin; fain would i leave this weary road, and go to meet my blessed lord.",
+      "searchText": "sabbath of rest. 44 thine earthly sabbath, lord, we love, but there's a nobler rest above; to that our laboring souls aspire, with ardent hope, and strong desire. no more fatigue, no more distress, no sin nor death can reach that place, no tears shall mingle with the songs that warble from immortal tongues. no rude alarm of raging foes, no cares to break their long repose, no midnight shade, no clouded sun, but sacred high eternal noon. o long expected day begin, dawn on those realms of wo and sin; fain would i leave this weary road, and go to meet my blessed lord. sabbath of rest. 44",
       "sections": [
         {
           "label": "1",
@@ -3001,12 +4002,32 @@
       "title": "SABBATH OF REST."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-9535db8a29604f2887c5",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-045-blessings-of-the-sabbath",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-9535db8a29604f2887c5",
       "language": "en",
       "number": "45",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-045-blessings-of-the-sabbath",
+          "language": "en",
+          "number": "45",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.44",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "BLESSINGS OF THE SABBATH."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "blessings of the sabbath. 45 hail, peaceful morn, thy dawn i hail, how do thy hours my mind regale with feasts of heavenly joy; nor can i half thy blessings name, which kindle in my soul a flame, and all my powers employ. how shall i best improve thy hours? lord on me shed in copious showers thy spirit, and thy grace; that when thy sacred courts i tread, my soul may eat the heavenly bread. and sing jehovah's praise. thou hallow'd season of repose, thou balm to soothe the throbbing woes, of this care-stricken breast; thy sacred hours i'll ever greet, and with the faithful will i meet, to taste thy holy rest. then to my chamber i'll repair, with awe to talk with god in pray'r, and all my griefs to tell; his kind compassion will relieve, his bounteous hand will mercies give, and with the contrite dwell. thus may the sabbath pass away, my best, my holiest, happiest day, the sweetest of the seven; but yet a rest for saints remains, a sabbath free from ills and pains, eternal, and in heaven.",
+      "searchText": "blessings of the sabbath. 45 hail, peaceful morn, thy dawn i hail, how do thy hours my mind regale with feasts of heavenly joy; nor can i half thy blessings name, which kindle in my soul a flame, and all my powers employ. how shall i best improve thy hours? lord on me shed in copious showers thy spirit, and thy grace; that when thy sacred courts i tread, my soul may eat the heavenly bread. and sing jehovah's praise. thou hallow'd season of repose, thou balm to soothe the throbbing woes, of this care-stricken breast; thy sacred hours i'll ever greet, and with the faithful will i meet, to taste thy holy rest. then to my chamber i'll repair, with awe to talk with god in pray'r, and all my griefs to tell; his kind compassion will relieve, his bounteous hand will mercies give, and with the contrite dwell. thus may the sabbath pass away, my best, my holiest, happiest day, the sweetest of the seven; but yet a rest for saints remains, a sabbath free from ills and pains, eternal, and in heaven. blessings of the sabbath. 45",
       "sections": [
         {
           "label": "1",
@@ -3078,12 +4099,32 @@
       "title": "BLESSINGS OF THE SABBATH."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-ee2338d18503b3a2f5ba",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-046-fall-of-babylon",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-ee2338d18503b3a2f5ba",
       "language": "en",
       "number": "46",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-046-fall-of-babylon",
+          "language": "en",
+          "number": "46",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.45",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "FALL OF BABYLON."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "fall of babylon. 46 hail the day so long expected, hail, the year of full release; zion's walls are now erected, and her watchmen publish peace; throughout shiloh's wide dominion, hear the trumpet loudly roar, babylon is fallen, is fallen, is fallen, babylon is fallen to rise no more. come “my people” and forsake her, cast away your slavish fears; hear the voice from heaven proclaiming it's the end of all her years. raise your voices she is fallen, lift your banners up on high, babylon is fallen, is fallen, is fallen, &c. now her plagues are surely coming, and her merchants all shall mourn; all their merchandise shall fail them, and with fire it shall burn; cry aloud, ye kings and nobles, priests and people, rich and poor, babylon is fallen, is fallen, is fallen, &c. blow the trumpet in mount zion, christ will come the second time, ruling with a rod of iron, all who now his foes combine babel's garments we've rejected, and the wedge of golden ore; babylon is fallen, is fallen, is fallen, &c.",
+      "searchText": "fall of babylon. 46 hail the day so long expected, hail, the year of full release; zion's walls are now erected, and her watchmen publish peace; throughout shiloh's wide dominion, hear the trumpet loudly roar, babylon is fallen, is fallen, is fallen, babylon is fallen to rise no more. come “my people” and forsake her, cast away your slavish fears; hear the voice from heaven proclaiming it's the end of all her years. raise your voices she is fallen, lift your banners up on high, babylon is fallen, is fallen, is fallen, &c. now her plagues are surely coming, and her merchants all shall mourn; all their merchandise shall fail them, and with fire it shall burn; cry aloud, ye kings and nobles, priests and people, rich and poor, babylon is fallen, is fallen, is fallen, &c. blow the trumpet in mount zion, christ will come the second time, ruling with a rod of iron, all who now his foes combine babel's garments we've rejected, and the wedge of golden ore; babylon is fallen, is fallen, is fallen, &c. fall of babylon. 46",
       "sections": [
         {
           "label": "1",
@@ -3148,12 +4189,32 @@
       "title": "FALL OF BABYLON."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-06b97cf49a6cd6190436",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-047-almost-home",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-06b97cf49a6cd6190436",
       "language": "en",
       "number": "47",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-047-almost-home",
+          "language": "en",
+          "number": "47",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.46",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "ALMOST HOME."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "almost home. 47 bright crowns are just before us, then onward let us sing, jerusalem's bright seraphs , e’en now are on the wing. king jesus and his angels, are hasting on their way, to gather all the weary who faithful watch and pray. toil on a little longer, stand stiffly for the word, oh ye, my fellow pilgrims, the lov'd ones of my lord. the kingdom, is the watchword, we've almost reach'd our home, oh, glory hallelujah! the bride is saying come.",
+      "searchText": "almost home. 47 bright crowns are just before us, then onward let us sing, jerusalem's bright seraphs , e’en now are on the wing. king jesus and his angels, are hasting on their way, to gather all the weary who faithful watch and pray. toil on a little longer, stand stiffly for the word, oh ye, my fellow pilgrims, the lov'd ones of my lord. the kingdom, is the watchword, we've almost reach'd our home, oh, glory hallelujah! the bride is saying come. almost home. 47",
       "sections": [
         {
           "label": "1",
@@ -3205,12 +4266,32 @@
       "title": "ALMOST HOME."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-e816b30bc494b14af4cf",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-048-the-coming-glory",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-e816b30bc494b14af4cf",
       "language": "en",
       "number": "48",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-048-the-coming-glory",
+          "language": "en",
+          "number": "48",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.47",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "THE COMING GLORY."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "the coming glory. 48 i'm glad i know that christ shall reign in glory, glory, glory; and come to earth in clouds again, in glory, glory, glory; 'tis glory's fortaste makes me sing, of glory, glory, glory; and to my saviour praises bring sing glory, glory, glory. i hope to see him on the throne in glory, glory, glory; when he shall come to claim his own, in glory, glory, glory; i'll sing while mounting through the air, of glory, glory, glory; to meet my father's children there, in glory, glory, glory; come on, dear friends, let's mend our pace, to glory, glory, glory; we soon shall see him face to face, in glory, glory, glory. the bride shall reign, the bridegroom too, in glory, glory, glory; let's keep the blessed prize in view, 'tis glory, glory, glory.",
+      "searchText": "the coming glory. 48 i'm glad i know that christ shall reign in glory, glory, glory; and come to earth in clouds again, in glory, glory, glory; 'tis glory's fortaste makes me sing, of glory, glory, glory; and to my saviour praises bring sing glory, glory, glory. i hope to see him on the throne in glory, glory, glory; when he shall come to claim his own, in glory, glory, glory; i'll sing while mounting through the air, of glory, glory, glory; to meet my father's children there, in glory, glory, glory; come on, dear friends, let's mend our pace, to glory, glory, glory; we soon shall see him face to face, in glory, glory, glory. the bride shall reign, the bridegroom too, in glory, glory, glory; let's keep the blessed prize in view, 'tis glory, glory, glory. the coming glory. 48",
       "sections": [
         {
           "label": "1",
@@ -3264,12 +4345,32 @@
       "title": "THE COMING GLORY."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-1173ca5868f0b248638c",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-049-appearing-of-christ",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-1173ca5868f0b248638c",
       "language": "en",
       "number": "49",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-049-appearing-of-christ",
+          "language": "en",
+          "number": "49",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.48",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "APPEARING OF CHRIST."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "appearing of christ. 49 the appearing of christ is good, how good it is to me, 'tis unlike the tyrant's rod, his sceptre to see. let thy kingdom come, holy will on earth be done, saints gather'd in one, when will it be? our journey is to canaan, we are almost there, the scoffs of the wicked then will be heard by none: o how glorious are the promises for us, jesus, thee we'll trust, conduct us home. i will look for that city, lord, i'll look and adore, my longing eyes are turn'd toward. that bright blissful shore, fruits immortal grow, tree of life is precious too, my bark shall go through, i want no more. no eye hath ever seen the like, of what we shall be, he'll clothe us in garments bright, how lovely to see. spotless, white and pure, in the kingdom ever sure, foes cannot allure how happy we.",
+      "searchText": "appearing of christ. 49 the appearing of christ is good, how good it is to me, 'tis unlike the tyrant's rod, his sceptre to see. let thy kingdom come, holy will on earth be done, saints gather'd in one, when will it be? our journey is to canaan, we are almost there, the scoffs of the wicked then will be heard by none: o how glorious are the promises for us, jesus, thee we'll trust, conduct us home. i will look for that city, lord, i'll look and adore, my longing eyes are turn'd toward. that bright blissful shore, fruits immortal grow, tree of life is precious too, my bark shall go through, i want no more. no eye hath ever seen the like, of what we shall be, he'll clothe us in garments bright, how lovely to see. spotless, white and pure, in the kingdom ever sure, foes cannot allure how happy we. appearing of christ. 49",
       "sections": [
         {
           "label": "1",
@@ -3337,12 +4438,32 @@
       "title": "APPEARING OF CHRIST."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-55dff8862acdd476abbf",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-050-come-let-us-anew",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-55dff8862acdd476abbf",
       "language": "en",
       "number": "50",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-050-come-let-us-anew",
+          "language": "en",
+          "number": "50",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.49",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "“COME LET US ANEW.”"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "“come let us anew.” 50 come let us anew, our journey pursue, roll round with the year; and never stand still, till the master appear and never stand still, till the master appear. his adoreable will let us gladly fulfill, and our talents improve, by the patience of hope and the labor of love. our life as a dream, our time as a stream, glides swiftly away, and the fugitive moment refuses to stay. the arrow is flown, the moment is gone; the millennial year rushes on to our view, and eternity's here. o that each in the day of his coming may say, \"i have fought my way through; i have finish'd the work thou didst give me to do.\" o that each from his lord may receive the glad word “well and faithfully done! enter into my joy, and sit down on my throne.\"",
+      "searchText": "“come let us anew.” 50 come let us anew, our journey pursue, roll round with the year; and never stand still, till the master appear and never stand still, till the master appear. his adoreable will let us gladly fulfill, and our talents improve, by the patience of hope and the labor of love. our life as a dream, our time as a stream, glides swiftly away, and the fugitive moment refuses to stay. the arrow is flown, the moment is gone; the millennial year rushes on to our view, and eternity's here. o that each in the day of his coming may say, \"i have fought my way through; i have finish'd the work thou didst give me to do.\" o that each from his lord may receive the glad word “well and faithfully done! enter into my joy, and sit down on my throne.\" “come let us anew.” 50",
       "sections": [
         {
           "label": "1",
@@ -3409,12 +4530,32 @@
       "title": "“COME LET US ANEW.”"
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-8bc7eab8daec7c0f12f9",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-051-holy-rest",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-8bc7eab8daec7c0f12f9",
       "language": "en",
       "number": "51",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-051-holy-rest",
+          "language": "en",
+          "number": "51",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.50",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "HOLY REST."
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "holy rest. 51 sweet is the work, my god, my king, to praise thy name, give thanks, and sing! to show thy love by morning light, and talk of all thy truth by night. sweet is the day of sacred rest; no mortal cares shall seize my breast; o may my heart in tune be found, like david's harp of solemn sound! when grace has purified my heart, then i shall share a glorious part; and fresh supplies of joy are shed, like holy oil, to cheer my head. then shall i see, and hear, and know, all i desir'd or wish'd below; and every hour find sweet employ, in that eternal world of joy.",
+      "searchText": "holy rest. 51 sweet is the work, my god, my king, to praise thy name, give thanks, and sing! to show thy love by morning light, and talk of all thy truth by night. sweet is the day of sacred rest; no mortal cares shall seize my breast; o may my heart in tune be found, like david's harp of solemn sound! when grace has purified my heart, then i shall share a glorious part; and fresh supplies of joy are shed, like holy oil, to cheer my head. then shall i see, and hear, and know, all i desir'd or wish'd below; and every hour find sweet employ, in that eternal world of joy. holy rest. 51",
       "sections": [
         {
           "label": "1",
@@ -3466,12 +4607,32 @@
       "title": "HOLY REST."
     },
     {
+      "alternateTitles": [],
+      "canonicalId": "song-c0062cd47269382fd996",
       "collectionId": "hgpp1849",
-      "id": "hgpp1849-052-are-we-almost-there",
+      "collectionIds": [
+        "hgpp1849"
+      ],
+      "id": "song-c0062cd47269382fd996",
       "language": "en",
       "number": "52",
+      "references": [
+        {
+          "collectionId": "hgpp1849",
+          "id": "hgpp1849-052-are-we-almost-there",
+          "language": "en",
+          "number": "52",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "HGPP1849/index.json#songs.51",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "ARE WE ALMOST THERE?"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "are we almost there? 52 “are we almost there? are we almost there?” says the weary saint, as he sighs for home; “are those the verdant trees that rear their stately forms' mid heav'n's bright dome?” then he talks of the flowers, the unsullied stream, that flows through the paradise of god; and he longs to wake from life's troubled dream, to walk those golden streets abroad, he is weary and sick, of this world's rude strife; and pants for a holy, peaceful clime; to glow with the vigor of endless life, and be compass'd no more by the bounds of time. his eye is fix’d on the world to come, he walks by faith through this vale of care, and oft inquires, as he draws near home, with anxious heart, “are we almost there?” for he's had an earnest of those joys which the righteous alone can ever share; he turns with contempt from these earthly toys, and fervently asks—“are we almost there?” then lift up thine head, rejoice and be glad, for in that bright world thou'lt never be sad; and thou shall pass from this world of strife to the city fair, and the tree of life. then lift up thy heart thou despairing saint, the lord will come, thou needs’t not faint, for the lord's own hand shall wipe from thy face the last lone tear, and speak to thee peace.",
+      "searchText": "are we almost there? 52 “are we almost there? are we almost there?” says the weary saint, as he sighs for home; “are those the verdant trees that rear their stately forms' mid heav'n's bright dome?” then he talks of the flowers, the unsullied stream, that flows through the paradise of god; and he longs to wake from life's troubled dream, to walk those golden streets abroad, he is weary and sick, of this world's rude strife; and pants for a holy, peaceful clime; to glow with the vigor of endless life, and be compass'd no more by the bounds of time. his eye is fix’d on the world to come, he walks by faith through this vale of care, and oft inquires, as he draws near home, with anxious heart, “are we almost there?” for he's had an earnest of those joys which the righteous alone can ever share; he turns with contempt from these earthly toys, and fervently asks—“are we almost there?” then lift up thine head, rejoice and be glad, for in that bright world thou'lt never be sad; and thou shall pass from this world of strife to the city fair, and the tree of life. then lift up thy heart thou despairing saint, the lord will come, thou needs’t not faint, for the lord's own hand shall wipe from thy face the last lone tear, and speak to thee peace. are we almost there? 52",
       "sections": [
         {
           "label": "1",
@@ -3551,38 +4712,11 @@
         "rightsStatus": "source-repository"
       },
       "title": "ARE WE ALMOST THERE?"
-    },
-    {
-      "collectionId": "hgpp1849",
-      "id": "hgpp1849-053-praise-god",
-      "language": "en",
-      "number": "53",
-      "schemaVersion": 1,
-      "searchText": "praise god 53 praise god from whom all blessings flow; praise him all creatures here below; praise him, above, ye heavenly host; praise father, son and holy ghost. amen!",
-      "sections": [
-        {
-          "label": "1",
-          "lines": [
-            "Praise God from Whom all blessings flow;",
-            "Praise Him all creatures here below;",
-            "Praise Him, above, ye heavenly host;",
-            "Praise Father, Son and Holy Ghost.",
-            "AMEN!"
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "HGPP1849/index.json#songs.52",
-        "repo": "GospelSounders/hymnals-data",
-        "rightsStatus": "source-repository"
-      },
-      "title": "PRAISE GOD"
     }
   ],
   "id": "hgpp1849",
   "language": "en",
+  "membershipCount": 53,
   "name": "Hymns for God’s Peculiar People",
   "schemaVersion": 1,
   "source": {
@@ -3594,5 +4728,6 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/GospelSounders/hymnals-data"
   },
-  "version": "0.2.0"
+  "sourceHymnCount": 53,
+  "version": "0.3.0"
 }

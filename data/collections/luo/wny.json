@@ -2,15 +2,38 @@
   "hymnCount": 1,
   "hymns": [
     {
+      "alternateTitles": [],
       "authors": [
         "Reginald Heber"
       ],
+      "canonicalId": "song-d8f5a5e92b30b7191485",
       "collectionId": "wny",
-      "id": "wny-000-mtakatifu-mtakatifu-mtakatifu-in-luo",
+      "collectionIds": [
+        "wny"
+      ],
+      "id": "song-d8f5a5e92b30b7191485",
       "language": "luo",
       "number": "",
+      "references": [
+        {
+          "authors": [
+            "Reginald Heber"
+          ],
+          "collectionId": "wny",
+          "id": "wny-000-mtakatifu-mtakatifu-mtakatifu-in-luo",
+          "language": "luo",
+          "number": "",
+          "source": {
+            "license": "NOASSERTION",
+            "path": "WNY/index.json#songs.1",
+            "repo": "GospelSounders/hymnals-data",
+            "rightsStatus": "source-repository"
+          },
+          "title": "MTAKATIFU, MTAKATIFU, MTAKATIFU in Luo"
+        }
+      ],
       "schemaVersion": 1,
-      "searchText": "mtakatifu, mtakatifu, mtakatifu in luo reginald heber u mtakatifu...! mungu mwenyezi! alfajiri sifa zako tutaimba; u mtakatifu, bwana wa huruma. mungu wavyote hata milele umtakatifu! na malaika wengi sana wana kuabudu wote; elfu na maelfu wana kusujudu wazamani na hata milele. u mtakatifu! ingawa giza lakuficha fahari tusiioone, u mtakatifu! wewe peke yako, kamili kwa uwezo na pendo.",
+      "searchText": "mtakatifu, mtakatifu, mtakatifu in luo reginald heber u mtakatifu...! mungu mwenyezi! alfajiri sifa zako tutaimba; u mtakatifu, bwana wa huruma. mungu wavyote hata milele umtakatifu! na malaika wengi sana wana kuabudu wote; elfu na maelfu wana kusujudu wazamani na hata milele. u mtakatifu! ingawa giza lakuficha fahari tusiioone, u mtakatifu! wewe peke yako, kamili kwa uwezo na pendo. mtakatifu, mtakatifu, mtakatifu in luo reginald heber",
       "sections": [
         {
           "label": "1",
@@ -54,6 +77,7 @@
   ],
   "id": "wny",
   "language": "luo",
+  "membershipCount": 1,
   "name": "Wende Nyasaye",
   "schemaVersion": 1,
   "source": {
@@ -65,5 +89,6 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/GospelSounders/hymnals-data"
   },
-  "version": "0.2.0"
+  "sourceHymnCount": 1,
+  "version": "0.3.0"
 }

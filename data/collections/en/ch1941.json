@@ -1,127 +1,9 @@
 {
-  "hymnCount": 2,
-  "hymns": [
-    {
-      "authors": [
-        "Reginald Heber"
-      ],
-      "collectionId": "ch1941",
-      "id": "ch1941-000-holy-holy-holy",
-      "language": "en",
-      "number": "",
-      "schemaVersion": 1,
-      "searchText": "holy, holy, holy reginald heber holy, holy, holy! lord god almighty! early in the morning our song shall rise to thee; holy, holy, holy, merciful and mighty! god over all who rules eternity holy, holy, holy! angels adore thee, casting down their bright crowns around the glassy sea; thousands and ten thousands worship low before thee, which wert, and art, and evermore shalt be. holy, holy, holy! though the darkness hide thee, though the eye of sinful man thy glory may not see; only thou art holy; there is none beside thee, perfect in power, in love, and purity.",
-      "sections": [
-        {
-          "label": "1",
-          "lines": [
-            "Holy, holy, holy! Lord God Almighty!",
-            "Early in the morning our song shall rise to Thee;",
-            "Holy, holy, holy, merciful and mighty!",
-            "God over all who rules eternity"
-          ],
-          "type": "verse"
-        },
-        {
-          "label": "2",
-          "lines": [
-            "Holy, holy, holy! Angels adore Thee,",
-            "Casting down their bright crowns around the glassy sea;",
-            "Thousands and ten thousands worship low before Thee,",
-            "Which wert, and art, and evermore shalt be."
-          ],
-          "type": "verse"
-        },
-        {
-          "label": "3",
-          "lines": [
-            "Holy, holy, holy! though the darkness hide Thee,",
-            "Though the eye of sinful man Thy glory may not see;",
-            "Only Thou art holy; there is none beside Thee,",
-            "Perfect in power, in love, and purity."
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "CH1941/index.json#songs.73",
-        "repo": "GospelSounders/hymnals-data",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Holy, Holy, Holy"
-    },
-    {
-      "authors": [
-        "Augustus M. Toplady"
-      ],
-      "collectionId": "ch1941",
-      "id": "ch1941-000-rock-of-ages",
-      "language": "en",
-      "number": "",
-      "schemaVersion": 1,
-      "searchText": "rock of ages augustus m. toplady rock of ages, cleft for me, let me hide myself in thee; let the water and the blood, from thy riven side which flowed, be of sin the double cure, cleanse me from its guilt and power not the labor of my hands can fulfill thy law’s demands; could my zeal no respite know, could my tears forever flow, all for sin could not atone; thou must save, and thou alone. nothing in my hand i bring, simply to the cross i cling; naked, come to thee for dress; helpless look to thee for grace; foul, i to the fountain fly; wash me, savior, or i die. when my pilgrimage i close; victor o’er the last of foes, when i soar to worlds unknown, see thee on thy judgment throne, rock of ages, cleft for me, let me hide myself in thee.",
-      "sections": [
-        {
-          "label": "1",
-          "lines": [
-            "Rock of Ages, cleft for me,",
-            "Let me hide myself in Thee;",
-            "Let the water and the blood,",
-            "From Thy riven side which flowed,",
-            "Be of sin the double cure,",
-            "Cleanse me from its guilt and power"
-          ],
-          "type": "verse"
-        },
-        {
-          "label": "2",
-          "lines": [
-            "Not the labor of my hands",
-            "Can fulfill Thy law’s demands;",
-            "Could my zeal no respite know,",
-            "Could my tears forever flow,",
-            "All for sin could not atone;",
-            "Thou must save, and Thou alone."
-          ],
-          "type": "verse"
-        },
-        {
-          "label": "3",
-          "lines": [
-            "Nothing in my hand I bring,",
-            "Simply to the cross I cling;",
-            "Naked, come to Thee for dress;",
-            "Helpless look to Thee for grace;",
-            "Foul, I to the fountain fly;",
-            "Wash me, Savior, or I die."
-          ],
-          "type": "verse"
-        },
-        {
-          "label": "4",
-          "lines": [
-            "When my pilgrimage I close;",
-            "Victor o’er the last of foes,",
-            "When I soar to worlds unknown,",
-            "See Thee on Thy judgment throne,",
-            "Rock of Ages, cleft for me,",
-            "Let me hide myself in Thee."
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "CH1941/index.json#songs.474",
-        "repo": "GospelSounders/hymnals-data",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Rock of Ages"
-    }
-  ],
+  "hymnCount": 0,
+  "hymns": [],
   "id": "ch1941",
   "language": "en",
+  "membershipCount": 2,
   "name": "The Church Hymnal",
   "schemaVersion": 1,
   "source": {
@@ -133,5 +15,6 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/GospelSounders/hymnals-data"
   },
-  "version": "0.2.0"
+  "sourceHymnCount": 2,
+  "version": "0.3.0"
 }

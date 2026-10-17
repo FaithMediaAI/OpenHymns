@@ -2,126 +2,151 @@
   {
     "collectionCount": 1,
     "hymnCount": 311,
-    "language": "bem"
+    "language": "bem",
+    "sourceHymnCount": 311
   },
   {
     "collectionCount": 15,
-    "hymnCount": 5505,
-    "language": "en"
+    "hymnCount": 3060,
+    "language": "en",
+    "sourceHymnCount": 5505
   },
   {
     "collectionCount": 1,
     "hymnCount": 614,
-    "language": "es"
+    "language": "es",
+    "sourceHymnCount": 614
   },
   {
     "collectionCount": 3,
-    "hymnCount": 1694,
-    "language": "fr"
+    "hymnCount": 1011,
+    "language": "fr",
+    "sourceHymnCount": 1694
   },
   {
     "collectionCount": 1,
-    "hymnCount": 370,
-    "language": "guz"
+    "hymnCount": 369,
+    "language": "guz",
+    "sourceHymnCount": 370
   },
   {
     "collectionCount": 1,
     "hymnCount": 299,
-    "language": "ki"
+    "language": "ki",
+    "sourceHymnCount": 299
   },
   {
     "collectionCount": 2,
-    "hymnCount": 333,
-    "language": "luo"
+    "hymnCount": 330,
+    "language": "luo",
+    "sourceHymnCount": 333
   },
   {
     "collectionCount": 1,
     "hymnCount": 1631,
-    "language": "ml"
+    "language": "ml",
+    "sourceHymnCount": 1631
   },
   {
     "collectionCount": 1,
     "hymnCount": 300,
-    "language": "nr"
+    "language": "nr",
+    "sourceHymnCount": 300
   },
   {
     "collectionCount": 1,
     "hymnCount": 303,
-    "language": "nso"
+    "language": "nso",
+    "sourceHymnCount": 303
   },
   {
     "collectionCount": 1,
     "hymnCount": 350,
-    "language": "ny"
+    "language": "ny",
+    "sourceHymnCount": 350
   },
   {
     "collectionCount": 1,
-    "hymnCount": 610,
-    "language": "pt"
+    "hymnCount": 606,
+    "language": "pt",
+    "sourceHymnCount": 610
   },
   {
     "collectionCount": 1,
     "hymnCount": 384,
-    "language": "ru"
+    "language": "ru",
+    "sourceHymnCount": 384
   },
   {
     "collectionCount": 1,
-    "hymnCount": 500,
-    "language": "rw"
+    "hymnCount": 498,
+    "language": "rw",
+    "sourceHymnCount": 500
   },
   {
     "collectionCount": 1,
     "hymnCount": 300,
-    "language": "sn"
+    "language": "sn",
+    "sourceHymnCount": 300
   },
   {
     "collectionCount": 1,
     "hymnCount": 300,
-    "language": "st"
+    "language": "st",
+    "sourceHymnCount": 300
   },
   {
     "collectionCount": 2,
-    "hymnCount": 439,
-    "language": "sw"
+    "hymnCount": 256,
+    "language": "sw",
+    "sourceHymnCount": 439
   },
   {
     "collectionCount": 1,
     "hymnCount": 300,
-    "language": "tn"
+    "language": "tn",
+    "sourceHymnCount": 300
   },
   {
     "collectionCount": 1,
     "hymnCount": 341,
-    "language": "toi"
+    "language": "toi",
+    "sourceHymnCount": 341
   },
   {
     "collectionCount": 1,
     "hymnCount": 311,
-    "language": "ts"
+    "language": "ts",
+    "sourceHymnCount": 311
   },
   {
     "collectionCount": 1,
     "hymnCount": 367,
-    "language": "tum"
+    "language": "tum",
+    "sourceHymnCount": 367
   },
   {
     "collectionCount": 1,
-    "hymnCount": 770,
-    "language": "tw"
+    "hymnCount": 755,
+    "language": "tw",
+    "sourceHymnCount": 770
   },
   {
     "collectionCount": 1,
     "hymnCount": 306,
-    "language": "ve"
+    "language": "ve",
+    "sourceHymnCount": 306
   },
   {
     "collectionCount": 1,
     "hymnCount": 352,
-    "language": "xh"
+    "language": "xh",
+    "sourceHymnCount": 352
   },
   {
     "collectionCount": 2,
-    "hymnCount": 1647,
-    "language": "yo"
+    "hymnCount": 1585,
+    "language": "yo",
+    "sourceHymnCount": 1647
   }
 ]

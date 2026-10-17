@@ -19,6 +19,7 @@ console.log(
       version: result.manifest.version,
       collections: result.manifest.collectionCount,
       hymns: result.manifest.hymnCount,
+      sourceHymns: result.manifest.sourceHymnCount,
       canonicalHymns: result.manifest.canonicalHymnCount,
       quarantined: result.manifest.quarantine.recordCount,
       warnings: result.warnings.length,

@@ -13,7 +13,9 @@
     "indexes",
     "canonicalHymnCount",
     "quarantine",
-    "qualityReport"
+    "qualityReport",
+    "sourceHymnCount",
+    "catalogMode"
   ],
   "properties": {
     "schemaVersion": {
@@ -45,7 +47,9 @@
           "license",
           "rightsStatus",
           "publishable",
-          "sourceRepo"
+          "sourceRepo",
+          "sourceHymnCount",
+          "membershipCount"
         ],
         "properties": {
           "id": {
@@ -77,6 +81,14 @@
           },
           "sourceRepo": {
             "type": "string"
+          },
+          "sourceHymnCount": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "membershipCount": {
+            "type": "integer",
+            "minimum": 0
           }
         }
       }
@@ -150,6 +162,13 @@
           "minimum": 0
         }
       }
+    },
+    "sourceHymnCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "catalogMode": {
+      "const": "one-song-per-language"
     }
   }
 }

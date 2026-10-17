@@ -1,104 +1,114 @@
 # Catalog cleanup — 17 October 2026
 
-The 0.2.0 feed was rebuilt from the existing local source snapshots. Three
-GPT-6 Luna workers handled text normalization, importer metadata, and duplicate
-identity; the main worker integrated the changes and independently validated
-the published files. Historical release folders and upstream clones were not
-rewritten.
+## One song in the default feed
 
-## Current inventory
+Version 0.3.0 fixes the default catalog, rather than offering deduplication only
+through an optional index. Previously, a client loading the collection files or
+search index could still see five copies of `How Great Thou Art`. Every current
+primary collection and index now uses one song ID per song per language.
 
 | Measure | Count |
 | --- | ---: |
 | Source records examined | 18,870 |
-| Empty, unidentifiable source placeholders skipped | 3 |
+| Fully empty placeholders skipped | 3 |
 | Imported records, including source stubs | 18,867 |
 | Source stubs quarantined | 230 |
-| Searchable hymnbook entries | 18,637 |
-| Unique same-language lyric records | 18,328 |
-| Repeated appearances linked to a canonical lyric record | 309 |
+| Retained source hymnbook entries | 18,637 |
+| Published unique song records | 15,239 |
+| Repeated hymnbook entries consolidated | 3,398 |
 | Collections / language codes | 44 / 25 |
-| Titles recovered from source lyrics | 2,157 |
-| Number-prefixed titles corrected | 1 |
-| Conflicting hymn IDs resolved | 2 |
+| Source titles recovered from lyrics | 2,258 |
 
-The 309 repeated appearances form 276 groups. They remain represented as
-source references in `indexes/canonical.json`, so clients can show one lyric
-record while retaining each hymnbook's number, title, and attribution. No
-current within-collection entry met the stricter rule for deleting an entire
-source record with identical number, title, metadata, section layout, and
-provenance. The canonical index contains no repeated normalized lyric keys.
+All 18,637 retained source entries remain represented in numbered `references`.
+The 3,398 repeated entries belong to 1,819 grouped songs. They are no longer
+separate search results or duplicate rows in different collection files.
 
-## Corrections
+## Sampled decisions
 
-- Malayalam section selectors such as `chorus` and `verse-1` no longer become
-  titles. Titles come from the indicated opening section, retain the original
-  script, and are marked as derived.
-- HymnFlow uses the actual `metadata.number`, rather than timestamp identifiers.
-  Its 522 CAC English meter headings are stored as meter metadata, with the
-  original title retained in `sourceTitle`. Three Yoruba `C M` headings receive
-  the same treatment. Titles come from the later opening
-  stanza. Scripture epigraph text remains preserved in the source sections.
-- The Swahili and Luo GospelSounders collections use `sw` and `luo`, replacing
-  the incorrect `ki` and `lu` paths. CIS collection names come from its source
-  configuration. Categories and supplied author/tune metadata are retained.
-- Known HTML formatting, character references, extra whitespace, and observed
-  Windows punctuation encoding artifacts are normalized. Display text keeps
-  accents and Malayalam joiners. Non-Latin titles have meaningful Unicode IDs.
-- Standalone numbered stanza headings are parsed as labels. Five Tumbuka
-  records containing only numbered headings have no recoverable lyrics in
-  either local source copy and are quarantined.
+| Source sample | Decision |
+| --- | --- |
+| How Great Thou Art: 5 matching-title copies | One song; shorter verse selections, wording and chorus placement vary |
+| Amazing Grace: 6 matching-title copies | One song; editions select different verses, and additional alternate-title entries are linked |
+| What a Friend We Have in Jesus: 11 copies | One song with all hymnbook references |
+| High in the Heavens, Eternal God: 2 copies | One song; both St. Peter and Alsace tune references retained |
+| Holy, Holy, Holy: 9 matching-title entries | Two different songs; each song's hymnbook copies grouped separately |
 
-## Source issues that still need evidence
+Titles alone do not identify a composition. Matching first compares lyrics in
+the same language, then uses normalized titles and shared verse content to join
+editions with small wording changes, repeated choruses, punctuation differences,
+and selected verses. A shared chorus alone cannot combine unrelated verses.
+A complete same-titled edition can support shorter editions with different
+verse selections. Different-title joins require stronger lyric evidence.
+Accents and non-Latin combining marks remain significant.
+
+The most complete source version supplies the displayed text, with its wording
+unchanged. A scripture epigraph does not count as an additional verse when
+choosing a representative. Alternate source metadata, titles, numbers, authors,
+topics, tune names, repository paths and rights metadata remain attached as
+references. Full source-specific lyric variants can be traced to those original
+repository/path references; the feed publishes a single selected lyric copy.
+
+## Collection storage and filtering
+
+Each song has one storage owner, `collectionId`, so concatenating all collection
+files yields one row per song. `collectionIds` lists every hymnbook containing
+that song. A hymnbook filter must match this list and use the corresponding
+reference number. A book may own no storage rows while still have song
+memberships; its `membershipCount` describes those memberships.
+
+`manifest.hymnCount` counts unique songs. `manifest.sourceHymnCount` counts source
+entries before global grouping. Collection `hymnCount` counts owned storage rows,
+`sourceHymnCount` counts original source entries, and `membershipCount` counts
+unique songs linked to that hymnbook. Search/title indexes contain one metadata
+row per song; canonical/collection files provide the full selected song text.
+
+Version 0.3.0 requires replacing old cached collections and indexes together.
+Appending the new data to an older cache leaves the old duplicate rows visible.
+
+## Metadata corrections retained
+
+The build recovers Malayalam and placeholder Yoruba titles from opening lyrics,
+uses HymnFlow's actual hymn numbers instead of timestamp IDs, moves proven meter
+headings into meter metadata, and uses source-provided hymnbook names. Swahili
+and Luo collections use `sw` and `luo` paths. Known HTML formatting, character
+references, whitespace and Windows punctuation artifacts are normalized while
+preserving accents and Malayalam joiners. Every derived title is marked and
+replaced source titles are retained where available.
+
+## Remaining source issues
 
 `data/quarantine.json` retains 224 SDAH stubs, one Christ in Song stub, and five
-Tumbuka heading-only records. They have no lyrics in the available source
-snapshots, and are excluded from searchable collections. Missing source titles
-are explicitly marked; `Untitled` is only a display placeholder. Three further
-fully empty objects are skipped with exact source pointers in the report.
+Tumbuka heading-only records. Both available Tumbuka snapshots lack the lyrics.
+Missing source titles are explicitly marked; `Untitled` is a display placeholder.
+These records are excluded from search and song collections. Three fully empty
+objects are skipped with exact source pointers in the quality report.
 
-The quality report lists 206 groups for source review: 113 have the same lyrics
-under differing titles, and 93 share a title but have different lyrics. These
-can represent alternate titles, tune/stanza versions, or upstream transcription
-mistakes. Equal titles do not establish duplicate hymns. The canonical lyric
-view groups equal text, while the collection entries preserve the evidence.
-Its identity deliberately ignores case, whitespace, line wrapping, and section
-boundaries, but preserves language, accents, punctuation, and word order. It
-does not claim that punctuation or wording variants are the same composition.
+The quality report lists 161 unresolved title/text comparison groups. They can
+contain genuinely different songs, incompatible editions, or source mistakes;
+no replacement words were invented. For example, local copies repeat the same
+text under different Twi and Dholuo titles. Gospel Hymns #186 also repeats #175
+under a different title. Original and backup snapshots offer no replacement
+text for these records. The same text is grouped as one song with its original
+numbered source references.
 
-The flagged CIS copies were also checked against the original and `New_Files`
-snapshots. The same Twi, Dholuo, Kinyarwanda, and Portuguese text repetitions
-already occur there, so those local copies cannot supply a distinct replacement
-lyric. The matching Swahili entries use alternate source titles. No replacement
-text was inferred from a title alone.
-
-An independent source audit matched all 246 references in the 113
-same-lyrics/different-title groups to raw entries. Differences in imported text
-were limited to the documented character cleanup and stanza-label parsing.
-Trinity #52 keeps two explicit source versions with different tunes (`St. Peter`
-and `Alsace`). Gospel Hymns #186, titled `God Of All Power And Truth And Grace`,
-contains the same source lyrics as #175, `He Is Comimg Again`; the available
-source does not establish a correct replacement for #186.
-
-The CIS source labels one collection `Ndebele/IsiZulu` without a specific ISO
-code. Its inherited `nr` mapping remains marked for verification in
-`metadataReviews`; no more specific language claim was inferred.
-
-Five hymnals advertised by the upstream GospelSounders index have no local
-JSON files: MH1843, HSAB1852, HT1869, HT1886, and SAHB1867. The SQLite research
-source still has no enabled importer. These limitations are recorded as source
-warnings. Missing authors or other unsupported metadata are left unspecified.
+One source labels a collection `Ndebele/IsiZulu` without a precise ISO code. The
+inherited `nr` mapping is marked for source-owner verification. Five advertised
+GospelSounders hymnals lack local JSON files (MH1843, HSAB1852, HT1869, HT1886,
+SAHB1867), and the SQLite research source has no enabled importer. These limits
+remain visible in the report. Unsupported author or other metadata is left
+unspecified rather than inferred.
 
 ## Repeatable checks
 
-Run `npm test`, `npm run build`, and `npm run validate`. Validation reads the
-generated feed independently and checks checksums, counts, ID uniqueness,
-source membership, canonical lyric uniqueness, source references, search text,
-and quarantine accounting. Source-review issues are reported separately from
-integrity failures. The build writes a checksummed quality report and quarantine
-file, so corrections and exclusions stay inspectable on future imports.
+Run `npm test`, `npm run build`, and `npm run validate`. Published-data regression
+tests check the sampled songs in the default search index and concatenate every
+collection to ensure each primary song appears once. Synthetic matching tests
+cover shorter editions, repeated refrains, real title collisions, unrelated
+verses sharing a chorus, medleys, different languages, Unicode marks, tune
+references, representative selection and input-order stability.
 
-Clients upgrading to 0.2.0 should refresh their manifest and indexes together:
-corrected hymn numbers, recovered titles, Unicode IDs, and language paths can
-change lookup keys. Existing collection IDs continue to identify hymnbooks;
-canonical IDs identify normalized lyric content within a language.
+Validation independently checks checksums, unique primary/index rows, counts,
+all original source references, hymnbook memberships, search metadata and
+quarantine accounting. `data/quality-report.json` records grouping decisions,
+source anomalies and unavailable imports. Historical release snapshots and
+upstream source clones are not rewritten by a normal build.

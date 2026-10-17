@@ -3,6 +3,7 @@
   "hymns": [],
   "id": "cs1900",
   "language": "en",
+  "membershipCount": 0,
   "name": "Christ in Song",
   "schemaVersion": 1,
   "source": {
@@ -14,5 +15,6 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/GospelSounders/hymnals-data"
   },
-  "version": "0.2.0"
+  "sourceHymnCount": 0,
+  "version": "0.3.0"
 }

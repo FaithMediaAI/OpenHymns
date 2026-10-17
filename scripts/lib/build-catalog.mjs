@@ -4,7 +4,8 @@ import path from "node:path";
 
 import { cleanLines, normalizeHymn, normalizeSectionType, slugify } from "./normalize.mjs";
 import { resolveSourcePath } from "./source-registry.mjs";
-import { buildCanonicalCatalog, cleanCollection } from "./catalog-quality.mjs";
+import { cleanCollection } from "./catalog-quality.mjs";
+import { buildSongCatalog } from "./song-catalog.mjs";
 
 function sha256(value) {
   return createHash("sha256").update(value).digest("hex");
@@ -97,11 +98,11 @@ function firstLyricLine(value) {
 }
 
 function normalizeMeterTitle(value) {
-  return String(value ?? "").trim().toLowerCase().replace(/[.,\s]+$/g, "").replace(/\s+/g, " ");
+  return String(value ?? "").toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
 
 function isMeterTitle(value) {
-  return /^(?:[CSLP]\s*\.?\s*M\.?|\d+(?:\.\d+)*\.?\s*(?:D\.?|C\.?M\.?|S\.?M\.?|L\.?M\.?|P\.?M\.?|&\s*Ref\.?|and\s+Ref\.?|Ref\.?)?\.?)$/i.test(String(value ?? "").trim());
+  return /^(?:[CSLP]\s*\.?\s*M\.?|\d+(?:\.\d+)*\.?(?:\s*D\.?)?(?:\s*(?:&|and)\s*\.?\s*Ref\.?)?\.?)$/i.test(String(value ?? "").trim());
 }
 
 function normalizeCollectionHymn(source, adapter, hymn, sections, extra = {}) {
@@ -120,7 +121,21 @@ function normalizeCollectionHymn(source, adapter, hymn, sections, extra = {}) {
     normalizeTitleMatch(opening).startsWith(normalizeTitleMatch(numberedTitle[2])) &&
     normalizeTitleMatch(numberedTitle[2]).length >= 4
   );
-  const title = hasNumberedTitlePrefix ? numberedTitle[2] : rawTitle;
+  // Some HymnFlow imports have the same bare "1" title repeated across
+  // unrelated hymns (notably YBH). Treat a bare number as a placeholder only
+  // when it is not the catalog number and a lyric line is available. Numeric
+  // hymn titles that agree with their catalog number remain untouched.
+  const isMismatchedNumericPlaceholder = Boolean(
+    /^\s*\d+\s*$/.test(String(rawTitle)) &&
+    /^\d+$/.test(String(number).trim()) &&
+    String(number).replace(/^0+(?=\d)/, "") !== String(rawTitle).trim().replace(/^0+(?=\d)/, "") &&
+    opening.trim()
+  );
+  const title = hasNumberedTitlePrefix
+    ? numberedTitle[2]
+    : isMismatchedNumericPlaceholder
+      ? opening
+      : rawTitle;
   const normalized = normalizeHymn({
     collectionId: adapter.collectionId,
     language: adapter.language,
@@ -140,10 +155,10 @@ function normalizeCollectionHymn(source, adapter, hymn, sections, extra = {}) {
   });
   return {
     ...normalized,
-    ...((extra.titleSource ?? (hasNumberedTitlePrefix ? "number-prefix-removed" : undefined))
-      ? { titleSource: extra.titleSource ?? "number-prefix-removed" }
+    ...((extra.titleSource ?? (hasNumberedTitlePrefix ? "number-prefix-removed" : isMismatchedNumericPlaceholder ? "first-line" : undefined))
+      ? { titleSource: extra.titleSource ?? (hasNumberedTitlePrefix ? "number-prefix-removed" : "first-line") }
       : {}),
-    ...((extra.sourceTitle ?? (hasNumberedTitlePrefix ? String(rawTitle) : undefined))
+    ...((extra.sourceTitle ?? (hasNumberedTitlePrefix || isMismatchedNumericPlaceholder ? String(rawTitle) : undefined))
       ? { sourceTitle: extra.sourceTitle ?? String(rawTitle) }
       : {})
   };
@@ -258,7 +273,7 @@ function fromFrenchSda(source, adapter, data) {
   return data.map((hymn) => normalizeCollectionHymn(source, adapter, hymn, sectionsFromLyricsText(hymn.lyrics)));
 }
 
-function fromHymnFlow(source, adapter, data) {
+function fromHymnFlow(source, adapter, data, warnings) {
   const hymns = Array.isArray(data) ? data : data.hymns ?? [];
   return hymns.map((hymn) => {
     const sourceTitle = String(hymn.title ?? "").trim();
@@ -272,11 +287,21 @@ function fromHymnFlow(source, adapter, data) {
     const recoveredTitle = hasMeterHeading
       ? rawVerses.slice(1).map(firstLyricLine).find(Boolean) ?? firstLyricLine(hymn.chorus)
       : undefined;
+    if (hasMeterHeading && !recoveredTitle) {
+      warnings.push({
+        source: source.id,
+        path: adapter.path,
+        number: hymn.number ?? hymn.metadata?.number ?? hymn.index ?? hymn.id ?? "",
+        code: "meter-title-without-lyric-title",
+        message: `Meter heading ${JSON.stringify(sourceTitle)} has no later stanza or chorus from which to recover a hymn title; record will be quarantined.`
+      });
+    }
     const sections = [];
     if (Array.isArray(verses)) {
       sections.push(...verses.map((verse, index) => sectionFromText("verse", index + 1, verse)));
     }
     if (hymn.chorus) sections.push(sectionFromText("chorus", "Refrain", hymn.chorus));
+    if (hasMeterHeading && !recoveredTitle) sections.length = 0;
     return normalizeCollectionHymn(source, adapter, {
       ...hymn,
       number: hymn.number ?? hymn.metadata?.number ?? hymn.index ?? hymn.id,
@@ -416,7 +441,7 @@ async function importAdapter(rootDir, source, adapter, warnings) {
   if (adapter.type === "gospel-hymns-db") return fromGospelHymnsDb(source, adapter, data);
   if (adapter.type === "trinity-hymnal") return fromTrinity(source, adapter, data);
   if (adapter.type === "french-sda") return fromFrenchSda(source, adapter, data);
-  if (adapter.type === "hymnflow-bundle") return fromHymnFlow(source, adapter, data);
+  if (adapter.type === "hymnflow-bundle") return fromHymnFlow(source, adapter, data, warnings);
 
   warnings.push({ source: source.id, adapter: adapter.type, message: "Unknown adapter type." });
   return [];
@@ -452,22 +477,30 @@ async function writeJson(filePath, value) {
   await writeFile(filePath, stableJson(value), "utf8");
 }
 
-export async function buildCatalog({
-  rootDir,
-  registry,
-  outputDir = "data",
-  release = false
-}) {
+function songSearchText(song) {
+  return [
+    song.title, song.number, ...(song.authors ?? []), song.tune, song.meter,
+    ...(song.topics ?? []), ...song.sections.flatMap((section) => section.lines),
+    ...(song.alternateTitles ?? []),
+    ...song.references.flatMap((reference) => [
+      reference.title, reference.number, ...(reference.authors ?? []),
+      reference.tune, reference.meter, ...(reference.topics ?? [])
+    ])
+  ].filter(Boolean).join(" ").normalize("NFC").toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+export async function buildCatalog({ rootDir, registry, outputDir = "data", release = false }) {
   const outRoot = path.join(rootDir, outputDir);
   const warnings = [];
-  const collections = [];
+  const sourceCollections = [];
   const collectionReports = [];
   const quarantined = [];
   await rm(outRoot, { recursive: true, force: true });
 
+  // Import first. Global song identity must be resolved before writing any
+  // collection, otherwise clients concatenating the files still get copies.
   for (const source of registry.sources ?? []) {
-    const adapters = await expandAdapters(rootDir, source);
-    for (const adapter of adapters) {
+    for (const adapter of await expandAdapters(rootDir, source)) {
       const hymns = await importAdapter(rootDir, source, adapter, warnings);
       if (!hymns.length) continue;
       const cleaned = cleanCollection(hymns);
@@ -478,131 +511,103 @@ export async function buildCatalog({
         ...(hymn.title === "Untitled" ? { titleSource: "missing", sourceTitle: "" } : {})
       })));
       const collection = collectionDocument(registry, source, adapter, cleaned.hymns.filter((hymn) => hymn.sections.length));
-      if (collections.some((entry) => entry.document.id === collection.id)) throw new Error(`Duplicate collection ID: ${collection.id}`);
-      const collectionPath = `collections/${slugify(collection.language)}/${collection.id}.json`;
-      const json = stableJson(collection);
-      await writeJson(path.join(outRoot, collectionPath), collection);
-      collections.push({
-        document: collection,
-        json,
-        manifest: {
-          id: collection.id,
-          name: collection.name,
-          language: collection.language,
-          hymnCount: collection.hymnCount,
-          path: collectionPath,
-          sha256: sha256(json),
-          license: collection.source.license,
-          rightsStatus: collection.source.rightsStatus,
-          publishable: collection.source.publishable,
-          sourceRepo: collection.source.repo
-        }
-      });
+      if (sourceCollections.some((entry) => entry.id === collection.id)) throw new Error(`Duplicate collection ID: ${collection.id}`);
+      sourceCollections.push(collection);
     }
   }
+  sourceCollections.sort((a, b) => a.language.localeCompare(b.language) || a.name.localeCompare(b.name));
+  const sourceHymns = sourceCollections.flatMap((collection) => collection.hymns);
+  const catalog = buildSongCatalog(sourceHymns);
+  const songs = catalog.records.map((song) => ({ ...song, canonicalId: song.id, searchText: songSearchText(song) }));
+  const collections = [];
+  for (const original of sourceCollections) {
+    const owned = songs.filter((song) => song.collectionId === original.id)
+      .toSorted((a, b) => String(a.number).localeCompare(String(b.number), undefined, { numeric: true }) || a.title.localeCompare(b.title));
+    const document = {
+      ...original,
+      hymns: owned,
+      hymnCount: owned.length,
+      sourceHymnCount: original.hymns.length,
+      membershipCount: songs.filter((song) => song.collectionIds.includes(original.id)).length
+    };
+    const collectionPath = `collections/${slugify(document.language)}/${document.id}.json`;
+    const json = stableJson(document);
+    await writeJson(path.join(outRoot, collectionPath), document);
+    collections.push({
+      document,
+      manifest: {
+        id: document.id, name: document.name, language: document.language,
+        hymnCount: document.hymnCount, sourceHymnCount: document.sourceHymnCount,
+        membershipCount: document.membershipCount,
+        path: collectionPath, sha256: sha256(json), license: document.source.license,
+        rightsStatus: document.source.rightsStatus, publishable: document.source.publishable,
+        sourceRepo: document.source.repo
+      }
+    });
+  }
 
-  collections.sort((a, b) => a.manifest.language.localeCompare(b.manifest.language) || a.manifest.name.localeCompare(b.manifest.name));
-  const allHymns = collections.flatMap((collection) => collection.document.hymns);
-  const canonical = buildCanonicalCatalog(allHymns);
-  const canonicalIds = new Map(canonical.records.flatMap((record) => record.references.map((reference) => [reference.id, record.id])));
-  const titles = allHymns
-    .map((hymn) => ({
-      id: hymn.id,
-      ...(canonicalIds.has(hymn.id) ? { canonicalId: canonicalIds.get(hymn.id) } : {}),
-      collectionId: hymn.collectionId,
-      language: hymn.language,
-      number: hymn.number,
-      title: hymn.title
-    }))
-    .sort((a, b) => a.language.localeCompare(b.language) || a.title.localeCompare(b.title));
-  const languages = Object.values(
-    collections.reduce((acc, collection) => {
-      const language = collection.manifest.language;
-      acc[language] ??= { language, collectionCount: 0, hymnCount: 0 };
-      acc[language].collectionCount += 1;
-      acc[language].hymnCount += collection.manifest.hymnCount;
-      return acc;
-    }, {})
-  ).sort((a, b) => a.language.localeCompare(b.language));
-  const search = allHymns
-    .map((hymn) => ({
-      id: hymn.id,
-      ...(canonicalIds.has(hymn.id) ? { canonicalId: canonicalIds.get(hymn.id) } : {}),
-      collectionId: hymn.collectionId,
-      language: hymn.language,
-      title: hymn.title,
-      number: hymn.number,
-      searchText: hymn.searchText
-    }))
-    .sort((a, b) => a.language.localeCompare(b.language) || a.title.localeCompare(b.title));
-
-  await writeJson(path.join(outRoot, "indexes", "titles.json"), titles);
-  await writeJson(path.join(outRoot, "indexes", "languages.json"), languages);
-  await writeJson(path.join(outRoot, "indexes", "search.json"), search);
-  await writeJson(path.join(outRoot, "indexes", "canonical.json"), canonical.records);
+  const sortedSongs = songs.toSorted((a, b) => a.language.localeCompare(b.language) || a.title.localeCompare(b.title) || a.id.localeCompare(b.id));
+  const titleRow = (song) => ({
+    id: song.id, canonicalId: song.id, collectionId: song.collectionId,
+    collectionIds: song.collectionIds, language: song.language, number: song.number,
+    title: song.title, alternateTitles: song.alternateTitles, references: song.references
+  });
+  const titles = sortedSongs.map(titleRow);
+  const search = sortedSongs.map((song) => ({ ...titleRow(song), searchText: song.searchText }));
+  const languages = [...new Set(sourceCollections.map((collection) => collection.language))].sort().map((language) => ({
+    language,
+    collectionCount: collections.filter((collection) => collection.document.language === language).length,
+    hymnCount: songs.filter((song) => song.language === language).length,
+    sourceHymnCount: sourceHymns.filter((hymn) => hymn.language === language).length
+  }));
+  const indexDocuments = { titles, languages, search, canonical: sortedSongs };
+  const indexes = [];
+  for (const [id, records] of Object.entries(indexDocuments)) {
+    const indexPath = `indexes/${id}.json`;
+    await writeJson(path.join(outRoot, indexPath), records);
+    indexes.push({ id, path: indexPath, sha256: sha256(stableJson(records)), recordCount: records.length });
+  }
   await writeJson(path.join(outRoot, "quarantine.json"), quarantined);
 
+  const importedRecordCount = collectionReports.reduce((total, report) => total + report.inputCount, 0);
+  const skippedPlaceholderCount = warnings.filter((warning) => ["empty-placeholder", "invalid-record"].includes(warning.code)).length;
   const qualityReport = {
-    schemaVersion: 1,
-    version: registry.version,
+    schemaVersion: 1, version: registry.version,
     summary: {
       collectionCount: collections.length,
-      importedRecordCount: collectionReports.reduce((total, report) => total + report.inputCount, 0),
-      skippedPlaceholderCount: warnings.filter((warning) => ["empty-placeholder", "invalid-record"].includes(warning.code)).length,
-      sourceRecordCount: collectionReports.reduce((total, report) => total + report.inputCount, 0) + warnings.filter((warning) => ["empty-placeholder", "invalid-record"].includes(warning.code)).length,
-      hymnCount: allHymns.length,
+      sourceRecordCount: importedRecordCount + skippedPlaceholderCount,
+      importedRecordCount, skippedPlaceholderCount,
+      sourceHymnCount: sourceHymns.length, hymnCount: songs.length,
       removedDuplicateCount: collectionReports.reduce((total, report) => total + report.removedCount, 0),
       resolvedIdCollisionCount: collectionReports.reduce((total, report) => total + report.idCollisions.length, 0),
-      canonicalHymnCount: canonical.records.length,
-      groupedDuplicateReferenceCount: canonical.report.duplicateReferenceCount,
-      recoveredTitleCount: allHymns.filter((hymn) => hymn.titleSource === "first-line").length,
-      missingLyricsCount: quarantined.length,
-      activeMissingLyricsCount: canonical.report.emptyLyricCount,
+      canonicalHymnCount: songs.length,
+      groupedDuplicateReferenceCount: sourceHymns.length - songs.length,
+      recoveredTitleCount: sourceHymns.filter((hymn) => hymn.titleSource === "first-line").length,
+      missingLyricsCount: quarantined.length, activeMissingLyricsCount: 0,
       quarantinedRecordCount: quarantined.length,
-      ambiguousGroupCount: collectionReports.reduce((total, report) => total + report.ambiguous.length, 0)
+      ambiguousGroupCount: catalog.report.ambiguousGroupCount ?? 0
     },
     collections: collectionReports,
-    canonical: canonical.report,
+    canonical: catalog.report,
     missingLyrics: quarantined.map((hymn) => ({ id: hymn.id, collectionId: hymn.collectionId, number: hymn.number, title: hymn.title, source: hymn.source })),
-    sourceWarnings: warnings,
-    metadataReviews: registry.metadataReviews ?? []
+    sourceWarnings: warnings, metadataReviews: registry.metadataReviews ?? []
   };
   await writeJson(path.join(outRoot, "quality-report.json"), qualityReport);
-
-  const titlesJson = stableJson(titles);
-  const languagesJson = stableJson(languages);
-  const searchJson = stableJson(search);
-  const canonicalJson = stableJson(canonical.records);
   const manifest = {
-    schemaVersion: 1,
-    version: registry.version,
-    generatedAt: new Date().toISOString(),
-    collectionCount: collections.length,
-    hymnCount: allHymns.length,
-    canonicalHymnCount: canonical.records.length,
+    schemaVersion: 1, version: registry.version, generatedAt: new Date().toISOString(),
+    catalogMode: "one-song-per-language",
+    collectionCount: collections.length, hymnCount: songs.length,
+    sourceHymnCount: sourceHymns.length, canonicalHymnCount: songs.length,
     qualityReport: { path: "quality-report.json", sha256: sha256(stableJson(qualityReport)) },
     quarantine: { path: "quarantine.json", sha256: sha256(stableJson(quarantined)), recordCount: quarantined.length },
-    collections: collections.map((collection) => collection.manifest),
-    indexes: [
-      { id: "titles", path: "indexes/titles.json", sha256: sha256(titlesJson), recordCount: titles.length },
-      { id: "languages", path: "indexes/languages.json", sha256: sha256(languagesJson), recordCount: languages.length },
-      { id: "search", path: "indexes/search.json", sha256: sha256(searchJson), recordCount: search.length },
-      { id: "canonical", path: "indexes/canonical.json", sha256: sha256(canonicalJson), recordCount: canonical.records.length }
-    ],
-    warnings
+    collections: collections.map((collection) => collection.manifest), indexes, warnings
   };
   await writeJson(path.join(outRoot, "manifest.json"), manifest);
-
   if (release) {
     const releaseRoot = path.join(rootDir, "releases", `v${registry.version}`);
     await rm(releaseRoot, { recursive: true, force: true });
     await mkdir(path.dirname(releaseRoot), { recursive: true });
     await cp(outRoot, releaseRoot, { recursive: true });
   }
-
-  return {
-    collections: collections.map((collection) => collection.document),
-    manifest,
-    warnings
-  };
+  return { collections: collections.map((collection) => collection.document), manifest, warnings };
 }

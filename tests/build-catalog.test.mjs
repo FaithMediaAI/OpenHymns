@@ -62,21 +62,25 @@ test("buildCatalog writes language collections, indexes, and a checksum manifest
     assert.match(result.manifest.collections[0].sha256, /^[a-f0-9]{64}$/);
 
     const collection = JSON.parse(await readFile(path.join(root, "data", "collections", "en", "sample-en.json"), "utf8"));
-    assert.equal(collection.hymns[0].id, "sample-en-001-praise-to-the-lord");
+    assert.match(collection.hymns[0].id, /^song-[a-f0-9]+$/);
+    assert.equal(collection.hymns[0].references[0].id, "sample-en-001-praise-to-the-lord");
     assert.equal(collection.hymns[0].sections[1].type, "chorus");
 
     const titles = JSON.parse(await readFile(path.join(root, "data", "indexes", "titles.json"), "utf8"));
     const canonical = JSON.parse(await readFile(path.join(root, "data", "indexes", "canonical.json"), "utf8"));
     assert.equal(result.manifest.canonicalHymnCount, 1);
     assert.deepEqual(titles[0], {
-      id: "sample-en-001-praise-to-the-lord",
+      id: collection.hymns[0].id,
       canonicalId: canonical[0].id,
       collectionId: "sample-en",
+      collectionIds: ["sample-en"],
       language: "en",
       number: "1",
-      title: "Praise to the Lord"
+      title: "Praise to the Lord",
+      alternateTitles: [],
+      references: collection.hymns[0].references
     });
-    assert.match(titles[0].canonicalId, /^lyrics-[a-f0-9]+$/);
+    assert.equal(titles[0].canonicalId, titles[0].id);
 
     const releaseManifest = JSON.parse(await readFile(path.join(root, "releases", "v0.1.0", "manifest.json"), "utf8"));
     assert.equal(releaseManifest.collections[0].path, "collections/en/sample-en.json");

@@ -50,20 +50,31 @@ Generated hymn data keeps source repository, license, and rights-status metadata
 
 ## Clean catalog and duplicate handling
 
-Use `data/indexes/canonical.json` to browse unique lyrics. Each record groups the
-same lyrics in the same language and links to every source hymn through
-`references`. The `titles` and `search` indexes expose `canonicalId` for the same
-purpose. The collection files preserve hymnbook membership, numbering, tune
-variants, and source attribution; repeated appearances there are intentional.
-Canonical counts exclude entries whose sources provide no lyrics.
+The default feed contains **one record per song per language**. Collection
+files, `indexes/search.json`, `indexes/titles.json`, and `indexes/canonical.json`
+all use the same unique song IDs. Apps concatenating collection files receive
+one copy, without needing a separate deduplication step.
 
-Matching preserves accents, punctuation, word order, and language. The unique
-lyric view ignores case, line wrapping, and stanza/chorus boundaries; those
-performance details remain in each original collection entry. Equal titles
-alone never justify deleting a hymn.
-Within a collection, only records agreeing on number, title, full lyrics,
-section layout, identifying metadata, and provenance are removed automatically.
-Conflicting IDs receive stable content-derived suffixes. Titles recovered from
+Copies in different hymnbooks are matched using normalized titles and lyric
+evidence, allowing punctuation, repeated choruses, small wording differences,
+and shorter verse selections. Different songs sharing a title remain distinct.
+The most complete source version supplies the displayed lyrics; its original
+wording is preserved. Other hymnbook titles, numbers, attribution, topics and
+tune metadata are retained in `references` and `alternateTitles`. The original
+source texts remain accessible through their repository/path references.
+
+Each song is stored in one representative owner's collection. `collectionIds`
+lists **all** hymnbooks containing that song; use it for hymnbook filters rather
+than just `collectionId`. Collection `hymnCount` counts stored unique rows,
+`membershipCount` counts songs belonging to that book, and `sourceHymnCount`
+counts its original imported entries. The manifest's `hymnCount` is the unique
+song count and `sourceHymnCount` is the count before global song grouping.
+
+Version 0.3.0 replaces the older feed that exposed separate hymnbook copies.
+Clients must replace cached collections and indexes together when upgrading;
+appending new rows to a 0.2.0 cache will retain the old duplicates.
+
+Titles recovered from
 lyrics carry `titleSource: "first-line"`; retained records without lyrics carry
 `contentStatus: "missing-lyrics"` in `data/quarantine.json`. These incomplete
 source records are kept for review and excluded from collection/search results.
@@ -72,6 +83,7 @@ Missing source titles use the display label `Untitled` with `titleSource: "missi
 Every build regenerates `data/quality-report.json`: duplicate groups, removal
 decisions, resolved ID collisions, ambiguous title/lyric matches, missing lyrics,
 and unavailable upstream sources. `npm run validate` independently checks counts,
-checksums, IDs, index membership, source references, and unique canonical lyrics.
+checksums, IDs, unique primary/index rows, hymnbook memberships, source references,
+and source/quarantine accounting.
 Source omissions are reported separately from structural integrity errors.
 See [data cleanup notes](docs/DATA_CLEANUP.md) for the current findings and limits.
