@@ -1452,7 +1452,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Praise the Lord:  ye heavens adore him",
+      "title": "Praise the Lord: ye heavens adore him",
       "tune": "Faben"
     },
     {
@@ -2616,7 +2616,7 @@
       "language": "en",
       "number": "27",
       "schemaVersion": 1,
-      "searchText": "great is thy faithfulness 27 faithfulness great is thy faithfulness, o god my father, there is no shadow of turning with thee: thou changest not, thy compassions, they fail not; as thou hast been thou for ever wilt be. \"great is thy faithfulness! great is thy faithfulness!\" morning by morning new mercies i see: all i have needed thy hand hath provided \"great is thy faithfulness,\" lord unto me! summer and winter, and springtime and harvest, sun, moon and stars in their courses above, join with all nature in manifold witness to thy great faithfulness, mercy and love. pardon for sin and a peace that endureth, thine own dear presence to cheer and to guide; strength for today and bright hope for tomorrow, blessings all mine, with ten thousand beside. thomas o. chisholm copyright 1923, renewal 1951, hope publishing company, carol stream, il 60188. all rights reserved. used by permission. if you wish to print, copy, cut/paste or duplicate these lyrics you must obtain permission from hope publishing company, 380 south main place, carol stream, il 60188 (800/323-1049).",
+      "searchText": "great is thy faithfulness 27 faithfulness great is thy faithfulness, o god my father, there is no shadow of turning with thee: thou changest not, thy compassions, they fail not; as thou hast been thou for ever wilt be. \"great is thy faithfulness! great is thy faithfulness!\" morning by morning new mercies i see: all i have needed thy hand hath provided— \"great is thy faithfulness,\" lord unto me! summer and winter, and springtime and harvest, sun, moon and stars in their courses above, join with all nature in manifold witness to thy great faithfulness, mercy and love. pardon for sin and a peace that endureth, thine own dear presence to cheer and to guide; strength for today and bright hope for tomorrow, blessings all mine, with ten thousand beside. —thomas o. chisholm copyright 1923, renewal 1951, hope publishing company, carol stream, il 60188. all rights reserved. used by permission. if you wish to print, copy, cut/paste or duplicate these lyrics you must obtain permission from hope publishing company, 380 south main place, carol stream, il 60188 (800/323-1049).",
       "sections": [
         {
           "label": "1",
@@ -2633,7 +2633,7 @@
           "lines": [
             "\"Great is thy faithfulness! Great is thy faithfulness!\"",
             "Morning by morning new mercies I see:",
-            "All I have needed thy hand hath provided",
+            "All I have needed thy hand hath provided—",
             "\"Great is thy faithfulness,\" Lord unto me!"
           ],
           "type": "verse"
@@ -2661,7 +2661,7 @@
         {
           "label": "5",
           "lines": [
-            "Thomas O. Chisholm"
+            "—Thomas O. Chisholm"
           ],
           "type": "verse"
         },
@@ -4974,7 +4974,7 @@
     },
     {
       "collectionId": "trinity-hymnal-en",
-      "id": "trinity-hymnal-en-052-high-in-the-heavens-eternal-god",
+      "id": "trinity-hymnal-en-052-high-in-the-heavens-eternal-god--0b8e77b68811",
       "language": "en",
       "number": "52",
       "schemaVersion": 1,
@@ -5160,7 +5160,7 @@
     },
     {
       "collectionId": "trinity-hymnal-en",
-      "id": "trinity-hymnal-en-052-high-in-the-heavens-eternal-god",
+      "id": "trinity-hymnal-en-052-high-in-the-heavens-eternal-god--afd78c6a0e36",
       "language": "en",
       "number": "52",
       "schemaVersion": 1,
@@ -7065,7 +7065,7 @@
       "language": "en",
       "number": "74",
       "schemaVersion": 1,
-      "searchText": "the man who once has found abode 74 uxbridge psalm 91:1-6, 11-12, 14 the man who once has found abode, within the secret place of god shall with almighty god abide, and in his shadow safely hide. i therefore of the lord will say, he is my refuge and my stay; my citadel of strength is he my god in whom my trust shall be. for he shall with his watchful care preserve thee from the fowler's snare; yea, he shall be thy sure defense against the deadly pestilence. his outspread pinions shall thee hide, beneath his wings shalt thou confide. his faithfulness shall ever be a shield and buckler unto thee. no nightly terrors shall alarm, no deadly shaft by day shall harm; nor pestilence that walks by night, nor plagues that waste in noonday light. because his angels he commands to bear thee safely in their hands, to guard thy ways, lest left alone, thou dash thy foot against a stone. because he set his love on me, from danger i will set him free. because to him my name is known, on high i'll set him as mine own.",
+      "searchText": "the man who once has found abode 74 uxbridge psalm 91:1-6, 11-12, 14 the man who once has found abode, within the secret place of god shall with almighty god abide, and in his shadow safely hide. i therefore of the lord will say, he is my refuge and my stay; my citadel of strength is he— my god in whom my trust shall be. for he shall with his watchful care preserve thee from the fowler's snare; yea, he shall be thy sure defense against the deadly pestilence. his outspread pinions shall thee hide, beneath his wings shalt thou confide. his faithfulness shall ever be a shield and buckler unto thee. no nightly terrors shall alarm, no deadly shaft by day shall harm; nor pestilence that walks by night, nor plagues that waste in noonday light. because his angels he commands to bear thee safely in their hands, to guard thy ways, lest left alone, thou dash thy foot against a stone. because he set his love on me, from danger i will set him free. because to him my name is known, on high i'll set him as mine own.",
       "sections": [
         {
           "label": "1",
@@ -7089,7 +7089,7 @@
           "lines": [
             "I therefore of the Lord will say,",
             "He is my Refuge and my Stay;",
-            "My Citadel of strength is he",
+            "My Citadel of strength is he—",
             "My God in whom my trust shall be."
           ],
           "type": "verse"
@@ -8984,7 +8984,7 @@
         {
           "label": "3",
           "lines": [
-            "O holy, holy, holy  Lord,",
+            "O holy, holy, holy Lord,",
             "Whom heavenly hosts obey,",
             "The world is with the glory filled",
             "Of thy majestic ray."
@@ -9155,7 +9155,7 @@
       "language": "en",
       "number": "93",
       "schemaVersion": 1,
-      "searchText": "lord, my weak thought in vain would climb 93 canonbury lord, my weak thought in vain would climb to search the starry vault profound; in vain would wing her flight sublime to find creation's utmost bound. but weaker yet that thought must prove to search thy great eternal plan, thy sovereign counsels, born of love long ages ere the world began. when my dim reason would demand why that, or this, thou dost ordain, by some vast deep i seem to stand, whose secrets i must ask in vain. when doubts disturb my troubled breast, and all is dark as night to me, here, as on solid rock, i rest, that so it seemeth good to thee. be this my joy, that evermore thou rulest all things at thy will; thy sovereign wisdom i adore, and calmly, sweetly, trust thee still.",
+      "searchText": "lord, my weak thought in vain would climb 93 canonbury lord, my weak thought in vain would climb to search the starry vault profound; in vain would wing her flight sublime to find creation's utmost bound. but weaker yet that thought must prove to search thy great eternal plan, thy sovereign counsels, born of love long ages ere the world began. when my dim reason would demand why that, or this, thou dost ordain, by some vast deep i seem to stand, whose secrets i must ask in vain. when doubts disturb my troubled breast, and all is dark as night to me, here, as on solid rock, i rest,— that so it seemeth good to thee. be this my joy, that evermore thou rulest all things at thy will; thy sovereign wisdom i adore, and calmly, sweetly, trust thee still.",
       "sections": [
         {
           "label": "1",
@@ -9192,7 +9192,7 @@
           "lines": [
             "When doubts disturb my troubled breast,",
             "And all is dark as night to me,",
-            "Here, as on solid rock, I rest,",
+            "Here, as on solid rock, I rest,—",
             "That so it seemeth good to thee."
           ],
           "type": "verse"
@@ -10973,7 +10973,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Thou art the Way:  to thee alone",
+      "title": "Thou art the Way: to thee alone",
       "tune": "Arlington"
     },
     {
@@ -12380,7 +12380,7 @@
       "language": "en",
       "number": "134",
       "schemaVersion": 1,
-      "searchText": "o christ, our king, creator, lord 134 grace church o christ, our king, creator, lord, saviour of all who trust thy word, to them who seek thee ever near, now to our praises bend thine ear. in thy dear cross a grace is found it flows from every streaming wound whose pow'r our inbred sin controls, breaks the firm bond, and frees our souls. thou didst create the stars of night; yet thou hast veiled in flesh thy light, hast deigned a mortal form to wear, a mortal's painful lot to bear. when thou didst hang upon the tree, the quaking earth acknowledged thee; when thou didst here yield up thy breath, the world grew dark as shades of death. now in the father's glory high, great conqueror, nevermore to die, us by thy mighty pow'r defend, and reign through ages without end.",
+      "searchText": "o christ, our king, creator, lord 134 grace church o christ, our king, creator, lord, saviour of all who trust thy word, to them who seek thee ever near, now to our praises bend thine ear. in thy dear cross a grace is found— it flows from every streaming wound— whose pow'r our inbred sin controls, breaks the firm bond, and frees our souls. thou didst create the stars of night; yet thou hast veiled in flesh thy light, hast deigned a mortal form to wear, a mortal's painful lot to bear. when thou didst hang upon the tree, the quaking earth acknowledged thee; when thou didst here yield up thy breath, the world grew dark as shades of death. now in the father's glory high, great conqueror, nevermore to die, us by thy mighty pow'r defend, and reign through ages without end.",
       "sections": [
         {
           "label": "1",
@@ -12395,8 +12395,8 @@
         {
           "label": "2",
           "lines": [
-            "In thy dear cross a grace is found",
-            "It flows from every streaming wound",
+            "In thy dear cross a grace is found—",
+            "It flows from every streaming wound—",
             "Whose pow'r our inbred sin controls,",
             "Breaks the firm bond, and frees our souls."
           ],
@@ -12516,7 +12516,7 @@
       "language": "en",
       "number": "136",
       "schemaVersion": 1,
-      "searchText": "ye servants of god, your master proclaim 136 lyons ye servants of god, your master proclaim, and publish abroad his wonderful name; the name, all victorious, of jesus extol; his kingdom is glorious, and rules over all. god ruleth on high, almighty to save; and still he is nighhis presence we have: the great congregation his triumph shall sing, ascribing salvation to jesus, our king. salvation to god who sits on the throne! let all cry aloud and honor the son: the praises of jesus the angels proclaim, fall down on their faces and worship the lamb. then let us adore, and give him his right, all glory and power, and wisdom and might, all honor and blessing, with angels above, and thanks never ceasing for infinite love.",
+      "searchText": "ye servants of god, your master proclaim 136 lyons ye servants of god, your master proclaim, and publish abroad his wonderful name; the name, all victorious, of jesus extol; his kingdom is glorious, and rules over all. god ruleth on high, almighty to save; and still he is nigh—his presence we have: the great congregation his triumph shall sing, ascribing salvation to jesus, our king. salvation to god who sits on the throne! let all cry aloud and honor the son: the praises of jesus the angels proclaim, fall down on their faces and worship the lamb. then let us adore, and give him his right, all glory and power, and wisdom and might, all honor and blessing, with angels above, and thanks never ceasing for infinite love.",
       "sections": [
         {
           "label": "1",
@@ -12532,7 +12532,7 @@
           "label": "2",
           "lines": [
             "God ruleth on high, almighty to save;",
-            "And still he is nighhis presence we have:",
+            "And still he is nigh—his presence we have:",
             "The great congregation his triumph shall sing,",
             "Ascribing salvation to Jesus, our King."
           ],
@@ -12574,7 +12574,7 @@
       "language": "en",
       "number": "137",
       "schemaVersion": 1,
-      "searchText": "there were ninety and nine 137 the ninety and nine there were ninety and nine that safely lay in the shelter of the fold, but one was out on the hills away, far off from the gates of gold away on the mountains wild and bare, away from the tender shepherd's care. \"lord, thou hast here thy ninety and nine; are they not enough for thee?\" but the shepherd made answer: \"this of mine has wandered away from me, and although the road be rough and steep, i go to the desert to find my sheep.\" but none of the ransomed ever knew how deep were the waters crossed; nor how dark was the night that the lord passed thro' ere he found his sheep that was lost. out in the desert he heard its cry sick and helpless, and ready to die. \"lord, whence are those blood-drops all the way that mark out the mountain's track?\" \"they were shed for one who had gone astray ere the shepherd could bring him back.\" \"lord, whence are thy hands so rent and torn? they're pierced tonight by many a thorn.\" but all thro' the mountains, thunder riv'n, and up from the rocky steep, there arose a glad cry to the gate of heav'n, \"rejoice! i have found my sheep!\" and the angels echoed around the throne, \"rejoice, for the lord brings back his own!\"",
+      "searchText": "there were ninety and nine 137 the ninety and nine there were ninety and nine that safely lay in the shelter of the fold, but one was out on the hills away, far off from the gates of gold— away on the mountains wild and bare, away from the tender shepherd's care. \"lord, thou hast here thy ninety and nine; are they not enough for thee?\" but the shepherd made answer: \"this of mine has wandered away from me, and although the road be rough and steep, i go to the desert to find my sheep.\" but none of the ransomed ever knew how deep were the waters crossed; nor how dark was the night that the lord passed thro' ere he found his sheep that was lost. out in the desert he heard its cry— sick and helpless, and ready to die. \"lord, whence are those blood-drops all the way that mark out the mountain's track?\" \"they were shed for one who had gone astray ere the shepherd could bring him back.\" \"lord, whence are thy hands so rent and torn? they're pierced tonight by many a thorn.\" but all thro' the mountains, thunder riv'n, and up from the rocky steep, there arose a glad cry to the gate of heav'n, \"rejoice! i have found my sheep!\" and the angels echoed around the throne, \"rejoice, for the lord brings back his own!\"",
       "sections": [
         {
           "label": "1",
@@ -12582,7 +12582,7 @@
             "There were ninety and nine that safely lay",
             "In the shelter of the fold,",
             "But one was out on the hills away,",
-            "Far off from the gates of gold",
+            "Far off from the gates of gold—",
             "Away on the mountains wild and bare,",
             "Away from the tender Shepherd's care."
           ],
@@ -12607,7 +12607,7 @@
             "How deep were the waters crossed;",
             "Nor how dark was the night that the Lord passed thro'",
             "Ere he found his sheep that was lost.",
-            "Out in the desert he heard its cry",
+            "Out in the desert he heard its cry—",
             "Sick and helpless, and ready to die."
           ],
           "type": "verse"
@@ -13469,7 +13469,7 @@
       "language": "en",
       "number": "144",
       "schemaVersion": 1,
-      "searchText": "sweetest note in seraph song 144 sympathy the great physician now is near, the sympathizing jesus; he speaks the drooping heart to cheer; o hear the voice of jesus. sweetest note in seraph song, sweetest name on mortal tongue, sweetest carol ever sung, jesus, blessed jesus. his name dispels my guilt and fear, no other name but jesus; o how my soul delights to hear the precious name of jesus! and when to that bright world above we rise to be with jesus, we'll sing around the throne of love his namethe name of jesus.",
+      "searchText": "sweetest note in seraph song 144 sympathy the great physician now is near, the sympathizing jesus; he speaks the drooping heart to cheer; o hear the voice of jesus. sweetest note in seraph song, sweetest name on mortal tongue, sweetest carol ever sung, jesus, blessed jesus. his name dispels my guilt and fear, no other name but jesus; o how my soul delights to hear the precious name of jesus! and when to that bright world above we rise to be with jesus, we'll sing around the throne of love his name—the name of jesus.",
       "sections": [
         {
           "label": "1",
@@ -13507,7 +13507,7 @@
             "And when to that bright world above",
             "We rise to be with Jesus,",
             "We'll sing around the throne of love",
-            "His Namethe Name of Jesus."
+            "His Name—the Name of Jesus."
           ],
           "type": "verse"
         }
@@ -14631,7 +14631,7 @@
       "language": "en",
       "number": "156",
       "schemaVersion": 1,
-      "searchText": "while shepherds watched their flocks 156 christmas while shepherds watched their flocks by night, all seated on the ground, the angel of the lord came down, and glory shone around. \"fear not,\" said hefor mighty dread had seized their troubled mind \"glad tidings of great joy i bring to you and all mankind. \"to you in david's town this day, is born of david's line, the saviour, who is christ, the lord, and this shall be the sign. \"the heav'nly babe you there shall find to human view displayed, all meanly wrapped in swathing bands, and in a manger laid.\" thus spake the seraph, and forthwith appeared a shining throng of angels praising god, who thus addressed their joyful song: \"all glory be to god on high, and to the earth be peace: good will henceforth, from heav'n to men, begin and never cease!\"",
+      "searchText": "while shepherds watched their flocks 156 christmas while shepherds watched their flocks by night, all seated on the ground, the angel of the lord came down, and glory shone around. \"fear not,\" said he—for mighty dread had seized their troubled mind— \"glad tidings of great joy i bring to you and all mankind. \"to you in david's town this day, is born of david's line, the saviour, who is christ, the lord, and this shall be the sign. \"the heav'nly babe you there shall find to human view displayed, all meanly wrapped in swathing bands, and in a manger laid.\" thus spake the seraph, and forthwith appeared a shining throng of angels praising god, who thus addressed their joyful song: \"all glory be to god on high, and to the earth be peace: good will henceforth, from heav'n to men, begin and never cease!\"",
       "sections": [
         {
           "label": "1",
@@ -14646,8 +14646,8 @@
         {
           "label": "2",
           "lines": [
-            "\"Fear not,\" said hefor mighty dread",
-            "Had seized their troubled mind",
+            "\"Fear not,\" said he—for mighty dread",
+            "Had seized their troubled mind—",
             "\"Glad tidings of great joy I bring",
             "To you and all mankind."
           ],
@@ -17125,7 +17125,7 @@
       "language": "en",
       "number": "181",
       "schemaVersion": 1,
-      "searchText": "o dearest jesus, what law hast thou broken 181 herzliebster jesu o dearest jesus, what law hast thou broken that such sharp sentence should on thee be spoken? of what great crime hast thou to make confession, what dark transgression? they crown thy head with thorns, they smite, they scourge thee; with cruel mockings to the cross they urge thee; they give thee gall to drink, they still decry thee; they crucify thee. whence come these sorrows, whence this mortal anguish? it is my sins for which thou, lord, must languish; yea, all the wrath, the woe, thou dost inherit, this i do merit. what punishment so strange is suffered yonder! the shepherd dies for sheep that loved to wander; the master pays the debt his servants owe him, who would not know him. the sinless son of god must die in sadness; the sinful child of man may live in gladness; man forfeited his life and is acquitted, god is committed.",
+      "searchText": "o dearest jesus, what law hast thou broken 181 herzliebster jesu o dearest jesus, what law hast thou broken that such sharp sentence should on thee be spoken? of what great crime hast thou to make confession, what dark transgression? they crown thy head with thorns, they smite, they scourge thee; with cruel mockings to the cross they urge thee; they give thee gall to drink, they still decry thee; they crucify thee. whence come these sorrows, whence this mortal anguish? it is my sins for which thou, lord, must languish; yea, all the wrath, the woe, thou dost inherit, this i do merit. what punishment so strange is suffered yonder! the shepherd dies for sheep that loved to wander; the master pays the debt his servants owe him, who would not know him. the sinless son of god must die in sadness; the sinful child of man may live in gladness; man forfeited his life and is acquitted,— god is committed.",
       "sections": [
         {
           "label": "1",
@@ -17172,7 +17172,7 @@
           "lines": [
             "The sinless Son of God must die in sadness;",
             "The sinful child of man may live in gladness;",
-            "Man forfeited his life and is acquitted,",
+            "Man forfeited his life and is acquitted,—",
             "God is committed."
           ],
           "type": "verse"
@@ -17251,7 +17251,7 @@
       "language": "en",
       "number": "183",
       "schemaVersion": 1,
-      "searchText": "throned upon the awful tree 183 arfon throned upon the awful tree, king of grief, i watch with thee. darkness veils thine anguished face: none its lines of woe can trace: none can tell what pangs unknown hold thee silent and alone. silent through those three dread hours, wrestling with the evil pow'rs, left alone with human sin, gloom around thee and within, till th'appointed time is nigh, till the lamb of god may die. hark, that cry that peals aloud upward through the whelming cloud! thou, the father's only son, thou, his own anointed one, thou dost ask himcan it be? \"why hast thou forsaken me?\" lord, should fear and anguish roll darkly o'er my sinful soul, thou, who once wast thus bereft that thine own might never be left, teach me by that bitter cry in the gloom to know thee nigh.",
+      "searchText": "throned upon the awful tree 183 arfon throned upon the awful tree, king of grief, i watch with thee. darkness veils thine anguished face: none its lines of woe can trace: none can tell what pangs unknown hold thee silent and alone. silent through those three dread hours, wrestling with the evil pow'rs, left alone with human sin, gloom around thee and within, till th'appointed time is nigh, till the lamb of god may die. hark, that cry that peals aloud upward through the whelming cloud! thou, the father's only son, thou, his own anointed one, thou dost ask him—can it be?— \"why hast thou forsaken me?\" lord, should fear and anguish roll darkly o'er my sinful soul, thou, who once wast thus bereft that thine own might never be left, teach me by that bitter cry in the gloom to know thee nigh.",
       "sections": [
         {
           "label": "1",
@@ -17284,7 +17284,7 @@
             "Upward through the whelming cloud!",
             "Thou, the Father's only Son,",
             "Thou, his own Anointed One,",
-            "Thou dost ask himcan it be?",
+            "Thou dost ask him—can it be?—",
             "\"Why hast thou forsaken me?\""
           ],
           "type": "verse"
@@ -17971,7 +17971,7 @@
       "language": "en",
       "number": "194",
       "schemaVersion": 1,
-      "searchText": "sing, my tongue, how glorious battle 194 ardudwy sing, my tongue, how glorious battle glorious victory became; and above the cross, his trophy, tell the triumph and the fame: tell how he, the earth's redeemer, by his death for man o'ercame. thirty years fulfilled among us perfect life in low estate born for this, and self-surrendered, to his passion dedicate, on the cross the lamb is lifted, for his people immolate. unto god be laud and honor: to the father, to the son, to the mighty spirit, glory ever three and ever one: power and glory in the highest while eternal ages run.",
+      "searchText": "sing, my tongue, how glorious battle 194 ardudwy sing, my tongue, how glorious battle glorious victory became; and above the cross, his trophy, tell the triumph and the fame: tell how he, the earth's redeemer, by his death for man o'ercame. thirty years fulfilled among us— perfect life in low estate— born for this, and self-surrendered, to his passion dedicate, on the cross the lamb is lifted, for his people immolate. unto god be laud and honor: to the father, to the son, to the mighty spirit, glory— ever three and ever one: power and glory in the highest while eternal ages run.",
       "sections": [
         {
           "label": "1",
@@ -17988,8 +17988,8 @@
         {
           "label": "2",
           "lines": [
-            "Thirty years fulfilled among us",
-            "Perfect life in low estate",
+            "Thirty years fulfilled among us—",
+            "Perfect life in low estate—",
             "Born for this, and self-surrendered,",
             "To his passion dedicate,",
             "On the cross the Lamb is lifted,",
@@ -18002,7 +18002,7 @@
           "lines": [
             "Unto God be laud and honor:",
             "To the Father, to the Son,",
-            "To the mighty Spirit, glory",
+            "To the mighty Spirit, glory—",
             "Ever three and ever One:",
             "Power and glory in the highest",
             "While eternal ages run."
@@ -18791,14 +18791,14 @@
       "language": "en",
       "number": "206",
       "schemaVersion": 1,
-      "searchText": "low in the grave he lay 206 christ arose low in the grave he lay jesus, my saviour, waiting the coming day jesus, my lord. up from the grave he arose with a mighty triumph o'er his foes. he arose a victor from the dark domain, and he lives for ever with his saints to reign. he arose! he arose! hallelujah! christ arose! vainly they watch his bed jesus, my saviour; vainly they seal the dead jesus, my lord. death cannot keep his prey jesus, my saviour; he tore the bars away jesus, my lord.",
+      "searchText": "low in the grave he lay 206 christ arose low in the grave he lay— jesus, my saviour, waiting the coming day— jesus, my lord. up from the grave he arose with a mighty triumph o'er his foes. he arose a victor from the dark domain, and he lives for ever with his saints to reign. he arose! he arose! hallelujah! christ arose! vainly they watch his bed— jesus, my saviour; vainly they seal the dead— jesus, my lord. death cannot keep his prey— jesus, my saviour; he tore the bars away— jesus, my lord.",
       "sections": [
         {
           "label": "1",
           "lines": [
-            "Low in the grave he lay",
+            "Low in the grave he lay—",
             "Jesus, my Saviour,",
-            "Waiting the coming day",
+            "Waiting the coming day—",
             "Jesus, my Lord."
           ],
           "type": "verse"
@@ -18817,9 +18817,9 @@
         {
           "label": "3",
           "lines": [
-            "Vainly they watch his bed",
+            "Vainly they watch his bed—",
             "Jesus, my Saviour;",
-            "Vainly they seal the dead",
+            "Vainly they seal the dead—",
             "Jesus, my Lord."
           ],
           "type": "verse"
@@ -18827,9 +18827,9 @@
         {
           "label": "4",
           "lines": [
-            "Death cannot keep his prey",
+            "Death cannot keep his prey—",
             "Jesus, my Saviour;",
-            "He tore the bars away",
+            "He tore the bars away—",
             "Jesus, my Lord."
           ],
           "type": "verse"
@@ -18987,7 +18987,7 @@
       "language": "en",
       "number": "207",
       "schemaVersion": 1,
-      "searchText": "christ jesus lay in death's strong bands 207 christ lag in todesbanden christ jesus lay in death's strong bands, for our offenses given; but now at god's right hand he stands and brings us life from heaven; therefore let us joyful be and sing to god right thankfully loud songs of hallelujah. hallelujah! it was a strange and dreadful strife when life and death contended; the victory remained with life, the reign of death was ended; holy scripture plainly saith that death is swallowed up by death, his sting is lost for ever. hallelujah! here the true paschal lamb we see, whom god so freely gave us; he died on the accursed tree so strong his love!to save us. see, his blood doth mark our door; faith points to it, death passes o'er, and satan cannot harm us. hallelujah! so let us keep the festival whereto the lord invites us; christ is himself the joy of all, the sun that warms and lights us. by his grace he doth impart eternal sunshine to the heart; the night of sin is ended. hallelujah! then let us feast this joyful day on christ, the bread of heaven; the word of grace hath purged away the old and evil leaven. christ alone our souls will feed, he is our meat and drink indeed; faith lives upon no other. hallelujah!",
+      "searchText": "christ jesus lay in death's strong bands 207 christ lag in todesbanden christ jesus lay in death's strong bands, for our offenses given; but now at god's right hand he stands and brings us life from heaven; therefore let us joyful be and sing to god right thankfully loud songs of hallelujah. hallelujah! it was a strange and dreadful strife when life and death contended; the victory remained with life, the reign of death was ended; holy scripture plainly saith that death is swallowed up by death, his sting is lost for ever. hallelujah! here the true paschal lamb we see, whom god so freely gave us; he died on the accursed tree— so strong his love!—to save us. see, his blood doth mark our door; faith points to it, death passes o'er, and satan cannot harm us. hallelujah! so let us keep the festival whereto the lord invites us; christ is himself the joy of all, the sun that warms and lights us. by his grace he doth impart eternal sunshine to the heart; the night of sin is ended. hallelujah! then let us feast this joyful day on christ, the bread of heaven; the word of grace hath purged away the old and evil leaven. christ alone our souls will feed, he is our meat and drink indeed; faith lives upon no other. hallelujah!",
       "sections": [
         {
           "label": "1",
@@ -19020,8 +19020,8 @@
           "lines": [
             "Here the true Paschal Lamb we see,",
             "Whom God so freely gave us;",
-            "He died on the accursed tree",
-            "So strong his love!to save us.",
+            "He died on the accursed tree—",
+            "So strong his love!—to save us.",
             "See, his blood doth mark our door;",
             "Faith points to it, death passes o'er,",
             "And Satan cannot harm us. Hallelujah!"
@@ -20507,7 +20507,7 @@
       "language": "en",
       "number": "219",
       "schemaVersion": 1,
-      "searchText": "blessing and honor and glory and power 219 o quanta qualia blessing and honor and glory and power, wisdom and riches and strength evermore give ye to him who our battle hath won, whose are the kingdom, the crown, and the throne. soundeth the heav'n of the heav'ns with his name; ringeth the earth with his glory and fame; oceans and mountain, stream, forest, and flower echo his praises and tell of his power. ever ascendeth the song and the joy; ever descendeth the love from on high; blessing and honor and glory and praise this is the theme of the hymns that we raise. give we the glory and praise to the lamb; take we the robe and the harp and the palm; sing we the song of the lamb that was slain, dying in weakness, but rising to reign.",
+      "searchText": "blessing and honor and glory and power 219 o quanta qualia blessing and honor and glory and power, wisdom and riches and strength evermore give ye to him who our battle hath won, whose are the kingdom, the crown, and the throne. soundeth the heav'n of the heav'ns with his name; ringeth the earth with his glory and fame; oceans and mountain, stream, forest, and flower echo his praises and tell of his power. ever ascendeth the song and the joy; ever descendeth the love from on high; blessing and honor and glory and praise— this is the theme of the hymns that we raise. give we the glory and praise to the lamb; take we the robe and the harp and the palm; sing we the song of the lamb that was slain, dying in weakness, but rising to reign.",
       "sections": [
         {
           "label": "1",
@@ -20534,7 +20534,7 @@
           "lines": [
             "Ever ascendeth the song and the joy;",
             "Ever descendeth the love from on high;",
-            "Blessing and honor and glory and praise",
+            "Blessing and honor and glory and praise—",
             "This is the theme of the hymns that we raise."
           ],
           "type": "verse"
@@ -20823,7 +20823,7 @@
       "language": "en",
       "number": "224",
       "schemaVersion": 1,
-      "searchText": "hail to the lord's anointed 224 aurelia hail to the lord's anointed, great david's greater son! hail, in the time appointed, his reign on earth begun! he comes to break oppression, to set the captive free, to take away transgression, and rule in equity. he comes with succor speedy to those who suffer wrong; to help the poor and needy, and bid the weak be strong; to give them songs for sighing, their darkness turn to light, whose souls, condemned and dying, were precious in his sight, he shall come down like showers upon the fruitful earth; and love, joy, hope, like flowers, spring in his path to birth; before him on the mountains shall peace, the herald, go; and righteousness, in fountains, from hill to valley flow. o'er ev'ry foe victorious, he on his throne shall rest, from age to age more glorious, all-blessing and all-blessed; the tide of time shall never his covenant remove; his name shall stand for ever that name to us is love.",
+      "searchText": "hail to the lord's anointed 224 aurelia hail to the lord's anointed, great david's greater son! hail, in the time appointed, his reign on earth begun! he comes to break oppression, to set the captive free, to take away transgression, and rule in equity. he comes with succor speedy to those who suffer wrong; to help the poor and needy, and bid the weak be strong; to give them songs for sighing, their darkness turn to light, whose souls, condemned and dying, were precious in his sight, he shall come down like showers upon the fruitful earth; and love, joy, hope, like flowers, spring in his path to birth; before him on the mountains shall peace, the herald, go; and righteousness, in fountains, from hill to valley flow. o'er ev'ry foe victorious, he on his throne shall rest, from age to age more glorious, all-blessing and all-blessed; the tide of time shall never his covenant remove; his name shall stand for ever— that name to us is love.",
       "sections": [
         {
           "label": "1",
@@ -20876,7 +20876,7 @@
             "All-blessing and all-blessed;",
             "The tide of time shall never",
             "His covenant remove;",
-            "His Name shall stand for ever",
+            "His Name shall stand for ever—",
             "That Name to us is Love."
           ],
           "type": "verse"
@@ -23004,7 +23004,7 @@
       "language": "en",
       "number": "248",
       "schemaVersion": 1,
-      "searchText": "come to our poor nature's night 248 irene come to our poor nature's night, with thy blessed inward light, holy ghost, the infinite, comforter divine. we are sinfulcleanse us, lord; sick and faintthy strength afford; lostuntil by thee restored, comforter divine. like the dew thy peace distill; guide, subdue our wayward will, things of christ unfolding still, comforter divine. with us, for us, intercede, and, with voiceless groanings, plead our unutterable need, comforter divine. in us abba, father! cry, earnest of the bliss on high, seal of immortality, comforter divine. search for us the depths of god; upwards by the starry road, bear us to thy high abode, comforter divine.",
+      "searchText": "come to our poor nature's night 248 irene come to our poor nature's night, with thy blessed inward light, holy ghost, the infinite, comforter divine. we are sinful—cleanse us, lord; sick and faint—thy strength afford; lost—until by thee restored, comforter divine. like the dew thy peace distill; guide, subdue our wayward will, things of christ unfolding still, comforter divine. with us, for us, intercede, and, with voiceless groanings, plead our unutterable need, comforter divine. in us abba, father! cry, earnest of the bliss on high, seal of immortality, comforter divine. search for us the depths of god; upwards by the starry road, bear us to thy high abode, comforter divine.",
       "sections": [
         {
           "label": "1",
@@ -23019,9 +23019,9 @@
         {
           "label": "2",
           "lines": [
-            "We are sinfulcleanse us, Lord;",
-            "Sick and faintthy strength afford;",
-            "Lostuntil by thee restored,",
+            "We are sinful—cleanse us, Lord;",
+            "Sick and faint—thy strength afford;",
+            "Lost—until by thee restored,",
             "Comforter Divine."
           ],
           "type": "verse"
@@ -25352,7 +25352,7 @@
       "language": "en",
       "number": "275",
       "schemaVersion": 1,
-      "searchText": "zion stands by hills surrounded 275 zion zion stands by hills surrounded, zion, kept by pow'r divine; all her foes shall be confounded, though the world in arms combine; happy zion, what a favored lot is thine! ev'ry human tie may perish; friend to friend unfaithful prove; mothers cease their own to cherish; heav'n and earth at last remove; but no changes can attend jehovah's love. in the furnace god may prove thee, thence to bring thee forth more bright, but can never cease to love thee; thou art precious in his sight; god is with thee god, thine everlasting light.",
+      "searchText": "zion stands by hills surrounded 275 zion zion stands by hills surrounded, zion, kept by pow'r divine; all her foes shall be confounded, though the world in arms combine; happy zion, what a favored lot is thine! ev'ry human tie may perish; friend to friend unfaithful prove; mothers cease their own to cherish; heav'n and earth at last remove; but no changes can attend jehovah's love. in the furnace god may prove thee, thence to bring thee forth more bright, but can never cease to love thee; thou art precious in his sight; god is with thee— god, thine everlasting light.",
       "sections": [
         {
           "label": "1",
@@ -25385,7 +25385,7 @@
             "Thence to bring thee forth more bright,",
             "But can never cease to love thee;",
             "Thou art precious in his sight;",
-            "God is with thee",
+            "God is with thee—",
             "God, thine everlasting light."
           ],
           "type": "verse"
@@ -28077,7 +28077,7 @@
       "language": "en",
       "number": "300",
       "schemaVersion": 1,
-      "searchText": "hark! the song of jubilee 300 thanksgiving (gilbert) hark the song of jubilee, loud as mighty thunders' roar, or the fullness of the sea when it breaks upon the shore. hallelujah! for the lord god omnipotent shall reign; hallelujah! let the word echo round the earth and main. hallelujah! hark, the sound, from the depths unto the skies, wakes above, beneath, around, all creation's harmonies: see jehovah's banner furled, sheathed his sword; he speaks'tis done, and the kingdoms of his world are the kingdoms of his son. he shall reign from pole to pole with illimitable sway; he shall reign when, like a scroll, yonder heav'ns have passed away; then the end; beneath his rod man's last enemy shall fall; hallelujah! christ in god, god in christ, is all in all.",
+      "searchText": "hark! the song of jubilee 300 thanksgiving (gilbert) hark the song of jubilee, loud as mighty thunders' roar, or the fullness of the sea when it breaks upon the shore. hallelujah! for the lord god omnipotent shall reign; hallelujah! let the word echo round the earth and main. hallelujah! hark, the sound, from the depths unto the skies, wakes above, beneath, around, all creation's harmonies: see jehovah's banner furled, sheathed his sword; he speaks—'tis done, and the kingdoms of his world are the kingdoms of his son. he shall reign from pole to pole with illimitable sway; he shall reign when, like a scroll, yonder heav'ns have passed away; then the end; beneath his rod man's last enemy shall fall; hallelujah! christ in god, god in christ, is all in all.",
       "sections": [
         {
           "label": "1",
@@ -28101,7 +28101,7 @@
             "Wakes above, beneath, around,",
             "All creation's harmonies:",
             "See Jehovah's banner furled,",
-            "Sheathed his sword; he speaks'tis done,",
+            "Sheathed his sword; he speaks—'tis done,",
             "And the kingdoms of his world",
             "Are the kingdoms of his Son."
           ],
@@ -28736,7 +28736,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Lo! God is here:  let us adore",
+      "title": "Lo! God is here: let us adore",
       "tune": "Penitence"
     },
     {
@@ -29323,7 +29323,7 @@
       "language": "en",
       "number": "315",
       "schemaVersion": 1,
-      "searchText": "god himself is with us 315 wunderbarer konig god himself is with us: let us now adore him, and with awe appear before him. god is in his temple all within keep silence, prostrate lie with deepest rev'rence. him alone god we own, him, our god and saviour; praise his name for ever. god himself is with us: hear the harps resounding! see the crowds the throne surrounding! \"holy, holy, holy\" hear the hymn ascending, angels, saints, their voices blending! bow thine ear to us here: hear, o christ, the praises that thy church now raises.",
+      "searchText": "god himself is with us 315 wunderbarer konig god himself is with us: let us now adore him, and with awe appear before him. god is in his temple— all within keep silence, prostrate lie with deepest rev'rence. him alone god we own, him, our god and saviour; praise his name for ever. god himself is with us: hear the harps resounding! see the crowds the throne surrounding! \"holy, holy, holy\"— hear the hymn ascending, angels, saints, their voices blending! bow thine ear to us here: hear, o christ, the praises that thy church now raises.",
       "sections": [
         {
           "label": "1",
@@ -29331,7 +29331,7 @@
             "God himself is with us:",
             "Let us now adore him,",
             "And with awe appear before him.",
-            "God is in his temple",
+            "God is in his temple—",
             "All within keep silence,",
             "Prostrate lie with deepest rev'rence.",
             "Him alone",
@@ -29347,7 +29347,7 @@
             "God himself is with us:",
             "Hear the harps resounding!",
             "See the crowds the throne surrounding!",
-            "\"Holy, Holy, Holy\"",
+            "\"Holy, Holy, Holy\"—",
             "Hear the hymn ascending,",
             "Angels, saints, their voices blending!",
             "Bow thine ear",
@@ -30901,7 +30901,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Abide with me:  fast falls the eventide",
+      "title": "Abide with me: fast falls the eventide",
       "tune": "Eventide (Monk)"
     },
     {
@@ -33472,7 +33472,7 @@
       "language": "en",
       "number": "370",
       "schemaVersion": 1,
-      "searchText": "we have heard the joyful sound 370 jesus saves we have heard the joyful sound: jesus saves! jesus saves! spread the tidings all around: jesus saves! jesus saves! bear the news to ev'ry land, climb the steeps and cross the waves, onward! 'tis our lord's command; jesus saves! jesus saves! waft it on the rolling tide: jesus saves! jesus saves! tell to sinners far and wide: jesus saves! jesus saves! sing, ye islands of the sea; echo back, ye ocean caves; earth shall keep her jubilee: jesus saves! jesus saves! sing above the battle strife, jesus saves! jesus saves! by his death and endless life, jesus saves! jesus saves! sing it softly through the gloom, when the heart for mercy craves; sing in triumph o'er the tomb jesus saves! jesus saves! give the winds a mighty voice, jesus saves! jesus saves! let the nations now rejoice jesus saves! jesus saves! shout salvation full and free, highest hills and deepest caves; this our song of victory jesus saves! jesus saves!",
+      "searchText": "we have heard the joyful sound 370 jesus saves we have heard the joyful sound: jesus saves! jesus saves! spread the tidings all around: jesus saves! jesus saves! bear the news to ev'ry land, climb the steeps and cross the waves, onward! 'tis our lord's command; jesus saves! jesus saves! waft it on the rolling tide: jesus saves! jesus saves! tell to sinners far and wide: jesus saves! jesus saves! sing, ye islands of the sea; echo back, ye ocean caves; earth shall keep her jubilee: jesus saves! jesus saves! sing above the battle strife, jesus saves! jesus saves! by his death and endless life, jesus saves! jesus saves! sing it softly through the gloom, when the heart for mercy craves; sing in triumph o'er the tomb— jesus saves! jesus saves! give the winds a mighty voice, jesus saves! jesus saves! let the nations now rejoice— jesus saves! jesus saves! shout salvation full and free, highest hills and deepest caves; this our song of victory— jesus saves! jesus saves!",
       "sections": [
         {
           "label": "1",
@@ -33511,7 +33511,7 @@
             "Jesus saves! Jesus saves!",
             "Sing it softly through the gloom,",
             "When the heart for mercy craves;",
-            "Sing in triumph o'er the tomb",
+            "Sing in triumph o'er the tomb—",
             "Jesus saves! Jesus saves!"
           ],
           "type": "verse"
@@ -33521,11 +33521,11 @@
           "lines": [
             "Give the winds a mighty voice,",
             "Jesus saves! Jesus saves!",
-            "Let the nations now rejoice",
+            "Let the nations now rejoice—",
             "Jesus saves! Jesus saves!",
             "Shout salvation full and free,",
             "Highest hills and deepest caves;",
-            "This our song of victory",
+            "This our song of victory—",
             "Jesus saves! Jesus saves!"
           ],
           "type": "verse"
@@ -35604,7 +35604,7 @@
       "language": "en",
       "number": "394",
       "schemaVersion": 1,
-      "searchText": "jesus sinners doth receive 394 jesus nimmt die sunder an \"jesus sinners doth receive:\" word of surest consolation; word all sorrow to relieve, word of pardon, peace, salvation! naught like this can comfort give: \"jesus sinners doth receive.\" on god's grace we have no claim, yet to us his pledge is given; he hath sworn by his own name, open are the gates of heaven. take to heart this word and live: \"jesus sinners doth receive.\" when a helpless lamb doth stray, after it, the shepherd, pressing thro' each dark and dang'rous way, brings it back, his own possessing. jesus seeks thee, o believe: \"jesus sinners doth receive.\" o, how blest it is to know: were as scarlet my transgression, it shall be as white as snow by thy blood and bitter passion; for these words i now believe: \"jesus sinners doth receive.\" now my conscience is at peace, from the law i stand acquitted; christ hath purchased my release and my ev'ry sin remitted. naught remains my soul to grieve \"jesus sinners doth receive.\"",
+      "searchText": "jesus sinners doth receive 394 jesus nimmt die sunder an \"jesus sinners doth receive:\" word of surest consolation; word all sorrow to relieve, word of pardon, peace, salvation! naught like this can comfort give: \"jesus sinners doth receive.\" on god's grace we have no claim, yet to us his pledge is given; he hath sworn by his own name, open are the gates of heaven. take to heart this word and live: \"jesus sinners doth receive.\" when a helpless lamb doth stray, after it, the shepherd, pressing thro' each dark and dang'rous way, brings it back, his own possessing. jesus seeks thee, o believe: \"jesus sinners doth receive.\" o, how blest it is to know: were as scarlet my transgression, it shall be as white as snow by thy blood and bitter passion; for these words i now believe: \"jesus sinners doth receive.\" now my conscience is at peace, from the law i stand acquitted; christ hath purchased my release and my ev'ry sin remitted. naught remains my soul to grieve— \"jesus sinners doth receive.\"",
       "sections": [
         {
           "label": "1",
@@ -35661,7 +35661,7 @@
             "From the Law I stand acquitted;",
             "Christ hath purchased my release",
             "And my ev'ry sin remitted.",
-            "Naught remains my soul to grieve",
+            "Naught remains my soul to grieve—",
             "\"Jesus sinners doth receive.\""
           ],
           "type": "verse"
@@ -36272,14 +36272,14 @@
       "language": "en",
       "number": "402",
       "schemaVersion": 1,
-      "searchText": "amazing grace 402 how sweet the sound amazing gracehow sweet the sound that saved a wretch like me! i once was lost, but now am found was blind, but now i see. 'twas grace that taught my heart to fear, and grace my fears relieved; how precious did that grace appear the hour i first believed! thro' many dangers, toils and snares, i have already come; 'tis grace has brought me safe thus far, and grace will lead me home. and when this flesh and heart shall fail, and mortal life shall cease, i shall possess within the veil a life of joy and peace. when we've been there ten thousand years, bright shining as the sun, we've no less days to sing god's praise than when we've first begun.",
+      "searchText": "amazing grace 402 how sweet the sound amazing grace—how sweet the sound— that saved a wretch like me! i once was lost, but now am found— was blind, but now i see. 'twas grace that taught my heart to fear, and grace my fears relieved; how precious did that grace appear the hour i first believed! thro' many dangers, toils and snares, i have already come; 'tis grace has brought me safe thus far, and grace will lead me home. and when this flesh and heart shall fail, and mortal life shall cease, i shall possess within the veil a life of joy and peace. when we've been there ten thousand years, bright shining as the sun, we've no less days to sing god's praise than when we've first begun.",
       "sections": [
         {
           "label": "1",
           "lines": [
-            "Amazing gracehow sweet the sound",
+            "Amazing grace—how sweet the sound—",
             "That saved a wretch like me!",
-            "I once was lost, but now am found",
+            "I once was lost, but now am found—",
             "Was blind, but now I see."
           ],
           "type": "verse"
@@ -38384,7 +38384,7 @@
       "language": "en",
       "number": "425",
       "schemaVersion": 1,
-      "searchText": "jesus, and shall it ever be 425 brookfield jesus, and shall it ever be, a mortal man ashamed of thee? ashamed of thee whom angels praise, whose glories shine through endless days! ashamed of jesus! sooner far let evening blush to own a star: he sheds the beams of light divine o'er this benighted soul of mine. ashamed of jesus! just as soon let midnight be ashamed of noon; 'tis midnight with my soul till he, bright morning star, bid darkness flee. ashamed of jesus, that dear friend on whom my hopes of heav'n depend! no; when i blush, be this my shame, that i no more revere his name. ashamed of jesus! yes, i may when i've no guilt to wash away, no tear to wipe, no good to crave, no fears to quell, no soul to save. till thennor is my boasting vain till then i boast a saviour slain; and o may this my glory be, that christ is not ashamed of me.",
+      "searchText": "jesus, and shall it ever be 425 brookfield jesus, and shall it ever be, a mortal man ashamed of thee? ashamed of thee whom angels praise, whose glories shine through endless days! ashamed of jesus! sooner far let evening blush to own a star: he sheds the beams of light divine o'er this benighted soul of mine. ashamed of jesus! just as soon let midnight be ashamed of noon; 'tis midnight with my soul till he, bright morning star, bid darkness flee. ashamed of jesus, that dear friend on whom my hopes of heav'n depend! no; when i blush, be this my shame, that i no more revere his name. ashamed of jesus! yes, i may when i've no guilt to wash away, no tear to wipe, no good to crave, no fears to quell, no soul to save. till then—nor is my boasting vain— till then i boast a saviour slain; and o may this my glory be, that christ is not ashamed of me.",
       "sections": [
         {
           "label": "1",
@@ -38439,7 +38439,7 @@
         {
           "label": "6",
           "lines": [
-            "Till thennor is my boasting vain",
+            "Till then—nor is my boasting vain—",
             "Till then I boast a Saviour slain;",
             "And O may this my glory be,",
             "That Christ is not ashamed of me."
@@ -40298,7 +40298,7 @@
       "language": "en",
       "number": "439",
       "schemaVersion": 1,
-      "searchText": "jesus, thy blood and righteousness 439 germany jesus, thy blood and righteousness my beauty are, my glorious dress; 'midst flaming worlds, in these arrayed, with joy shall i lift up my head. bold shall i stand in thy great day; for who aught to my charge shall lay? fully absolved through these i am from sin and fear, from guilt and shame. when from the dust of death i rise to claim my mansion in the skies, ev'n then this shall be all my plea, jesus hath lived, hath died, for me. jesus, be endless praise to thee, whose boundless mercy hath for me for me a full atonement made, an everlasting ransom paid. o let the dead now hear thy voice; now bid thy banished ones rejoice; their beauty this, their glorious dress, jesus, thy blood and righteousness.",
+      "searchText": "jesus, thy blood and righteousness 439 germany jesus, thy blood and righteousness my beauty are, my glorious dress; 'midst flaming worlds, in these arrayed, with joy shall i lift up my head. bold shall i stand in thy great day; for who aught to my charge shall lay? fully absolved through these i am from sin and fear, from guilt and shame. when from the dust of death i rise to claim my mansion in the skies, ev'n then this shall be all my plea, jesus hath lived, hath died, for me. jesus, be endless praise to thee, whose boundless mercy hath for me— for me a full atonement made, an everlasting ransom paid. o let the dead now hear thy voice; now bid thy banished ones rejoice; their beauty this, their glorious dress, jesus, thy blood and righteousness.",
       "sections": [
         {
           "label": "1",
@@ -40334,7 +40334,7 @@
           "label": "4",
           "lines": [
             "Jesus, be endless praise to thee,",
-            "Whose boundless mercy hath for me",
+            "Whose boundless mercy hath for me—",
             "For me a full atonement made,",
             "An everlasting ransom paid."
           ],
@@ -41551,7 +41551,7 @@
       "language": "en",
       "number": "455",
       "schemaVersion": 1,
-      "searchText": "searcher of hearts, from mine erase 455 beatitudo searcher of hearts, from mine erase, all thoughts that should not be, and in its deep recesses trace my gratitude to thee. hearer of prayer, o guide aright each word and deed of mine; life's battle teach me how to fight, and be the vict'ry thine. giver of allfor ev'ry good in the redeemer came for raiment, shelter, and for food, i thank thee in his name. father and son and holy ghost, thou glorious three in one, thou knowest best what i need most, and let thy will be done.",
+      "searchText": "searcher of hearts, from mine erase 455 beatitudo searcher of hearts, from mine erase, all thoughts that should not be, and in its deep recesses trace my gratitude to thee. hearer of prayer, o guide aright each word and deed of mine; life's battle teach me how to fight, and be the vict'ry thine. giver of all—for ev'ry good in the redeemer came— for raiment, shelter, and for food, i thank thee in his name. father and son and holy ghost, thou glorious three in one, thou knowest best what i need most, and let thy will be done.",
       "sections": [
         {
           "label": "1",
@@ -41576,8 +41576,8 @@
         {
           "label": "3",
           "lines": [
-            "Giver of allfor ev'ry good",
-            "In the Redeemer came",
+            "Giver of all—for ev'ry good",
+            "In the Redeemer came—",
             "For raiment, shelter, and for food,",
             "I thank thee in his Name."
           ],
@@ -43752,7 +43752,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Stand up, my soul  shake off thy fears",
+      "title": "Stand up, my soul shake off thy fears",
       "tune": "Waltham"
     },
     {
@@ -44698,7 +44698,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Jesus calls us:  o'er the tumult",
+      "title": "Jesus calls us: o'er the tumult",
       "tune": "Galilee"
     },
     {
@@ -45019,7 +45019,7 @@
       "language": "en",
       "number": "496",
       "schemaVersion": 1,
-      "searchText": "go, labor on, spend, and be spent 496 pentecost go, labor on: spend, and be spent, thy joy to do the father's will; it is the way the master went; should not the servant tread it still? go, labor on: 'tis not for naught; thine earthly loss is heav'nly gain; men heed thee, love thee, praise thee not; the master praiseswhat are men? go, labor on: enough while here if he shall praise thee, if he deign thy willing heart to mark and cheer: no toil for him shall be in vain. go, labor on while it is day: the world's dark night is hast'ning on. speed, speed thy work, cast sloth away; it is not thus that souls are won. toil on, faint not, keep watch and pray; be wise the erring soul to win; go forth into the world's highway, compel the wand'rer to come in. toil on, and in thy toil rejoice; for toil comes rest, for exile home; soon shalt thou hear the bridegroom's voice, the midnight peal, \"behold, i come.\"",
+      "searchText": "go, labor on, spend, and be spent 496 pentecost go, labor on: spend, and be spent, thy joy to do the father's will; it is the way the master went; should not the servant tread it still? go, labor on: 'tis not for naught; thine earthly loss is heav'nly gain; men heed thee, love thee, praise thee not; the master praises—what are men? go, labor on: enough while here if he shall praise thee, if he deign thy willing heart to mark and cheer: no toil for him shall be in vain. go, labor on while it is day: the world's dark night is hast'ning on. speed, speed thy work, cast sloth away; it is not thus that souls are won. toil on, faint not, keep watch and pray; be wise the erring soul to win; go forth into the world's highway, compel the wand'rer to come in. toil on, and in thy toil rejoice; for toil comes rest, for exile home; soon shalt thou hear the bridegroom's voice, the midnight peal, \"behold, i come.\"",
       "sections": [
         {
           "label": "1",
@@ -45037,7 +45037,7 @@
             "Go, labor on: 'tis not for naught;",
             "Thine earthly loss is heav'nly gain;",
             "Men heed thee, love thee, praise thee not;",
-            "The Master praiseswhat are men?"
+            "The Master praises—what are men?"
           ],
           "type": "verse"
         },
@@ -45771,17 +45771,17 @@
       "language": "en",
       "number": "505",
       "schemaVersion": 1,
-      "searchText": "all the way my saviour leads me 505 all the way all the way my saviour leads me what have i to ask beside? can i doubt his tender mercy who through life has been my guide? heav'nly peace, divinest comfort, here by faith in him to dwell for i know, whate'er befall me, jesus doeth all things well. all the way my saviour leads me, cheers each winding path i tread, gives me grace for ev'ry trial, feeds me with the living bread. though my weary steps may falter, and my soul athirst may be, gushing from the rock before me, lo, a spring of joy i see! all the way my saviour leads me o the fullness of his love! perfect rest to me is promised in my father's house above: when my spirit, clothed, immortal, wings its flight to realms of day, this my song through endless ages: jesus led me all the way!",
+      "searchText": "all the way my saviour leads me 505 all the way all the way my saviour leads me— what have i to ask beside? can i doubt his tender mercy who through life has been my guide? heav'nly peace, divinest comfort, here by faith in him to dwell— for i know, whate'er befall me, jesus doeth all things well. all the way my saviour leads me, cheers each winding path i tread, gives me grace for ev'ry trial, feeds me with the living bread. though my weary steps may falter, and my soul athirst may be, gushing from the rock before me, lo, a spring of joy i see! all the way my saviour leads me— o the fullness of his love! perfect rest to me is promised in my father's house above: when my spirit, clothed, immortal, wings its flight to realms of day, this my song through endless ages: jesus led me all the way!",
       "sections": [
         {
           "label": "1",
           "lines": [
-            "All the way my Saviour leads me",
+            "All the way my Saviour leads me—",
             "What have I to ask beside?",
             "Can I doubt his tender mercy",
             "Who through life has been my Guide?",
             "Heav'nly peace, divinest comfort,",
-            "Here by faith in him to dwell",
+            "Here by faith in him to dwell—",
             "For I know, whate'er befall me,",
             "Jesus doeth all things well."
           ],
@@ -45804,7 +45804,7 @@
         {
           "label": "3",
           "lines": [
-            "All the way my Saviour leads me",
+            "All the way my Saviour leads me—",
             "O the fullness of his love!",
             "Perfect rest to me is promised",
             "In my Father's house above:",
@@ -45831,7 +45831,7 @@
       "language": "en",
       "number": "506",
       "schemaVersion": 1,
-      "searchText": "why should cross and trial grieve me 506 warum sollt' ich mich denn gramen why should cross and trial grieve me? christ is near with his cheer; never will he leave me. who can rob me of the heaven that god's son for my own to my faith hath given? god oft gives me days of gladness; shall i grieve if he give seasons, too, of sadness? god is good and tempers ever all my ill, and he will wholly leave me never. death cannot destroy for ever; from our fears, cares, and tears it will us deliver. it will close life's mournful story, make a way that we may enter heav'nly glory. lord, my shepherd, take me to thee. thou art mine; i was thine, even ere i knew thee. i am thine, for thou hast bought me; lost i stood, but thy blood free salvation brought me. thou art mine; i love and own thee. light of joy, ne'er shall i from my heart dethrone thee. saviour, let me soon behold thee face to face, may thy grace evermore enfold me!",
+      "searchText": "why should cross and trial grieve me 506 warum sollt' ich mich denn gramen why should cross and trial grieve me? christ is near with his cheer; never will he leave me. who can rob me of the heaven that god's son for my own to my faith hath given? god oft gives me days of gladness; shall i grieve if he give seasons, too, of sadness? god is good and tempers ever all my ill, and he will wholly leave me never. death cannot destroy for ever; from our fears, cares, and tears it will us deliver. it will close life's mournful story, make a way that we may enter heav'nly glory. lord, my shepherd, take me to thee. thou art mine; i was thine, even ere i knew thee. i am thine, for thou hast bought me; lost i stood, but thy blood free salvation brought me. thou art mine; i love and own thee. light of joy, ne'er shall i from my heart dethrone thee. saviour, let me soon behold thee face to face,— may thy grace evermore enfold me!",
       "sections": [
         {
           "label": "1",
@@ -45897,7 +45897,7 @@
             "Ne'er shall I",
             "From my heart dethrone thee.",
             "Saviour, let me soon behold thee",
-            "Face to face,",
+            "Face to face,—",
             "May thy grace",
             "Evermore enfold me!"
           ],
@@ -46253,7 +46253,7 @@
       "language": "en",
       "number": "512",
       "schemaVersion": 1,
-      "searchText": "give thanks unto the lord, jehovah 512 rendez a dieu from psalm 118:1–9, 17–25 give thanks unto the lord, jehovah, for he is good, o praise his name! let israel say: the lord be praised, his mercy ever is the same. let aaron's house now praise jehovah; the lord is good, o praise his name; let all that fear the lord extol him, his mercy ever is the same. in a large place the lord hath set me, in my distress he heard my cry; i will not fear; the lord is with me, what can man do, when god is nigh? the lord is chief among my helpers; and i shall see my foes o'erthrown: far better than in man or princes, my trust i place in god alone. i shall not die, but live, declaring the works of god, who tried me sore, and chastened me; but in his mercy not unto death hath giv'n me o'er. the gates of righteousness set open, the gate of god! i'll enter in to praise thee, lord, who pray'r hast answered, and savedst me from all my sin. the stone—o lord, it is thy doing— the stone, the builders did despise, is made the headstone of the corner, and it is marv'lous in our eyes. this is the day, of days most glorious, the lord hath made; we'll joy and sing: send now prosperity, we pray thee; and, o our god, salvation bring!",
+      "searchText": "give thanks unto the lord, jehovah 512 rendez à dieu from psalm 118:1–9, 17–25 give thanks unto the lord, jehovah, for he is good, o praise his name! let israel say: the lord be praised, his mercy ever is the same. let aaron's house now praise jehovah; the lord is good, o praise his name; let all that fear the lord extol him, his mercy ever is the same. in a large place the lord hath set me, in my distress he heard my cry; i will not fear; the lord is with me, what can man do, when god is nigh? the lord is chief among my helpers; and i shall see my foes o'erthrown: far better than in man or princes, my trust i place in god alone. i shall not die, but live, declaring the works of god, who tried me sore, and chastened me; but in his mercy not unto death hath giv'n me o'er. the gates of righteousness set open, the gate of god! i'll enter in to praise thee, lord, who pray'r hast answered, and savedst me from all my sin. the stone—o lord, it is thy doing— the stone, the builders did despise, is made the headstone of the corner, and it is marv'lous in our eyes. this is the day, of days most glorious, the lord hath made; we'll joy and sing: send now prosperity, we pray thee; and, o our god, salvation bring!",
       "sections": [
         {
           "label": "1",
@@ -48004,7 +48004,7 @@
       "language": "en",
       "number": "533",
       "schemaVersion": 1,
-      "searchText": "what a friend we have in jesus 533 what a friend what a friend we have in jesus, all our sins and griefs to bear! what a privilege to carry ev'rything to god in prayer! o what peace we often forfeit, o what needless pain we bear, all because we do not carry ev'rything to god in prayer. have we trials and temptations? is there trouble anywhere? we should never be discouraged: take it to the lord in prayer! can we find a friend so faithful, who will all our sorrows share? jesus knows our ev'ry weakness take it to the lord in prayer! are we weak and heavy laden, cumbered with a load of care? precious saviour, still our refuge take it to the lord in prayer! do thy friends despise, forsake thee? take it to the lord in prayer! in his arms he'll take and shield thee, thou wilt find a solace there.",
+      "searchText": "what a friend we have in jesus 533 what a friend what a friend we have in jesus, all our sins and griefs to bear! what a privilege to carry ev'rything to god in prayer! o what peace we often forfeit, o what needless pain we bear, all because we do not carry ev'rything to god in prayer. have we trials and temptations? is there trouble anywhere? we should never be discouraged: take it to the lord in prayer! can we find a friend so faithful, who will all our sorrows share? jesus knows our ev'ry weakness— take it to the lord in prayer! are we weak and heavy laden, cumbered with a load of care? precious saviour, still our refuge— take it to the lord in prayer! do thy friends despise, forsake thee? take it to the lord in prayer! in his arms he'll take and shield thee, thou wilt find a solace there.",
       "sections": [
         {
           "label": "1",
@@ -48029,7 +48029,7 @@
             "Take it to the Lord in prayer!",
             "Can we find a friend so faithful,",
             "Who will all our sorrows share?",
-            "Jesus knows our ev'ry weakness",
+            "Jesus knows our ev'ry weakness—",
             "Take it to the Lord in prayer!"
           ],
           "type": "verse"
@@ -48039,7 +48039,7 @@
           "lines": [
             "Are we weak and heavy laden,",
             "Cumbered with a load of care?",
-            "Precious Saviour, still our Refuge",
+            "Precious Saviour, still our Refuge—",
             "Take it to the Lord in prayer!",
             "Do thy friends despise, forsake thee?",
             "Take it to the Lord in prayer!",
@@ -48350,7 +48350,7 @@
       "language": "en",
       "number": "538",
       "schemaVersion": 1,
-      "searchText": "saviour, thy dying love 538 something for jesus saviour, thy dying love thou gavest me, nor should i aught withhold, dear lord, from thee: in love my soul would bow, my heart fulfil its vow, some off'ring bring thee now, something for thee. o'er the blest mercy-seat, pleading for me, upward in faith i look, jesus, to thee: help me the cross to bear, thy wondrous love declare, some song to raise, or prayer, something for thee. give me a faithful heart, guided by thee, that each departing day henceforth may see some work of love begun, some deed of kindness done, some wand'rer sought and won, something for thee. all that i am and have thy gifts so free ever in joy or grief, my lord, for thee; and when thy face i see, my ransomed soul shall be, through all eternity, offered to thee.",
+      "searchText": "saviour, thy dying love 538 something for jesus saviour, thy dying love thou gavest me, nor should i aught withhold, dear lord, from thee: in love my soul would bow, my heart fulfil its vow, some off'ring bring thee now, something for thee. o'er the blest mercy-seat, pleading for me, upward in faith i look, jesus, to thee: help me the cross to bear, thy wondrous love declare, some song to raise, or prayer, something for thee. give me a faithful heart, guided by thee, that each departing day henceforth may see some work of love begun, some deed of kindness done, some wand'rer sought and won, something for thee. all that i am and have— thy gifts so free— ever in joy or grief, my lord, for thee; and when thy face i see, my ransomed soul shall be, through all eternity, offered to thee.",
       "sections": [
         {
           "label": "1",
@@ -48397,8 +48397,8 @@
         {
           "label": "4",
           "lines": [
-            "All that I am and have",
-            "Thy gifts so free",
+            "All that I am and have—",
+            "Thy gifts so free—",
             "Ever in joy or grief,",
             "My Lord, for thee;",
             "And when thy face I see,",
@@ -49500,7 +49500,7 @@
       "language": "en",
       "number": "551",
       "schemaVersion": 1,
-      "searchText": "hiding in thee, hiding in thee 551 hiding in thee o safe to the rock that is higher than i my soul in its conflicts and sorrows would fly; so sinful, so weary, thine, thine would i be; thou blest rock of ages, i'm hiding in thee. hiding in thee, hiding in thee thou blest rock of ages, i'm hiding in thee. in the calm of the noontide, in sorrow's lone hour, in times when temptation casts o'er me its power, in the tempests of life, on its wide, heaving sea, thou blest rock of ages, i'm hiding in thee. how oft in the conflict, when pressed by the foe, i have fled to my refuge and breathed out my woe! how often when trials like sea-billows roll, have i hidden in thee, o thou rock of my soul!",
+      "searchText": "hiding in thee, hiding in thee 551 hiding in thee o safe to the rock that is higher than i my soul in its conflicts and sorrows would fly; so sinful, so weary, thine, thine would i be; thou blest rock of ages, i'm hiding in thee. hiding in thee, hiding in thee— thou blest rock of ages, i'm hiding in thee. in the calm of the noontide, in sorrow's lone hour, in times when temptation casts o'er me its power, in the tempests of life, on its wide, heaving sea, thou blest rock of ages, i'm hiding in thee. how oft in the conflict, when pressed by the foe, i have fled to my refuge and breathed out my woe! how often when trials like sea-billows roll, have i hidden in thee, o thou rock of my soul!",
       "sections": [
         {
           "label": "1",
@@ -49515,7 +49515,7 @@
         {
           "label": "2",
           "lines": [
-            "Hiding in thee, hiding in thee",
+            "Hiding in thee, hiding in thee—",
             "Thou blest Rock of Ages, I'm hiding in thee."
           ],
           "type": "verse"
@@ -51161,7 +51161,7 @@
       "language": "en",
       "number": "574",
       "schemaVersion": 1,
-      "searchText": "have thine own way, lord 574 holy desire have thine own way, lord! have thine own way! thou art the potter; i am the clay. mold me and make me after thy will while i am waiting, yielded and still. have thine own way, lord! have thine own way! search me and try me, master, today! whiter than snow, lord, wash me just now, as in thy presence humbly i bow. have thine own way, lord! have thine own way! wounded and weary, help me, i pray! powerall powersurely is thine! touch me and heal me, saviour divine! have thine own way, lord! have thine own way! hold o'er my being absolute sway! fill with thy spirit till all shall see christ only, always, living in me!",
+      "searchText": "have thine own way, lord 574 holy desire have thine own way, lord! have thine own way! thou art the potter; i am the clay. mold me and make me after thy will while i am waiting, yielded and still. have thine own way, lord! have thine own way! search me and try me, master, today! whiter than snow, lord, wash me just now, as in thy presence humbly i bow. have thine own way, lord! have thine own way! wounded and weary, help me, i pray! power—all power—surely is thine! touch me and heal me, saviour divine! have thine own way, lord! have thine own way! hold o'er my being absolute sway! fill with thy spirit till all shall see christ only, always, living in me!",
       "sections": [
         {
           "label": "1",
@@ -51188,7 +51188,7 @@
           "lines": [
             "Have thine own way, Lord! Have thine own way!",
             "Wounded and weary, help me, I pray!",
-            "Powerall powersurely is thine!",
+            "Power—all power—surely is thine!",
             "Touch me and heal me, Saviour divine!"
           ],
           "type": "verse"
@@ -51535,7 +51535,7 @@
         "repo": "the-hardy-boys/trinity-hymnal-data",
         "rightsStatus": "source-repository"
       },
-      "title": "Be still, my soul:  the Lord is on thy side",
+      "title": "Be still, my soul: the Lord is on thy side",
       "tune": "Unde et Memores"
     },
     {
@@ -51544,7 +51544,7 @@
       "language": "en",
       "number": "580",
       "schemaVersion": 1,
-      "searchText": "it is well with my soul 580 its well when peace, like a river, attendeth my way, when sorrows like sea billows roll; whatever my lot, thou hast taught me to say, it is well, it is well with my soul. it is well with my soul; it is well, it is well with my soul. though satan should buffet, though trials should come, let this blest assurance control, that christ has regarded my helpless estate, and has shed his own blood for my soul. my sino the bliss of this glorious thought! my sin, not in part, but the whole, is nailed to the cross and i bear it no more; praise the lord, praise the lord, o my soul! o lord, haste the day when the faith shall be sight, the clouds be rolled back as a scroll, the trump shall resound and the lord shall descend; \"even so\"it is well with my soul.",
+      "searchText": "it is well with my soul 580 its well when peace, like a river, attendeth my way, when sorrows like sea billows roll; whatever my lot, thou hast taught me to say, it is well, it is well with my soul. it is well with my soul; it is well, it is well with my soul. though satan should buffet, though trials should come, let this blest assurance control, that christ has regarded my helpless estate, and has shed his own blood for my soul. my sin—o the bliss of this glorious thought!— my sin, not in part, but the whole, is nailed to the cross and i bear it no more; praise the lord, praise the lord, o my soul! o lord, haste the day when the faith shall be sight, the clouds be rolled back as a scroll, the trump shall resound and the lord shall descend; \"even so\"—it is well with my soul.",
       "sections": [
         {
           "label": "1",
@@ -51577,7 +51577,7 @@
         {
           "label": "4",
           "lines": [
-            "My sinO the bliss of this glorious thought!",
+            "My sin—O the bliss of this glorious thought!—",
             "My sin, not in part, but the whole,",
             "Is nailed to the cross and I bear it no more;",
             "Praise the Lord, praise the Lord, O my soul!"
@@ -51590,7 +51590,7 @@
             "O Lord, haste the day when the faith shall be sight,",
             "The clouds be rolled back as a scroll,",
             "The trump shall resound and the Lord shall descend;",
-            "\"Even so\"it is well with my soul."
+            "\"Even so\"—it is well with my soul."
           ],
           "type": "verse"
         }
@@ -53160,7 +53160,7 @@
       "language": "en",
       "number": "598",
       "schemaVersion": 1,
-      "searchText": "there is no night in heaven 598 trentham there is no night in heav'n; in that blest world above work never can bring weariness, for work itself is love. there is no grief in heav'n; for life is one glad day; and tears are of those former things which all have passed away. there is no sin in heav'n; behold that blessed throng all holy is their spotless robe, all holy in their song! there is no death in heav'n; for they who gain that shore have won their immortality, and they can die no more. lord jesus, be our guide; o lead us safely on, till night and grief and sin and death are past, and heav'n is won!",
+      "searchText": "there is no night in heaven 598 trentham there is no night in heav'n; in that blest world above work never can bring weariness, for work itself is love. there is no grief in heav'n; for life is one glad day; and tears are of those former things which all have passed away. there is no sin in heav'n; behold that blessed throng— all holy is their spotless robe, all holy in their song! there is no death in heav'n; for they who gain that shore have won their immortality, and they can die no more. lord jesus, be our guide; o lead us safely on, till night and grief and sin and death are past, and heav'n is won!",
       "sections": [
         {
           "label": "1",
@@ -53186,7 +53186,7 @@
           "label": "3",
           "lines": [
             "There is no sin in heav'n;",
-            "Behold that blessed throng",
+            "Behold that blessed throng—",
             "All holy is their spotless robe,",
             "All holy in their song!"
           ],
@@ -55573,7 +55573,7 @@
       "language": "en",
       "number": "624",
       "schemaVersion": 1,
-      "searchText": "o happy house, where thou art loved 624 crofton o happy home, where thou art loved the dearest, thou loving friend and saviour of our race, and where among the guests there never cometh one who can hold such high and honored place! o happy home, where two in heart united in holy faith and blessed hope are one, whom death a little while alone divideth, and cannot end the union here begun! o happy home, whose little ones are given early to thee in humble faith and prayer, to thee, their friend, who from the heights of heaven guides them, and guards with more than mother's care! o happy home, where each one serves thee, lowly, whatever his appointed work may be, till ev'ry common task seems great and holy, when it is done, o lord, as unto thee! o happy home, where thou art not forgotten when joy is overflowing, full and free, o happy home, where ev'ry wounded spirit is brought, physician, comforter, to thee, until at last, when earth's day's work is ended, all meet thee in the blessed home above, from whence thou camest, where thou hast ascended, thine everlasting home of peace and love.",
+      "searchText": "o happy house, where thou art loved 624 crofton o happy home, where thou art loved the dearest, thou loving friend and saviour of our race, and where among the guests there never cometh one who can hold such high and honored place! o happy home, where two in heart united in holy faith and blessed hope are one, whom death a little while alone divideth, and cannot end the union here begun! o happy home, whose little ones are given early to thee in humble faith and prayer, to thee, their friend, who from the heights of heaven guides them, and guards with more than mother's care! o happy home, where each one serves thee, lowly, whatever his appointed work may be, till ev'ry common task seems great and holy, when it is done, o lord, as unto thee! o happy home, where thou art not forgotten when joy is overflowing, full and free, o happy home, where ev'ry wounded spirit is brought, physician, comforter, to thee,— until at last, when earth's day's work is ended, all meet thee in the blessed home above, from whence thou camest, where thou hast ascended, thine everlasting home of peace and love.",
       "sections": [
         {
           "label": "1",
@@ -55621,7 +55621,7 @@
             "O happy home, where thou art not forgotten",
             "When joy is overflowing, full and free,",
             "O happy home, where ev'ry wounded spirit",
-            "Is brought, Physician, Comforter, to thee,"
+            "Is brought, Physician, Comforter, to thee,—"
           ],
           "type": "verse"
         },
@@ -56478,14 +56478,14 @@
       "language": "en",
       "number": "634",
       "schemaVersion": 1,
-      "searchText": "hallelujah! thine the glory 634 thine the glory we praise thee, o god! for the days of our youth, for the bright lamp that shineth the word of thy truth. hallelujah! thine the glory, hallelujah we sing; hallelujah! thine the glory, our praise now we bring. we praise thee, o god! for the son of thy love, for jesus who died and is now gone above. we praise thee, o god! for thy spirit of light, who has shown us our saviour and scattered our night. all glory and praise to the lamb that was slain, who has borne all our sins and has cleansed ev'ry stain!",
+      "searchText": "hallelujah! thine the glory 634 thine the glory we praise thee, o god! for the days of our youth, for the bright lamp that shineth— the word of thy truth. hallelujah! thine the glory, hallelujah we sing; hallelujah! thine the glory, our praise now we bring. we praise thee, o god! for the son of thy love, for jesus who died and is now gone above. we praise thee, o god! for thy spirit of light, who has shown us our saviour and scattered our night. all glory and praise to the lamb that was slain, who has borne all our sins and has cleansed ev'ry stain!",
       "sections": [
         {
           "label": "1",
           "lines": [
             "We praise thee, O God!",
             "For the days of our youth,",
-            "For the bright lamp that shineth",
+            "For the bright lamp that shineth—",
             "The Word of thy truth."
           ],
           "type": "verse"
@@ -56892,7 +56892,7 @@
       "language": "en",
       "number": "636",
       "schemaVersion": 1,
-      "searchText": "all things bright and beautiful 636 all things bright and beautiful each little flower that opens, each little bird that sings, god made their glowing colors, he made their tiny wings. yes, all things bright and beautiful, all creatures great and small, and all things wise and wonderful, the lord god made them all. the purple-headed mountain, the river running by, the sunset and the morning that brightens up the sky. the cold wind in the winter, the pleasant summer sun, the ripe fruits in the garden he made them ev'ry one. the tall trees in the greenwood, the meadows where we play, the flowers by the water we gather ev'ry day. he gave us eyes to see them, and lips that we might tell how great is god almighty, who doeth all things well.",
+      "searchText": "all things bright and beautiful 636 all things bright and beautiful each little flower that opens, each little bird that sings, god made their glowing colors, he made their tiny wings. yes, all things bright and beautiful, all creatures great and small, and all things wise and wonderful, the lord god made them all. the purple-headed mountain, the river running by, the sunset and the morning that brightens up the sky. the cold wind in the winter, the pleasant summer sun, the ripe fruits in the garden— he made them ev'ry one. the tall trees in the greenwood, the meadows where we play, the flowers by the water we gather ev'ry day. he gave us eyes to see them, and lips that we might tell how great is god almighty, who doeth all things well.",
       "sections": [
         {
           "label": "1",
@@ -56929,7 +56929,7 @@
           "lines": [
             "The cold wind in the winter,",
             "The pleasant summer sun,",
-            "The ripe fruits in the garden",
+            "The ripe fruits in the garden—",
             "He made them ev'ry one."
           ],
           "type": "verse"
@@ -57852,7 +57852,7 @@
       "language": "en",
       "number": "645",
       "schemaVersion": 1,
-      "searchText": "can a little child like me thank the father 645 thanksgiving (basswood) can a little child like me thank the father fittingly? yes, o yes! be good and true, patient, kind in all you do; love the lord, and do your part; learn to say with all your heart, father, we thank thee! father, we thank thee! father in heaven, we thank thee! for the fruit upon the tree, for the birds that sing of thee, for the earth in beauty dressed, father, mother, and the rest, for thy precious, loving care, for thy bounty ev'rywhere, for the sunshine warm and bright, for the day and for the night, for the lessons of our youth honor, gratitude and truth, for the love that met us here, for the home and for the cheer, for our comrades and our plays, and our happy holidays, for the joyful work and true that a little child may do, for our lives but just begun, for the great gift of thy son,",
+      "searchText": "can a little child like me thank the father 645 thanksgiving (basswood) can a little child like me thank the father fittingly? yes, o yes! be good and true, patient, kind in all you do; love the lord, and do your part; learn to say with all your heart, father, we thank thee! father, we thank thee! father in heaven, we thank thee! for the fruit upon the tree, for the birds that sing of thee, for the earth in beauty dressed, father, mother, and the rest, for thy precious, loving care, for thy bounty ev'rywhere, for the sunshine warm and bright, for the day and for the night, for the lessons of our youth— honor, gratitude and truth, for the love that met us here, for the home and for the cheer, for our comrades and our plays, and our happy holidays, for the joyful work and true that a little child may do, for our lives but just begun, for the great gift of thy son,",
       "sections": [
         {
           "label": "1",
@@ -57891,7 +57891,7 @@
           "lines": [
             "For the sunshine warm and bright,",
             "For the day and for the night,",
-            "For the lessons of our youth",
+            "For the lessons of our youth—",
             "Honor, gratitude and truth,",
             "For the love that met us here,",
             "For the home and for the cheer,"
@@ -59024,7 +59024,7 @@
       "language": "en",
       "number": "653",
       "schemaVersion": 1,
-      "searchText": "jesus bids us shine 653 jesus bids us shine jesus bids us shine with a pure, clear light, like a little candle burning in the night. in this world of darkness so let us shine you in your small corner, and i in mine. jesus bids us shine, first of all for him; well he sees and knows it, if our light grows dim. he looks down from heaven to see us shine you in your small corner, and i in mine. jesus bids us shine, then, for all around; many kinds of darkness in the world are found sin and want and sorrow; so we must shine you in your small corner, and i in mine.",
+      "searchText": "jesus bids us shine 653 jesus bids us shine jesus bids us shine with a pure, clear light, like a little candle burning in the night. in this world of darkness so let us shine— you in your small corner, and i in mine. jesus bids us shine, first of all for him; well he sees and knows it, if our light grows dim. he looks down from heaven to see us shine— you in your small corner, and i in mine. jesus bids us shine, then, for all around; many kinds of darkness in the world are found— sin and want and sorrow; so we must shine— you in your small corner, and i in mine.",
       "sections": [
         {
           "label": "1",
@@ -59034,7 +59034,7 @@
             "Like a little candle",
             "Burning in the night.",
             "In this world of darkness",
-            "So let us shine",
+            "So let us shine—",
             "You in your small corner,",
             "And I in mine."
           ],
@@ -59048,7 +59048,7 @@
             "Well he sees and knows it,",
             "If our light grows dim.",
             "He looks down from heaven",
-            "To see us shine",
+            "To see us shine—",
             "You in your small corner,",
             "And I in mine."
           ],
@@ -59060,9 +59060,9 @@
             "Jesus bids us shine,",
             "Then, for all around;",
             "Many kinds of darkness",
-            "In the world are found",
+            "In the world are found—",
             "Sin and want and sorrow;",
-            "So we must shine",
+            "So we must shine—",
             "You in your small corner,",
             "And I in mine."
           ],
@@ -60035,7 +60035,7 @@
       "language": "en",
       "number": "662",
       "schemaVersion": 1,
-      "searchText": "there is a city bright 662 city bright there is a city bright; closed are its gates to sin; naught that defileth, naught that defileth, can ever enter in. saviour, i come to thee; o lamb of god, i pray, cleanse me and save me, cleanse me and save me, wash all my sins away. lord, make me, from this hour, thy loving child to be, kept by thy power, kept by thy power, from all that grieveth thee, till in the snow-white dress of thy redeemed i stand, faultless and stainless, faultless and stainless, safe in that happy land.",
+      "searchText": "there is a city bright 662 city bright there is a city bright; closed are its gates to sin; naught that defileth, naught that defileth, can ever enter in. saviour, i come to thee; o lamb of god, i pray, cleanse me and save me, cleanse me and save me, wash all my sins away. lord, make me, from this hour, thy loving child to be, kept by thy power, kept by thy power, from all that grieveth thee,— till in the snow-white dress of thy redeemed i stand, faultless and stainless, faultless and stainless, safe in that happy land.",
       "sections": [
         {
           "label": "1",
@@ -60066,7 +60066,7 @@
             "Thy loving child to be,",
             "Kept by thy power,",
             "Kept by thy power,",
-            "From all that grieveth thee,"
+            "From all that grieveth thee,—"
           ],
           "type": "verse"
         },
@@ -62845,7 +62845,7 @@
       "language": "en",
       "number": "677",
       "schemaVersion": 1,
-      "searchText": "nothing but the blood 677 nothing but the blood what can wash away my sin? nothing but the blood of jesus; what can make me whole again? nothing but the blood of jesus. o precious is the flow that makes me white as snow; no other fount i know, nothing but the blood of jesus. for my cleansing this i see nothing but the blood of jesus; for my pardon this my plea nothing but the blood of jesus. nothing can for sin atone nothing but the blood of jesus; naught of good that i have done nothing but the blood of jesus. this is all my hope and peace nothing but the blood of jesus; this is all my righteousness nothing but the blood of jesus. now by this i'll overcome nothing but the blood of jesus; now by this i'll reach my home nothing but the blood of jesus.",
+      "searchText": "nothing but the blood 677 nothing but the blood what can wash away my sin? nothing but the blood of jesus; what can make me whole again? nothing but the blood of jesus. o precious is the flow that makes me white as snow; no other fount i know, nothing but the blood of jesus. for my cleansing this i see— nothing but the blood of jesus; for my pardon this my plea— nothing but the blood of jesus. nothing can for sin atone— nothing but the blood of jesus; naught of good that i have done— nothing but the blood of jesus. this is all my hope and peace— nothing but the blood of jesus; this is all my righteousness— nothing but the blood of jesus. now by this i'll overcome— nothing but the blood of jesus; now by this i'll reach my home— nothing but the blood of jesus.",
       "sections": [
         {
           "label": "1",
@@ -62870,9 +62870,9 @@
         {
           "label": "3",
           "lines": [
-            "For my cleansing this I see",
+            "For my cleansing this I see—",
             "Nothing but the blood of Jesus;",
-            "For my pardon this my plea",
+            "For my pardon this my plea—",
             "Nothing but the blood of Jesus."
           ],
           "type": "verse"
@@ -62880,9 +62880,9 @@
         {
           "label": "4",
           "lines": [
-            "Nothing can for sin atone",
+            "Nothing can for sin atone—",
             "Nothing but the blood of Jesus;",
-            "Naught of good that I have done",
+            "Naught of good that I have done—",
             "Nothing but the blood of Jesus."
           ],
           "type": "verse"
@@ -62890,9 +62890,9 @@
         {
           "label": "5",
           "lines": [
-            "This is all my hope and peace",
+            "This is all my hope and peace—",
             "Nothing but the blood of Jesus;",
-            "This is all my righteousness",
+            "This is all my righteousness—",
             "Nothing but the blood of Jesus."
           ],
           "type": "verse"
@@ -62900,9 +62900,9 @@
         {
           "label": "6",
           "lines": [
-            "Now by this I'll overcome",
+            "Now by this I'll overcome—",
             "Nothing but the blood of Jesus;",
-            "Now by this I'll reach my home",
+            "Now by this I'll reach my home—",
             "Nothing but the blood of Jesus."
           ],
           "type": "verse"
@@ -65474,14 +65474,14 @@
       "language": "en",
       "number": "689",
       "schemaVersion": 1,
-      "searchText": "living, he loved me; dying, he saved me 689 one day! one day when heaven was filled with his praises, one day when sin was as black as could be, jesus came forth to be born of a virgin dwelt amongst men, my example is he! living, he loved me; dying, he saved me; buried, he carried my sins far away; rising, he justified freely, for ever: one day he's comingo, glorious day! one day they led him up calvary's mountain, one day they nailed him to die on the tree; suffering anguish, despised and rejected: bearing our sins, my redeemer is he! one day they left him alone in the garden, one day he rested, from suffering free; angels came down o'er his tomb to keep vigil; hope of the hopeless, my saviour is he! one day the grave could conceal him no longer, one day the stone rolled away from the door; then he arose, over death he had conquered; now is ascended, my lord evermore! one day the trumpet will sound for his coming, one day the skies with his glories will shine; wonderful day, my beloved ones bringing; glorious saviour, this jesus is mine!",
+      "searchText": "living, he loved me; dying, he saved me 689 one day! one day when heaven was filled with his praises, one day when sin was as black as could be, jesus came forth to be born of a virgin— dwelt amongst men, my example is he! living, he loved me; dying, he saved me; buried, he carried my sins far away; rising, he justified freely, for ever: one day he's coming—o, glorious day! one day they led him up calvary's mountain, one day they nailed him to die on the tree; suffering anguish, despised and rejected: bearing our sins, my redeemer is he! one day they left him alone in the garden, one day he rested, from suffering free; angels came down o'er his tomb to keep vigil; hope of the hopeless, my saviour is he! one day the grave could conceal him no longer, one day the stone rolled away from the door; then he arose, over death he had conquered; now is ascended, my lord evermore! one day the trumpet will sound for his coming, one day the skies with his glories will shine; wonderful day, my beloved ones bringing; glorious saviour, this jesus is mine!",
       "sections": [
         {
           "label": "1",
           "lines": [
             "One day when heaven was filled with his praises,",
             "One day when sin was as black as could be,",
-            "Jesus came forth to be born of a virgin",
+            "Jesus came forth to be born of a virgin—",
             "Dwelt amongst men, my example is he!"
           ],
           "type": "verse"
@@ -65492,7 +65492,7 @@
             "Living, he loved me; dying, he saved me;",
             "Buried, he carried my sins far away;",
             "Rising, he justified freely, for ever:",
-            "One day he's comingO, glorious day!"
+            "One day he's coming—O, glorious day!"
           ],
           "type": "verse"
         },
@@ -65738,7 +65738,7 @@
       "language": "en",
       "number": "690",
       "schemaVersion": 1,
-      "searchText": "i hear the saviour say 690 jesus paid it all i hear the saviour say, \"thy strength indeed is small, child of weakness, watch and pray, find in me thine all in all.\" jesus paid it all, all to him i owe; sin had left a crimson stain, he washed it white as snow. lord, now indeed i find thy power, and thine alone, can change the leper's spots, and melt the heart of stone. for nothing good have i whereby thy grace to claim i will wash my garments white in the blood of calvary's lamb. and when, before the throne, i stand in him complete, \"jesus died my soul to save,\" my lips shall still repeat.",
+      "searchText": "i hear the saviour say 690 jesus paid it all i hear the saviour say, \"thy strength indeed is small, child of weakness, watch and pray, find in me thine all in all.\" jesus paid it all, all to him i owe; sin had left a crimson stain, he washed it white as snow. lord, now indeed i find thy power, and thine alone, can change the leper's spots, and melt the heart of stone. for nothing good have i whereby thy grace to claim— i will wash my garments white in the blood of calvary's lamb. and when, before the throne, i stand in him complete, \"jesus died my soul to save,\" my lips shall still repeat.",
       "sections": [
         {
           "label": "1",
@@ -65774,7 +65774,7 @@
           "label": "4",
           "lines": [
             "For nothing good have I",
-            "Whereby thy grace to claim",
+            "Whereby thy grace to claim—",
             "I will wash my garments white",
             "In the blood of Calvary's lamb."
           ],
@@ -67203,12 +67203,12 @@
       "language": "en",
       "number": "697",
       "schemaVersion": 1,
-      "searchText": "calling today, calling today, jesus is calling 697 calling today jesus is tenderly calling thee home calling today, calling today, why from the sunshine of love wilt thou roam farther and farther away? calling today, calling today, jesus is calling, is tenderly calling today. jesus is calling the weary to rest calling today, calling today, bring him thy burden and thou shalt be blest: he will not turn thee away. jesus is waiting; o come to him now waiting today, waiting today, come with thy sins; at his feet lowly bow; come, and no longer delay. jesus is pleading; o list to his voice: hear him today, hear him today, they who believe on his name shall rejoice; quickly arise and away.",
+      "searchText": "calling today, calling today, jesus is calling 697 calling today jesus is tenderly calling thee home— calling today, calling today, why from the sunshine of love wilt thou roam farther and farther away? calling today, calling today, jesus is calling, is tenderly calling today. jesus is calling the weary to rest— calling today, calling today, bring him thy burden and thou shalt be blest: he will not turn thee away. jesus is waiting; o come to him now— waiting today, waiting today, come with thy sins; at his feet lowly bow; come, and no longer delay. jesus is pleading; o list to his voice: hear him today, hear him today, they who believe on his name shall rejoice; quickly arise and away.",
       "sections": [
         {
           "label": "1",
           "lines": [
-            "Jesus is tenderly calling thee home",
+            "Jesus is tenderly calling thee home—",
             "Calling today, calling today,",
             "Why from the sunshine of love wilt thou roam",
             "Farther and farther away?"
@@ -67226,7 +67226,7 @@
         {
           "label": "3",
           "lines": [
-            "Jesus is calling the weary to rest",
+            "Jesus is calling the weary to rest—",
             "Calling today, calling today,",
             "Bring him thy burden and thou shalt be blest:",
             "He will not turn thee away."
@@ -67236,7 +67236,7 @@
         {
           "label": "4",
           "lines": [
-            "Jesus is waiting; O come to him now",
+            "Jesus is waiting; O come to him now—",
             "Waiting today, waiting today,",
             "Come with thy sins; at his feet lowly bow;",
             "Come, and no longer delay."
@@ -67557,7 +67557,7 @@
       "language": "en",
       "number": "698",
       "schemaVersion": 1,
-      "searchText": "naught have i gotten but what i received 698 only a sinner naught have i gotten but what i received; grace hath bestowed it and i have believed; boasting excluded, pride i abase; i'm only a sinner saved by grace! only a sinner saved by grace! only a sinner saved by grace! this is my story, to god be the glory, i'm only a sinner saved by grace! once i was foolish, and sinned ruled my heart, causing my footsteps from god to depart; jesus hath found me, happy my case; i now am a sinner saved by grace! tears unavailing, no merit had i; mercy had saved me, or else i must die; sin had alarmed me, fearing god's face; but now i'm a sinner saved by grace! suffer a sinner whose heart overflows, loving his saviour to tell what he knows; once more to tell it would i embrace i now am a sinner saved by grace!",
+      "searchText": "naught have i gotten but what i received 698 only a sinner naught have i gotten but what i received; grace hath bestowed it and i have believed; boasting excluded, pride i abase; i'm only a sinner saved by grace! only a sinner saved by grace! only a sinner saved by grace! this is my story, to god be the glory, i'm only a sinner saved by grace! once i was foolish, and sinned ruled my heart, causing my footsteps from god to depart; jesus hath found me, happy my case; i now am a sinner saved by grace! tears unavailing, no merit had i; mercy had saved me, or else i must die; sin had alarmed me, fearing god's face; but now i'm a sinner saved by grace! suffer a sinner whose heart overflows, loving his saviour to tell what he knows; once more to tell it would i embrace— i now am a sinner saved by grace!",
       "sections": [
         {
           "label": "1",
@@ -67604,7 +67604,7 @@
           "lines": [
             "Suffer a sinner whose heart overflows,",
             "Loving his Saviour to tell what he knows;",
-            "Once more to tell it would I embrace",
+            "Once more to tell it would I embrace—",
             "I now am a sinner saved by grace!"
           ],
           "type": "verse"
@@ -68257,7 +68257,7 @@
       "language": "en",
       "number": "701",
       "schemaVersion": 1,
-      "searchText": "master, the tempest is raging 701 peace! be still! master, the tempest is raging! the billows are tossing high! the sky is o'ershadowed with blackness, no shelter or help is nigh; carest thou not that we perish? how canst thou lie asleep, when each moment so madly is threat'ning a grave in the angry deep? the winds and the waves shall obey thy will: \"peace, be still!\" whether the wrath of the storm-tossed sea, or demons, or men or whatever it be, no water can swallow the ship where lies the master of ocean and earth and skies: they all shall sweetly obey thy will \"peace, be still! peace, be still!\" they all shall sweetly obey thy will \"peace, peace, be still!\" master, with anguish in spirit i bow in my grief today; the depths of my sad heart are troubled, o waken and save, i pray; torrents of sin and of anguish sweep o'er my sinking soul! and i perish! i perish! dear master; o hasten, and take control! master, the terror is over, the elements sweetly rest; earth's sun in the calm lake is mirrored, and heaven's within my breast. linger, o blessed redeemer, leave me alone no more; and with joy i shall make the blest harbor, and rest on the blissful shore.",
+      "searchText": "master, the tempest is raging 701 peace! be still! master, the tempest is raging! the billows are tossing high! the sky is o'ershadowed with blackness, no shelter or help is nigh; carest thou not that we perish? how canst thou lie asleep, when each moment so madly is threat'ning a grave in the angry deep? the winds and the waves shall obey thy will: \"peace, be still!\" whether the wrath of the storm-tossed sea, or demons, or men or whatever it be, no water can swallow the ship where lies the master of ocean and earth and skies: they all shall sweetly obey thy will— \"peace, be still! peace, be still!\" they all shall sweetly obey thy will— \"peace, peace, be still!\" master, with anguish in spirit i bow in my grief today; the depths of my sad heart are troubled, o waken and save, i pray; torrents of sin and of anguish sweep o'er my sinking soul! and i perish! i perish! dear master; o hasten, and take control! master, the terror is over, the elements sweetly rest; earth's sun in the calm lake is mirrored, and heaven's within my breast. linger, o blessed redeemer, leave me alone no more; and with joy i shall make the blest harbor, and rest on the blissful shore.",
       "sections": [
         {
           "label": "1",
@@ -68282,9 +68282,9 @@
             "Or demons, or men or whatever it be,",
             "No water can swallow the ship where lies",
             "The Master of ocean and earth and skies:",
-            "They all shall sweetly obey thy will",
+            "They all shall sweetly obey thy will—",
             "\"Peace, be still! Peace, be still!\"",
-            "They all shall sweetly obey thy will",
+            "They all shall sweetly obey thy will—",
             "\"Peace, peace, be still!\""
           ],
           "type": "verse"
@@ -69107,14 +69107,14 @@
       "language": "en",
       "number": "704",
       "schemaVersion": 1,
-      "searchText": "in the cross, in the cross, be my glory ever 704 near the cross jesus, keep me near the cross; there a precious fountain, free to alla healing stream flows from calvary's mountain. in the cross, in the cross, be my glory ever; till my raptured soul shall find rest beyond the river. near the cross, a trembling soul, love and mercy found me; there the bright and morning star shed its beams around me. near the cross! o lamb of god, bring its scenes before me; help me walk from day to day with its shadow o'er me. near the cross i'll watch and wait, hoping, trusting ever, till i reach the golden strand just beyond the river.",
+      "searchText": "in the cross, in the cross, be my glory ever 704 near the cross jesus, keep me near the cross; there a precious fountain, free to all—a healing stream— flows from calvary's mountain. in the cross, in the cross, be my glory ever; till my raptured soul shall find rest beyond the river. near the cross, a trembling soul, love and mercy found me; there the bright and morning star shed its beams around me. near the cross! o lamb of god, bring its scenes before me; help me walk from day to day with its shadow o'er me. near the cross i'll watch and wait, hoping, trusting ever, till i reach the golden strand just beyond the river.",
       "sections": [
         {
           "label": "1",
           "lines": [
             "Jesus, keep me near the cross;",
             "There a precious fountain,",
-            "Free to alla healing stream",
+            "Free to all—a healing stream—",
             "Flows from Calvary's mountain."
           ],
           "type": "verse"
@@ -70529,7 +70529,7 @@
       "language": "en",
       "number": "711",
       "schemaVersion": 1,
-      "searchText": "jesus, oh how sweet the name! 711 the name of jesus the name of jesus is so sweet, i love its music to repeat; it makes my joys full and complete, the precious name of jesus. \"jesus,\" oh how sweet the name! \"jesus,\" ev'ry day the same; \"jesus,\" let all saints proclaim its worthy praise for ever. i love the name of him whose heart knows all my griefs and bears a part; who bids all anxious fears depart i love the name of jesus. no word of man can ever tell how sweet the name i love so well; oh, let its praises ever swell, oh, praise the name of jesus.",
+      "searchText": "jesus, oh how sweet the name! 711 the name of jesus the name of jesus is so sweet, i love its music to repeat; it makes my joys full and complete, the precious name of jesus. \"jesus,\" oh how sweet the name! \"jesus,\" ev'ry day the same; \"jesus,\" let all saints proclaim its worthy praise for ever. i love the name of him whose heart knows all my griefs and bears a part; who bids all anxious fears depart— i love the name of jesus. no word of man can ever tell how sweet the name i love so well; oh, let its praises ever swell, oh, praise the name of jesus.",
       "sections": [
         {
           "label": "1",
@@ -70556,7 +70556,7 @@
           "lines": [
             "I love the Name of him whose heart",
             "Knows all my griefs and bears a part;",
-            "Who bids all anxious fears depart",
+            "Who bids all anxious fears depart—",
             "I love the Name of Jesus."
           ],
           "type": "verse"
@@ -73334,7 +73334,7 @@
       "language": "en",
       "number": "721",
       "schemaVersion": 1,
-      "searchText": "i am redeemed, but not with silver 721 nor silver nor gold nor silver nor gold hath obtained my redemption, nor riches of earth could have saved my poor soul; the blood of the cross is my only foundation, the death of my saviour now maketh me whole. i am redeemed, but not with silver; i am bought, but not with gold; bought with a pricethe blood of jesus, precious price of love untold. nor silver nor gold hath obtained my redemption, the guilt on my conscience too heavy had grown; the blood of the cross is my only foundation, the death of my saviour could only atone. nor silver nor gold hath obtained my redemption, the holy commandment forbade me draw near; the blood of the cross is my only foundation, the death of my saviour removeth my fear. nor silver nor gold hath obtained my redemption, the way into heaven could not thus be bought; the blood of the cross is my only foundation, the death of my saviour redemption hath wrought.",
+      "searchText": "i am redeemed, but not with silver 721 nor silver nor gold nor silver nor gold hath obtained my redemption, nor riches of earth could have saved my poor soul; the blood of the cross is my only foundation, the death of my saviour now maketh me whole. i am redeemed, but not with silver; i am bought, but not with gold; bought with a price—the blood of jesus, precious price of love untold. nor silver nor gold hath obtained my redemption, the guilt on my conscience too heavy had grown; the blood of the cross is my only foundation, the death of my saviour could only atone. nor silver nor gold hath obtained my redemption, the holy commandment forbade me draw near; the blood of the cross is my only foundation, the death of my saviour removeth my fear. nor silver nor gold hath obtained my redemption, the way into heaven could not thus be bought; the blood of the cross is my only foundation, the death of my saviour redemption hath wrought.",
       "sections": [
         {
           "label": "1",
@@ -73351,7 +73351,7 @@
           "lines": [
             "I am redeemed, but not with silver;",
             "I am bought, but not with gold;",
-            "Bought with a pricethe blood of Jesus,",
+            "Bought with a price—the blood of Jesus,",
             "Precious price of love untold."
           ],
           "type": "verse"
@@ -74618,7 +74618,7 @@
       "language": "en",
       "number": "726",
       "schemaVersion": 1,
-      "searchText": "and i shall see him face to face 726 saved by grace some day the silver cord will break, and i no more as now shall sing; but oh, the joy when i shall wake within the palace of the king! and i shall see him face to face, and tell the storysaved by grace; and i shall see him face to face, and tell the storysaved by grace. some day my earthly house will fall, i cannot tell how soon 'twill be; but this i knowmy all in all has now a place in heav'n for me. some day, when fades the golden sun beneath the rosy tinted west, my blessed lord will say, \"well done!\" and i shall enter into rest. some day: till then i'll watch and wait, my lamp all trimmed and burning bright, that when my saviour ope's the gates, my soul to him may take its flight.",
+      "searchText": "and i shall see him face to face 726 saved by grace some day the silver cord will break, and i no more as now shall sing; but oh, the joy when i shall wake within the palace of the king! and i shall see him face to face, and tell the story—saved by grace; and i shall see him face to face, and tell the story—saved by grace. some day my earthly house will fall, i cannot tell how soon 'twill be; but this i know—my all in all has now a place in heav'n for me. some day, when fades the golden sun beneath the rosy tinted west, my blessed lord will say, \"well done!\" and i shall enter into rest. some day: till then i'll watch and wait, my lamp all trimmed and burning bright, that when my saviour ope's the gates, my soul to him may take its flight.",
       "sections": [
         {
           "label": "1",
@@ -74634,9 +74634,9 @@
           "label": "2",
           "lines": [
             "And I shall see him face to face,",
-            "And tell the storysaved by grace;",
+            "And tell the story—saved by grace;",
             "And I shall see him face to face,",
-            "And tell the storysaved by grace."
+            "And tell the story—saved by grace."
           ],
           "type": "verse"
         },
@@ -74645,7 +74645,7 @@
           "lines": [
             "Some day my earthly house will fall,",
             "I cannot tell how soon 'twill be;",
-            "But this I knowmy All in All",
+            "But this I know—my All in All",
             "Has now a place in heav'n for me."
           ],
           "type": "verse"
@@ -75956,5 +75956,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/the-hardy-boys/trinity-hymnal-data"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

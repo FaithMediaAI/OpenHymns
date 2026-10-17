@@ -1,6 +1,6 @@
 {
   "name": "open-hymns",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "A versioned, normalized hymn catalog for programmatic search and offline use.",
@@ -9,7 +9,8 @@
     "clone:sources": "node scripts/clone-sources.mjs",
     "build": "node scripts/build-catalog.mjs",
     "release": "node scripts/build-catalog.mjs --release",
-    "clean": "rm -rf data releases"
+    "clean": "rm -rf data releases",
+    "validate": "node scripts/validate-catalog.mjs"
   },
   "engines": {
     "node": ">=20"

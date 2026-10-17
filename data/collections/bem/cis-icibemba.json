@@ -19868,7 +19868,7 @@
       "language": "bem",
       "number": "280",
       "schemaVersion": 1,
-      "searchText": "inyimbo e shisuma 280 inyimbo e shisu-ma twimba ku-li 'mwe; tumutasha katu-ia inshila ya - mwe. tule ... tasha e katula - wesu (tasha) tule... imba ubufumu - bwakwe. atemenwe aba-na lintu ali - pano; nomba ali ku mu-lu atutemwi-sha pe tule ... tasha e katula - wesu (tasha) tule... imba ubufumu - bwakwe. tutemwa ukuta-sha no kumfwe mi-lumbe: ilintu ali pa-nshi epo ku ga-lile. tule ... tasha e katula - wesu (tasha) tule... imba ubufumu - bwakwe. mwe katula washu-ka twaisa ku-ii 'mwe; tulelomba mutwa-fwe kumupala-mina. tule ... tasha e katula - wesu (tasha) tule... imba ubufumu - bwakwe.",
+      "searchText": "inyimbo e shisuma 280 inyimbo e shisu-ma twimba ku-li 'mwe; tumutasha katu-ia inshila ya - mwe. tule ... tasha e katula - wesu (tasha) tule… imba ubufumu - bwakwe. atemenwe aba-na lintu ali - pano; nomba ali ku mu-lu atutemwi-sha pe tule ... tasha e katula - wesu (tasha) tule… imba ubufumu - bwakwe. tutemwa ukuta-sha no kumfwe mi-lumbe: ilintu ali pa-nshi epo ku ga-lile. tule ... tasha e katula - wesu (tasha) tule… imba ubufumu - bwakwe. mwe katula washu-ka twaisa ku-ii 'mwe; tulelomba mutwa-fwe kumupala-mina. tule ... tasha e katula - wesu (tasha) tule… imba ubufumu - bwakwe.",
       "sections": [
         {
           "label": "1",
@@ -22059,7 +22059,7 @@
   ],
   "id": "cis-icibemba",
   "language": "bem",
-  "name": "icibemba icibemba",
+  "name": "Kristu Mu Nyimbo",
   "schemaVersion": 1,
   "source": {
     "id": "cis-hymnals",
@@ -22070,5 +22070,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/TinasheMzondiwa/cis-hymnals"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

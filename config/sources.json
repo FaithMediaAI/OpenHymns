@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "sources": [
     {
       "id": "cis-hymnals",
@@ -18,16 +18,21 @@
             "abagusii": "guz",
             "chichewa": "ny",
             "dholuo": "luo",
+            "dg": "fr",
             "english": "en",
+            "es": "es",
             "español": "es",
             "français": "fr",
             "icibemba": "bem",
             "isiXhosa": "xh",
             "kikuyu": "ki",
+            "gikuyu": "ki",
             "kinyarwanda": "rw",
             "ndebele": "nr",
             "portuguese": "pt",
+            "pt": "pt",
             "russian": "ru",
+            "ru": "ru",
             "sepedi": "nso",
             "shona": "sn",
             "sotho": "st",
@@ -37,6 +42,7 @@
             "tumbuka": "tum",
             "twi": "tw",
             "venda": "ve",
+            "xhosa": "xh",
             "xitsonga": "ts"
           },
           "publishable": true
@@ -57,7 +63,9 @@
           "path": "index.json",
           "languageMap": {
             "ENGLISH": "en",
-            "SWAHILI": "sw"
+            "SWAHILI": "sw",
+            "KISWAHILI": "sw",
+            "LUO": "luo"
           },
           "publishable": true
         }
@@ -231,6 +239,16 @@
           "note": "SQLite source cloned for research; no dependency-free importer is enabled yet."
         }
       ]
+    }
+  ],
+  "metadataReviews": [
+    {
+      "type": "language-code",
+      "collectionId": "cis-ndebele",
+      "sourcePath": "v2/config.json",
+      "sourceLanguageLabel": "Ndebele/IsiZulu",
+      "currentLanguage": "nr",
+      "reason": "The source does not identify the specific language variety or provide an ISO language code. The existing mapping needs source-owner verification."
     }
   ]
 }

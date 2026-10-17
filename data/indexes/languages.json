@@ -6,7 +6,7 @@
   },
   {
     "collectionCount": 15,
-    "hymnCount": 5732,
+    "hymnCount": 5505,
     "language": "en"
   },
   {
@@ -25,18 +25,13 @@
     "language": "guz"
   },
   {
-    "collectionCount": 2,
-    "hymnCount": 519,
+    "collectionCount": 1,
+    "hymnCount": 299,
     "language": "ki"
   },
   {
-    "collectionCount": 1,
-    "hymnCount": 1,
-    "language": "lu"
-  },
-  {
-    "collectionCount": 1,
-    "hymnCount": 332,
+    "collectionCount": 2,
+    "hymnCount": 333,
     "language": "luo"
   },
   {
@@ -85,8 +80,8 @@
     "language": "st"
   },
   {
-    "collectionCount": 1,
-    "hymnCount": 220,
+    "collectionCount": 2,
+    "hymnCount": 439,
     "language": "sw"
   },
   {
@@ -106,7 +101,7 @@
   },
   {
     "collectionCount": 1,
-    "hymnCount": 372,
+    "hymnCount": 367,
     "language": "tum"
   },
   {

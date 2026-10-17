@@ -104,6 +104,21 @@
           "type": "string"
         }
       }
+    },
+    "titleSource": {
+      "enum": [
+        "first-line",
+        "number-prefix-removed",
+        "missing"
+      ]
+    },
+    "sourceTitle": {
+      "type": "string"
+    },
+    "contentStatus": {
+      "enum": [
+        "missing-lyrics"
+      ]
     }
   }
 }

@@ -66,13 +66,17 @@ test("buildCatalog writes language collections, indexes, and a checksum manifest
     assert.equal(collection.hymns[0].sections[1].type, "chorus");
 
     const titles = JSON.parse(await readFile(path.join(root, "data", "indexes", "titles.json"), "utf8"));
+    const canonical = JSON.parse(await readFile(path.join(root, "data", "indexes", "canonical.json"), "utf8"));
+    assert.equal(result.manifest.canonicalHymnCount, 1);
     assert.deepEqual(titles[0], {
       id: "sample-en-001-praise-to-the-lord",
+      canonicalId: canonical[0].id,
       collectionId: "sample-en",
       language: "en",
       number: "1",
       title: "Praise to the Lord"
     });
+    assert.match(titles[0].canonicalId, /^lyrics-[a-f0-9]+$/);
 
     const releaseManifest = JSON.parse(await readFile(path.join(root, "releases", "v0.1.0", "manifest.json"), "utf8"));
     assert.equal(releaseManifest.collections[0].path, "collections/en/sample-en.json");

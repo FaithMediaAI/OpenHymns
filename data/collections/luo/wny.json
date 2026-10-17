@@ -7,7 +7,7 @@
       ],
       "collectionId": "wny",
       "id": "wny-000-mtakatifu-mtakatifu-mtakatifu-in-luo",
-      "language": "lu",
+      "language": "luo",
       "number": "",
       "schemaVersion": 1,
       "searchText": "mtakatifu, mtakatifu, mtakatifu in luo reginald heber u mtakatifu...! mungu mwenyezi! alfajiri sifa zako tutaimba; u mtakatifu, bwana wa huruma. mungu wavyote hata milele umtakatifu! na malaika wengi sana wana kuabudu wote; elfu na maelfu wana kusujudu wazamani na hata milele. u mtakatifu! ingawa giza lakuficha fahari tusiioone, u mtakatifu! wewe peke yako, kamili kwa uwezo na pendo.",
@@ -45,7 +45,7 @@
       ],
       "source": {
         "license": "NOASSERTION",
-        "path": "WNY/index.json",
+        "path": "WNY/index.json#songs.1",
         "repo": "GospelSounders/hymnals-data",
         "rightsStatus": "source-repository"
       },
@@ -53,7 +53,7 @@
     }
   ],
   "id": "wny",
-  "language": "lu",
+  "language": "luo",
   "name": "Wende Nyasaye",
   "schemaVersion": 1,
   "source": {
@@ -65,5 +65,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/GospelSounders/hymnals-data"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

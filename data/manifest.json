@@ -1,4 +1,5 @@
 {
+  "canonicalHymnCount": 18328,
   "collectionCount": 44,
   "collections": [
     {
@@ -6,11 +7,11 @@
       "id": "cis-icibemba",
       "language": "bem",
       "license": "NOASSERTION",
-      "name": "icibemba icibemba",
+      "name": "Kristu Mu Nyimbo",
       "path": "collections/bem/cis-icibemba.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "e6cb18160ddd467b653e71d076b739ff5be2d833372c8bec368134525c99678b",
+      "sha256": "4580352bcb92dca3c378133509623ac8e58419d12056183b142646f50ca9ec80",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -22,7 +23,7 @@
       "path": "collections/en/believers-hymn-book-en.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "dabaaa91a613114a39097fd0f7764f2126314353ecb2c70438d77f3b9177c41d",
+      "sha256": "f656c7958c711077644d6b477d6bf77fcf023c4dc712b455cb1645fd31e855b9",
       "sourceRepo": "josmithua/song-data"
     },
     {
@@ -34,11 +35,11 @@
       "path": "collections/en/cac-ghb.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "625f96e514e49f948585033edc7b41e70439ed4edcccdfd91a1b36752abbee40",
+      "sha256": "a2f239327f9103a1209cdf7246a5860c281c16d6fafbe12311ffdb61de0d8963",
       "sourceRepo": "ebena107/HymnFlow"
     },
     {
-      "hymnCount": 1,
+      "hymnCount": 0,
       "id": "cs1900",
       "language": "en",
       "license": "NOASSERTION",
@@ -46,7 +47,7 @@
       "path": "collections/en/cs1900.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "9a1a4199005f4bc51a45aa0acb69958aa22e380241e6c7bd61c56e8d18645c45",
+      "sha256": "82c20981e159e7e208ff495593c72fced3663704afad2ac92b6b2122c546fecc",
       "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
@@ -54,23 +55,11 @@
       "id": "cis-english",
       "language": "en",
       "license": "NOASSERTION",
-      "name": "english english",
+      "name": "Christ In Song",
       "path": "collections/en/cis-english.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "22fbbbf2ae229e003a948eb1f7a2b7a335336aae23f44d59683fc14e2f2abaf7",
-      "sourceRepo": "TinasheMzondiwa/cis-hymnals"
-    },
-    {
-      "hymnCount": 695,
-      "id": "cis-sdah",
-      "language": "en",
-      "license": "NOASSERTION",
-      "name": "english sdah",
-      "path": "collections/en/cis-sdah.json",
-      "publishable": true,
-      "rightsStatus": "source-repository",
-      "sha256": "622b235c0c19ae3a2e54ffc876ca8f6f4977eb8ba2993654643d9e0e03ac4803",
+      "sha256": "88d92c0a2bd760cf4b34f5dba0123208fc80760d18a7cfc5136bb000b09a16da",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -82,11 +71,11 @@
       "path": "collections/en/gospel-hymns-en.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "fcf19e1bd1992ad8729b88a91b9f5d1a1cbbd7e7b54796626e2aa94ea9b3fef9",
+      "sha256": "14995d7c3722e768cccc7728c2dbbe534436cf5aa271637bd5a1868d14419cb4",
       "sourceRepo": "marvinjude/gospel-hymns"
     },
     {
-      "hymnCount": 54,
+      "hymnCount": 53,
       "id": "hgpp1849",
       "language": "en",
       "license": "NOASSERTION",
@@ -94,11 +83,23 @@
       "path": "collections/en/hgpp1849.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "da8bd8b11dc0b25a4da85dee46a3ebacb619e9b7786a953502bf5e15cf744f7f",
+      "sha256": "7a4950c04c4b2ccaedb845cb1b8c3803786478d1bdc6d921438599ccdeb9be99",
       "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
-      "hymnCount": 920,
+      "hymnCount": 695,
+      "id": "cis-sdah",
+      "language": "en",
+      "license": "NOASSERTION",
+      "name": "SDA Hymnal",
+      "path": "collections/en/cis-sdah.json",
+      "publishable": true,
+      "rightsStatus": "source-repository",
+      "sha256": "b7a26f6607b0541ca04f3b5940fbac884c398afc5d9e23fde6856a1a3cbfe19a",
+      "sourceRepo": "TinasheMzondiwa/cis-hymnals"
+    },
+    {
+      "hymnCount": 695,
       "id": "sdah",
       "language": "en",
       "license": "NOASSERTION",
@@ -106,7 +107,7 @@
       "path": "collections/en/sdah.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "e333955a4536ce75e6a5017b17557289b8db31579b99b9f10fb33d68414ea761",
+      "sha256": "697d39c8415406f1010fb1774e8d17e1b43f4975a2df3c35dcd89f3315fc5eb5",
       "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
@@ -118,7 +119,7 @@
       "path": "collections/en/songs-of-fellowship-en.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "7211e9668b185ab4b83c7212baf1fb09347fa0c5e2a146ed5fa011e825a2c1cd",
+      "sha256": "01b5f7a78548e11853eb20ad7ea1d42ddb370dcdf0c89b946e7f206a9dbb8fb5",
       "sourceRepo": "josmithua/song-data"
     },
     {
@@ -130,7 +131,7 @@
       "path": "collections/en/nnbh.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "81dad41735a02d0d0cd110da8a9f771e40b8f4dcb4cd05e788b7e3ff89227f0f",
+      "sha256": "9e28be53997d957f1f15e9e6a25572d6353c6fde8d97d76a67398d7b626ee9bc",
       "sourceRepo": "ebena107/HymnFlow"
     },
     {
@@ -142,7 +143,7 @@
       "path": "collections/en/ch1941.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "12e2f6a1a5c2987879ee06a9aaa42f2edb0842d66ca7402db85c6a544928eb39",
+      "sha256": "7ddecf2ccd705bccdd87bcf78ae37584182b6432f67f7a213d38a2cb8b94da9b",
       "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
@@ -154,7 +155,7 @@
       "path": "collections/en/fws.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "0bb61c88ce458e35060244abb2aff64f9f208cada33346abc04ed0c478b29e41",
+      "sha256": "aa39597a6dd1f654a055794fd3fb76242aa1d5e569dc53a480230da95179da5a",
       "sourceRepo": "ebena107/HymnFlow"
     },
     {
@@ -166,7 +167,7 @@
       "path": "collections/en/umh.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "99f26b84ff95408757a2551a421d1e94de49bb9e484b0a7d5019434b4bff5ae6",
+      "sha256": "010e6f1e7fd6e96d6b963f6573ce0c7ffac65f09660d064cebb28c30bc7993cf",
       "sourceRepo": "ebena107/HymnFlow"
     },
     {
@@ -178,7 +179,7 @@
       "path": "collections/en/trinity-hymnal-en.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "d4d7e3eaaf9cb45bc0d8f9ab6aba5d10c29106fa37cf5ee9520ac2608722e257",
+      "sha256": "c4537b92645b31b9d129062a4a03e506dd406ca51cb1bd37c2c1c5526f6fb83e",
       "sourceRepo": "the-hardy-boys/trinity-hymnal-data"
     },
     {
@@ -190,7 +191,7 @@
       "path": "collections/en/watchman-en.json",
       "publishable": true,
       "rightsStatus": "repo-license",
-      "sha256": "eddd91df5013c3ee0f950953e27f438290fd4f8d7f123e0235b14c83fff1cc8e",
+      "sha256": "93090d25706f20d5272336e1b66debce789c327c570e6a14cb2be6f9e3f81a9b",
       "sourceRepo": "h1rdr3v2/open-hymnal-json"
     },
     {
@@ -198,11 +199,11 @@
       "id": "cis-es",
       "language": "es",
       "license": "NOASSERTION",
-      "name": "español es",
+      "name": "Himnario Adventista",
       "path": "collections/es/cis-es.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "3643a254a8803b99fa5322478012dacca4478865809e47c0511649ed769a8716",
+      "sha256": "50ac6ac403292e35930392e484d6e407c31a4732a1dfafb067fccc9faae425fb",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -214,7 +215,7 @@
       "path": "collections/fr/donnez-lui-gloire-fr.json",
       "publishable": true,
       "rightsStatus": "repo-license",
-      "sha256": "a2cd09ee9c7e7276cf00097b028da10d696acf3d162b71f93fe7e0bfdebb9c44",
+      "sha256": "893f3a015bc39b8ec61e7c0c747c57835cdb462a3a662b07d1575d9d19b3a012",
       "sourceRepo": "joemdjossou/hymnes_sda_fr"
     },
     {
@@ -222,11 +223,11 @@
       "id": "cis-dg",
       "language": "fr",
       "license": "NOASSERTION",
-      "name": "français dg",
+      "name": "Donnez-Lui Gloire",
       "path": "collections/fr/cis-dg.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "0bcf2b91a2ad3db89bbc3cfe136378d7c9e84cf8a4f35a3acb90d5bcb905f9d7",
+      "sha256": "ddb3aa3ee2d99ad5162c4c85afbe303b90b8a6b8070a002236eabcdf9ba7cfc8",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -238,7 +239,7 @@
       "path": "collections/fr/hymnes-sda-fr.json",
       "publishable": true,
       "rightsStatus": "repo-license",
-      "sha256": "83fa14ad7024590a27868bf5dc8c085aa43f9179175e94b2df6b6ba3efbd19de",
+      "sha256": "0cd62c0fa9c94e1f265b329c3e7b31fa9ff732799c134e0320a7d1a6ffe8bb03",
       "sourceRepo": "joemdjossou/hymnes_sda_fr"
     },
     {
@@ -246,11 +247,11 @@
       "id": "cis-abagusii",
       "language": "guz",
       "license": "NOASSERTION",
-      "name": "abagusii abagusii",
+      "name": "Ogotera kw'ogotogia Nyasae",
       "path": "collections/guz/cis-abagusii.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "b2b65e03d20c31246cc71dc1ebcfc7f67429dde0ffba9b85736c8e74720b5ca5",
+      "sha256": "37d40817fb41c04da285c2acc724498aeab3369083146c7c8621d242ced96c20",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -258,48 +259,36 @@
       "id": "cis-gikuyu",
       "language": "ki",
       "license": "NOASSERTION",
-      "name": "kikuyu gikuyu",
+      "name": "Nyimbo cia Agendi",
       "path": "collections/ki/cis-gikuyu.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "3c0be98b90d069b2e0eda5c1ac62a82d7014d4d87bda41cc2dcc82ac7b2f8bfd",
+      "sha256": "c1919338ac3c22b6f18ddbe8795e013685b5bbb679d219da478e76f1135fd277",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
-    },
-    {
-      "hymnCount": 220,
-      "id": "nzk",
-      "language": "ki",
-      "license": "NOASSERTION",
-      "name": "Nyimbo za Kristo",
-      "path": "collections/ki/nzk.json",
-      "publishable": true,
-      "rightsStatus": "source-repository",
-      "sha256": "28b554b59c1873df4ee7d031b275a90c2d74c70117513a4ec4de327339b9f174",
-      "sourceRepo": "GospelSounders/hymnals-data"
-    },
-    {
-      "hymnCount": 1,
-      "id": "wny",
-      "language": "lu",
-      "license": "NOASSERTION",
-      "name": "Wende Nyasaye",
-      "path": "collections/lu/wny.json",
-      "publishable": true,
-      "rightsStatus": "source-repository",
-      "sha256": "5184a564a8c3d0970cc93b1c0e3970998a502c688a7fbd3fa80afe86a519fdcb",
-      "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
       "hymnCount": 332,
       "id": "cis-dholuo",
       "language": "luo",
       "license": "NOASSERTION",
-      "name": "dholuo dholuo",
+      "name": "Wende Nyasaye",
       "path": "collections/luo/cis-dholuo.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "fe9669279ae74ca34dcd7e9ac58b8934e78e60e7d3664e4a409f506b21daf66c",
+      "sha256": "bde446c6789aa1fad8757adbe95ee866762de48befbb5bcdc9d0e2b28469d55a",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
+    },
+    {
+      "hymnCount": 1,
+      "id": "wny",
+      "language": "luo",
+      "license": "NOASSERTION",
+      "name": "Wende Nyasaye",
+      "path": "collections/luo/wny.json",
+      "publishable": true,
+      "rightsStatus": "source-repository",
+      "sha256": "d14784cdd9df3af1df257e2f2c62786556a4ec7d906b91e662ed9b3a6de959cf",
+      "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
       "hymnCount": 1631,
@@ -310,7 +299,7 @@
       "path": "collections/ml/malayalam-hymnal-ml.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "ac7d09a5f7261a2c8353fd75a9e4a19063a0b11ec319a974834a3c0c20291fb8",
+      "sha256": "cab2c526a320457e2adb901dc798a53a7f6d8f5663835ff61b69236d5bc70d28",
       "sourceRepo": "yozachar/hymnal"
     },
     {
@@ -318,11 +307,11 @@
       "id": "cis-ndebele",
       "language": "nr",
       "license": "NOASSERTION",
-      "name": "ndebele ndebele",
+      "name": "UKrestu Esihlabelelweni",
       "path": "collections/nr/cis-ndebele.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "43aa2f546ab540720e4e67865bfb43c6d56fa8829f4ee7a2a795f6f41896b6dd",
+      "sha256": "f1c3f4137d7d4625442a933a7d2fc20e512b26f1e5f94f3902a045a4ef768148",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -330,11 +319,11 @@
       "id": "cis-sepedi",
       "language": "nso",
       "license": "NOASSERTION",
-      "name": "sepedi sepedi",
+      "name": "Kreste Ka Kopelo",
       "path": "collections/nso/cis-sepedi.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "a95b908a2fcf6fd03c5f459472338209d55ba390793343230c2072295120c16a",
+      "sha256": "9011bc04a33f0fc4f3877f82e1e3d3adcdada6ad3b5906306fc234e8951304b9",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -342,11 +331,11 @@
       "id": "cis-chichewa",
       "language": "ny",
       "license": "NOASSERTION",
-      "name": "chichewa chichewa",
+      "name": "Khristu Mu Nyimbo",
       "path": "collections/ny/cis-chichewa.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "6f7101084ff8c8338105109daff93ed26604be824597010317d9b404212b5092",
+      "sha256": "9855b22c8136b474c51108a86fa9df24891ff2c8e1b87083a5734fc81cecdb78",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -354,11 +343,11 @@
       "id": "cis-pt",
       "language": "pt",
       "license": "NOASSERTION",
-      "name": "portuguese pt",
+      "name": "Hinàrio Adventista Do Sétiomo Dia",
       "path": "collections/pt/cis-pt.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "f5a057379b29fdc368a7da9a63fc1bdb078c16256e648f51fa782a602c3b7346",
+      "sha256": "6ea272e5f24aed5f1497c157bafacc0f8d497021ec0b988963885989239760f2",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -366,11 +355,11 @@
       "id": "cis-ru",
       "language": "ru",
       "license": "NOASSERTION",
-      "name": "russian ru",
+      "name": "Гимн адвентистов седьмого дня",
       "path": "collections/ru/cis-ru.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "fb0eb985d276e7d591f053007b853363ca7b30f657aed0eb3e9f07590e84ed2b",
+      "sha256": "ec53e0bb504bcb1d88f0a7ff6309bfcf2ea926a7c1fef353651072f1e492c243",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -378,11 +367,11 @@
       "id": "cis-kinyarwanda",
       "language": "rw",
       "license": "NOASSERTION",
-      "name": "kinyarwanda kinyarwanda",
+      "name": "Indirimbo Zo Guhimbaza Imana",
       "path": "collections/rw/cis-kinyarwanda.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "cf0249bbc56f5481a40bc1c8266b03991ef4295b8770623eff6beea3f4d7e304",
+      "sha256": "a19d821098d6c210c30d1c9a05c4ce326bcc5baf635b21770d9a5689a92a9bd7",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -390,11 +379,11 @@
       "id": "cis-shona",
       "language": "sn",
       "license": "NOASSERTION",
-      "name": "shona shona",
+      "name": "Kristu MuNzwiyo",
       "path": "collections/sn/cis-shona.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "1655282ec455790f30eb7b4ea2ddefcfc13e778e38128485acd501f805f4bb5b",
+      "sha256": "7d6c0ddf2a0af9376e32ccefd55e6b8bef139c2198c64c58fef17e9880c1f55a",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -402,23 +391,35 @@
       "id": "cis-sotho",
       "language": "st",
       "license": "NOASSERTION",
-      "name": "sotho sotho",
+      "name": "Keresete Pineng",
       "path": "collections/st/cis-sotho.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "d8b63c4fc54608f232193a464c5fffc1fc36f2b0330c199bfe50254cbaedeadb",
+      "sha256": "817ccb181ef8fb4a45b14ed0af1e53678b3751207c8eeadecbc233a74e58c179",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
+    },
+    {
+      "hymnCount": 219,
+      "id": "nzk",
+      "language": "sw",
+      "license": "NOASSERTION",
+      "name": "Nyimbo za Kristo",
+      "path": "collections/sw/nzk.json",
+      "publishable": true,
+      "rightsStatus": "source-repository",
+      "sha256": "cbaf0df8e98d02a726eab9ace7f69ebec116772d10131a201d6462c96a23da94",
+      "sourceRepo": "GospelSounders/hymnals-data"
     },
     {
       "hymnCount": 220,
       "id": "cis-swahili",
       "language": "sw",
       "license": "NOASSERTION",
-      "name": "swahili swahili",
+      "name": "Nyimbo Za Kristo",
       "path": "collections/sw/cis-swahili.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "6cd39ae41fc73db7c7952212dfbfb19777649fe9ceb85bbfd500eb76e6c70296",
+      "sha256": "10662a473b1b21c01b04f75b70da5cc6462e2eed2fa168341ca87d2c94f184ce",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -426,11 +427,11 @@
       "id": "cis-tswana",
       "language": "tn",
       "license": "NOASSERTION",
-      "name": "tswana tswana",
+      "name": "Keresete Mo Kopelong",
       "path": "collections/tn/cis-tswana.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "e4960b6ef6f46fe1c4e4590e557034261826d3942167aa86c74deee2154d45a4",
+      "sha256": "72361d95b5302c238835eb6a00929399a850c60a0d9102d82c2278f9a71d267a",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -438,11 +439,11 @@
       "id": "cis-tonga",
       "language": "toi",
       "license": "NOASSERTION",
-      "name": "tonga tonga",
+      "name": "Kristu Mu Nyimbo",
       "path": "collections/toi/cis-tonga.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "cf90685d0032ab0e1fb8579ab4501fe7b85d0d8a92a783f87f16431e2a022339",
+      "sha256": "8b073bbf6e56adb8b78b316cc1e89ee93e835cd5d52b1c25f59d4e09af9ac400",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -450,23 +451,23 @@
       "id": "cis-xitsonga",
       "language": "ts",
       "license": "NOASSERTION",
-      "name": "xitsonga xitsonga",
+      "name": "Risima Ra Vuyimbeleri",
       "path": "collections/ts/cis-xitsonga.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "58a09befa1e2712e13659facec2fa3aab61f99b2db731ee266ab79cca7ec7558",
+      "sha256": "4992637640b343adc5ea163db1c928ddb68e636c45c6a79860c954bd404618e1",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
-      "hymnCount": 372,
+      "hymnCount": 367,
       "id": "cis-tumbuka",
       "language": "tum",
       "license": "NOASSERTION",
-      "name": "tumbuka tumbuka",
+      "name": "Nyimbo za Mpingo wa SDA",
       "path": "collections/tum/cis-tumbuka.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "aa89552cf9bc10367f24bc09d7d8b79f9b0600a3ccfe313bb4b0f59685971793",
+      "sha256": "eff763e5eb0f1b6885123ed9e3d54b2db9c9872a449dfae25bf1789de5de07af",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -474,11 +475,11 @@
       "id": "cis-twi",
       "language": "tw",
       "license": "NOASSERTION",
-      "name": "twi twi",
+      "name": "SDA Twi Hymnal",
       "path": "collections/tw/cis-twi.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "aa8ba6f51a196b728ae4c95ecf090eade06920c7c5e1b9b0bf978161906fa590",
+      "sha256": "373504338cbcbb7ebf7fe71e1bc0b76746df51b3334ae173ef8b959f61bf9387",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -486,11 +487,11 @@
       "id": "cis-venda",
       "language": "ve",
       "license": "NOASSERTION",
-      "name": "venda venda",
+      "name": "Ngosha YaDzingosha",
       "path": "collections/ve/cis-venda.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "ca01c0dfe85fdc6a09b5240d551459b095edf311eccbcc92ce774378f3efcfab",
+      "sha256": "6a982e3e04dc411b4707ce59569b100f41ba6a9ba5c20a500566fb853914d4c8",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -498,11 +499,11 @@
       "id": "cis-xhosa",
       "language": "xh",
       "license": "NOASSERTION",
-      "name": "isiXhosa xhosa",
+      "name": "UKristu Engomeni",
       "path": "collections/xh/cis-xhosa.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "300ccb92001a27d0f83771491ede3fca6e45a64dd398af2de74bd962bb9972a3",
+      "sha256": "81d24bfc28b8563189eea1fac164ab9ac9867b34f40f148375680f166659d5f7",
       "sourceRepo": "TinasheMzondiwa/cis-hymnals"
     },
     {
@@ -514,7 +515,7 @@
       "path": "collections/yo/cac-yhb.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "7afc900f7fdcef857a6698f3b0b56b5104cda0224b6950c8a92288cbe097dd49",
+      "sha256": "a4236688c3946bbfc7e8b2aba3a1da4c275f3a3e7e73ed517794f0f80b77551a",
       "sourceRepo": "ebena107/HymnFlow"
     },
     {
@@ -526,38 +527,89 @@
       "path": "collections/yo/ybh.json",
       "publishable": true,
       "rightsStatus": "source-repository",
-      "sha256": "b6af3db9e07a688e8188ca5a5a2411b190cdee82ce566a07f3569220d2630970",
+      "sha256": "6b221eacb45b9ad98f52d8172730a10c656594907af4d46debc87e8b96b550dd",
       "sourceRepo": "ebena107/HymnFlow"
     }
   ],
-  "generatedAt": "2026-06-14T17:34:23.037Z",
-  "hymnCount": 18870,
+  "generatedAt": "2026-10-17T10:05:40.767Z",
+  "hymnCount": 18637,
   "indexes": [
     {
       "id": "titles",
       "path": "indexes/titles.json",
-      "recordCount": 18870,
-      "sha256": "018b853a4fad6d18887b25dc0672d6b02d7caa6f9c516a8138c19328e14fa8ad"
+      "recordCount": 18637,
+      "sha256": "36cf34f142ca46859b8ffde967f65be2f7bc671c28ff1bd1c5c721179c772870"
     },
     {
       "id": "languages",
       "path": "indexes/languages.json",
-      "recordCount": 26,
-      "sha256": "b20523881d435465b250dc1f6803589460d0634853f9cb06052811f456b8c962"
+      "recordCount": 25,
+      "sha256": "22d5620e911307e55d23922aacb9a792f51731faa6187ef829e6d3940dab0b25"
     },
     {
       "id": "search",
       "path": "indexes/search.json",
-      "recordCount": 18870,
-      "sha256": "924451f464a970e46fed3a056814dd1342f40dbb1e5840b84e1252d1300a5662"
+      "recordCount": 18637,
+      "sha256": "08cf7065fb495c0a4360451ea965f512dbcfbf4f688c1d6506412c9caff5413b"
+    },
+    {
+      "id": "canonical",
+      "path": "indexes/canonical.json",
+      "recordCount": 18328,
+      "sha256": "2cca3a6569f064dfde3f18af1ac7fc5386fd2fa6a716f8615793ccc078c0fc00"
     }
   ],
+  "qualityReport": {
+    "path": "quality-report.json",
+    "sha256": "78e355b13d11cb21c50cecc20630fb47b0155cc76148191281b33db58e635d98"
+  },
+  "quarantine": {
+    "path": "quarantine.json",
+    "recordCount": 230,
+    "sha256": "a5d6df0d4c6d3c055fb0fcc851b7e64e747f45b428fc539e94e5962d4e19daf7"
+  },
   "schemaVersion": 1,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "warnings": [
+    {
+      "message": "Source record has no usable lyric text; identified source stub will be quarantined.",
+      "number": "51",
+      "path": "v2/tumbuka/tumbuka.json",
+      "source": "cis-hymnals"
+    },
+    {
+      "message": "Source record has no usable lyric text; identified source stub will be quarantined.",
+      "number": "66",
+      "path": "v2/tumbuka/tumbuka.json",
+      "source": "cis-hymnals"
+    },
+    {
+      "message": "Source record has no usable lyric text; identified source stub will be quarantined.",
+      "number": "250",
+      "path": "v2/tumbuka/tumbuka.json",
+      "source": "cis-hymnals"
+    },
+    {
+      "message": "Source record has no usable lyric text; identified source stub will be quarantined.",
+      "number": "266",
+      "path": "v2/tumbuka/tumbuka.json",
+      "source": "cis-hymnals"
+    },
+    {
+      "message": "Source record has no usable lyric text; identified source stub will be quarantined.",
+      "number": "355",
+      "path": "v2/tumbuka/tumbuka.json",
+      "source": "cis-hymnals"
+    },
     {
       "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
       "path": "MH1843/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "code": "empty-placeholder",
+      "message": "Skipped empty song-index placeholder with no title, identifier, or lyrics.",
+      "path": "HGPP1849/index.json#songs.53",
       "source": "hymnals-data"
     },
     {
@@ -573,6 +625,1368 @@
     {
       "message": "Source-listed JSON file is absent in the cloned repository; the upstream index may include unfinished hymnals.",
       "path": "HT1886/index.json",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 2,
+      "path": "CS1900/index.json#songs.1",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 697,
+      "path": "SDAH/index.json#songs.695",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 698,
+      "path": "SDAH/index.json#songs.696",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 699,
+      "path": "SDAH/index.json#songs.697",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 700,
+      "path": "SDAH/index.json#songs.698",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 701,
+      "path": "SDAH/index.json#songs.699",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 702,
+      "path": "SDAH/index.json#songs.700",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 703,
+      "path": "SDAH/index.json#songs.701",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 704,
+      "path": "SDAH/index.json#songs.702",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 705,
+      "path": "SDAH/index.json#songs.703",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 706,
+      "path": "SDAH/index.json#songs.704",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 707,
+      "path": "SDAH/index.json#songs.705",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 708,
+      "path": "SDAH/index.json#songs.706",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 709,
+      "path": "SDAH/index.json#songs.707",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 710,
+      "path": "SDAH/index.json#songs.708",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 711,
+      "path": "SDAH/index.json#songs.709",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 712,
+      "path": "SDAH/index.json#songs.710",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 713,
+      "path": "SDAH/index.json#songs.711",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 714,
+      "path": "SDAH/index.json#songs.712",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 715,
+      "path": "SDAH/index.json#songs.713",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 716,
+      "path": "SDAH/index.json#songs.714",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 717,
+      "path": "SDAH/index.json#songs.715",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 718,
+      "path": "SDAH/index.json#songs.716",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 719,
+      "path": "SDAH/index.json#songs.717",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 720,
+      "path": "SDAH/index.json#songs.718",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 721,
+      "path": "SDAH/index.json#songs.719",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 722,
+      "path": "SDAH/index.json#songs.720",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 723,
+      "path": "SDAH/index.json#songs.721",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 724,
+      "path": "SDAH/index.json#songs.722",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 725,
+      "path": "SDAH/index.json#songs.723",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 726,
+      "path": "SDAH/index.json#songs.724",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 727,
+      "path": "SDAH/index.json#songs.725",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 728,
+      "path": "SDAH/index.json#songs.726",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 729,
+      "path": "SDAH/index.json#songs.727",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 730,
+      "path": "SDAH/index.json#songs.728",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 731,
+      "path": "SDAH/index.json#songs.729",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 732,
+      "path": "SDAH/index.json#songs.730",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 733,
+      "path": "SDAH/index.json#songs.731",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 734,
+      "path": "SDAH/index.json#songs.732",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 735,
+      "path": "SDAH/index.json#songs.733",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 736,
+      "path": "SDAH/index.json#songs.734",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 737,
+      "path": "SDAH/index.json#songs.735",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 738,
+      "path": "SDAH/index.json#songs.736",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 739,
+      "path": "SDAH/index.json#songs.737",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 740,
+      "path": "SDAH/index.json#songs.738",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 741,
+      "path": "SDAH/index.json#songs.739",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 742,
+      "path": "SDAH/index.json#songs.740",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 743,
+      "path": "SDAH/index.json#songs.741",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 744,
+      "path": "SDAH/index.json#songs.742",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 745,
+      "path": "SDAH/index.json#songs.743",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 746,
+      "path": "SDAH/index.json#songs.744",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 747,
+      "path": "SDAH/index.json#songs.745",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 748,
+      "path": "SDAH/index.json#songs.746",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 749,
+      "path": "SDAH/index.json#songs.747",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 750,
+      "path": "SDAH/index.json#songs.748",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 751,
+      "path": "SDAH/index.json#songs.749",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 752,
+      "path": "SDAH/index.json#songs.750",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 753,
+      "path": "SDAH/index.json#songs.751",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 754,
+      "path": "SDAH/index.json#songs.752",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 755,
+      "path": "SDAH/index.json#songs.753",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 756,
+      "path": "SDAH/index.json#songs.754",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 757,
+      "path": "SDAH/index.json#songs.755",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 758,
+      "path": "SDAH/index.json#songs.756",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 759,
+      "path": "SDAH/index.json#songs.757",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 760,
+      "path": "SDAH/index.json#songs.758",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 761,
+      "path": "SDAH/index.json#songs.759",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 762,
+      "path": "SDAH/index.json#songs.760",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 763,
+      "path": "SDAH/index.json#songs.761",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 764,
+      "path": "SDAH/index.json#songs.762",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 765,
+      "path": "SDAH/index.json#songs.763",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 766,
+      "path": "SDAH/index.json#songs.764",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 767,
+      "path": "SDAH/index.json#songs.765",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 768,
+      "path": "SDAH/index.json#songs.766",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 769,
+      "path": "SDAH/index.json#songs.767",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 770,
+      "path": "SDAH/index.json#songs.768",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 771,
+      "path": "SDAH/index.json#songs.769",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 772,
+      "path": "SDAH/index.json#songs.770",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 773,
+      "path": "SDAH/index.json#songs.771",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 774,
+      "path": "SDAH/index.json#songs.772",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 775,
+      "path": "SDAH/index.json#songs.773",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 776,
+      "path": "SDAH/index.json#songs.774",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 777,
+      "path": "SDAH/index.json#songs.775",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 778,
+      "path": "SDAH/index.json#songs.776",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 779,
+      "path": "SDAH/index.json#songs.777",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 780,
+      "path": "SDAH/index.json#songs.778",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 781,
+      "path": "SDAH/index.json#songs.779",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 782,
+      "path": "SDAH/index.json#songs.780",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 783,
+      "path": "SDAH/index.json#songs.781",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 784,
+      "path": "SDAH/index.json#songs.782",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 785,
+      "path": "SDAH/index.json#songs.783",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 786,
+      "path": "SDAH/index.json#songs.784",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 787,
+      "path": "SDAH/index.json#songs.785",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 788,
+      "path": "SDAH/index.json#songs.786",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 789,
+      "path": "SDAH/index.json#songs.787",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 790,
+      "path": "SDAH/index.json#songs.788",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 791,
+      "path": "SDAH/index.json#songs.789",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 792,
+      "path": "SDAH/index.json#songs.790",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 793,
+      "path": "SDAH/index.json#songs.791",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 794,
+      "path": "SDAH/index.json#songs.792",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 795,
+      "path": "SDAH/index.json#songs.793",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 796,
+      "path": "SDAH/index.json#songs.794",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 797,
+      "path": "SDAH/index.json#songs.795",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 798,
+      "path": "SDAH/index.json#songs.796",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 799,
+      "path": "SDAH/index.json#songs.797",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 800,
+      "path": "SDAH/index.json#songs.798",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 801,
+      "path": "SDAH/index.json#songs.799",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 802,
+      "path": "SDAH/index.json#songs.800",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 803,
+      "path": "SDAH/index.json#songs.801",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 804,
+      "path": "SDAH/index.json#songs.802",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 805,
+      "path": "SDAH/index.json#songs.803",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 806,
+      "path": "SDAH/index.json#songs.804",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 807,
+      "path": "SDAH/index.json#songs.805",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 808,
+      "path": "SDAH/index.json#songs.806",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 809,
+      "path": "SDAH/index.json#songs.807",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 810,
+      "path": "SDAH/index.json#songs.808",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 811,
+      "path": "SDAH/index.json#songs.809",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 812,
+      "path": "SDAH/index.json#songs.810",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 813,
+      "path": "SDAH/index.json#songs.811",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 814,
+      "path": "SDAH/index.json#songs.812",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 815,
+      "path": "SDAH/index.json#songs.813",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 816,
+      "path": "SDAH/index.json#songs.814",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 817,
+      "path": "SDAH/index.json#songs.815",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 818,
+      "path": "SDAH/index.json#songs.816",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 819,
+      "path": "SDAH/index.json#songs.817",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 820,
+      "path": "SDAH/index.json#songs.818",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 821,
+      "path": "SDAH/index.json#songs.819",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 822,
+      "path": "SDAH/index.json#songs.820",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 823,
+      "path": "SDAH/index.json#songs.821",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 824,
+      "path": "SDAH/index.json#songs.822",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 825,
+      "path": "SDAH/index.json#songs.823",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 826,
+      "path": "SDAH/index.json#songs.824",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 827,
+      "path": "SDAH/index.json#songs.825",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 828,
+      "path": "SDAH/index.json#songs.826",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 829,
+      "path": "SDAH/index.json#songs.827",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 830,
+      "path": "SDAH/index.json#songs.828",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 831,
+      "path": "SDAH/index.json#songs.829",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 832,
+      "path": "SDAH/index.json#songs.830",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 833,
+      "path": "SDAH/index.json#songs.831",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 834,
+      "path": "SDAH/index.json#songs.832",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 835,
+      "path": "SDAH/index.json#songs.833",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 836,
+      "path": "SDAH/index.json#songs.834",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 837,
+      "path": "SDAH/index.json#songs.835",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 838,
+      "path": "SDAH/index.json#songs.836",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 839,
+      "path": "SDAH/index.json#songs.837",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 840,
+      "path": "SDAH/index.json#songs.838",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 841,
+      "path": "SDAH/index.json#songs.839",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 842,
+      "path": "SDAH/index.json#songs.840",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 843,
+      "path": "SDAH/index.json#songs.841",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 844,
+      "path": "SDAH/index.json#songs.842",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 845,
+      "path": "SDAH/index.json#songs.843",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 846,
+      "path": "SDAH/index.json#songs.844",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 847,
+      "path": "SDAH/index.json#songs.845",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 848,
+      "path": "SDAH/index.json#songs.846",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 849,
+      "path": "SDAH/index.json#songs.847",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 850,
+      "path": "SDAH/index.json#songs.848",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 851,
+      "path": "SDAH/index.json#songs.849",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 852,
+      "path": "SDAH/index.json#songs.850",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 853,
+      "path": "SDAH/index.json#songs.851",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 854,
+      "path": "SDAH/index.json#songs.852",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 855,
+      "path": "SDAH/index.json#songs.853",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 856,
+      "path": "SDAH/index.json#songs.854",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 857,
+      "path": "SDAH/index.json#songs.855",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 858,
+      "path": "SDAH/index.json#songs.856",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 859,
+      "path": "SDAH/index.json#songs.857",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 860,
+      "path": "SDAH/index.json#songs.858",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 861,
+      "path": "SDAH/index.json#songs.859",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 862,
+      "path": "SDAH/index.json#songs.860",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 863,
+      "path": "SDAH/index.json#songs.861",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 864,
+      "path": "SDAH/index.json#songs.862",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 865,
+      "path": "SDAH/index.json#songs.863",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 866,
+      "path": "SDAH/index.json#songs.864",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 867,
+      "path": "SDAH/index.json#songs.865",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 868,
+      "path": "SDAH/index.json#songs.866",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 869,
+      "path": "SDAH/index.json#songs.867",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 870,
+      "path": "SDAH/index.json#songs.868",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 871,
+      "path": "SDAH/index.json#songs.869",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 872,
+      "path": "SDAH/index.json#songs.870",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 873,
+      "path": "SDAH/index.json#songs.871",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 874,
+      "path": "SDAH/index.json#songs.872",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 875,
+      "path": "SDAH/index.json#songs.873",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 876,
+      "path": "SDAH/index.json#songs.874",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 877,
+      "path": "SDAH/index.json#songs.875",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 878,
+      "path": "SDAH/index.json#songs.876",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 879,
+      "path": "SDAH/index.json#songs.877",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 880,
+      "path": "SDAH/index.json#songs.878",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 881,
+      "path": "SDAH/index.json#songs.879",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 882,
+      "path": "SDAH/index.json#songs.880",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 883,
+      "path": "SDAH/index.json#songs.881",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 884,
+      "path": "SDAH/index.json#songs.882",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 885,
+      "path": "SDAH/index.json#songs.883",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 886,
+      "path": "SDAH/index.json#songs.884",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 887,
+      "path": "SDAH/index.json#songs.885",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 888,
+      "path": "SDAH/index.json#songs.886",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 889,
+      "path": "SDAH/index.json#songs.887",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 890,
+      "path": "SDAH/index.json#songs.888",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 891,
+      "path": "SDAH/index.json#songs.889",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 892,
+      "path": "SDAH/index.json#songs.890",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 893,
+      "path": "SDAH/index.json#songs.891",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 894,
+      "path": "SDAH/index.json#songs.892",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 895,
+      "path": "SDAH/index.json#songs.893",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 896,
+      "path": "SDAH/index.json#songs.894",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 897,
+      "path": "SDAH/index.json#songs.895",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 898,
+      "path": "SDAH/index.json#songs.896",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 899,
+      "path": "SDAH/index.json#songs.897",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 900,
+      "path": "SDAH/index.json#songs.898",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 901,
+      "path": "SDAH/index.json#songs.899",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 902,
+      "path": "SDAH/index.json#songs.900",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 903,
+      "path": "SDAH/index.json#songs.901",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 904,
+      "path": "SDAH/index.json#songs.902",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 905,
+      "path": "SDAH/index.json#songs.903",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 906,
+      "path": "SDAH/index.json#songs.904",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 907,
+      "path": "SDAH/index.json#songs.905",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 908,
+      "path": "SDAH/index.json#songs.906",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 909,
+      "path": "SDAH/index.json#songs.907",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 910,
+      "path": "SDAH/index.json#songs.908",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 911,
+      "path": "SDAH/index.json#songs.909",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 912,
+      "path": "SDAH/index.json#songs.910",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 913,
+      "path": "SDAH/index.json#songs.911",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 914,
+      "path": "SDAH/index.json#songs.912",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 915,
+      "path": "SDAH/index.json#songs.913",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 916,
+      "path": "SDAH/index.json#songs.914",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 917,
+      "path": "SDAH/index.json#songs.915",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 918,
+      "path": "SDAH/index.json#songs.916",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 919,
+      "path": "SDAH/index.json#songs.917",
+      "source": "hymnals-data"
+    },
+    {
+      "message": "Source record is an identified hymn stub with no lyrics; it will be quarantined.",
+      "number": 920,
+      "path": "SDAH/index.json#songs.918",
+      "source": "hymnals-data"
+    },
+    {
+      "code": "empty-placeholder",
+      "message": "Skipped empty song-index placeholder with no title, identifier, or lyrics.",
+      "path": "SDAH/index.json#songs.919",
+      "source": "hymnals-data"
+    },
+    {
+      "code": "empty-placeholder",
+      "message": "Skipped empty song-index placeholder with no title, identifier, or lyrics.",
+      "path": "NZK/index.json#songs.219",
       "source": "hymnals-data"
     },
     {

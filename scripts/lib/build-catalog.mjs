@@ -4,6 +4,7 @@ import path from "node:path";
 
 import { cleanLines, normalizeHymn, normalizeSectionType, slugify } from "./normalize.mjs";
 import { resolveSourcePath } from "./source-registry.mjs";
+import { buildCanonicalCatalog, cleanCollection } from "./catalog-quality.mjs";
 
 function sha256(value) {
   return createHash("sha256").update(value).digest("hex");
@@ -72,24 +73,63 @@ function sectionsFromLyricsText(text) {
     .map((chunk) => chunk.trim())
     .filter(Boolean);
   return chunks.map((chunk, index) => {
-    const firstLine = chunk.split(/\r?\n/)[0]?.trim().toLowerCase() ?? "";
-    const isChorus = firstLine === "refrain" || firstLine === "chorus";
-    const lines = cleanLines(isChorus ? chunk.split(/\r?\n/).slice(1).join("\n") : chunk);
-    return { type: isChorus ? "chorus" : "verse", label: isChorus ? "Refrain" : String(index + 1), lines };
+    const chunkLines = chunk.split(/\r?\n/);
+    const firstLine = chunkLines[0]?.trim() ?? "";
+    const isChorus = /^(refrain|chorus)$/i.test(firstLine);
+    const stanzaHeading = !isChorus ? firstLine.match(/^(\d{1,3})(?:[.)]\s*(.*))?$/) : null;
+    const stanzaHeadingText = stanzaHeading?.[2] ?? "";
+    const content = isChorus || (stanzaHeading && !stanzaHeadingText.trim())
+      ? chunkLines.slice(1).join("\n")
+      : stanzaHeading
+        ? [stanzaHeadingText, ...chunkLines.slice(1)].join("\n")
+        : chunk;
+    const lines = cleanLines(content);
+    return {
+      type: isChorus ? "chorus" : "verse",
+      label: isChorus ? "Refrain" : stanzaHeading?.[1] ?? String(index + 1),
+      lines
+    };
   });
+}
+
+function firstLyricLine(value) {
+  return cleanLines(textFromMaybeLines(value))[0];
+}
+
+function normalizeMeterTitle(value) {
+  return String(value ?? "").trim().toLowerCase().replace(/[.,\s]+$/g, "").replace(/\s+/g, " ");
+}
+
+function isMeterTitle(value) {
+  return /^(?:[CSLP]\s*\.?\s*M\.?|\d+(?:\.\d+)*\.?\s*(?:D\.?|C\.?M\.?|S\.?M\.?|L\.?M\.?|P\.?M\.?|&\s*Ref\.?|and\s+Ref\.?|Ref\.?)?\.?)$/i.test(String(value ?? "").trim());
 }
 
 function normalizeCollectionHymn(source, adapter, hymn, sections, extra = {}) {
   const meta = sourceMeta(source, adapter);
-  return normalizeHymn({
+  const number = hymn.number ?? hymn.index ?? hymn.id ?? hymn.metadata?.number ?? "";
+  const rawTitle = hymn.title ?? hymn.firstLine ?? hymn.first_line ?? "Untitled";
+  const numberedTitle = String(rawTitle).match(/^\s*(\d+)\s+(.+?)\s*$/);
+  const opening = sections.flatMap((section) => section.lines)[0] ?? "";
+  const normalizeTitleMatch = (value) => String(value ?? "")
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+  const hasNumberedTitlePrefix = Boolean(
+    numberedTitle && String(number).replace(/^0+(?=\d)/, "") === numberedTitle[1].replace(/^0+(?=\d)/, "") &&
+    normalizeTitleMatch(opening).startsWith(normalizeTitleMatch(numberedTitle[2])) &&
+    normalizeTitleMatch(numberedTitle[2]).length >= 4
+  );
+  const title = hasNumberedTitlePrefix ? numberedTitle[2] : rawTitle;
+  const normalized = normalizeHymn({
     collectionId: adapter.collectionId,
     language: adapter.language,
-    number: hymn.number ?? hymn.index ?? hymn.id ?? hymn.metadata?.number ?? "",
-    title: hymn.title ?? hymn.starts ?? hymn.firstLine ?? "Untitled",
+    number,
+    title,
     authors: hymn.authors ?? hymn.author,
     tune: hymn.tune ?? hymn.tuneName,
     meter: hymn.meter,
-    topics: [hymn.theme, hymn.subtheme, ...(hymn.topics ?? [])].filter(Boolean),
+    topics: [hymn.theme, hymn.subtheme, hymn.category, ...(hymn.topics ?? [])].filter(Boolean),
     sections,
     source: {
       repo: meta.repo,
@@ -98,24 +138,64 @@ function normalizeCollectionHymn(source, adapter, hymn, sections, extra = {}) {
       rightsStatus: meta.rightsStatus
     }
   });
+  return {
+    ...normalized,
+    ...((extra.titleSource ?? (hasNumberedTitlePrefix ? "number-prefix-removed" : undefined))
+      ? { titleSource: extra.titleSource ?? "number-prefix-removed" }
+      : {}),
+    ...((extra.sourceTitle ?? (hasNumberedTitlePrefix ? String(rawTitle) : undefined))
+      ? { sourceTitle: extra.sourceTitle ?? String(rawTitle) }
+      : {})
+  };
 }
 
-function fromCis(source, adapter, data) {
+function fromCis(source, adapter, data, warnings) {
   return data.map((hymn) => {
+    const sourceNumber = String(hymn.number ?? hymn.index ?? "").replace(/^0+/, "");
     const sections = (hymn.lyrics ?? []).map((section, index) => ({
       type: normalizeSectionType(section.type),
       label: section.index ? String(section.index) : section.type === "refrain" ? "Refrain" : String(index + 1),
-      lines: cleanLines(section.lines)
+      lines: cleanLines(section.lines).filter((line) => {
+        const placeholder = line.match(/^###\s*(\d+)\s*$/);
+        return !placeholder || placeholder[1].replace(/^0+/, "") !== sourceNumber;
+      })
     }));
-    return normalizeCollectionHymn(source, adapter, hymn, sections);
+    const sourceTitle = String(hymn.title ?? "").trim();
+    const firstLine = sections.flatMap((section) => section.lines)[0];
+    const hasLyrics = sections.some((section) => section.lines.length > 0);
+    const normalized = normalizeCollectionHymn(
+      source,
+      adapter,
+      { ...hymn, ...(!sourceTitle && firstLine ? { title: firstLine } : {}) },
+      sections,
+      { ...(!sourceTitle && firstLine ? { titleSource: "first-line" } : {}) }
+    );
+    if (!hasLyrics) {
+      warnings.push({ source: source.id, path: adapter.path, number: normalized.number, message: "Source record has no usable lyric text; identified source stub will be quarantined." });
+    }
+    return normalized;
   });
 }
 
-function fromGospelSounders(source, adapter, data) {
-  return Object.values(data.songs ?? {}).map((hymn) => {
+function fromGospelSounders(source, adapter, data, warnings) {
+  return Object.entries(data.songs ?? {}).flatMap(([key, hymn]) => {
+    const sourcePath = `${adapter.path}#songs.${key}`;
+    if (!hymn || typeof hymn !== "object" || Array.isArray(hymn)) {
+      warnings.push({ source: source.id, path: sourcePath, code: "invalid-record", message: "Skipped non-record value in song index." });
+      return [];
+    }
     const stanzas = Object.entries(hymn.stanzas ?? {}).map(([label, text]) => sectionFromText("verse", label, text));
     const choruses = Object.entries(hymn.choruses ?? {}).map(([label, text]) => sectionFromText("chorus", label, text));
-    return normalizeCollectionHymn(source, adapter, hymn, [...stanzas, ...choruses]);
+    const hasLyrics = [...stanzas, ...choruses].some((section) => section.lines.length);
+    const hasIdentity = String(hymn.id ?? "").trim() || String(hymn.title ?? "").trim();
+    if (!hasLyrics && !hasIdentity) {
+      warnings.push({ source: source.id, path: sourcePath, code: "empty-placeholder", message: "Skipped empty song-index placeholder with no title, identifier, or lyrics." });
+      return [];
+    }
+    if (!hasLyrics) {
+      warnings.push({ source: source.id, path: sourcePath, number: hymn.id ?? "", message: "Source record is an identified hymn stub with no lyrics; it will be quarantined." });
+    }
+    return [normalizeCollectionHymn(source, adapter, hymn, [...stanzas, ...choruses], { path: sourcePath })];
   });
 }
 
@@ -181,12 +261,31 @@ function fromFrenchSda(source, adapter, data) {
 function fromHymnFlow(source, adapter, data) {
   const hymns = Array.isArray(data) ? data : data.hymns ?? [];
   return hymns.map((hymn) => {
+    const sourceTitle = String(hymn.title ?? "").trim();
+    const rawVerses = Array.isArray(hymn.verses) ? hymn.verses : [];
+    const firstVerse = textFromMaybeLines(rawVerses[0]);
+    const firstVerseLine = firstVerse.split(/\r?\n/)[0]?.trim() ?? "";
+    const hasMeterHeading = isMeterTitle(sourceTitle) && normalizeMeterTitle(sourceTitle) === normalizeMeterTitle(firstVerseLine);
+    const meterFromTitle = hasMeterHeading ? (hymn.meter || sourceTitle) : undefined;
+    const verses = [...rawVerses];
+    if (hasMeterHeading) verses[0] = firstVerse.split(/\r?\n/).slice(1).join("\n");
+    const recoveredTitle = hasMeterHeading
+      ? rawVerses.slice(1).map(firstLyricLine).find(Boolean) ?? firstLyricLine(hymn.chorus)
+      : undefined;
     const sections = [];
-    if (Array.isArray(hymn.verses)) {
-      sections.push(...hymn.verses.map((verse, index) => sectionFromText("verse", index + 1, verse)));
+    if (Array.isArray(verses)) {
+      sections.push(...verses.map((verse, index) => sectionFromText("verse", index + 1, verse)));
     }
     if (hymn.chorus) sections.push(sectionFromText("chorus", "Refrain", hymn.chorus));
-    return normalizeCollectionHymn(source, adapter, hymn, sections);
+    return normalizeCollectionHymn(source, adapter, {
+      ...hymn,
+      number: hymn.number ?? hymn.metadata?.number ?? hymn.index ?? hymn.id,
+      ...(hasMeterHeading ? { meter: meterFromTitle } : {}),
+      ...(recoveredTitle ? { title: recoveredTitle } : {})
+    }, sections, {
+      ...(hasMeterHeading ? { sourceTitle } : {}),
+      ...(recoveredTitle ? { titleSource: "first-line" } : {})
+    });
   });
 }
 
@@ -197,24 +296,34 @@ function fromYozacharFile(source, adapter, hymn, sourcePath) {
   }
   if (Array.isArray(hymn.chorus) && hymn.chorus.length) sections.push(sectionFromText("chorus", "Refrain", hymn.chorus));
   if (Array.isArray(hymn.bridge) && hymn.bridge.length) sections.push(sectionFromText("bridge", "Bridge", hymn.bridge));
-  return normalizeCollectionHymn(source, adapter, hymn, sections, { path: sourcePath });
+  const startsWithChorus = hymn.starts === "chorus";
+  const title = startsWithChorus
+    ? firstLyricLine(hymn.chorus) ?? firstLyricLine(hymn.verses?.[0])
+    : firstLyricLine(hymn.verses?.[0]) ?? firstLyricLine(hymn.chorus);
+  return normalizeCollectionHymn(source, adapter, { ...hymn, title: hymn.title || title }, sections, {
+    path: sourcePath,
+    ...(!hymn.title && title ? { titleSource: "first-line" } : {})
+  });
 }
 
 async function discoverCisAdapters(rootDir, source, adapter) {
   const basePath = resolveSourcePath(rootDir, source, adapter.path);
   if (!(await pathExists(basePath))) return [];
+  const configPath = path.join(basePath, "config.json");
+  const config = (await pathExists(configPath)) ? await readJson(configPath) : [];
   const files = (await walkJsonFiles(basePath)).filter((file) => !file.endsWith("config.json"));
   return files.map((file) => {
     const relative = path.relative(resolveSourcePath(rootDir, source), file);
     const parts = relative.split(path.sep);
     const languageFolder = parts.at(-2) ?? "unknown";
     const filename = path.basename(file, ".json");
+    const collectionConfig = config.find((entry) => entry.key === filename) ?? config.find((entry) => entry.key === languageFolder);
     return {
       ...adapter,
       type: "cis-v2",
       path: relative,
       collectionId: adapter.collectionIdPrefix ? `${adapter.collectionIdPrefix}-${slugify(filename)}` : `${slugify(filename)}-${slugify(languageFolder)}`,
-      name: `${languageFolder} ${filename}`.replace(/\s+/g, " ").trim(),
+      name: collectionConfig?.title || `${languageFolder} ${filename}`.replace(/\s+/g, " ").trim(),
       language: adapter.languageMap?.[languageFolder] ?? adapter.languageMap?.[filename] ?? slugify(filename) ?? "und"
     };
   });
@@ -300,8 +409,8 @@ async function importAdapter(rootDir, source, adapter, warnings) {
     return [];
   }
 
-  if (adapter.type === "cis-v2") return fromCis(source, adapter, data);
-  if (adapter.type === "gospel-sounders") return fromGospelSounders(source, adapter, data);
+  if (adapter.type === "cis-v2") return fromCis(source, adapter, data, warnings);
+  if (adapter.type === "gospel-sounders") return fromGospelSounders(source, adapter, data, warnings);
   if (adapter.type === "open-hymnal-json") return fromOpenHymnalJson(source, adapter, data);
   if (adapter.type === "josmithua-song-data") return fromJosmithuaSongData(source, adapter, data);
   if (adapter.type === "gospel-hymns-db") return fromGospelHymnsDb(source, adapter, data);
@@ -352,6 +461,8 @@ export async function buildCatalog({
   const outRoot = path.join(rootDir, outputDir);
   const warnings = [];
   const collections = [];
+  const collectionReports = [];
+  const quarantined = [];
   await rm(outRoot, { recursive: true, force: true });
 
   for (const source of registry.sources ?? []) {
@@ -359,7 +470,15 @@ export async function buildCatalog({
     for (const adapter of adapters) {
       const hymns = await importAdapter(rootDir, source, adapter, warnings);
       if (!hymns.length) continue;
-      const collection = collectionDocument(registry, source, adapter, hymns);
+      const cleaned = cleanCollection(hymns);
+      collectionReports.push({ collectionId: slugify(adapter.collectionId), ...cleaned.report });
+      quarantined.push(...cleaned.hymns.filter((hymn) => !hymn.sections.length).map((hymn) => ({
+        ...hymn,
+        contentStatus: "missing-lyrics",
+        ...(hymn.title === "Untitled" ? { titleSource: "missing", sourceTitle: "" } : {})
+      })));
+      const collection = collectionDocument(registry, source, adapter, cleaned.hymns.filter((hymn) => hymn.sections.length));
+      if (collections.some((entry) => entry.document.id === collection.id)) throw new Error(`Duplicate collection ID: ${collection.id}`);
       const collectionPath = `collections/${slugify(collection.language)}/${collection.id}.json`;
       const json = stableJson(collection);
       await writeJson(path.join(outRoot, collectionPath), collection);
@@ -384,9 +503,12 @@ export async function buildCatalog({
 
   collections.sort((a, b) => a.manifest.language.localeCompare(b.manifest.language) || a.manifest.name.localeCompare(b.manifest.name));
   const allHymns = collections.flatMap((collection) => collection.document.hymns);
+  const canonical = buildCanonicalCatalog(allHymns);
+  const canonicalIds = new Map(canonical.records.flatMap((record) => record.references.map((reference) => [reference.id, record.id])));
   const titles = allHymns
     .map((hymn) => ({
       id: hymn.id,
+      ...(canonicalIds.has(hymn.id) ? { canonicalId: canonicalIds.get(hymn.id) } : {}),
       collectionId: hymn.collectionId,
       language: hymn.language,
       number: hymn.number,
@@ -405,6 +527,7 @@ export async function buildCatalog({
   const search = allHymns
     .map((hymn) => ({
       id: hymn.id,
+      ...(canonicalIds.has(hymn.id) ? { canonicalId: canonicalIds.get(hymn.id) } : {}),
       collectionId: hymn.collectionId,
       language: hymn.language,
       title: hymn.title,
@@ -416,21 +539,55 @@ export async function buildCatalog({
   await writeJson(path.join(outRoot, "indexes", "titles.json"), titles);
   await writeJson(path.join(outRoot, "indexes", "languages.json"), languages);
   await writeJson(path.join(outRoot, "indexes", "search.json"), search);
+  await writeJson(path.join(outRoot, "indexes", "canonical.json"), canonical.records);
+  await writeJson(path.join(outRoot, "quarantine.json"), quarantined);
+
+  const qualityReport = {
+    schemaVersion: 1,
+    version: registry.version,
+    summary: {
+      collectionCount: collections.length,
+      importedRecordCount: collectionReports.reduce((total, report) => total + report.inputCount, 0),
+      skippedPlaceholderCount: warnings.filter((warning) => ["empty-placeholder", "invalid-record"].includes(warning.code)).length,
+      sourceRecordCount: collectionReports.reduce((total, report) => total + report.inputCount, 0) + warnings.filter((warning) => ["empty-placeholder", "invalid-record"].includes(warning.code)).length,
+      hymnCount: allHymns.length,
+      removedDuplicateCount: collectionReports.reduce((total, report) => total + report.removedCount, 0),
+      resolvedIdCollisionCount: collectionReports.reduce((total, report) => total + report.idCollisions.length, 0),
+      canonicalHymnCount: canonical.records.length,
+      groupedDuplicateReferenceCount: canonical.report.duplicateReferenceCount,
+      recoveredTitleCount: allHymns.filter((hymn) => hymn.titleSource === "first-line").length,
+      missingLyricsCount: quarantined.length,
+      activeMissingLyricsCount: canonical.report.emptyLyricCount,
+      quarantinedRecordCount: quarantined.length,
+      ambiguousGroupCount: collectionReports.reduce((total, report) => total + report.ambiguous.length, 0)
+    },
+    collections: collectionReports,
+    canonical: canonical.report,
+    missingLyrics: quarantined.map((hymn) => ({ id: hymn.id, collectionId: hymn.collectionId, number: hymn.number, title: hymn.title, source: hymn.source })),
+    sourceWarnings: warnings,
+    metadataReviews: registry.metadataReviews ?? []
+  };
+  await writeJson(path.join(outRoot, "quality-report.json"), qualityReport);
 
   const titlesJson = stableJson(titles);
   const languagesJson = stableJson(languages);
   const searchJson = stableJson(search);
+  const canonicalJson = stableJson(canonical.records);
   const manifest = {
     schemaVersion: 1,
     version: registry.version,
     generatedAt: new Date().toISOString(),
     collectionCount: collections.length,
     hymnCount: allHymns.length,
+    canonicalHymnCount: canonical.records.length,
+    qualityReport: { path: "quality-report.json", sha256: sha256(stableJson(qualityReport)) },
+    quarantine: { path: "quarantine.json", sha256: sha256(stableJson(quarantined)), recordCount: quarantined.length },
     collections: collections.map((collection) => collection.manifest),
     indexes: [
       { id: "titles", path: "indexes/titles.json", sha256: sha256(titlesJson), recordCount: titles.length },
       { id: "languages", path: "indexes/languages.json", sha256: sha256(languagesJson), recordCount: languages.length },
-      { id: "search", path: "indexes/search.json", sha256: sha256(searchJson), recordCount: search.length }
+      { id: "search", path: "indexes/search.json", sha256: sha256(searchJson), recordCount: search.length },
+      { id: "canonical", path: "indexes/canonical.json", sha256: sha256(canonicalJson), recordCount: canonical.records.length }
     ],
     warnings
   };

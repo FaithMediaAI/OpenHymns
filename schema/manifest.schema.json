@@ -10,7 +10,10 @@
     "collectionCount",
     "hymnCount",
     "collections",
-    "indexes"
+    "indexes",
+    "canonicalHymnCount",
+    "quarantine",
+    "qualityReport"
   ],
   "properties": {
     "schemaVersion": {
@@ -106,6 +109,47 @@
     },
     "warnings": {
       "type": "array"
+    },
+    "canonicalHymnCount": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "qualityReport": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "quarantine": {
+      "type": "object",
+      "required": [
+        "path",
+        "sha256",
+        "recordCount"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "recordCount": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
     }
   }
 }

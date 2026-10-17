@@ -1,0 +1,4372 @@
+[
+  {
+    "collectionId": "cis-tumbuka",
+    "contentStatus": "missing-lyrics",
+    "id": "cis-tumbuka-051-untitled",
+    "language": "tum",
+    "number": "51",
+    "schemaVersion": 1,
+    "searchText": "untitled 51",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "v2/tumbuka/tumbuka.json",
+      "repo": "TinasheMzondiwa/cis-hymnals",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "cis-tumbuka",
+    "contentStatus": "missing-lyrics",
+    "id": "cis-tumbuka-066-untitled",
+    "language": "tum",
+    "number": "66",
+    "schemaVersion": 1,
+    "searchText": "untitled 66",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "v2/tumbuka/tumbuka.json",
+      "repo": "TinasheMzondiwa/cis-hymnals",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "cis-tumbuka",
+    "contentStatus": "missing-lyrics",
+    "id": "cis-tumbuka-250-untitled",
+    "language": "tum",
+    "number": "250",
+    "schemaVersion": 1,
+    "searchText": "untitled 250",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "v2/tumbuka/tumbuka.json",
+      "repo": "TinasheMzondiwa/cis-hymnals",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "cis-tumbuka",
+    "contentStatus": "missing-lyrics",
+    "id": "cis-tumbuka-266-untitled",
+    "language": "tum",
+    "number": "266",
+    "schemaVersion": 1,
+    "searchText": "untitled 266",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "v2/tumbuka/tumbuka.json",
+      "repo": "TinasheMzondiwa/cis-hymnals",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "cis-tumbuka",
+    "contentStatus": "missing-lyrics",
+    "id": "cis-tumbuka-355-untitled",
+    "language": "tum",
+    "number": "355",
+    "schemaVersion": 1,
+    "searchText": "untitled 355",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "v2/tumbuka/tumbuka.json",
+      "repo": "TinasheMzondiwa/cis-hymnals",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "cs1900",
+    "contentStatus": "missing-lyrics",
+    "id": "cs1900-002-untitled",
+    "language": "en",
+    "number": "2",
+    "schemaVersion": 1,
+    "searchText": "untitled 2",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "CS1900/index.json#songs.1",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-697-untitled",
+    "language": "en",
+    "number": "697",
+    "schemaVersion": 1,
+    "searchText": "untitled 697",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.695",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-698-untitled",
+    "language": "en",
+    "number": "698",
+    "schemaVersion": 1,
+    "searchText": "untitled 698",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.696",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-699-untitled",
+    "language": "en",
+    "number": "699",
+    "schemaVersion": 1,
+    "searchText": "untitled 699",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.697",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-700-untitled",
+    "language": "en",
+    "number": "700",
+    "schemaVersion": 1,
+    "searchText": "untitled 700",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.698",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-701-untitled",
+    "language": "en",
+    "number": "701",
+    "schemaVersion": 1,
+    "searchText": "untitled 701",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.699",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-702-untitled",
+    "language": "en",
+    "number": "702",
+    "schemaVersion": 1,
+    "searchText": "untitled 702",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.700",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-703-untitled",
+    "language": "en",
+    "number": "703",
+    "schemaVersion": 1,
+    "searchText": "untitled 703",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.701",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-704-untitled",
+    "language": "en",
+    "number": "704",
+    "schemaVersion": 1,
+    "searchText": "untitled 704",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.702",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-705-untitled",
+    "language": "en",
+    "number": "705",
+    "schemaVersion": 1,
+    "searchText": "untitled 705",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.703",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-706-untitled",
+    "language": "en",
+    "number": "706",
+    "schemaVersion": 1,
+    "searchText": "untitled 706",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.704",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-707-untitled",
+    "language": "en",
+    "number": "707",
+    "schemaVersion": 1,
+    "searchText": "untitled 707",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.705",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-708-untitled",
+    "language": "en",
+    "number": "708",
+    "schemaVersion": 1,
+    "searchText": "untitled 708",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.706",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-709-untitled",
+    "language": "en",
+    "number": "709",
+    "schemaVersion": 1,
+    "searchText": "untitled 709",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.707",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-710-untitled",
+    "language": "en",
+    "number": "710",
+    "schemaVersion": 1,
+    "searchText": "untitled 710",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.708",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-711-untitled",
+    "language": "en",
+    "number": "711",
+    "schemaVersion": 1,
+    "searchText": "untitled 711",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.709",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-712-untitled",
+    "language": "en",
+    "number": "712",
+    "schemaVersion": 1,
+    "searchText": "untitled 712",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.710",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-713-untitled",
+    "language": "en",
+    "number": "713",
+    "schemaVersion": 1,
+    "searchText": "untitled 713",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.711",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-714-untitled",
+    "language": "en",
+    "number": "714",
+    "schemaVersion": 1,
+    "searchText": "untitled 714",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.712",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-715-untitled",
+    "language": "en",
+    "number": "715",
+    "schemaVersion": 1,
+    "searchText": "untitled 715",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.713",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-716-untitled",
+    "language": "en",
+    "number": "716",
+    "schemaVersion": 1,
+    "searchText": "untitled 716",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.714",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-717-untitled",
+    "language": "en",
+    "number": "717",
+    "schemaVersion": 1,
+    "searchText": "untitled 717",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.715",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-718-untitled",
+    "language": "en",
+    "number": "718",
+    "schemaVersion": 1,
+    "searchText": "untitled 718",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.716",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-719-untitled",
+    "language": "en",
+    "number": "719",
+    "schemaVersion": 1,
+    "searchText": "untitled 719",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.717",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-720-untitled",
+    "language": "en",
+    "number": "720",
+    "schemaVersion": 1,
+    "searchText": "untitled 720",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.718",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-721-untitled",
+    "language": "en",
+    "number": "721",
+    "schemaVersion": 1,
+    "searchText": "untitled 721",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.719",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-722-untitled",
+    "language": "en",
+    "number": "722",
+    "schemaVersion": 1,
+    "searchText": "untitled 722",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.720",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-723-untitled",
+    "language": "en",
+    "number": "723",
+    "schemaVersion": 1,
+    "searchText": "untitled 723",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.721",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-724-untitled",
+    "language": "en",
+    "number": "724",
+    "schemaVersion": 1,
+    "searchText": "untitled 724",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.722",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-725-untitled",
+    "language": "en",
+    "number": "725",
+    "schemaVersion": 1,
+    "searchText": "untitled 725",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.723",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-726-untitled",
+    "language": "en",
+    "number": "726",
+    "schemaVersion": 1,
+    "searchText": "untitled 726",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.724",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-727-untitled",
+    "language": "en",
+    "number": "727",
+    "schemaVersion": 1,
+    "searchText": "untitled 727",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.725",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-728-untitled",
+    "language": "en",
+    "number": "728",
+    "schemaVersion": 1,
+    "searchText": "untitled 728",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.726",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-729-untitled",
+    "language": "en",
+    "number": "729",
+    "schemaVersion": 1,
+    "searchText": "untitled 729",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.727",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-730-untitled",
+    "language": "en",
+    "number": "730",
+    "schemaVersion": 1,
+    "searchText": "untitled 730",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.728",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-731-untitled",
+    "language": "en",
+    "number": "731",
+    "schemaVersion": 1,
+    "searchText": "untitled 731",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.729",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-732-untitled",
+    "language": "en",
+    "number": "732",
+    "schemaVersion": 1,
+    "searchText": "untitled 732",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.730",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-733-untitled",
+    "language": "en",
+    "number": "733",
+    "schemaVersion": 1,
+    "searchText": "untitled 733",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.731",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-734-untitled",
+    "language": "en",
+    "number": "734",
+    "schemaVersion": 1,
+    "searchText": "untitled 734",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.732",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-735-untitled",
+    "language": "en",
+    "number": "735",
+    "schemaVersion": 1,
+    "searchText": "untitled 735",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.733",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-736-untitled",
+    "language": "en",
+    "number": "736",
+    "schemaVersion": 1,
+    "searchText": "untitled 736",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.734",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-737-untitled",
+    "language": "en",
+    "number": "737",
+    "schemaVersion": 1,
+    "searchText": "untitled 737",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.735",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-738-untitled",
+    "language": "en",
+    "number": "738",
+    "schemaVersion": 1,
+    "searchText": "untitled 738",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.736",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-739-untitled",
+    "language": "en",
+    "number": "739",
+    "schemaVersion": 1,
+    "searchText": "untitled 739",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.737",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-740-untitled",
+    "language": "en",
+    "number": "740",
+    "schemaVersion": 1,
+    "searchText": "untitled 740",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.738",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-741-untitled",
+    "language": "en",
+    "number": "741",
+    "schemaVersion": 1,
+    "searchText": "untitled 741",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.739",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-742-untitled",
+    "language": "en",
+    "number": "742",
+    "schemaVersion": 1,
+    "searchText": "untitled 742",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.740",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-743-untitled",
+    "language": "en",
+    "number": "743",
+    "schemaVersion": 1,
+    "searchText": "untitled 743",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.741",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-744-untitled",
+    "language": "en",
+    "number": "744",
+    "schemaVersion": 1,
+    "searchText": "untitled 744",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.742",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-745-untitled",
+    "language": "en",
+    "number": "745",
+    "schemaVersion": 1,
+    "searchText": "untitled 745",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.743",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-746-untitled",
+    "language": "en",
+    "number": "746",
+    "schemaVersion": 1,
+    "searchText": "untitled 746",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.744",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-747-untitled",
+    "language": "en",
+    "number": "747",
+    "schemaVersion": 1,
+    "searchText": "untitled 747",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.745",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-748-untitled",
+    "language": "en",
+    "number": "748",
+    "schemaVersion": 1,
+    "searchText": "untitled 748",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.746",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-749-untitled",
+    "language": "en",
+    "number": "749",
+    "schemaVersion": 1,
+    "searchText": "untitled 749",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.747",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-750-untitled",
+    "language": "en",
+    "number": "750",
+    "schemaVersion": 1,
+    "searchText": "untitled 750",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.748",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-751-untitled",
+    "language": "en",
+    "number": "751",
+    "schemaVersion": 1,
+    "searchText": "untitled 751",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.749",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-752-untitled",
+    "language": "en",
+    "number": "752",
+    "schemaVersion": 1,
+    "searchText": "untitled 752",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.750",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-753-untitled",
+    "language": "en",
+    "number": "753",
+    "schemaVersion": 1,
+    "searchText": "untitled 753",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.751",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-754-untitled",
+    "language": "en",
+    "number": "754",
+    "schemaVersion": 1,
+    "searchText": "untitled 754",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.752",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-755-untitled",
+    "language": "en",
+    "number": "755",
+    "schemaVersion": 1,
+    "searchText": "untitled 755",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.753",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-756-untitled",
+    "language": "en",
+    "number": "756",
+    "schemaVersion": 1,
+    "searchText": "untitled 756",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.754",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-757-untitled",
+    "language": "en",
+    "number": "757",
+    "schemaVersion": 1,
+    "searchText": "untitled 757",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.755",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-758-untitled",
+    "language": "en",
+    "number": "758",
+    "schemaVersion": 1,
+    "searchText": "untitled 758",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.756",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-759-untitled",
+    "language": "en",
+    "number": "759",
+    "schemaVersion": 1,
+    "searchText": "untitled 759",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.757",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-760-untitled",
+    "language": "en",
+    "number": "760",
+    "schemaVersion": 1,
+    "searchText": "untitled 760",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.758",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-761-untitled",
+    "language": "en",
+    "number": "761",
+    "schemaVersion": 1,
+    "searchText": "untitled 761",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.759",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-762-untitled",
+    "language": "en",
+    "number": "762",
+    "schemaVersion": 1,
+    "searchText": "untitled 762",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.760",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-763-untitled",
+    "language": "en",
+    "number": "763",
+    "schemaVersion": 1,
+    "searchText": "untitled 763",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.761",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-764-untitled",
+    "language": "en",
+    "number": "764",
+    "schemaVersion": 1,
+    "searchText": "untitled 764",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.762",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-765-untitled",
+    "language": "en",
+    "number": "765",
+    "schemaVersion": 1,
+    "searchText": "untitled 765",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.763",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-766-untitled",
+    "language": "en",
+    "number": "766",
+    "schemaVersion": 1,
+    "searchText": "untitled 766",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.764",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-767-untitled",
+    "language": "en",
+    "number": "767",
+    "schemaVersion": 1,
+    "searchText": "untitled 767",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.765",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-768-untitled",
+    "language": "en",
+    "number": "768",
+    "schemaVersion": 1,
+    "searchText": "untitled 768",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.766",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-769-untitled",
+    "language": "en",
+    "number": "769",
+    "schemaVersion": 1,
+    "searchText": "untitled 769",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.767",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-770-untitled",
+    "language": "en",
+    "number": "770",
+    "schemaVersion": 1,
+    "searchText": "untitled 770",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.768",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-771-untitled",
+    "language": "en",
+    "number": "771",
+    "schemaVersion": 1,
+    "searchText": "untitled 771",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.769",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-772-untitled",
+    "language": "en",
+    "number": "772",
+    "schemaVersion": 1,
+    "searchText": "untitled 772",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.770",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-773-untitled",
+    "language": "en",
+    "number": "773",
+    "schemaVersion": 1,
+    "searchText": "untitled 773",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.771",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-774-untitled",
+    "language": "en",
+    "number": "774",
+    "schemaVersion": 1,
+    "searchText": "untitled 774",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.772",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-775-untitled",
+    "language": "en",
+    "number": "775",
+    "schemaVersion": 1,
+    "searchText": "untitled 775",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.773",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-776-untitled",
+    "language": "en",
+    "number": "776",
+    "schemaVersion": 1,
+    "searchText": "untitled 776",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.774",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-777-untitled",
+    "language": "en",
+    "number": "777",
+    "schemaVersion": 1,
+    "searchText": "untitled 777",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.775",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-778-untitled",
+    "language": "en",
+    "number": "778",
+    "schemaVersion": 1,
+    "searchText": "untitled 778",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.776",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-779-untitled",
+    "language": "en",
+    "number": "779",
+    "schemaVersion": 1,
+    "searchText": "untitled 779",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.777",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-780-untitled",
+    "language": "en",
+    "number": "780",
+    "schemaVersion": 1,
+    "searchText": "untitled 780",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.778",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-781-untitled",
+    "language": "en",
+    "number": "781",
+    "schemaVersion": 1,
+    "searchText": "untitled 781",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.779",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-782-untitled",
+    "language": "en",
+    "number": "782",
+    "schemaVersion": 1,
+    "searchText": "untitled 782",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.780",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-783-untitled",
+    "language": "en",
+    "number": "783",
+    "schemaVersion": 1,
+    "searchText": "untitled 783",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.781",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-784-untitled",
+    "language": "en",
+    "number": "784",
+    "schemaVersion": 1,
+    "searchText": "untitled 784",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.782",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-785-untitled",
+    "language": "en",
+    "number": "785",
+    "schemaVersion": 1,
+    "searchText": "untitled 785",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.783",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-786-untitled",
+    "language": "en",
+    "number": "786",
+    "schemaVersion": 1,
+    "searchText": "untitled 786",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.784",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-787-untitled",
+    "language": "en",
+    "number": "787",
+    "schemaVersion": 1,
+    "searchText": "untitled 787",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.785",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-788-untitled",
+    "language": "en",
+    "number": "788",
+    "schemaVersion": 1,
+    "searchText": "untitled 788",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.786",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-789-untitled",
+    "language": "en",
+    "number": "789",
+    "schemaVersion": 1,
+    "searchText": "untitled 789",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.787",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-790-untitled",
+    "language": "en",
+    "number": "790",
+    "schemaVersion": 1,
+    "searchText": "untitled 790",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.788",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-791-untitled",
+    "language": "en",
+    "number": "791",
+    "schemaVersion": 1,
+    "searchText": "untitled 791",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.789",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-792-untitled",
+    "language": "en",
+    "number": "792",
+    "schemaVersion": 1,
+    "searchText": "untitled 792",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.790",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-793-untitled",
+    "language": "en",
+    "number": "793",
+    "schemaVersion": 1,
+    "searchText": "untitled 793",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.791",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-794-untitled",
+    "language": "en",
+    "number": "794",
+    "schemaVersion": 1,
+    "searchText": "untitled 794",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.792",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-795-untitled",
+    "language": "en",
+    "number": "795",
+    "schemaVersion": 1,
+    "searchText": "untitled 795",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.793",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-796-untitled",
+    "language": "en",
+    "number": "796",
+    "schemaVersion": 1,
+    "searchText": "untitled 796",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.794",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-797-untitled",
+    "language": "en",
+    "number": "797",
+    "schemaVersion": 1,
+    "searchText": "untitled 797",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.795",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-798-untitled",
+    "language": "en",
+    "number": "798",
+    "schemaVersion": 1,
+    "searchText": "untitled 798",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.796",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-799-untitled",
+    "language": "en",
+    "number": "799",
+    "schemaVersion": 1,
+    "searchText": "untitled 799",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.797",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-800-untitled",
+    "language": "en",
+    "number": "800",
+    "schemaVersion": 1,
+    "searchText": "untitled 800",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.798",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-801-untitled",
+    "language": "en",
+    "number": "801",
+    "schemaVersion": 1,
+    "searchText": "untitled 801",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.799",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-802-untitled",
+    "language": "en",
+    "number": "802",
+    "schemaVersion": 1,
+    "searchText": "untitled 802",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.800",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-803-untitled",
+    "language": "en",
+    "number": "803",
+    "schemaVersion": 1,
+    "searchText": "untitled 803",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.801",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-804-untitled",
+    "language": "en",
+    "number": "804",
+    "schemaVersion": 1,
+    "searchText": "untitled 804",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.802",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-805-untitled",
+    "language": "en",
+    "number": "805",
+    "schemaVersion": 1,
+    "searchText": "untitled 805",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.803",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-806-untitled",
+    "language": "en",
+    "number": "806",
+    "schemaVersion": 1,
+    "searchText": "untitled 806",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.804",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-807-untitled",
+    "language": "en",
+    "number": "807",
+    "schemaVersion": 1,
+    "searchText": "untitled 807",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.805",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-808-untitled",
+    "language": "en",
+    "number": "808",
+    "schemaVersion": 1,
+    "searchText": "untitled 808",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.806",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-809-untitled",
+    "language": "en",
+    "number": "809",
+    "schemaVersion": 1,
+    "searchText": "untitled 809",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.807",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-810-untitled",
+    "language": "en",
+    "number": "810",
+    "schemaVersion": 1,
+    "searchText": "untitled 810",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.808",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-811-untitled",
+    "language": "en",
+    "number": "811",
+    "schemaVersion": 1,
+    "searchText": "untitled 811",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.809",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-812-untitled",
+    "language": "en",
+    "number": "812",
+    "schemaVersion": 1,
+    "searchText": "untitled 812",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.810",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-813-untitled",
+    "language": "en",
+    "number": "813",
+    "schemaVersion": 1,
+    "searchText": "untitled 813",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.811",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-814-untitled",
+    "language": "en",
+    "number": "814",
+    "schemaVersion": 1,
+    "searchText": "untitled 814",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.812",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-815-untitled",
+    "language": "en",
+    "number": "815",
+    "schemaVersion": 1,
+    "searchText": "untitled 815",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.813",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-816-untitled",
+    "language": "en",
+    "number": "816",
+    "schemaVersion": 1,
+    "searchText": "untitled 816",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.814",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-817-untitled",
+    "language": "en",
+    "number": "817",
+    "schemaVersion": 1,
+    "searchText": "untitled 817",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.815",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-818-untitled",
+    "language": "en",
+    "number": "818",
+    "schemaVersion": 1,
+    "searchText": "untitled 818",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.816",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-819-untitled",
+    "language": "en",
+    "number": "819",
+    "schemaVersion": 1,
+    "searchText": "untitled 819",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.817",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-820-untitled",
+    "language": "en",
+    "number": "820",
+    "schemaVersion": 1,
+    "searchText": "untitled 820",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.818",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-821-untitled",
+    "language": "en",
+    "number": "821",
+    "schemaVersion": 1,
+    "searchText": "untitled 821",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.819",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-822-untitled",
+    "language": "en",
+    "number": "822",
+    "schemaVersion": 1,
+    "searchText": "untitled 822",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.820",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-823-untitled",
+    "language": "en",
+    "number": "823",
+    "schemaVersion": 1,
+    "searchText": "untitled 823",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.821",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-824-untitled",
+    "language": "en",
+    "number": "824",
+    "schemaVersion": 1,
+    "searchText": "untitled 824",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.822",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-825-untitled",
+    "language": "en",
+    "number": "825",
+    "schemaVersion": 1,
+    "searchText": "untitled 825",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.823",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-826-untitled",
+    "language": "en",
+    "number": "826",
+    "schemaVersion": 1,
+    "searchText": "untitled 826",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.824",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-827-untitled",
+    "language": "en",
+    "number": "827",
+    "schemaVersion": 1,
+    "searchText": "untitled 827",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.825",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-828-untitled",
+    "language": "en",
+    "number": "828",
+    "schemaVersion": 1,
+    "searchText": "untitled 828",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.826",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-829-untitled",
+    "language": "en",
+    "number": "829",
+    "schemaVersion": 1,
+    "searchText": "untitled 829",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.827",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-830-untitled",
+    "language": "en",
+    "number": "830",
+    "schemaVersion": 1,
+    "searchText": "untitled 830",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.828",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-831-untitled",
+    "language": "en",
+    "number": "831",
+    "schemaVersion": 1,
+    "searchText": "untitled 831",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.829",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-832-untitled",
+    "language": "en",
+    "number": "832",
+    "schemaVersion": 1,
+    "searchText": "untitled 832",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.830",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-833-untitled",
+    "language": "en",
+    "number": "833",
+    "schemaVersion": 1,
+    "searchText": "untitled 833",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.831",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-834-untitled",
+    "language": "en",
+    "number": "834",
+    "schemaVersion": 1,
+    "searchText": "untitled 834",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.832",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-835-untitled",
+    "language": "en",
+    "number": "835",
+    "schemaVersion": 1,
+    "searchText": "untitled 835",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.833",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-836-untitled",
+    "language": "en",
+    "number": "836",
+    "schemaVersion": 1,
+    "searchText": "untitled 836",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.834",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-837-untitled",
+    "language": "en",
+    "number": "837",
+    "schemaVersion": 1,
+    "searchText": "untitled 837",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.835",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-838-untitled",
+    "language": "en",
+    "number": "838",
+    "schemaVersion": 1,
+    "searchText": "untitled 838",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.836",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-839-untitled",
+    "language": "en",
+    "number": "839",
+    "schemaVersion": 1,
+    "searchText": "untitled 839",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.837",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-840-untitled",
+    "language": "en",
+    "number": "840",
+    "schemaVersion": 1,
+    "searchText": "untitled 840",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.838",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-841-untitled",
+    "language": "en",
+    "number": "841",
+    "schemaVersion": 1,
+    "searchText": "untitled 841",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.839",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-842-untitled",
+    "language": "en",
+    "number": "842",
+    "schemaVersion": 1,
+    "searchText": "untitled 842",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.840",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-843-untitled",
+    "language": "en",
+    "number": "843",
+    "schemaVersion": 1,
+    "searchText": "untitled 843",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.841",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-844-untitled",
+    "language": "en",
+    "number": "844",
+    "schemaVersion": 1,
+    "searchText": "untitled 844",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.842",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-845-untitled",
+    "language": "en",
+    "number": "845",
+    "schemaVersion": 1,
+    "searchText": "untitled 845",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.843",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-846-untitled",
+    "language": "en",
+    "number": "846",
+    "schemaVersion": 1,
+    "searchText": "untitled 846",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.844",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-847-untitled",
+    "language": "en",
+    "number": "847",
+    "schemaVersion": 1,
+    "searchText": "untitled 847",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.845",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-848-untitled",
+    "language": "en",
+    "number": "848",
+    "schemaVersion": 1,
+    "searchText": "untitled 848",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.846",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-849-untitled",
+    "language": "en",
+    "number": "849",
+    "schemaVersion": 1,
+    "searchText": "untitled 849",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.847",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-850-untitled",
+    "language": "en",
+    "number": "850",
+    "schemaVersion": 1,
+    "searchText": "untitled 850",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.848",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-851-untitled",
+    "language": "en",
+    "number": "851",
+    "schemaVersion": 1,
+    "searchText": "untitled 851",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.849",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-852-untitled",
+    "language": "en",
+    "number": "852",
+    "schemaVersion": 1,
+    "searchText": "untitled 852",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.850",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-853-untitled",
+    "language": "en",
+    "number": "853",
+    "schemaVersion": 1,
+    "searchText": "untitled 853",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.851",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-854-untitled",
+    "language": "en",
+    "number": "854",
+    "schemaVersion": 1,
+    "searchText": "untitled 854",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.852",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-855-untitled",
+    "language": "en",
+    "number": "855",
+    "schemaVersion": 1,
+    "searchText": "untitled 855",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.853",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-856-untitled",
+    "language": "en",
+    "number": "856",
+    "schemaVersion": 1,
+    "searchText": "untitled 856",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.854",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-857-untitled",
+    "language": "en",
+    "number": "857",
+    "schemaVersion": 1,
+    "searchText": "untitled 857",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.855",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-858-untitled",
+    "language": "en",
+    "number": "858",
+    "schemaVersion": 1,
+    "searchText": "untitled 858",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.856",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-859-untitled",
+    "language": "en",
+    "number": "859",
+    "schemaVersion": 1,
+    "searchText": "untitled 859",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.857",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-860-untitled",
+    "language": "en",
+    "number": "860",
+    "schemaVersion": 1,
+    "searchText": "untitled 860",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.858",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-861-untitled",
+    "language": "en",
+    "number": "861",
+    "schemaVersion": 1,
+    "searchText": "untitled 861",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.859",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-862-untitled",
+    "language": "en",
+    "number": "862",
+    "schemaVersion": 1,
+    "searchText": "untitled 862",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.860",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-863-untitled",
+    "language": "en",
+    "number": "863",
+    "schemaVersion": 1,
+    "searchText": "untitled 863",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.861",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-864-untitled",
+    "language": "en",
+    "number": "864",
+    "schemaVersion": 1,
+    "searchText": "untitled 864",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.862",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-865-untitled",
+    "language": "en",
+    "number": "865",
+    "schemaVersion": 1,
+    "searchText": "untitled 865",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.863",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-866-untitled",
+    "language": "en",
+    "number": "866",
+    "schemaVersion": 1,
+    "searchText": "untitled 866",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.864",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-867-untitled",
+    "language": "en",
+    "number": "867",
+    "schemaVersion": 1,
+    "searchText": "untitled 867",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.865",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-868-untitled",
+    "language": "en",
+    "number": "868",
+    "schemaVersion": 1,
+    "searchText": "untitled 868",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.866",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-869-untitled",
+    "language": "en",
+    "number": "869",
+    "schemaVersion": 1,
+    "searchText": "untitled 869",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.867",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-870-untitled",
+    "language": "en",
+    "number": "870",
+    "schemaVersion": 1,
+    "searchText": "untitled 870",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.868",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-871-untitled",
+    "language": "en",
+    "number": "871",
+    "schemaVersion": 1,
+    "searchText": "untitled 871",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.869",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-872-untitled",
+    "language": "en",
+    "number": "872",
+    "schemaVersion": 1,
+    "searchText": "untitled 872",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.870",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-873-untitled",
+    "language": "en",
+    "number": "873",
+    "schemaVersion": 1,
+    "searchText": "untitled 873",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.871",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-874-untitled",
+    "language": "en",
+    "number": "874",
+    "schemaVersion": 1,
+    "searchText": "untitled 874",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.872",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-875-untitled",
+    "language": "en",
+    "number": "875",
+    "schemaVersion": 1,
+    "searchText": "untitled 875",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.873",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-876-untitled",
+    "language": "en",
+    "number": "876",
+    "schemaVersion": 1,
+    "searchText": "untitled 876",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.874",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-877-untitled",
+    "language": "en",
+    "number": "877",
+    "schemaVersion": 1,
+    "searchText": "untitled 877",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.875",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-878-untitled",
+    "language": "en",
+    "number": "878",
+    "schemaVersion": 1,
+    "searchText": "untitled 878",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.876",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-879-untitled",
+    "language": "en",
+    "number": "879",
+    "schemaVersion": 1,
+    "searchText": "untitled 879",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.877",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-880-untitled",
+    "language": "en",
+    "number": "880",
+    "schemaVersion": 1,
+    "searchText": "untitled 880",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.878",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-881-untitled",
+    "language": "en",
+    "number": "881",
+    "schemaVersion": 1,
+    "searchText": "untitled 881",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.879",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-882-untitled",
+    "language": "en",
+    "number": "882",
+    "schemaVersion": 1,
+    "searchText": "untitled 882",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.880",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-883-untitled",
+    "language": "en",
+    "number": "883",
+    "schemaVersion": 1,
+    "searchText": "untitled 883",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.881",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-884-untitled",
+    "language": "en",
+    "number": "884",
+    "schemaVersion": 1,
+    "searchText": "untitled 884",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.882",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-885-untitled",
+    "language": "en",
+    "number": "885",
+    "schemaVersion": 1,
+    "searchText": "untitled 885",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.883",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-886-untitled",
+    "language": "en",
+    "number": "886",
+    "schemaVersion": 1,
+    "searchText": "untitled 886",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.884",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-887-untitled",
+    "language": "en",
+    "number": "887",
+    "schemaVersion": 1,
+    "searchText": "untitled 887",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.885",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-888-untitled",
+    "language": "en",
+    "number": "888",
+    "schemaVersion": 1,
+    "searchText": "untitled 888",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.886",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-889-untitled",
+    "language": "en",
+    "number": "889",
+    "schemaVersion": 1,
+    "searchText": "untitled 889",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.887",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-890-untitled",
+    "language": "en",
+    "number": "890",
+    "schemaVersion": 1,
+    "searchText": "untitled 890",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.888",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-891-untitled",
+    "language": "en",
+    "number": "891",
+    "schemaVersion": 1,
+    "searchText": "untitled 891",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.889",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-892-untitled",
+    "language": "en",
+    "number": "892",
+    "schemaVersion": 1,
+    "searchText": "untitled 892",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.890",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-893-untitled",
+    "language": "en",
+    "number": "893",
+    "schemaVersion": 1,
+    "searchText": "untitled 893",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.891",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-894-untitled",
+    "language": "en",
+    "number": "894",
+    "schemaVersion": 1,
+    "searchText": "untitled 894",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.892",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-895-untitled",
+    "language": "en",
+    "number": "895",
+    "schemaVersion": 1,
+    "searchText": "untitled 895",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.893",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-896-untitled",
+    "language": "en",
+    "number": "896",
+    "schemaVersion": 1,
+    "searchText": "untitled 896",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.894",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-897-untitled",
+    "language": "en",
+    "number": "897",
+    "schemaVersion": 1,
+    "searchText": "untitled 897",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.895",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-898-untitled",
+    "language": "en",
+    "number": "898",
+    "schemaVersion": 1,
+    "searchText": "untitled 898",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.896",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-899-untitled",
+    "language": "en",
+    "number": "899",
+    "schemaVersion": 1,
+    "searchText": "untitled 899",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.897",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-900-untitled",
+    "language": "en",
+    "number": "900",
+    "schemaVersion": 1,
+    "searchText": "untitled 900",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.898",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-901-untitled",
+    "language": "en",
+    "number": "901",
+    "schemaVersion": 1,
+    "searchText": "untitled 901",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.899",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-902-untitled",
+    "language": "en",
+    "number": "902",
+    "schemaVersion": 1,
+    "searchText": "untitled 902",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.900",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-903-untitled",
+    "language": "en",
+    "number": "903",
+    "schemaVersion": 1,
+    "searchText": "untitled 903",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.901",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-904-untitled",
+    "language": "en",
+    "number": "904",
+    "schemaVersion": 1,
+    "searchText": "untitled 904",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.902",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-905-untitled",
+    "language": "en",
+    "number": "905",
+    "schemaVersion": 1,
+    "searchText": "untitled 905",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.903",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-906-untitled",
+    "language": "en",
+    "number": "906",
+    "schemaVersion": 1,
+    "searchText": "untitled 906",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.904",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-907-untitled",
+    "language": "en",
+    "number": "907",
+    "schemaVersion": 1,
+    "searchText": "untitled 907",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.905",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-908-untitled",
+    "language": "en",
+    "number": "908",
+    "schemaVersion": 1,
+    "searchText": "untitled 908",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.906",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-909-untitled",
+    "language": "en",
+    "number": "909",
+    "schemaVersion": 1,
+    "searchText": "untitled 909",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.907",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-910-untitled",
+    "language": "en",
+    "number": "910",
+    "schemaVersion": 1,
+    "searchText": "untitled 910",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.908",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-911-untitled",
+    "language": "en",
+    "number": "911",
+    "schemaVersion": 1,
+    "searchText": "untitled 911",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.909",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-912-untitled",
+    "language": "en",
+    "number": "912",
+    "schemaVersion": 1,
+    "searchText": "untitled 912",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.910",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-913-untitled",
+    "language": "en",
+    "number": "913",
+    "schemaVersion": 1,
+    "searchText": "untitled 913",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.911",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-914-untitled",
+    "language": "en",
+    "number": "914",
+    "schemaVersion": 1,
+    "searchText": "untitled 914",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.912",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-915-untitled",
+    "language": "en",
+    "number": "915",
+    "schemaVersion": 1,
+    "searchText": "untitled 915",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.913",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-916-untitled",
+    "language": "en",
+    "number": "916",
+    "schemaVersion": 1,
+    "searchText": "untitled 916",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.914",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-917-untitled",
+    "language": "en",
+    "number": "917",
+    "schemaVersion": 1,
+    "searchText": "untitled 917",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.915",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-918-untitled",
+    "language": "en",
+    "number": "918",
+    "schemaVersion": 1,
+    "searchText": "untitled 918",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.916",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-919-untitled",
+    "language": "en",
+    "number": "919",
+    "schemaVersion": 1,
+    "searchText": "untitled 919",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.917",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  },
+  {
+    "collectionId": "sdah",
+    "contentStatus": "missing-lyrics",
+    "id": "sdah-920-untitled",
+    "language": "en",
+    "number": "920",
+    "schemaVersion": 1,
+    "searchText": "untitled 920",
+    "sections": [],
+    "source": {
+      "license": "NOASSERTION",
+      "path": "SDAH/index.json#songs.918",
+      "repo": "GospelSounders/hymnals-data",
+      "rightsStatus": "source-repository"
+    },
+    "sourceTitle": "",
+    "title": "Untitled",
+    "titleSource": "missing"
+  }
+]

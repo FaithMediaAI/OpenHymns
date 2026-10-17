@@ -1,5 +1,5 @@
 {
-  "hymnCount": 372,
+  "hymnCount": 367,
   "hymns": [
     {
       "collectionId": "cis-tumbuka",
@@ -2444,7 +2444,7 @@
       "language": "tum",
       "number": "30",
       "schemaVersion": 1,
-      "searchText": "zuwa likunjira mwe 30 zuwa likunjira 'mwe fumu yitipumuzge; lindizgani m'kuromba nyali zikugolera na kuwala. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono. mwene umoyo ndimwe mwazu.a pose pose; mtiwunganye tawinu m'lukutu lwinu sono lwa mutende. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono. usange mfwiri wiza mukutifukatira; m'uchizi winu fumu, mitima yithu yikwere kwa imwe. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono. para tafwa pacharu, ntha tikuwona kanthu; fumu mkutemwa kwinu mzakatiwuskeso pa mlenji wura. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono.",
+      "searchText": "zuwa likunjira mwe 30 zuwa likunjira 'mwe fumu yitipumuzge; lindizgani m'kuromba nyali zikugolera na kuwala. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono. mwene umoyo ndimwe mwazu.a pose pose; mtiwunganye tawinu m'lukutu lwinu sono lwa mutende. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono. usange mfwiri wiza mukutifukatira; m'uchizi winu fumu, mitima yithu yikwere kwa imwe. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono. para tafwa pacharu, ntha tikuwona kanthu; fumu mkutemwa kwinu mzakatiwuskeso pa mlenjí wura. mtuwa, mtuwa, fumu ya mipingo; vya m'chanya na vyapasi vikumutamikani mwankhongono.",
       "sections": [
         {
           "label": "1",
@@ -3965,7 +3965,7 @@
       "language": "tum",
       "number": "48",
       "schemaVersion": 1,
-      "searchText": "chamkuwa chimvwemwe 48 kusangwa pakumara mlimo, pakuwunganya kwa vuna, pakwizaso na vipambi, mu msumba yerusalem. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafika, yakuwunganya wose. t&b: chimwemwe mwaluwiro, chimwemwe myirayira, chifukwa'mwe nyengo yafika, yakuwunganya wose. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafika, yakuwunganya wose. tamukwimba sumu ziweme, tamukwimbaso na nchindi, tamchindika khristu, fumu, mu msumba wuphya wura. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafika, yakuwunganya wose. chimwemwe chikulindirira mu msumba wura kuchanya, yesu wakunozga malo, mu msumba wuphya wura. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafika, yakuwunganya wose.",
+      "searchText": "chamkuwa chimvwemwe 48 kusangwa pakumara mlimo, pakuwunganya kwa vuna, pakwizaso na vipambi, mu msumba yerusalem. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafīka, yakuwunganya wose. t&b: chimwemwe mwaluwiro, chimwemwe myirayira, chifukwa'mwe nyengo yafika, yakuwunganya wose. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafīka, yakuwunganya wose. tamukwimba sumu ziweme, tamukwimbaso na nchindi, tamchindika khristu, fumu, mu msumba wuphya wura. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafīka, yakuwunganya wose. chimwemwe chikulindirira mu msumba wura kuchanya, yesu wakunozga malo, mu msumba wuphya wura. chamkuwa chimwemwe nadi, chimwemwe cha m'yirayira. chifukwa nyengo yafīka, yakuwunganya wose.",
       "sections": [
         {
           "label": "1",
@@ -4244,30 +4244,6 @@
         "rightsStatus": "source-repository"
       },
       "title": "Kuli Charu Chiweme"
-    },
-    {
-      "collectionId": "cis-tumbuka",
-      "id": "cis-tumbuka-051-untitled",
-      "language": "tum",
-      "number": "51",
-      "schemaVersion": 1,
-      "searchText": "untitled 51 ### 51",
-      "sections": [
-        {
-          "label": "51",
-          "lines": [
-            "### 51"
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "v2/tumbuka/tumbuka.json",
-        "repo": "TinasheMzondiwa/cis-hymnals",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Untitled"
     },
     {
       "collectionId": "cis-tumbuka",
@@ -4759,8 +4735,8 @@
         {
           "label": "1",
           "lines": [
-            "Muthuwuske Fumu Yesu,  wangelo wagwade,",
-            "Mumuvwalikenge mphumphu  yake m'uchindami,",
+            "Muthuwuske Fumu Yesu, wangelo wagwade,",
+            "Mumuvwalikenge mphumphu yake m'uchindami,",
             "Mumuvwalikenge mphumphu yake m'uchindami."
           ],
           "type": "verse"
@@ -5377,30 +5353,6 @@
     },
     {
       "collectionId": "cis-tumbuka",
-      "id": "cis-tumbuka-066-untitled",
-      "language": "tum",
-      "number": "66",
-      "schemaVersion": 1,
-      "searchText": "untitled 66 ### 66",
-      "sections": [
-        {
-          "label": "66",
-          "lines": [
-            "### 66"
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "v2/tumbuka/tumbuka.json",
-        "repo": "TinasheMzondiwa/cis-hymnals",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Untitled"
-    },
-    {
-      "collectionId": "cis-tumbuka",
       "id": "cis-tumbuka-067-zaninge-imwe-mose",
       "language": "tum",
       "number": "67",
@@ -5863,7 +5815,7 @@
       "language": "tum",
       "number": "72",
       "schemaVersion": 1,
-      "searchText": "cheruzgo chamba 72 cheruzgo chamba kale kuchanya, na mabuku ghakujulika, ndipo fumu yamkweruzga milimo yose tikuchita. kasi tamkwima wuli'se, pazuwa lira lakofya? kasi tamfika kwa iyo, zakwananga nzakusukika? wamba kale kweruzga wakuiwa, luwiro weruzge wamoyo, kupenjerezga m'mabuku, ivyo munthu wakachitanga. kasi tamkwima wuli'se, pazuwa lira lakofya? kasi tamfika kwa iyo, zakwananga nzakusukika? tamkwima uli panyengo yira, yakuvumbukwa kwa milimo? pakweruzga mlandu withu, kasi nadi tayamkupona? kasi tamkwima wuli'se, pazuwa lira lakofya? kasi tamfika kwa iyo, zakwananga nzakusukika?",
+      "searchText": "cheruzgo chamba 72 cheruzgo chamba kale kuchanya, na mabuku ghakujulika, ndipo fumu yamkweruzga milimo yose tikuchita. kasi tamkwima wuli'se, pazuwa lira lakofya? kasi tamfika kwa iyo, zakwananga nzakusukika? wamba kale kweruzga wakuíwa, luwiro weruzge wamoyo, kupenjerezga m'mabuku, ivyo munthu wakachitanga. kasi tamkwima wuli'se, pazuwa lira lakofya? kasi tamfika kwa iyo, zakwananga nzakusukika? tamkwima uli panyengo yira, yakuvumbukwa kwa milimo? pakweruzga mlandu withu, kasi nadi tayamkupona? kasi tamkwima wuli'se, pazuwa lira lakofya? kasi tamfika kwa iyo, zakwananga nzakusukika?",
       "sections": [
         {
           "label": "1",
@@ -7718,7 +7670,7 @@
       "language": "tum",
       "number": "97",
       "schemaVersion": 1,
-      "searchText": "tapulika makani 97 tapulika makani, yesu ndi mponoski, m'pharazge nakusangwa, yesu ndi mponoski, mukaphare ku wose, mukalowoke nyanja, mwatumika na fumu, yesu ndi mponoski. tandazgani makani, yesu ndi mponoski, ku wose wakwananga, yesu ndi mponoski, mu virwa, m'nyanja mose, mvinkhwawu, na mmapiri, charu chose chikondwe, yesu ndi mponoski. mwimbengeso vya lyo, wose wapulike, wakafwa wakaghuma, ngwa moyo, ngwa moyo, para mtima wafipa, pakupenja lusungu, kusuka zakwananga, yesu ndi mponoski. mphepo zichemerezge, chomene nkhanwa, \"mwe muzipokerere, nakwimba chomene, \"chiponosko chikuru, chizira wose m'charu. wakuwapenja wose, yesu ndi mponoski.",
+      "searchText": "tapulika makani 97 tapulika makani, yesu ndi mponoski, m'pharazge nakusangwa, yesu ndi mponoski, mukaphare ku wose, mukalowoke nyanja, mwatumika na fumu, yesu ndi mponoski. tandazgani makani, yesu ndi mponoski, ku wose wakwananga, yesu ndi mponoski, mu virwa, m'nyanja mose, mvinkhwawu, na mmapiri, charu chose chikondwe, yesu ndi mponoski. mwimbengeso vya lyo, wose wapulike, wakafwa wakaghuma, ngwa moyo, ngwa moyo, para mtimá wafipa, pakupenja lusungu, kusuka zakwananga, yesu ndi mponoski. mphepo zichemerezge, chomene nkhanwa, \"mwe muzipokerere, nakwimba chomene, \"chiponosko chikuru, chizira wose m'charu. wakuwapenja wose, yesu ndi mponoski.",
       "sections": [
         {
           "label": "1",
@@ -10235,7 +10187,7 @@
           "label": "2",
           "lines": [
             "Pa nyengo ya lurombo mutaski mphafupi,",
-            "Na mtima  wakutemwa  wapulikenge,",
+            "Na mtima wakutemwa wapulikenge,",
             "Wakuti timthulire vyakwenjezga vithu,",
             "Wakuvuka pumula nkhuweme kuromba."
           ],
@@ -13571,7 +13523,7 @@
           "label": "4",
           "lines": [
             "Chakuzizipizga m'charu kuweka msinjiro,",
-            "Chakupheska  zakwananga  zakwananga,",
+            "Chakupheska zakwananga zakwananga,",
             "Na mauchenjezi gha charu chapasi."
           ],
           "type": "verse"
@@ -13709,7 +13661,7 @@
       "language": "tum",
       "number": "176",
       "schemaVersion": 1,
-      "searchText": "chigomezgo chithu ntchakuzirwa 176 chigomezgo chithu ntchakuziwa nadi, kuruska vya kutemweka vya mucharu vyose. nyenyezi yituwa yikuwala m'chisi, kupa malazi gha mtende pa malalo ghose. paliso na mazgu ghakutikhwimiska, kuchimbizga nkhayiko, wofi, kupa chitemwa. mazgu pa mphinjika ghatigowokera, nakutiwalira m'nthowa, ntchip'likano chithu.",
+      "searchText": "chigomezgo chithu ntchakuzirwa 176 chigomezgo chíthu ntchakuziwa nadi, kuruska vya kutemweka vya mucharu vyose. nyenyezi yituwa yikuwala m'chisi, kupa malazi gha mtende pa malalo ghose. paliso na mazgu ghakutikhwimiska, kuchimbizga nkhayiko, wofi, kupa chitemwa. mazgu pa mphinjika ghatigowokera, nakutiwalira m'nthowa, ntchip'likano chithu.",
       "sections": [
         {
           "label": "1",
@@ -14252,7 +14204,7 @@
           "label": "1",
           "lines": [
             "Wakupangana wakumgomezga,",
-            "Ndizenge  luwiro  kutola  wane,",
+            "Ndizenge luwiro kutola wane,",
             "Mwe mukoleske mazgu gha Fumu,",
             "M'ngagonanga chara mulindizgenge."
           ],
@@ -19368,30 +19320,6 @@
     },
     {
       "collectionId": "cis-tumbuka",
-      "id": "cis-tumbuka-250-untitled",
-      "language": "tum",
-      "number": "250",
-      "schemaVersion": 1,
-      "searchText": "untitled 250 ### 250",
-      "sections": [
-        {
-          "label": "1",
-          "lines": [
-            "### 250"
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "v2/tumbuka/tumbuka.json",
-        "repo": "TinasheMzondiwa/cis-hymnals",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Untitled"
-    },
-    {
-      "collectionId": "cis-tumbuka",
       "id": "cis-tumbuka-251-kulira-nkhanthu-cha",
       "language": "tum",
       "number": "251",
@@ -20438,30 +20366,6 @@
         "rightsStatus": "source-repository"
       },
       "title": "Muna Mtende"
-    },
-    {
-      "collectionId": "cis-tumbuka",
-      "id": "cis-tumbuka-266-untitled",
-      "language": "tum",
-      "number": "266",
-      "schemaVersion": 1,
-      "searchText": "untitled 266 ### 266",
-      "sections": [
-        {
-          "label": "1",
-          "lines": [
-            "### 266"
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "v2/tumbuka/tumbuka.json",
-        "repo": "TinasheMzondiwa/cis-hymnals",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Untitled"
     },
     {
       "collectionId": "cis-tumbuka",
@@ -22453,7 +22357,7 @@
       "language": "tum",
       "number": "294",
       "schemaVersion": 1,
-      "searchText": "lawiska yesu 294 lawiska yesu ndi murunji dada mndipe umoyo wake umoyo wane ngwakwananga m'ndivwalike utuwa wake m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake. kwananga kwane kukamkoma ndopa zake zan'thaska ine, mundibenekerere fumu nkhaponoskeke pa cheruzgo. m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake. mndigowokere imwe fumu yesu wasunga munjirira, nkhuwuzomera nd'reke wane sono ndivwale'moyo wake. m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake. nyifwa ya yesu yandithaska ndatuwiskika na mwenecho, ndine murunji m'mazgu ghake ndlizamzota pa kwiza kwake. m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake.",
+      "searchText": "lawiska yesu 294 lawiska yesu ndi murunji dada mndipe umoyo wake umoyo wane ngwakwananga m'ndivwalike utuwa wake m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake. kwananga kwane kukamkoma ndopa zake zan'thaska ine, mundibenekerere fumu nkhaponoskeke pa cheruzgo. m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake. mndigowokere imwe fumu yèsu wasunga munjirira, nkhuwuzomera nd'reke wane sono ndivwale'moyo wake. m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake. nyifwa ya yesu yandithaska ndatuwiskika na mwenecho, ndine murunji m'mazgu ghake ndlizamzota pa kwiza kwake. m'ndidikiske urunji wake, ndimanye za umoyo wake, umoyo wane ngwakwananga, m'ndivwalike utuwa wake.",
       "sections": [
         {
           "label": "1",
@@ -23793,7 +23697,7 @@
       "language": "tum",
       "number": "312",
       "schemaVersion": 1,
-      "searchText": "tachemeka ise 312 tachemeka ise ku muronga yordano, ise tapulika nadi mazgu m'mapopa. ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu. tapulika ntchemo ya kutemwa kwa fumu, ng'anamuka mtima yesu watizengeso ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu. yesu wakunena, uyo wagomezgenge nakuba'tizika wizamukuthaskika. ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu. tikuwonga nadi uchizi wake yesu, watifumiskako ku chisi cha uheni. ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu.",
+      "searchText": "tachemeka ise 312 tachemeka ise ku muronga yordano, ise tapulika nadi mazgu m'mapopa. ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu. tapulika ntchemo ya kutemwa kwa fumu, ng'anamuka mtima yesu watizengeso ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu. yesu wakunena, uyo wagomezgenge nakuba'tizíka wizamukuthaskika. ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu. tikuwonga nadi uchizi wake yesu, watifumiskako ku chisi cha uheni. ise tiza kuzakabapatizika, kuti tisukike ku zakwananga zithu.",
       "sections": [
         {
           "label": "1",
@@ -24281,7 +24185,7 @@
       "language": "tum",
       "number": "319",
       "schemaVersion": 1,
-      "searchText": "nditibenge vya chiuta 319 nditimbenge vya chiuta vyakunditemwa kwake wakatuma mwana wake kwizakandifwira 'ne. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya. 'mwe nkhachitanga uheni walikuluwa vyose, nkhakhalanga m'zakwananga wali kufumya zose. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya. wandipa umoyo wake umoyo utuwa tu! iie ndiri mwana wake wakundilera ine. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya. nkhuyiwonga fumu yane nditiyitamikenge, nditandazge mbiri yake ya chitemwa chikuru. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya.",
+      "searchText": "nditibenge vya chiuta 319 nditimbenge vya chiuta vyakunditemwa kwake wakatuma mwana wake kwizakandifwira 'ne. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya. 'mwe nkhachitanga uheni walikuluwa vyose, nkhakhalanga m'zakwánanga wali kufumya zose. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya. wandipa umoyo wake umoyo utuwa tu! iie ndiri mwana wake wakundilera ine. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya. nkhuyiwonga fumu yane nditiyitamikenge, nditandazge mbiri yake ya chitemwa chikuru. inya, ndizamkwimba sumu 'mwe ya kutemwa kwake, ndizamkwimba na wangelo wakukhala kuchanya. (bass/alto/tenor) ndamkwimba ndamkwimba sumu, kutemwa, kutemwa ndamkwimba, wangelo awo wakukhala kuchanya, e, kuchanya.",
       "sections": [
         {
           "label": "1",
@@ -25479,7 +25383,7 @@
       "language": "tum",
       "number": "334",
       "schemaVersion": 1,
-      "searchText": "apo ine nkhusuzgika 334 apo ine nkhusuzgika na zakwananga zane, nditirute kwa chiuta wati wandovwirenge. watindipokererenge lyo ndiyo dada wa ine, wakatuma mwana wake kwizakafwira ine usange wazengezgani ntha wakutemwa ine, ndigomezge mwa chiuta lyo ntha wandikane. watindipokererenge lyo ndiyo dada wa ine, wakatuma mwana wake kwizakafwira ine ndine myeni m'charu ichi ine kwithu nkhuchanya, apo yesu wizirenge ndizamuruta nayo. watindipokererenge lyo ndiyo dada wa ine, wakatuma mwana wake kwizakafwira ine",
+      "searchText": "apo ine nkhusuzgika 334 apo ine nkhusuzgika na zakwananga zane, nditirute kwa chiuta wati wandovwirenge. watindipokererenge lyó ndiyo dada wa ine, wakatuma mwana wake kwizakafwira ine usange wazengezgani ntha wakutemwa ine, ndigomezge mwa chiuta lyo ntha wandikane. watindipokererenge lyó ndiyo dada wa ine, wakatuma mwana wake kwizakafwira ine ndine myeni m'charu ichi ine kwithu nkhuchanya, apo yesu wizirenge ndizamuruta nayo. watindipokererenge lyó ndiyo dada wa ine, wakatuma mwana wake kwizakafwira ine",
       "sections": [
         {
           "label": "1",
@@ -25758,7 +25662,7 @@
       "language": "tum",
       "number": "338",
       "schemaVersion": 1,
-      "searchText": "uko mthuzi kulije 338 tawuka kuya ku msumba lupiri iwa ziyoni kumalo ghakutowa kwakuruska nkhanira (kuchanya) sono sono chiwuru cha awo mbatuwa mtima tamukongana na mlenji uko mthuzi kulije (kulije) wakusuzgika, zinchimi, wanthu watuwa mtima wamyowoya nkhani yakuwombokwa kwawo kwandanda (kwandanda) tamp'lika na kwimba nawo kwa muyirayira swi tamukongana na m'lenji uko m'thuzi kulije (kulije) sumu tizamkwimba na wanyithu wakutemweka tamukongana pa sirya la msumba wa kuchanya (kuchanya) mponoski wati wizenge masuzgo ntha ghaliko tamkukumana na mlenji uko mthuzi kulije (kulije)",
+      "searchText": "uko mthuzi kulije 338 tawuka kuya ku msumba lupiri iwa ziyoní kumalo ghakutowa kwakuruska nkhanira (kuchanya) sono sono chiwuru cha awo mbatuwa mtima tamukongana na mlenji uko mthuzi kulije (kulije) wakusuzgika, zinchimi, wanthu watuwa mtima wamyowoya nkhani yakuwombokwa kwawo kwandanda (kwandanda) tamp'lika na kwimba nawo kwa muyirayira swi tamukongana na m'lenji uko m'thuzi kulije (kulije) sumu tizamkwimba na wanyithu wakutemweka tamukongana pa sirya la msumba wa kuchanya (kuchanya) mponoski wati wizenge masuzgo ntha ghaliko tamkukumana na mlenji uko mthuzi kulije (kulije)",
       "sections": [
         {
           "label": "1",
@@ -26295,7 +26199,7 @@
             "S/A",
             "Kasi wanozgeka usange Yesu",
             "Wangiza sono? Kasi wanozgeka",
-            "PakupuLikira mazgu (mnyane)   T/B",
+            "PakupuLikira mazgu (mnyane) T/B",
             "Kasi wanozgeka, nozgeka,",
             "Usange Yesu wangiza sono?",
             "Kasi wanozgeka, nozgeka",
@@ -26318,7 +26222,7 @@
             "S/A",
             "Kasi wanozgeka usange Yesu",
             "Wangiza sono? Kasi wanozgeka",
-            "PakupuLikira mazgu (mnyane)   T/B",
+            "PakupuLikira mazgu (mnyane) T/B",
             "Kasi wanozgeka, nozgeka,",
             "Usange Yesu wangiza sono?",
             "Kasi wanozgeka, nozgeka",
@@ -26342,7 +26246,7 @@
             "S/A",
             "Kasi wanozgeka usange Yesu",
             "Wangiza sono? Kasi wanozgeka",
-            "PakupuLikira mazgu (mnyane)   T/B",
+            "PakupuLikira mazgu (mnyane) T/B",
             "Kasi wanozgeka, nozgeka,",
             "Usange Yesu wangiza sono?",
             "Kasi wanozgeka, nozgeka",
@@ -26366,7 +26270,7 @@
             "S/A",
             "Kasi wanozgeka usange Yesu",
             "Wangiza sono? Kasi wanozgeka",
-            "PakupuLikira mazgu (mnyane)   T/B",
+            "PakupuLikira mazgu (mnyane) T/B",
             "Kasi wanozgeka, nozgeka,",
             "Usange Yesu wangiza sono?",
             "Kasi wanozgeka, nozgeka",
@@ -26854,30 +26758,6 @@
         "rightsStatus": "source-repository"
       },
       "title": "Mutisunge Fumu"
-    },
-    {
-      "collectionId": "cis-tumbuka",
-      "id": "cis-tumbuka-355-untitled",
-      "language": "tum",
-      "number": "355",
-      "schemaVersion": 1,
-      "searchText": "untitled 355 ### 355",
-      "sections": [
-        {
-          "label": "1",
-          "lines": [
-            "### 355"
-          ],
-          "type": "verse"
-        }
-      ],
-      "source": {
-        "license": "NOASSERTION",
-        "path": "v2/tumbuka/tumbuka.json",
-        "repo": "TinasheMzondiwa/cis-hymnals",
-        "rightsStatus": "source-repository"
-      },
-      "title": "Untitled"
     },
     {
       "collectionId": "cis-tumbuka",
@@ -27658,7 +27538,7 @@
       "language": "tum",
       "number": "370",
       "schemaVersion": 1,
-      "searchText": "para zuwa lifinyi liza 370 para zuwa liifinyi liza, ndakofya na mpomo yikuru wangelo na watuwa wose kupoma na kululutira. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda. mafuko ghose pano pasi ghamko-ngana pantazi pake kupokera vyakuwenera ivyo vikuwa lindirira. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda. awo wakuzomera fumu wamkuca pamoza na kopa kweni mazgu gha fumu yawo ghamkucimbizga kopa kwawo. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda. okwe mwe! kunozga comene kupu-lika mazgu gha fumu pa kuwacema wantu wake; zaninge, zaninge njrani. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda.",
+      "searchText": "para zuwa lifinyi liza 370 para zuwa liífinyi liza, ndakofya na mpomo yikuru wangelo na watuwa wose kupoma na kululutira. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda. mafuko ghose pano pasi ghamko-ngana pantazi pake kupokera vyakuwenera ivyo vikuwa lindirira. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda. awo wakuzomera fumu wamkuca pamoza na kopa kweni mazgu gha fumu yawo ghamkucimbizga kopa kwawo. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda. okwe mwe! kunozga comene kupu-lika mazgu gha fumu pa kuwacema wantu wake; zaninge, zaninge njrani. wamkuti ku awo wali ku woko la maryero, zaninge, zaninge muhare ciharo ca ndanda.",
       "sections": [
         {
           "label": "1",
@@ -28116,7 +27996,7 @@
   ],
   "id": "cis-tumbuka",
   "language": "tum",
-  "name": "tumbuka tumbuka",
+  "name": "Nyimbo za Mpingo wa SDA",
   "schemaVersion": 1,
   "source": {
     "id": "cis-hymnals",
@@ -28127,5 +28007,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/TinasheMzondiwa/cis-hymnals"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

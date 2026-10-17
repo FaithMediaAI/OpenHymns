@@ -8,6 +8,7 @@ OpenHymns is a versioned, normalized hymn catalog. It gathers hymn data from pub
 npm test
 npm run clone:sources
 npm run build
+npm run validate
 npm run release
 ```
 
@@ -46,3 +47,31 @@ tests/                   Node test runner tests
 5. Keep all downloaded files available offline.
 
 Generated hymn data keeps source repository, license, and rights-status metadata from the configured sources.
+
+## Clean catalog and duplicate handling
+
+Use `data/indexes/canonical.json` to browse unique lyrics. Each record groups the
+same lyrics in the same language and links to every source hymn through
+`references`. The `titles` and `search` indexes expose `canonicalId` for the same
+purpose. The collection files preserve hymnbook membership, numbering, tune
+variants, and source attribution; repeated appearances there are intentional.
+Canonical counts exclude entries whose sources provide no lyrics.
+
+Matching preserves accents, punctuation, word order, and language. The unique
+lyric view ignores case, line wrapping, and stanza/chorus boundaries; those
+performance details remain in each original collection entry. Equal titles
+alone never justify deleting a hymn.
+Within a collection, only records agreeing on number, title, full lyrics,
+section layout, identifying metadata, and provenance are removed automatically.
+Conflicting IDs receive stable content-derived suffixes. Titles recovered from
+lyrics carry `titleSource: "first-line"`; retained records without lyrics carry
+`contentStatus: "missing-lyrics"` in `data/quarantine.json`. These incomplete
+source records are kept for review and excluded from collection/search results.
+Missing source titles use the display label `Untitled` with `titleSource: "missing"`.
+
+Every build regenerates `data/quality-report.json`: duplicate groups, removal
+decisions, resolved ID collisions, ambiguous title/lyric matches, missing lyrics,
+and unavailable upstream sources. `npm run validate` independently checks counts,
+checksums, IDs, index membership, source references, and unique canonical lyrics.
+Source omissions are reported separately from structural integrity errors.
+See [data cleanup notes](docs/DATA_CLEANUP.md) for the current findings and limits.

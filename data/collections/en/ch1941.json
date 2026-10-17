@@ -45,7 +45,7 @@
       ],
       "source": {
         "license": "NOASSERTION",
-        "path": "CH1941/index.json",
+        "path": "CH1941/index.json#songs.73",
         "repo": "GospelSounders/hymnals-data",
         "rightsStatus": "source-repository"
       },
@@ -113,7 +113,7 @@
       ],
       "source": {
         "license": "NOASSERTION",
-        "path": "CH1941/index.json",
+        "path": "CH1941/index.json#songs.474",
         "repo": "GospelSounders/hymnals-data",
         "rightsStatus": "source-repository"
       },
@@ -133,5 +133,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/GospelSounders/hymnals-data"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

@@ -7048,7 +7048,7 @@
         "repo": "TinasheMzondiwa/cis-hymnals",
         "rightsStatus": "source-repository"
       },
-      "title": "Twarigure  Ring'ana"
+      "title": "Twarigure Ring'ana"
     },
     {
       "collectionId": "cis-abagusii",
@@ -7346,7 +7346,7 @@
         "repo": "TinasheMzondiwa/cis-hymnals",
         "rightsStatus": "source-repository"
       },
-      "title": "'Bogim' Obuya  Mbweng'e"
+      "title": "'Bogim' Obuya Mbweng'e"
     },
     {
       "collectionId": "cis-abagusii",
@@ -10039,7 +10039,7 @@
         "repo": "TinasheMzondiwa/cis-hymnals",
         "rightsStatus": "source-repository"
       },
-      "title": "Ira Ense Yonsi Ong'e  Yeso"
+      "title": "Ira Ense Yonsi Ong'e Yeso"
     },
     {
       "collectionId": "cis-abagusii",
@@ -10326,7 +10326,7 @@
         {
           "label": "4",
           "lines": [
-            "Kondatugut' ebinto bi'ense,Ika ang'e  nainche;Ebigochia kare as'ore,Binkonye inche."
+            "Kondatugut' ebinto bi'ense,Ika ang'e nainche;Ebigochia kare as'ore,Binkonye inche."
           ],
           "type": "verse"
         }
@@ -11179,7 +11179,7 @@
         "repo": "TinasheMzondiwa/cis-hymnals",
         "rightsStatus": "source-repository"
       },
-      "title": "Omotoria  Ntang'ane"
+      "title": "Omotoria Ntang'ane"
     },
     {
       "collectionId": "cis-abagusii",
@@ -17638,7 +17638,7 @@
         "repo": "TinasheMzondiwa/cis-hymnals",
         "rightsStatus": "source-repository"
       },
-      "title": "Natogende Intwe  Twensi"
+      "title": "Natogende Intwe Twensi"
     },
     {
       "collectionId": "cis-abagusii",
@@ -17844,7 +17844,7 @@
   ],
   "id": "cis-abagusii",
   "language": "guz",
-  "name": "abagusii abagusii",
+  "name": "Ogotera kw'ogotogia Nyasae",
   "schemaVersion": 1,
   "source": {
     "id": "cis-hymnals",
@@ -17855,5 +17855,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/TinasheMzondiwa/cis-hymnals"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

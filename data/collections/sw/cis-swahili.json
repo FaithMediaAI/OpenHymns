@@ -14521,7 +14521,7 @@
   ],
   "id": "cis-swahili",
   "language": "sw",
-  "name": "swahili swahili",
+  "name": "Nyimbo Za Kristo",
   "schemaVersion": 1,
   "source": {
     "id": "cis-hymnals",
@@ -14532,5 +14532,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/TinasheMzondiwa/cis-hymnals"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }

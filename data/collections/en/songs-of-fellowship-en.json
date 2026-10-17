@@ -740,7 +740,7 @@
         "repo": "josmithua/song-data",
         "rightsStatus": "source-repository"
       },
-      "title": "He that winneth souls is wise",
+      "title": "He that winneth souls is wise",
       "tune": "Red. 317"
     },
     {
@@ -5646,7 +5646,7 @@
       "language": "en",
       "number": "95",
       "schemaVersion": 1,
-      "searchText": "the unveiled christ 95 n. b. herrell (1877-1953) once our blessed christ of beauty was veiled off from human view; but through suffering, death and sorrow, he has rent the veil in two. yes, he is with god the father, interceding there for you; for he is the mighty conqueror since he rent the veil in two. throughout time and endless ages, height and depth of love so true, he alone can be the giver, since he rent the veil in two. o behold the man of sorrows, o behold him in plain view. lo! he is the mighty conqueror since he rent the veil in two. lo! he is the mighty conqueror since he rent the veil in two.",
+      "searchText": "the unveiled christ 95 n. b. herrell (1877-1953) once our blessèd christ of beauty was veiled off from human view; but through suffering, death and sorrow, he has rent the veil in two. yes, he is with god the father, interceding there for you; for he is the mighty conqueror since he rent the veil in two. throughout time and endless ages, height and depth of love so true, he alone can be the giver, since he rent the veil in two. o behold the man of sorrows, o behold him in plain view. lo! he is the mighty conqueror since he rent the veil in two. lo! he is the mighty conqueror since he rent the veil in two.",
       "sections": [
         {
           "label": "1",
@@ -7681,7 +7681,7 @@
       "language": "en",
       "number": "129",
       "schemaVersion": 1,
-      "searchText": "crucified 129 c. austin miles chf 173 they nailed my lord upon the tree and left him, dying, there. through love he suffered there for me; 'twas love beyond compare. upon his head a crown of thorns, upon his heart my shame; for me he prayed, for me he died, and, dying, spoke my name. crucified! crucified! and nailed upon the tree! with pierced hands and feet and side! for you! for me!",
+      "searchText": "crucified 129 c. austin miles chf 173 they nailed my lord upon the tree and left him, dying, there. through love he suffered there for me; 'twas love beyond compare. upon his head a crown of thorns, upon his heart my shame; for me he prayed, for me he died, and, dying, spoke my name. crucified! crucified! and nailed upon the tree! with piercéd hands and feet and side! for you! for me!",
       "sections": [
         {
           "label": "1",
@@ -12587,5 +12587,5 @@
     "rightsStatus": "source-repository",
     "url": "https://github.com/josmithua/song-data"
   },
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
